@@ -12,3 +12,4 @@ data/archive
 data/error_analysis
 data/kwdlc_processed
 data/prompts
+__pycache__
