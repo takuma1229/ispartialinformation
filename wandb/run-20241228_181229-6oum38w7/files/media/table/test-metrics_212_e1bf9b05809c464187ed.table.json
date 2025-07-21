@@ -1,1 +1,0 @@
-{"columns": ["experiment type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["ordinal_forms_shuffle", 0.75, 0.6552380952380952, 0.5915886618325643, 0.5935603494384025]]}

@@ -1,1 +1,0 @@
-{"columns": ["experiment_type", "connective", "accuracy", "precision", "recall", "f1"], "data": [["exclude_content_words", "\u3068\u3053\u308d", 0.3, 0.2619047619047619, 0.3125, 0.19444444444444442]]}

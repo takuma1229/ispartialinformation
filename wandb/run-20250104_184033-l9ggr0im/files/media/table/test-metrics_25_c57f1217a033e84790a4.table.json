@@ -1,1 +1,0 @@
-{"columns": ["experiment type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["exclude_particle", 0.7023809523809523, 0.8160377358490566, 0.24926829268292683, 0.24978767264481552]]}

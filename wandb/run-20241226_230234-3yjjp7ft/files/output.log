@@ -1,9 +1,0 @@
-Error executing job with overrides: ['is_debug=true', 'training.epochs=1', 'experiment_type=normal']
-Traceback (most recent call last):
-  File "/home/takuma-s/Desktop/discourse_relation_explainability/src/fine_tuning.py", line 322, in main
-    tokenizer, model = load_model_and_tokenizer(cfg.model_name, cfg.num_labels)
-                                                ^^^^^^^^^^^^^^
-omegaconf.errors.MissingMandatoryValue: Missing mandatory value: model_name
-    full_key: model_name
-    object_type=dict
-Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

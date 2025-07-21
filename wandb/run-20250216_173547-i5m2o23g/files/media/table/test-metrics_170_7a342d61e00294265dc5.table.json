@@ -1,1 +1,0 @@
-{"columns": ["experiment_type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["exclude_ha_and_ga", 0.7678571428571429, 0.6763830532212886, 0.5269852779608877, 0.5063192903123206]]}

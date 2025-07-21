@@ -1,1 +1,0 @@
-{"columns": ["experiment_type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["exclude_iru_aru_oku", 0.8630952380952381, 0.8716505747126437, 0.8216677653263019, 0.8294000538068336]]}

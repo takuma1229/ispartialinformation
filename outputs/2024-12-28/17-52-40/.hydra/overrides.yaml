@@ -1,5 +1,0 @@
-- model_name=tohoku-nlp/bert-base-japanese-v3
-- experiment_type=exclude_mo
-- training.epochs=1
-- is_debug=true
-- training.epochs=1

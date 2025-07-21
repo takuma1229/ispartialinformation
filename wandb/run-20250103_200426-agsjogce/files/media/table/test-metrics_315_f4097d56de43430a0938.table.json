@@ -1,1 +1,0 @@
-{"columns": ["experiment type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["exclude_koso", 0.8571428571428571, 0.7314469296766701, 0.6914238628872775, 0.7002362996480643]]}

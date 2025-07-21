@@ -1,1 +1,0 @@
-{"columns": ["best-epoch", "test/loss", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [[0, 0.02881742375237601, 0.75, 0.27579661016949153, 0.31008569545154907, 0.2916070828734584]]}

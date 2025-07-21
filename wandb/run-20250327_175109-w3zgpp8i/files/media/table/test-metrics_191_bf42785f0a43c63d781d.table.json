@@ -1,1 +1,0 @@
-{"columns": ["experiment_type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["convert_connectives_to_dummy", 0.875, 0.8541503267973856, 0.7893781586464513, 0.7963691045796308]]}

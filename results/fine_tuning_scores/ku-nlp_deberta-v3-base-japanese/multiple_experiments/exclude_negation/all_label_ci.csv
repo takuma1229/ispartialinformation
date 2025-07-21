@@ -1,9 +1,0 @@
-,mean,bottom,up
-test/acc,"0    0.82381
-Name: test/acc, dtype: float64",[0.81361222],[0.83400683]
-test/precision,"0    0.744899
-Name: test/precision, dtype: float64",[0.71310853],[0.77669038]
-test/recall,"0    0.552529
-Name: test/recall, dtype: float64",[0.49544432],[0.60961391]
-test/f1,"0    0.568163
-Name: test/f1, dtype: float64",[0.51476354],[0.62156271]

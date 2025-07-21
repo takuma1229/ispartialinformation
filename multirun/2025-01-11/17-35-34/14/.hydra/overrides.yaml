@@ -1,3 +1,0 @@
-- model_name=tohoku-nlp/bert-base-japanese-v3
-- experiment_type=exclude_iru_aru_oku
-- training.epochs=30
