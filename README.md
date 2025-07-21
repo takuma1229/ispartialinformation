@@ -1,15 +1,4 @@
-# discourse_relation_explainability
+**This is the implemantation for experiments in "Is Partial Linguistic Information Sufficient for Discourse Connective Disambiguation? A Case Study of Concession" (Sato et al., ACL-SRW 2025).**
 
-### メモ
-- 談話関係のAttention分析の話をするのであれば、既存の談話関係データセットを素直に使ったほうがいい気がしてきた
-  - [岸本論文データセット](https://github.com/ku-nlp/KWDLC)
-- 「接続表現によって、注目されるトークンの品詞などは異なるか」という問いはアリかも
-  - あるいは、「談話関係ラベルによって、注目されるトークンの品詞などは異なるか」
-- 「逆接」にどこまで焦点を合わせるか、が論点？
-- つつ、ながら、ところでのデータはマージして一つのデータとして扱ったほうがいいかも。接続表現情報も持たせて
-
-### todo
-- 構築した分類器について、ラベルごとの正解率など確認
-- ところで以外の接続詞への対応
-- Testにおける推論結果の書き出し
-- attentionの統計と分析
+## Citation
+(To be appeared in proceedings...)
