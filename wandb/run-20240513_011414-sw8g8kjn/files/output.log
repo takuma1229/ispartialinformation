@@ -1,0 +1,124 @@
+/content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at cl-tohoku/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+  0%|          | 0/5 [00:00<?, ?it/s] /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+[2024-05-13 01:15:01,243] torch._dynamo.convert_frame: [WARNING] torch._dynamo hit config.cache_size_limit (8)
+[2024-05-13 01:15:01,243] torch._dynamo.convert_frame: [WARNING]    function: 'forward' (/usr/local/lib/python3.10/dist-packages/transformers/models/bert/modeling_bert.py:1510)
+[2024-05-13 01:15:01,243] torch._dynamo.convert_frame: [WARNING]    last reason: ___guarded_code.valid
+[2024-05-13 01:15:01,243] torch._dynamo.convert_frame: [WARNING] To log all recompilation reasons, use TORCH_LOGS="recompiles".
+[2024-05-13 01:15:01,243] torch._dynamo.convert_frame: [WARNING] To diagnose recompilation issues, see https://pytorch.org/docs/master/compile/troubleshooting.html.
+epoch: None 	loss: 0.065226   	accuracy: 0.2575 	precision: 0.1848 	recall: 0.2304 	f1: 0.1233
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 20%|██        | 1/5 [04:24<17:38, 264/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.30it/s]
+epoch: 0 	loss: 0.001953   	accuracy: 0.7873 	precision: 0.2691 	recall: 0.3103 	f1: 0.2868
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 82%|████████▏ | 9/11 [00:00<00:00, 20.88it/s]
+epoch: 1 	loss: 0.001379   	accuracy: 0.8052 	precision: 0.4762 	recall: 0.3352 	f1: 0.3182
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 60%|██████    | 3/5 [04:54<02:21, 70./usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  2%|▏         | 2/84 [00:00<00:18,  4.42it/s]
+epoch: 2 	loss: 0.001291   	accuracy: 0.8494 	precision: 0.4971 	recall: 0.3326 	f1: 0.3184
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 80%|████████  | 4/5 [05:10<00:49, 49./usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  5%|▍         | 4/84 [00:00<00:14,  5.66it/s]
+epoch: 3 	loss: 0.000748   	accuracy: 0.9026 	precision: 0.4830 	recall: 0.5072 	f1: 0.4854
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+epoch: 4 	loss: 0.000838   	accuracy: 0.9363 	precision: 0.7452 	recall: 0.6630 	f1: 0.6968
+epoch: 4 	loss: 0.016810   	accuracy: 0.8563 	precision: 0.5894 	recall: 0.5487 	f1: 0.5573
+No traceback available to show.
+OptimizedModule(
+  (_orig_mod): BertForSequenceClassification(
+    (bert): BertModel(
+      (embeddings): BertEmbeddings(
+        (word_embeddings): Embedding(32784, 768)
+        (position_embeddings): Embedding(512, 768)
+        (token_type_embeddings): Embedding(2, 768)
+        (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (encoder): BertEncoder(
+        (layer): ModuleList(
+          (0-11): 12 x BertLayer(
+            (attention): BertAttention(
+              (self): BertSelfAttention(
+                (query): Linear(in_features=768, out_features=768, bias=True)
+                (key): Linear(in_features=768, out_features=768, bias=True)
+                (value): Linear(in_features=768, out_features=768, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): BertSelfOutput(
+                (dense): Linear(in_features=768, out_features=768, bias=True)
+                (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): BertIntermediate(
+              (dense): Linear(in_features=768, out_features=3072, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): BertOutput(
+              (dense): Linear(in_features=3072, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+        )
+      )
+      (pooler): BertPooler(
+        (dense): Linear(in_features=768, out_features=768, bias=True)
+        (activation): Tanh()
+      )
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+    (classifier): Linear(in_features=768, out_features=5, bias=True)
+  )
+)
+<class 'torch._dynamo.eval_frame.OptimizedModule'>
+<class 'transformers.models.bert.modeling_bert.BertForSequenceClassification'>

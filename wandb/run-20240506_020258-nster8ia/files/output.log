@@ -1,0 +1,234 @@
+/content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at cl-tohoku/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+loss: 0.065226   	accuracy: 0.2575 	precision: 0.1848 	recall: 0.2304 	f1: 0.1233
+  0%|          | 0/15 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+loss: 0.001796   	accuracy: 0.7865 	precision: 0.2677 	recall: 0.3051 	f1: 0.2843
+loss: 0.026984   	accuracy: 0.7784 	precision: 0.2785 	recall: 0.3221 	f1: 0.2972
+  7%|▋         | 1/15 [01:39<23:14, 99/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+ 71%|███████▏  | 60/84 [00:02<00:00, 32.91it/s]
+loss: 0.001369   	accuracy: 0.8487 	precision: 0.4258 	recall: 0.4266 	f1: 0.4217
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 13%|█▎        | 2/15 [01:54<10:48, 49/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+loss: 0.000910   	accuracy: 0.8757 	precision: 0.4454 	recall: 0.5028 	f1: 0.4702
+loss: 0.024551   	accuracy: 0.8503 	precision: 0.4238 	recall: 0.5242 	f1: 0.4525
+ 20%|██        | 3/15 [02:09<06:48, 34/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+ 80%|███████▉  | 67/84 [00:09<00:01,  8.63it/s]
+ 55%|█████▍    | 46/84 [00:01<00:01, 29.12it/s]
+loss: 0.000237   	accuracy: 0.9154 	precision: 0.6850 	recall: 0.5592 	f1: 0.5279
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 27%|██▋       | 4/15 [02:25<04:53, 26/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+ 81%|████████  | 68/84 [00:02<00:00, 32.29it/s]
+loss: 0.000085   	accuracy: 0.9558 	precision: 0.7479 	recall: 0.7167 	f1: 0.7302
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 33%|███▎      | 5/15 [02:40<03:45, 22/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 45%|████▌     | 5/11 [00:00<00:00, 12.78it/s]
+loss: 0.000066   	accuracy: 0.9633 	precision: 0.9386 	recall: 0.7600 	f1: 0.7811
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 47%|████▋     | 7/15 [03:10<02:27, 18/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+loss: 0.000045   	accuracy: 0.9685 	precision: 0.9634 	recall: 0.8030 	f1: 0.8367
+loss: 0.029377   	accuracy: 0.8862 	precision: 0.6306 	recall: 0.6683 	f1: 0.6116
+
+
+
+
+
+
+ 98%|█████████▊| 82/84 [00:02<00:00, 34.57it/s]
+loss: 0.000037   	accuracy: 0.9753 	precision: 0.9725 	recall: 0.8768 	f1: 0.9147
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 53%|█████▎    | 8/15 [03:25<02:01, 17/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+loss: 0.000027   	accuracy: 0.9858 	precision: 0.9785 	recall: 0.9041 	f1: 0.9326
+loss: 0.033882   	accuracy: 0.8862 	precision: 0.6196 	recall: 0.7196 	f1: 0.6403
+ 60%|██████    | 9/15 [03:41<01:40, 16/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+ 81%|████████  | 68/84 [00:02<00:00, 32.56it/s]
+loss: 0.000021   	accuracy: 0.9903 	precision: 0.9932 	recall: 0.9584 	f1: 0.9748
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 67%|██████▋   | 10/15 [03:56<01:21, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+loss: 0.000014   	accuracy: 0.9925 	precision: 0.9980 	recall: 0.9569 	f1: 0.9765
+loss: 0.030555   	accuracy: 0.8802 	precision: 0.6361 	recall: 0.6904 	f1: 0.6272
+ 73%|███████▎  | 11/15 [04:11<01:03, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 80%|████████  | 12/15 [04:27<00:47, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+loss: 0.000013   	accuracy: 0.9933 	precision: 0.9937 	recall: 0.9624 	f1: 0.9771
+loss: 0.030672   	accuracy: 0.8683 	precision: 0.6201 	recall: 0.6871 	f1: 0.6203
+
+
+
+
+
+
+ 79%|███████▊  | 66/84 [00:02<00:00, 31.75it/s]
+loss: 0.000011   	accuracy: 0.9940 	precision: 0.9931 	recall: 0.9640 	f1: 0.9777
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 87%|████████▋ | 13/15 [04:42<00:31, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+loss: 0.000011   	accuracy: 0.9940 	precision: 0.9931 	recall: 0.9640 	f1: 0.9777
+loss: 0.034543   	accuracy: 0.8683 	precision: 0.6201 	recall: 0.6871 	f1: 0.6203
+ 93%|█████████▎| 14/15 [04:58<00:15, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  9%|▉         | 1/11 [00:00<00:03,  2.76it/s]
+loss: 0.000010   	accuracy: 0.9940 	precision: 0.9931 	recall: 0.9640 	f1: 0.9777
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+
+ 91%|█████████ | 10/11 [00:00<00:00, 22.11it/s]
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+/content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability
+/sbin/ldconfig.real: /usr/local/lib/libtbbbind_2_0.so.3 is not a symbolic link
+/sbin/ldconfig.real: /usr/local/lib/libtbbbind_2_5.so.3 is not a symbolic link
+/sbin/ldconfig.real: /usr/local/lib/libtbbmalloc_proxy.so.2 is not a symbolic link
+/sbin/ldconfig.real: /usr/local/lib/libtbb.so.12 is not a symbolic link
+/sbin/ldconfig.real: /usr/local/lib/libtbbbind.so.3 is not a symbolic link
+/sbin/ldconfig.real: /usr/local/lib/libtbbmalloc.so.2 is not a symbolic link
+Requirement already satisfied: typed-argument-parser in /usr/local/lib/python3.10/dist-packages (1.10.0)
+Requirement already satisfied: typing-inspect>=0.7.1 in /usr/local/lib/python3.10/dist-packages (from typed-argument-parser) (0.9.0)
+Requirement already satisfied: docstring-parser>=0.15 in /usr/local/lib/python3.10/dist-packages (from typed-argument-parser) (0.16)
+Requirement already satisfied: mypy-extensions>=0.3.0 in /usr/local/lib/python3.10/dist-packages (from typing-inspect>=0.7.1->typed-argument-parser) (1.0.0)
+Requirement already satisfied: typing-extensions>=3.7.4 in /usr/local/lib/python3.10/dist-packages (from typing-inspect>=0.7.1->typed-argument-parser) (4.11.0)
+Requirement already satisfied: transformers in /usr/local/lib/python3.10/dist-packages (4.40.1)
+Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from transformers) (3.14.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.19.3 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.20.3)
+Requirement already satisfied: numpy>=1.17 in /usr/local/lib/python3.10/dist-packages (from transformers) (1.25.2)
+Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.10/dist-packages (from transformers) (24.0)
+Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (6.0.1)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.10/dist-packages (from transformers) (2023.12.25)
+Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from transformers) (2.31.0)
+Requirement already satisfied: tokenizers<0.20,>=0.19 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.19.1)
+Requirement already satisfied: safetensors>=0.4.1 in /usr/local/lib/python3.10/dist-packages (from transformers) (0.4.3)
+Requirement already satisfied: tqdm>=4.27 in /usr/local/lib/python3.10/dist-packages (from transformers) (4.66.2)
+Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub<1.0,>=0.19.3->transformers) (2023.6.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub<1.0,>=0.19.3->transformers) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->transformers) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->transformers) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->transformers) (2.0.7)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests->transformers) (2024.2.2)
+Requirement already satisfied: sentencepiece in /usr/local/lib/python3.10/dist-packages (0.1.99)
+Requirement already satisfied: pytz in /usr/local/lib/python3.10/dist-packages (2023.4)
+Requirement already satisfied: fugashi[unidic-lite] in /usr/local/lib/python3.10/dist-packages (1.3.2)
+Requirement already satisfied: unidic-lite in /usr/local/lib/python3.10/dist-packages (from fugashi[unidic-lite]) (1.0.8)
+Requirement already satisfied: wandb in /usr/local/lib/python3.10/dist-packages (0.16.6)
+Requirement already satisfied: Click!=8.0.0,>=7.1 in /usr/local/lib/python3.10/dist-packages (from wandb) (8.1.7)
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in /usr/local/lib/python3.10/dist-packages (from wandb) (3.1.43)
+Requirement already satisfied: requests<3,>=2.0.0 in /usr/local/lib/python3.10/dist-packages (from wandb) (2.31.0)
+Requirement already satisfied: psutil>=5.0.0 in /usr/local/lib/python3.10/dist-packages (from wandb) (5.9.5)
+Requirement already satisfied: sentry-sdk>=1.0.0 in /usr/local/lib/python3.10/dist-packages (from wandb) (2.0.1)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /usr/local/lib/python3.10/dist-packages (from wandb) (0.4.0)
+Requirement already satisfied: PyYAML in /usr/local/lib/python3.10/dist-packages (from wandb) (6.0.1)
+Requirement already satisfied: setproctitle in /usr/local/lib/python3.10/dist-packages (from wandb) (1.3.3)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.10/dist-packages (from wandb) (67.7.2)
+Requirement already satisfied: appdirs>=1.4.3 in /usr/local/lib/python3.10/dist-packages (from wandb) (1.4.4)
+Requirement already satisfied: protobuf!=4.21.0,<5,>=3.19.0 in /usr/local/lib/python3.10/dist-packages (from wandb) (3.20.3)
+Requirement already satisfied: six>=1.4.0 in /usr/local/lib/python3.10/dist-packages (from docker-pycreds>=0.4.0->wandb) (1.16.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /usr/local/lib/python3.10/dist-packages (from GitPython!=3.1.29,>=1.0.0->wandb) (4.0.11)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests<3,>=2.0.0->wandb) (2.0.7)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests<3,>=2.0.0->wandb) (2024.2.2)
+Requirement already satisfied: smmap<6,>=3.0.1 in /usr/local/lib/python3.10/dist-packages (from gitdb<5,>=4.0.1->GitPython!=3.1.29,>=1.0.0->wandb) (5.0.1)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

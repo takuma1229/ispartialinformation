@@ -1,0 +1,1 @@
+{"columns": ["experiment_type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["former-only", 0.8214285714285714, 0.8401351351351352, 0.7575368050977807, 0.7713220113220114]]}

@@ -1,0 +1,1263 @@
+/content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at cl-tohoku/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+epoch: None 	loss: 0.065231   	accuracy: 0.2575 	precision: 0.1848 	recall: 0.2304 	f1: 0.1233
+  0%|          | 0/100 [00:00<?, ?it/s/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  1%|          | 1/100 [01:37<2:40:14,/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 0 	loss: 0.003960   	accuracy: 0.7491 	precision: 0.1500 	recall: 0.1996 	f1: 0.1713
+epoch: 0 	loss: 0.037764   	accuracy: 0.7186 	precision: 0.1437 	recall: 0.2000 	f1: 0.1672
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  2%|▏         | 2/100 [01:52<1:20:32,/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 1 	loss: 0.003139   	accuracy: 0.7506 	precision: 0.2077 	recall: 0.2014 	f1: 0.1752
+epoch: 1 	loss: 0.029334   	accuracy: 0.7186 	precision: 0.1437 	recall: 0.2000 	f1: 0.1672
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  3%|▎         | 3/100 [02:08<54:55, 3/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  2%|▏         | 2/84 [00:00<00:19,  4.18it/s]
+epoch: 2 	loss: 0.002475   	accuracy: 0.7963 	precision: 0.2830 	recall: 0.2617 	f1: 0.2618
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  4%|▍         | 4/100 [02:24<42:46, 2/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  6%|▌         | 5/84 [00:00<00:12,  6.22it/s]
+epoch: 3 	loss: 0.001803   	accuracy: 0.8307 	precision: 0.2944 	recall: 0.3061 	f1: 0.2992
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 4 	loss: 0.001405   	accuracy: 0.8577 	precision: 0.5034 	recall: 0.3420 	f1: 0.3260
+epoch: 4 	loss: 0.031465   	accuracy: 0.7844 	precision: 0.2732 	recall: 0.2963 	f1: 0.2841
+  5%|▌         | 5/100 [02:39<35:55, 2/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.01it/s]
+epoch: 5 	loss: 0.001287   	accuracy: 0.8697 	precision: 0.5085 	recall: 0.3595 	f1: 0.3405
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  7%|▋         | 7/100 [03:11<29:12, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 6 	loss: 0.001119   	accuracy: 0.8794 	precision: 0.5138 	recall: 0.3693 	f1: 0.3520
+epoch: 6 	loss: 0.038147   	accuracy: 0.8144 	precision: 0.2883 	recall: 0.3321 	f1: 0.3071
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  8%|▊         | 8/100 [03:27<27:23, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 7 	loss: 0.000931   	accuracy: 0.8936 	precision: 0.5210 	recall: 0.4047 	f1: 0.4040
+epoch: 7 	loss: 0.039366   	accuracy: 0.8323 	precision: 0.4962 	recall: 0.3604 	f1: 0.3582
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  9%|▉         | 9/100 [03:42<26:05, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  1%|          | 1/84 [00:00<00:37,  2.21it/s]
+epoch: 8 	loss: 0.000823   	accuracy: 0.9041 	precision: 0.5164 	recall: 0.4284 	f1: 0.4306
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 10%|█         | 10/100 [03:58<25:10, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  4%|▎         | 3/84 [00:00<00:16,  4.96it/s]
+epoch: 9 	loss: 0.000717   	accuracy: 0.9206 	precision: 0.7077 	recall: 0.4740 	f1: 0.4802
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 11%|█         | 11/100 [04:14<24:21, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  7%|▋         | 6/84 [00:01<00:12,  6.40it/s]
+epoch: 10 	loss: 0.000565   	accuracy: 0.9326 	precision: 0.7070 	recall: 0.5261 	f1: 0.5378
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  9%|▉         | 1/11 [00:00<00:03,  2.87it/s]
+epoch: 11 	loss: 0.000435   	accuracy: 0.9566 	precision: 0.7262 	recall: 0.6463 	f1: 0.6684
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 17.59it/s]
+epoch: 12 	loss: 0.000258   	accuracy: 0.9730 	precision: 0.7438 	recall: 0.7138 	f1: 0.7240
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 13%|█▎        | 13/100 [05:01<23:23, 16.13s/it]
+epoch: 13 	loss: 0.000219   	accuracy: 0.9805 	precision: 0.9574 	recall: 0.7691 	f1: 0.7935
+ 14%|█▍        | 14/100 [05:01<22:59, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 15%|█▌        | 15/100 [05:17<22:36, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 14 	loss: 0.000157   	accuracy: 0.9843 	precision: 0.9611 	recall: 0.8100 	f1: 0.8399
+epoch: 14 	loss: 0.044222   	accuracy: 0.8862 	precision: 0.6465 	recall: 0.6733 	f1: 0.6592
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 16%|█▌        | 16/100 [05:33<22:17, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 15 	loss: 0.000117   	accuracy: 0.9865 	precision: 0.9675 	recall: 0.8205 	f1: 0.8488
+epoch: 15 	loss: 0.037730   	accuracy: 0.8862 	precision: 0.6677 	recall: 0.6642 	f1: 0.6654
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 17%|█▋        | 17/100 [05:49<21:51, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.20it/s]
+epoch: 16 	loss: 0.000097   	accuracy: 0.9873 	precision: 0.9688 	recall: 0.8252 	f1: 0.8519
+
+
+
+
+
+
+
+ 31%|███       | 26/84 [00:01<00:02, 27.59it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 18%|█▊        | 18/100 [06:04<21:31, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  7%|▋         | 6/84 [00:01<00:12,  6.46it/s]
+epoch: 17 	loss: 0.000078   	accuracy: 0.9888 	precision: 0.9773 	recall: 0.8326 	f1: 0.8599
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 11%|█         | 9/84 [00:01<00:12,  6.18it/s]
+epoch: 18 	loss: 0.000064   	accuracy: 0.9895 	precision: 0.9762 	recall: 0.8335 	f1: 0.8598
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 20%|██        | 20/100 [06:35<20:50, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 19 	loss: 0.000058   	accuracy: 0.9910 	precision: 0.9828 	recall: 0.8842 	f1: 0.9168
+epoch: 19 	loss: 0.031318   	accuracy: 0.8743 	precision: 0.6627 	recall: 0.6654 	f1: 0.6462
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 21%|██        | 21/100 [06:51<20:32, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.20it/s]
+epoch: 20 	loss: 0.000049   	accuracy: 0.9933 	precision: 0.9928 	recall: 0.9344 	f1: 0.9600
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 22%|██▏       | 22/100 [07:06<20:15, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  7%|▋         | 6/84 [00:01<00:12,  6.40it/s]
+epoch: 21 	loss: 0.000043   	accuracy: 0.9933 	precision: 0.9935 	recall: 0.9337 	f1: 0.9600
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 23%|██▎       | 23/100 [07:22<20:02, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  7%|▋         | 6/84 [00:01<00:12,  6.46it/s]
+epoch: 22 	loss: 0.000041   	accuracy: 0.9933 	precision: 0.9935 	recall: 0.9337 	f1: 0.9600
+ 23%|██▎       | 19/84 [00:03<00:09,  6.65it/s]
+ 42%|████▏     | 35/84 [00:05<00:06,  7.42it/s]
+ 58%|█████▊    | 49/84 [00:07<00:04,  8.20it/s]
+ 77%|███████▋  | 65/84 [00:09<00:02,  8.26it/s]
+ 96%|█████████▋| 81/84 [00:11<00:00,  8.76it/s]
+ 40%|████      | 34/84 [00:01<00:01, 28.12it/s]
+  9%|▉         | 1/11 [00:00<00:03,  3.14it/s]
+  9%|▉         | 1/11 [00:00<00:03,  3.14it/s]
+epoch: 23 	loss: 0.000037   	accuracy: 0.9933 	precision: 0.9935 	recall: 0.9337 	f1: 0.9600
+ 10%|▉         | 8/84 [00:01<00:13,  5.59it/s]
+ 27%|██▋       | 23/84 [00:03<00:08,  7.34it/s]
+ 46%|████▋     | 39/84 [00:05<00:05,  7.98it/s]
+ 63%|██████▎   | 53/84 [00:07<00:04,  7.49it/s]
+ 81%|████████  | 68/84 [00:09<00:01,  8.45it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 55%|█████▍    | 46/84 [00:01<00:01, 27.38it/s]
+
+ 55%|█████▍    | 46/84 [00:01<00:01, 27.38it/s]
+epoch: 24 	loss: 0.000035   	accuracy: 0.9940 	precision: 0.9938 	recall: 0.9633 	f1: 0.9777
+ 25%|██▌       | 25/100 [07:53<19:30, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 31%|███       | 26/84 [00:03<00:06,  8.41it/s]
+ 49%|████▉     | 41/84 [00:06<00:07,  5.98it/s]
+ 67%|██████▋   | 56/84 [00:07<00:03,  7.80it/s]
+ 86%|████████▌ | 72/84 [00:09<00:01,  8.20it/s]
+  6%|▌         | 5/84 [00:00<00:06, 12.91it/s]
+ 71%|███████▏  | 60/84 [00:02<00:00, 30.67it/s]
+  1%|          | 1/84 [00:00<00:36,  2.26it/s]
+  1%|          | 1/84 [00:00<00:36,  2.26it/s]
+epoch: 25 	loss: 0.000032   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 18%|█▊        | 15/84 [00:02<00:10,  6.77it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.52it/s]
+ 52%|█████▏    | 44/84 [00:06<00:06,  6.52it/s]
+ 71%|███████▏  | 60/84 [00:08<00:02,  8.28it/s]
+ 92%|█████████▏| 77/84 [00:10<00:00,  8.17it/s]
+ 20%|██        | 17/84 [00:00<00:02, 22.72it/s]
+ 95%|█████████▌| 80/84 [00:03<00:00, 33.78it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.15it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.15it/s]
+epoch: 26 	loss: 0.000030   	accuracy: 0.9940 	precision: 0.9924 	recall: 0.9647 	f1: 0.9777
+ 20%|██        | 17/84 [00:02<00:09,  7.29it/s]
+ 38%|███▊      | 32/84 [00:04<00:06,  7.59it/s]
+ 55%|█████▍    | 46/84 [00:06<00:05,  7.52it/s]
+ 74%|███████▍  | 62/84 [00:08<00:03,  6.56it/s]
+ 95%|█████████▌| 80/84 [00:10<00:00,  8.85it/s]
+ 35%|███▍      | 29/84 [00:01<00:01, 28.93it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.03it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.03it/s]
+epoch: 27 	loss: 0.000027   	accuracy: 0.9940 	precision: 0.9938 	recall: 0.9633 	f1: 0.9777
+ 24%|██▍       | 20/84 [00:03<00:09,  6.42it/s]
+ 43%|████▎     | 36/84 [00:05<00:06,  7.88it/s]
+ 61%|██████    | 51/84 [00:07<00:03,  8.88it/s]
+ 80%|███████▉  | 67/84 [00:09<00:01,  8.50it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  8.12it/s]
+ 50%|█████     | 42/84 [00:01<00:01, 24.49it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.48it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.48it/s]
+epoch: 28 	loss: 0.000026   	accuracy: 0.9940 	precision: 0.9938 	recall: 0.9633 	f1: 0.9777
+ 12%|█▏        | 10/84 [00:01<00:11,  6.43it/s]
+ 30%|██▉       | 25/84 [00:03<00:07,  8.07it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.79it/s]
+ 65%|██████▌   | 55/84 [00:07<00:04,  7.24it/s]
+ 86%|████████▌ | 72/84 [00:09<00:01,  8.16it/s]
+  5%|▍         | 4/84 [00:00<00:07, 11.11it/s]
+ 69%|██████▉   | 58/84 [00:02<00:00, 29.52it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 29 	loss: 0.000025   	accuracy: 0.9940 	precision: 0.9931 	recall: 0.9640 	f1: 0.9777
+ 17%|█▋        | 14/84 [00:02<00:09,  7.19it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.32it/s]
+ 51%|█████     | 43/84 [00:06<00:06,  5.99it/s]
+ 71%|███████▏  | 60/84 [00:08<00:02,  8.20it/s]
+ 90%|█████████ | 76/84 [00:10<00:00,  8.48it/s]
+ 20%|██        | 17/84 [00:00<00:02, 23.08it/s]
+ 90%|█████████ | 76/84 [00:02<00:00, 32.53it/s]
+  5%|▍         | 4/84 [00:00<00:14,  5.68it/s]
+  5%|▍         | 4/84 [00:00<00:14,  5.68it/s]
+epoch: 30 	loss: 0.000022   	accuracy: 0.9940 	precision: 0.9938 	recall: 0.9633 	f1: 0.9777
+ 21%|██▏       | 18/84 [00:02<00:08,  7.73it/s]
+ 39%|███▉      | 33/84 [00:04<00:07,  7.06it/s]
+ 56%|█████▌    | 47/84 [00:06<00:05,  7.28it/s]
+ 75%|███████▌  | 63/84 [00:08<00:02,  7.11it/s]
+ 95%|█████████▌| 80/84 [00:10<00:00,  8.81it/s]
+ 36%|███▌      | 30/84 [00:01<00:01, 29.97it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  8%|▊         | 7/84 [00:01<00:11,  6.96it/s]
+  8%|▊         | 7/84 [00:01<00:11,  6.96it/s]
+epoch: 31 	loss: 0.000022   	accuracy: 0.9940 	precision: 0.9931 	recall: 0.9640 	f1: 0.9777
+ 25%|██▌       | 21/84 [00:03<00:08,  7.03it/s]
+ 45%|████▌     | 38/84 [00:05<00:05,  8.43it/s]
+ 62%|██████▏   | 52/84 [00:07<00:03,  8.25it/s]
+ 81%|████████  | 68/84 [00:09<00:01,  8.46it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 55%|█████▍    | 46/84 [00:02<00:01, 27.49it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 17.93it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 17.93it/s]
+epoch: 32 	loss: 0.000020   	accuracy: 0.9940 	precision: 0.9931 	recall: 0.9640 	f1: 0.9777
+ 12%|█▏        | 10/84 [00:01<00:11,  6.35it/s]
+ 30%|██▉       | 25/84 [00:03<00:07,  8.21it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.79it/s]
+ 67%|██████▋   | 56/84 [00:07<00:03,  7.83it/s]
+ 86%|████████▌ | 72/84 [00:09<00:01,  8.22it/s]
+  5%|▍         | 4/84 [00:00<00:07, 11.01it/s]
+ 69%|██████▉   | 58/84 [00:02<00:00, 29.38it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 33 	loss: 0.000019   	accuracy: 0.9940 	precision: 0.9931 	recall: 0.9640 	f1: 0.9777
+ 17%|█▋        | 14/84 [00:02<00:09,  7.29it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.64it/s]
+ 52%|█████▏    | 44/84 [00:06<00:06,  6.62it/s]
+ 71%|███████▏  | 60/84 [00:08<00:02,  8.20it/s]
+ 90%|█████████ | 76/84 [00:10<00:00,  8.52it/s]
+ 24%|██▍       | 20/84 [00:01<00:02, 22.95it/s]
+ 95%|█████████▌| 80/84 [00:03<00:00, 33.44it/s]
+  6%|▌         | 5/84 [00:00<00:13,  5.94it/s]
+  6%|▌         | 5/84 [00:00<00:13,  5.94it/s]
+epoch: 34 	loss: 0.000019   	accuracy: 0.9940 	precision: 0.9970 	recall: 0.9602 	f1: 0.9776
+ 21%|██▏       | 18/84 [00:02<00:08,  7.85it/s]
+ 40%|████      | 34/84 [00:04<00:06,  7.74it/s]
+ 58%|█████▊    | 49/84 [00:06<00:04,  8.31it/s]
+ 76%|███████▌  | 64/84 [00:08<00:02,  7.75it/s]
+ 96%|█████████▋| 81/84 [00:10<00:00,  8.63it/s]
+ 42%|████▏     | 35/84 [00:01<00:01, 28.17it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 10%|▉         | 8/84 [00:01<00:13,  5.60it/s]
+ 10%|▉         | 8/84 [00:01<00:13,  5.60it/s]
+epoch: 35 	loss: 0.000018   	accuracy: 0.9940 	precision: 0.9970 	recall: 0.9602 	f1: 0.9776
+ 26%|██▌       | 22/84 [00:03<00:08,  7.41it/s]
+ 45%|████▌     | 38/84 [00:05<00:05,  8.36it/s]
+ 63%|██████▎   | 53/84 [00:07<00:04,  7.62it/s]
+ 80%|███████▉  | 67/84 [00:09<00:01,  8.54it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 55%|█████▍    | 46/84 [00:02<00:01, 27.28it/s]
+
+ 55%|█████▍    | 46/84 [00:02<00:01, 27.28it/s]
+epoch: 36 	loss: 0.000017   	accuracy: 0.9940 	precision: 0.9984 	recall: 0.9587 	f1: 0.9776
+ 37%|███▋      | 37/100 [11:00<16:19, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 31%|███       | 26/84 [00:03<00:06,  8.63it/s]
+ 49%|████▉     | 41/84 [00:05<00:06,  6.22it/s]
+ 68%|██████▊   | 57/84 [00:07<00:03,  8.12it/s]
+ 87%|████████▋ | 73/84 [00:09<00:01,  8.60it/s]
+  8%|▊         | 7/84 [00:00<00:05, 15.12it/s]
+ 74%|███████▍  | 62/84 [00:02<00:00, 28.36it/s]
+  2%|▏         | 2/84 [00:00<00:20,  4.08it/s]
+  2%|▏         | 2/84 [00:00<00:20,  4.08it/s]
+epoch: 37 	loss: 0.000017   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 18%|█▊        | 15/84 [00:02<00:10,  6.86it/s]
+ 37%|███▋      | 31/84 [00:04<00:07,  7.29it/s]
+ 54%|█████▎    | 45/84 [00:06<00:05,  7.28it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.38it/s]
+ 93%|█████████▎| 78/84 [00:10<00:00,  8.46it/s]
+ 27%|██▋       | 23/84 [00:01<00:02, 24.86it/s]
+ 98%|█████████▊| 82/84 [00:03<00:00, 32.69it/s]
+  7%|▋         | 6/84 [00:01<00:11,  6.51it/s]
+  7%|▋         | 6/84 [00:01<00:11,  6.51it/s]
+epoch: 38 	loss: 0.000016   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 23%|██▎       | 19/84 [00:03<00:09,  6.84it/s]
+ 42%|████▏     | 35/84 [00:05<00:06,  7.56it/s]
+ 61%|██████    | 51/84 [00:07<00:03,  9.03it/s]
+ 79%|███████▊  | 66/84 [00:09<00:02,  8.49it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  8.15it/s]
+ 50%|█████     | 42/84 [00:01<00:01, 24.72it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.09it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.09it/s]
+epoch: 39 	loss: 0.000016   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 12%|█▏        | 10/84 [00:01<00:11,  6.48it/s]
+ 30%|██▉       | 25/84 [00:03<00:07,  8.16it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.87it/s]
+ 65%|██████▌   | 55/84 [00:07<00:04,  7.21it/s]
+ 85%|████████▍ | 71/84 [00:09<00:01,  8.39it/s]
+  1%|          | 1/84 [00:00<00:27,  2.98it/s]
+ 69%|██████▉   | 58/84 [00:02<00:00, 29.21it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 40 	loss: 0.000015   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 17%|█▋        | 14/84 [00:02<00:09,  7.31it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.54it/s]
+ 52%|█████▏    | 44/84 [00:06<00:06,  6.61it/s]
+ 71%|███████▏  | 60/84 [00:08<00:02,  8.07it/s]
+ 90%|█████████ | 76/84 [00:10<00:00,  8.40it/s]
+ 19%|█▉        | 16/84 [00:00<00:03, 21.88it/s]
+ 93%|█████████▎| 78/84 [00:02<00:00, 33.09it/s]
+  5%|▍         | 4/84 [00:00<00:14,  5.62it/s]
+  5%|▍         | 4/84 [00:00<00:14,  5.62it/s]
+epoch: 41 	loss: 0.000015   	accuracy: 0.9940 	precision: 0.9984 	recall: 0.9587 	f1: 0.9776
+ 21%|██▏       | 18/84 [00:02<00:08,  7.85it/s]
+ 40%|████      | 34/84 [00:04<00:06,  7.69it/s]
+ 56%|█████▌    | 47/84 [00:06<00:05,  7.19it/s]
+ 76%|███████▌  | 64/84 [00:08<00:02,  7.73it/s]
+ 96%|█████████▋| 81/84 [00:10<00:00,  8.82it/s]
+ 40%|████      | 34/84 [00:01<00:01, 28.42it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 42 	loss: 0.000014   	accuracy: 0.9940 	precision: 0.9984 	recall: 0.9587 	f1: 0.9776
+ 10%|▉         | 8/84 [00:01<00:13,  5.68it/s]
+ 27%|██▋       | 23/84 [00:03<00:08,  7.41it/s]
+ 46%|████▋     | 39/84 [00:05<00:05,  8.04it/s]
+ 63%|██████▎   | 53/84 [00:07<00:03,  7.79it/s]
+ 82%|████████▏ | 69/84 [00:09<00:01,  8.03it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 62%|██████▏   | 52/84 [00:02<00:01, 29.95it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 43 	loss: 0.000013   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 14%|█▍        | 12/84 [00:02<00:10,  6.62it/s]
+ 33%|███▎      | 28/84 [00:04<00:06,  8.79it/s]
+ 49%|████▉     | 41/84 [00:05<00:07,  6.10it/s]
+ 68%|██████▊   | 57/84 [00:08<00:03,  7.98it/s]
+ 88%|████████▊ | 74/84 [00:10<00:01,  8.67it/s]
+ 13%|█▎        | 11/84 [00:00<00:03, 18.92it/s]
+ 83%|████████▎ | 70/84 [00:02<00:00, 31.08it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.21it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.21it/s]
+epoch: 44 	loss: 0.000013   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 20%|██        | 17/84 [00:02<00:09,  7.29it/s]
+ 38%|███▊      | 32/84 [00:04<00:06,  7.63it/s]
+ 55%|█████▍    | 46/84 [00:06<00:05,  7.49it/s]
+ 74%|███████▍  | 62/84 [00:08<00:03,  6.54it/s]
+ 94%|█████████▍| 79/84 [00:10<00:00,  8.55it/s]
+ 19%|█▉        | 16/84 [00:00<00:03, 22.18it/s]
+ 88%|████████▊ | 74/84 [00:02<00:00, 32.56it/s]
+  5%|▍         | 4/84 [00:00<00:13,  5.73it/s]
+  5%|▍         | 4/84 [00:00<00:13,  5.73it/s]
+epoch: 45 	loss: 0.000013   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 21%|██▏       | 18/84 [00:02<00:08,  7.82it/s]
+ 38%|███▊      | 32/84 [00:04<00:06,  7.51it/s]
+ 56%|█████▌    | 47/84 [00:06<00:05,  7.23it/s]
+ 75%|███████▌  | 63/84 [00:08<00:02,  7.15it/s]
+ 96%|█████████▋| 81/84 [00:10<00:00,  8.98it/s]
+ 40%|████      | 34/84 [00:01<00:01, 29.01it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 46 	loss: 0.000012   	accuracy: 0.9940 	precision: 0.9970 	recall: 0.9602 	f1: 0.9776
+ 10%|▉         | 8/84 [00:01<00:13,  5.68it/s]
+ 26%|██▌       | 22/84 [00:03<00:08,  7.45it/s]
+ 46%|████▋     | 39/84 [00:05<00:05,  8.00it/s]
+ 63%|██████▎   | 53/84 [00:07<00:03,  7.96it/s]
+ 82%|████████▏ | 69/84 [00:09<00:01,  8.02it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 62%|██████▏   | 52/84 [00:02<00:01, 30.17it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 47 	loss: 0.000012   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 14%|█▍        | 12/84 [00:02<00:10,  6.63it/s]
+ 32%|███▏      | 27/84 [00:04<00:06,  8.53it/s]
+ 49%|████▉     | 41/84 [00:05<00:07,  6.09it/s]
+ 69%|██████▉   | 58/84 [00:08<00:03,  7.90it/s]
+ 88%|████████▊ | 74/84 [00:10<00:01,  8.47it/s]
+ 12%|█▏        | 10/84 [00:00<00:04, 18.21it/s]
+ 86%|████████▌ | 72/84 [00:02<00:00, 31.51it/s]
+  1%|          | 1/84 [00:00<00:37,  2.22it/s]
+  1%|          | 1/84 [00:00<00:37,  2.22it/s]
+epoch: 48 	loss: 0.000012   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 18%|█▊        | 15/84 [00:02<00:10,  6.76it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.54it/s]
+ 54%|█████▎    | 45/84 [00:06<00:05,  7.31it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.54it/s]
+ 93%|█████████▎| 78/84 [00:10<00:00,  8.56it/s]
+ 26%|██▌       | 22/84 [00:01<00:02, 25.26it/s]
+ 98%|█████████▊| 82/84 [00:03<00:00, 32.83it/s]
+ 98%|█████████▊| 82/84 [00:03<00:00, 32.83it/s]
+epoch: 49 	loss: 0.000011   	accuracy: 0.9940 	precision: 0.9970 	recall: 0.9602 	f1: 0.9776
+  5%|▍         | 4/84 [00:00<00:13,  5.84it/s]
+ 21%|██▏       | 18/84 [00:02<00:08,  7.83it/s]
+ 40%|████      | 34/84 [00:04<00:06,  7.55it/s]
+ 56%|█████▌    | 47/84 [00:06<00:05,  7.25it/s]
+ 76%|███████▌  | 64/84 [00:08<00:02,  7.78it/s]
+ 96%|█████████▋| 81/84 [00:10<00:00,  8.83it/s]
+ 40%|████      | 34/84 [00:01<00:01, 28.47it/s]
+  9%|▉         | 1/11 [00:00<00:03,  2.96it/s]
+  9%|▉         | 1/11 [00:00<00:03,  2.96it/s]
+epoch: 50 	loss: 0.000011   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 10%|▉         | 8/84 [00:01<00:13,  5.66it/s]
+ 27%|██▋       | 23/84 [00:03<00:08,  7.34it/s]
+ 46%|████▋     | 39/84 [00:05<00:05,  8.04it/s]
+ 63%|██████▎   | 53/84 [00:07<00:03,  8.01it/s]
+ 82%|████████▏ | 69/84 [00:09<00:01,  8.06it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 60%|█████▉    | 50/84 [00:02<00:01, 29.56it/s]
+
+ 60%|█████▉    | 50/84 [00:02<00:01, 29.56it/s]
+epoch: 51 	loss: 0.000010   	accuracy: 0.9940 	precision: 0.9757 	recall: 0.9842 	f1: 0.9792
+ 52%|█████▏    | 52/100 [14:52<12:26, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.44it/s]
+ 31%|███       | 26/84 [00:03<00:06,  8.45it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.81it/s]
+ 67%|██████▋   | 56/84 [00:07<00:03,  7.85it/s]
+ 86%|████████▌ | 72/84 [00:09<00:01,  8.41it/s]
+  6%|▌         | 5/84 [00:00<00:06, 12.81it/s]
+ 74%|███████▍  | 62/84 [00:02<00:00, 28.42it/s]
+  1%|          | 1/84 [00:00<00:37,  2.20it/s]
+  1%|          | 1/84 [00:00<00:37,  2.20it/s]
+epoch: 52 	loss: 0.000010   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 18%|█▊        | 15/84 [00:02<00:10,  6.76it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.66it/s]
+ 52%|█████▏    | 44/84 [00:06<00:06,  6.64it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.53it/s]
+ 92%|█████████▏| 77/84 [00:10<00:00,  8.27it/s]
+ 24%|██▍       | 20/84 [00:01<00:02, 23.05it/s]
+ 98%|█████████▊| 82/84 [00:03<00:00, 32.32it/s]
+  6%|▌         | 5/84 [00:01<00:13,  5.84it/s]
+  6%|▌         | 5/84 [00:01<00:13,  5.84it/s]
+epoch: 53 	loss: 0.000010   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 21%|██▏       | 18/84 [00:02<00:08,  7.76it/s]
+ 40%|████      | 34/84 [00:04<00:06,  7.63it/s]
+ 58%|█████▊    | 49/84 [00:07<00:04,  8.34it/s]
+ 76%|███████▌  | 64/84 [00:08<00:02,  7.69it/s]
+ 96%|█████████▋| 81/84 [00:10<00:00,  8.85it/s]
+ 42%|████▏     | 35/84 [00:01<00:01, 28.44it/s]
+  9%|▉         | 1/11 [00:00<00:03,  2.98it/s]
+  9%|▉         | 1/11 [00:00<00:03,  2.98it/s]
+epoch: 54 	loss: 0.000009   	accuracy: 0.9940 	precision: 0.9970 	recall: 0.9602 	f1: 0.9776
+ 10%|▉         | 8/84 [00:01<00:13,  5.61it/s]
+ 26%|██▌       | 22/84 [00:03<00:08,  7.41it/s]
+ 45%|████▌     | 38/84 [00:05<00:05,  8.38it/s]
+ 63%|██████▎   | 53/84 [00:07<00:03,  8.01it/s]
+ 82%|████████▏ | 69/84 [00:09<00:01,  8.00it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 60%|█████▉    | 50/84 [00:02<00:01, 29.96it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 55 	loss: 0.000009   	accuracy: 0.9940 	precision: 0.9970 	recall: 0.9602 	f1: 0.9776
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 32%|███▏      | 27/84 [00:04<00:06,  8.68it/s]
+ 49%|████▉     | 41/84 [00:05<00:06,  6.24it/s]
+ 68%|██████▊   | 57/84 [00:07<00:03,  8.13it/s]
+ 88%|████████▊ | 74/84 [00:10<00:01,  8.50it/s]
+ 12%|█▏        | 10/84 [00:00<00:04, 17.37it/s]
+ 81%|████████  | 68/84 [00:02<00:00, 31.48it/s]
+  2%|▏         | 2/84 [00:00<00:20,  4.00it/s]
+  2%|▏         | 2/84 [00:00<00:20,  4.00it/s]
+epoch: 56 	loss: 0.000009   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 19%|█▉        | 16/84 [00:02<00:09,  6.97it/s]
+ 38%|███▊      | 32/84 [00:04<00:06,  7.71it/s]
+ 55%|█████▍    | 46/84 [00:06<00:04,  7.61it/s]
+ 74%|███████▍  | 62/84 [00:08<00:03,  6.57it/s]
+ 94%|█████████▍| 79/84 [00:10<00:00,  8.37it/s]
+ 31%|███       | 26/84 [00:01<00:02, 28.03it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.13it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.13it/s]
+epoch: 57 	loss: 0.000009   	accuracy: 0.9940 	precision: 0.9757 	recall: 0.9842 	f1: 0.9792
+ 24%|██▍       | 20/84 [00:03<00:09,  6.51it/s]
+ 42%|████▏     | 35/84 [00:05<00:06,  7.57it/s]
+ 61%|██████    | 51/84 [00:07<00:03,  8.99it/s]
+ 80%|███████▉  | 67/84 [00:09<00:01,  8.54it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  7.97it/s]
+ 50%|█████     | 42/84 [00:01<00:01, 24.73it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.81it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.81it/s]
+epoch: 58 	loss: 0.000009   	accuracy: 0.9940 	precision: 0.9757 	recall: 0.9842 	f1: 0.9792
+ 12%|█▏        | 10/84 [00:01<00:11,  6.41it/s]
+ 30%|██▉       | 25/84 [00:03<00:07,  8.22it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.84it/s]
+ 65%|██████▌   | 55/84 [00:07<00:03,  7.26it/s]
+ 86%|████████▌ | 72/84 [00:09<00:01,  8.09it/s]
+  5%|▍         | 4/84 [00:00<00:07, 10.79it/s]
+ 69%|██████▉   | 58/84 [00:02<00:00, 29.10it/s]
+  1%|          | 1/84 [00:00<00:36,  2.29it/s]
+  1%|          | 1/84 [00:00<00:36,  2.29it/s]
+epoch: 59 	loss: 0.000008   	accuracy: 0.9940 	precision: 0.9977 	recall: 0.9594 	f1: 0.9776
+ 17%|█▋        | 14/84 [00:02<00:09,  7.29it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.72it/s]
+ 52%|█████▏    | 44/84 [00:06<00:06,  6.63it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.46it/s]
+ 92%|█████████▏| 77/84 [00:10<00:00,  8.23it/s]
+ 23%|██▎       | 19/84 [00:01<00:02, 23.98it/s]
+ 98%|█████████▊| 82/84 [00:03<00:00, 32.79it/s]
+  6%|▌         | 5/84 [00:00<00:13,  6.01it/s]
+  6%|▌         | 5/84 [00:00<00:13,  6.01it/s]
+epoch: 60 	loss: 0.000008   	accuracy: 0.9940 	precision: 0.9757 	recall: 0.9842 	f1: 0.9792
+ 23%|██▎       | 19/84 [00:03<00:09,  6.71it/s]
+ 42%|████▏     | 35/84 [00:05<00:06,  7.56it/s]
+ 58%|█████▊    | 49/84 [00:06<00:04,  8.32it/s]
+ 79%|███████▊  | 66/84 [00:09<00:02,  8.43it/s]
+ 98%|█████████▊| 82/84 [00:11<00:00,  7.62it/s]
+ 45%|████▌     | 38/84 [00:01<00:01, 30.29it/s]
+ 36%|███▋      | 4/11 [00:00<00:00, 10.57it/s]
+ 36%|███▋      | 4/11 [00:00<00:00, 10.57it/s]
+epoch: 61 	loss: 0.000008   	accuracy: 0.9940 	precision: 0.9970 	recall: 0.9602 	f1: 0.9776
+ 11%|█         | 9/84 [00:01<00:12,  6.19it/s]
+ 29%|██▊       | 24/84 [00:03<00:07,  8.02it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.87it/s]
+ 64%|██████▍   | 54/84 [00:07<00:03,  7.84it/s]
+ 83%|████████▎ | 70/84 [00:09<00:01,  7.96it/s]
+  1%|          | 1/84 [00:00<00:26,  3.18it/s]
+ 67%|██████▋   | 56/84 [00:02<00:00, 29.73it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 62 	loss: 0.000008   	accuracy: 0.9940 	precision: 0.9757 	recall: 0.9842 	f1: 0.9792
+ 17%|█▋        | 14/84 [00:02<00:09,  7.25it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.53it/s]
+ 51%|█████     | 43/84 [00:06<00:06,  6.00it/s]
+ 71%|███████▏  | 60/84 [00:08<00:02,  8.17it/s]
+ 90%|█████████ | 76/84 [00:10<00:00,  8.43it/s]
+ 19%|█▉        | 16/84 [00:00<00:03, 21.58it/s]
+ 93%|█████████▎| 78/84 [00:02<00:00, 32.96it/s]
+  5%|▍         | 4/84 [00:00<00:13,  5.78it/s]
+  5%|▍         | 4/84 [00:00<00:13,  5.78it/s]
+epoch: 63 	loss: 0.000008   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 20%|██        | 17/84 [00:02<00:09,  7.33it/s]
+ 40%|████      | 34/84 [00:04<00:06,  7.61it/s]
+ 57%|█████▋    | 48/84 [00:06<00:04,  7.79it/s]
+ 75%|███████▌  | 63/84 [00:08<00:02,  7.07it/s]
+ 96%|█████████▋| 81/84 [00:10<00:00,  8.75it/s]
+ 40%|████      | 34/84 [00:01<00:01, 28.46it/s]
+  9%|▉         | 1/11 [00:00<00:03,  3.03it/s]
+  9%|▉         | 1/11 [00:00<00:03,  3.03it/s]
+epoch: 64 	loss: 0.000008   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 10%|▉         | 8/84 [00:01<00:13,  5.65it/s]
+ 27%|██▋       | 23/84 [00:03<00:08,  7.47it/s]
+ 46%|████▋     | 39/84 [00:05<00:05,  8.04it/s]
+ 63%|██████▎   | 53/84 [00:07<00:03,  7.85it/s]
+ 82%|████████▏ | 69/84 [00:09<00:01,  8.04it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 60%|█████▉    | 50/84 [00:02<00:01, 29.69it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 65 	loss: 0.000007   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 14%|█▍        | 12/84 [00:02<00:10,  6.62it/s]
+ 33%|███▎      | 28/84 [00:04<00:06,  8.86it/s]
+ 50%|█████     | 42/84 [00:06<00:07,  5.33it/s]
+ 69%|██████▉   | 58/84 [00:08<00:03,  7.79it/s]
+ 89%|████████▉ | 75/84 [00:10<00:01,  8.53it/s]
+ 13%|█▎        | 11/84 [00:00<00:03, 18.63it/s]
+ 83%|████████▎ | 70/84 [00:02<00:00, 30.99it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.18it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.18it/s]
+epoch: 66 	loss: 0.000007   	accuracy: 0.9940 	precision: 0.9704 	recall: 0.9895 	f1: 0.9793
+ 20%|██        | 17/84 [00:02<00:09,  7.28it/s]
+ 38%|███▊      | 32/84 [00:04<00:06,  7.66it/s]
+ 56%|█████▌    | 47/84 [00:06<00:05,  7.18it/s]
+ 75%|███████▌  | 63/84 [00:08<00:02,  7.11it/s]
+ 94%|█████████▍| 79/84 [00:10<00:00,  8.52it/s]
+ 36%|███▌      | 30/84 [00:01<00:01, 29.80it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.03it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.03it/s]
+epoch: 67 	loss: 0.000007   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 26%|██▌       | 22/84 [00:03<00:08,  7.30it/s]
+ 45%|████▌     | 38/84 [00:05<00:05,  8.16it/s]
+ 62%|██████▏   | 52/84 [00:07<00:03,  8.10it/s]
+ 81%|████████  | 68/84 [00:09<00:01,  8.54it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 51%|█████     | 43/84 [00:01<00:01, 24.86it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 17.71it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.47it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.47it/s]
+epoch: 68 	loss: 0.000007   	accuracy: 0.9940 	precision: 0.9670 	recall: 0.9934 	f1: 0.9794
+ 31%|███       | 26/84 [00:03<00:06,  8.59it/s]
+ 49%|████▉     | 41/84 [00:05<00:07,  6.04it/s]
+ 67%|██████▋   | 56/84 [00:07<00:03,  7.77it/s]
+ 86%|████████▌ | 72/84 [00:09<00:01,  8.15it/s]
+  8%|▊         | 7/84 [00:00<00:04, 16.62it/s]
+ 71%|███████▏  | 60/84 [00:02<00:00, 30.28it/s]
+  1%|          | 1/84 [00:00<00:37,  2.19it/s]
+  1%|          | 1/84 [00:00<00:37,  2.19it/s]
+epoch: 69 	loss: 0.000007   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 13%|█▎        | 11/84 [00:01<00:11,  6.41it/s]
+ 31%|███       | 26/84 [00:03<00:06,  8.46it/s]
+ 49%|████▉     | 41/84 [00:05<00:07,  6.14it/s]
+ 67%|██████▋   | 56/84 [00:07<00:03,  7.83it/s]
+ 86%|████████▌ | 72/84 [00:09<00:01,  8.45it/s]
+  8%|▊         | 7/84 [00:00<00:04, 16.23it/s]
+ 76%|███████▌  | 64/84 [00:02<00:00, 29.19it/s]
+  2%|▏         | 2/84 [00:00<00:20,  3.96it/s]
+  2%|▏         | 2/84 [00:00<00:20,  3.96it/s]
+epoch: 70 	loss: 0.000007   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 18%|█▊        | 15/84 [00:02<00:10,  6.76it/s]
+ 37%|███▋      | 31/84 [00:04<00:07,  7.26it/s]
+ 52%|█████▏    | 44/84 [00:06<00:06,  6.62it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.52it/s]
+ 93%|█████████▎| 78/84 [00:10<00:00,  8.50it/s]
+ 31%|███       | 26/84 [00:01<00:02, 28.15it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.07it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.07it/s]
+epoch: 71 	loss: 0.000007   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 24%|██▍       | 20/84 [00:03<00:09,  6.48it/s]
+ 44%|████▍     | 37/84 [00:05<00:05,  8.27it/s]
+ 61%|██████    | 51/84 [00:07<00:03,  8.97it/s]
+ 80%|███████▉  | 67/84 [00:09<00:01,  8.54it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  8.17it/s]
+ 51%|█████     | 43/84 [00:01<00:01, 24.99it/s]
+
+ 51%|█████     | 43/84 [00:01<00:01, 24.99it/s]
+epoch: 72 	loss: 0.000007   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+epoch: 72 	loss: 0.023990   	accuracy: 0.8982 	precision: 0.8765 	recall: 0.7529 	f1: 0.7555
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 73%|███████▎  | 73/100 [20:16<06:56, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.46it/s]
+ 31%|███       | 26/84 [00:03<00:06,  8.57it/s]
+ 49%|████▉     | 41/84 [00:05<00:07,  6.14it/s]
+ 67%|██████▋   | 56/84 [00:07<00:03,  7.83it/s]
+ 87%|████████▋ | 73/84 [00:09<00:01,  8.57it/s]
+  6%|▌         | 5/84 [00:00<00:06, 12.86it/s]
+ 76%|███████▌  | 64/84 [00:02<00:00, 29.21it/s]
+  1%|          | 1/84 [00:00<00:41,  2.00it/s]
+  1%|          | 1/84 [00:00<00:41,  2.00it/s]
+epoch: 73 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9656 	recall: 0.9948 	f1: 0.9794
+ 18%|█▊        | 15/84 [00:02<00:10,  6.73it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.36it/s]
+ 52%|█████▏    | 44/84 [00:06<00:06,  6.64it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.53it/s]
+ 92%|█████████▏| 77/84 [00:10<00:00,  8.21it/s]
+ 24%|██▍       | 20/84 [00:01<00:02, 23.27it/s]
+ 95%|█████████▌| 80/84 [00:03<00:00, 33.72it/s]
+  6%|▌         | 5/84 [00:01<00:13,  5.92it/s]
+  6%|▌         | 5/84 [00:01<00:13,  5.92it/s]
+epoch: 74 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9704 	recall: 0.9895 	f1: 0.9793
+ 21%|██▏       | 18/84 [00:02<00:08,  7.80it/s]
+ 40%|████      | 34/84 [00:04<00:06,  7.70it/s]
+ 58%|█████▊    | 49/84 [00:06<00:04,  8.38it/s]
+ 77%|███████▋  | 65/84 [00:09<00:02,  8.38it/s]
+ 98%|█████████▊| 82/84 [00:11<00:00,  7.61it/s]
+ 45%|████▌     | 38/84 [00:01<00:01, 30.71it/s]
+ 36%|███▋      | 4/11 [00:00<00:00, 11.13it/s]
+ 36%|███▋      | 4/11 [00:00<00:00, 11.13it/s]
+epoch: 75 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 11%|█         | 9/84 [00:01<00:12,  6.16it/s]
+ 29%|██▊       | 24/84 [00:03<00:07,  8.00it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.90it/s]
+ 64%|██████▍   | 54/84 [00:07<00:03,  7.86it/s]
+ 83%|████████▎ | 70/84 [00:09<00:01,  8.08it/s]
+  1%|          | 1/84 [00:00<00:25,  3.20it/s]
+ 71%|███████▏  | 60/84 [00:02<00:00, 30.62it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 76 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 17%|█▋        | 14/84 [00:02<00:09,  7.20it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.68it/s]
+ 52%|█████▏    | 44/84 [00:06<00:05,  6.68it/s]
+ 71%|███████▏  | 60/84 [00:08<00:02,  8.21it/s]
+ 92%|█████████▏| 77/84 [00:10<00:00,  8.36it/s]
+ 24%|██▍       | 20/84 [00:01<00:02, 23.48it/s]
+ 95%|█████████▌| 80/84 [00:02<00:00, 33.42it/s]
+  6%|▌         | 5/84 [00:00<00:13,  6.04it/s]
+  6%|▌         | 5/84 [00:00<00:13,  6.04it/s]
+epoch: 77 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9704 	recall: 0.9895 	f1: 0.9793
+ 23%|██▎       | 19/84 [00:03<00:09,  7.08it/s]
+ 42%|████▏     | 35/84 [00:05<00:06,  7.63it/s]
+ 58%|█████▊    | 49/84 [00:06<00:04,  8.37it/s]
+ 79%|███████▊  | 66/84 [00:09<00:02,  8.57it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  8.23it/s]
+ 46%|████▋     | 39/84 [00:01<00:01, 30.61it/s]
+ 45%|████▌     | 5/11 [00:00<00:00, 12.79it/s]
+ 12%|█▏        | 10/84 [00:01<00:11,  6.47it/s]
+ 12%|█▏        | 10/84 [00:01<00:11,  6.47it/s]
+epoch: 78 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9704 	recall: 0.9895 	f1: 0.9793
+ 29%|██▊       | 24/84 [00:03<00:07,  7.96it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.91it/s]
+ 65%|██████▌   | 55/84 [00:07<00:03,  7.25it/s]
+ 86%|████████▌ | 72/84 [00:09<00:01,  8.43it/s]
+  5%|▍         | 4/84 [00:00<00:07, 10.46it/s]
+ 69%|██████▉   | 58/84 [00:02<00:00, 29.62it/s]
+  1%|          | 1/84 [00:00<00:37,  2.21it/s]
+  1%|          | 1/84 [00:00<00:37,  2.21it/s]
+epoch: 79 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9704 	recall: 0.9895 	f1: 0.9793
+ 17%|█▋        | 14/84 [00:02<00:09,  7.32it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.73it/s]
+ 54%|█████▎    | 45/84 [00:06<00:05,  7.38it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.54it/s]
+ 93%|█████████▎| 78/84 [00:10<00:00,  8.52it/s]
+ 26%|██▌       | 22/84 [00:01<00:02, 24.52it/s]
+100%|██████████| 84/84 [00:03<00:00, 34.00it/s]
+  7%|▋         | 6/84 [00:01<00:11,  6.50it/s]
+  7%|▋         | 6/84 [00:01<00:11,  6.50it/s]
+epoch: 80 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9704 	recall: 0.9895 	f1: 0.9793
+ 23%|██▎       | 19/84 [00:03<00:09,  6.78it/s]
+ 42%|████▏     | 35/84 [00:05<00:06,  7.62it/s]
+ 61%|██████    | 51/84 [00:07<00:03,  8.97it/s]
+ 80%|███████▉  | 67/84 [00:09<00:01,  8.58it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  7.94it/s]
+ 50%|█████     | 42/84 [00:01<00:01, 24.59it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.52it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.52it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.53it/s]
+ 13%|█▎        | 11/84 [00:01<00:11,  6.53it/s]
+ 30%|██▉       | 25/84 [00:03<00:07,  8.26it/s]
+ 49%|████▉     | 41/84 [00:05<00:06,  6.25it/s]
+ 68%|██████▊   | 57/84 [00:07<00:03,  8.13it/s]
+ 86%|████████▌ | 72/84 [00:09<00:01,  8.36it/s]
+  8%|▊         | 7/84 [00:00<00:04, 16.24it/s]
+ 79%|███████▊  | 66/84 [00:02<00:00, 31.27it/s]
+  2%|▏         | 2/84 [00:00<00:19,  4.19it/s]
+  2%|▏         | 2/84 [00:00<00:19,  4.19it/s]
+epoch: 82 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9704 	recall: 0.9895 	f1: 0.9793
+ 19%|█▉        | 16/84 [00:02<00:09,  6.92it/s]
+ 38%|███▊      | 32/84 [00:04<00:06,  7.68it/s]
+ 55%|█████▍    | 46/84 [00:06<00:05,  7.56it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.42it/s]
+ 93%|█████████▎| 78/84 [00:10<00:00,  8.35it/s]
+ 26%|██▌       | 22/84 [00:01<00:02, 24.82it/s]
+
+ 26%|██▌       | 22/84 [00:01<00:02, 24.82it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+ 84%|████████▍ | 84/100 [23:05<04:05, /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+  8%|▊         | 7/84 [00:01<00:10,  7.11it/s]
+epoch: 83 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 23%|██▎       | 19/84 [00:03<00:09,  6.71it/s]
+ 44%|████▍     | 37/84 [00:05<00:05,  8.44it/s]
+ 61%|██████    | 51/84 [00:07<00:03,  8.98it/s]
+ 80%|███████▉  | 67/84 [00:09<00:02,  8.38it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  7.93it/s]
+ 50%|█████     | 42/84 [00:01<00:01, 24.75it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.32it/s]
+ 12%|█▏        | 10/84 [00:01<00:11,  6.43it/s]
+ 12%|█▏        | 10/84 [00:01<00:11,  6.43it/s]
+epoch: 84 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9704 	recall: 0.9895 	f1: 0.9793
+ 31%|███       | 26/84 [00:03<00:06,  8.59it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.79it/s]
+ 67%|██████▋   | 56/84 [00:07<00:03,  7.70it/s]
+ 86%|████████▌ | 72/84 [00:09<00:01,  8.00it/s]
+  5%|▍         | 4/84 [00:00<00:07, 11.01it/s]
+ 69%|██████▉   | 58/84 [00:02<00:00, 29.25it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 85 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 17%|█▋        | 14/84 [00:02<00:09,  7.32it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.46it/s]
+ 52%|█████▏    | 44/84 [00:06<00:06,  6.56it/s]
+ 71%|███████▏  | 60/84 [00:08<00:02,  8.14it/s]
+ 90%|█████████ | 76/84 [00:10<00:00,  8.40it/s]
+ 20%|██        | 17/84 [00:00<00:02, 22.85it/s]
+ 93%|█████████▎| 78/84 [00:02<00:00, 32.86it/s]
+  5%|▍         | 4/84 [00:00<00:13,  5.79it/s]
+  5%|▍         | 4/84 [00:00<00:13,  5.79it/s]
+epoch: 86 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9711 	recall: 0.9888 	f1: 0.9793
+ 21%|██▏       | 18/84 [00:02<00:08,  7.81it/s]
+ 40%|████      | 34/84 [00:04<00:06,  7.64it/s]
+ 57%|█████▋    | 48/84 [00:06<00:04,  7.85it/s]
+ 76%|███████▌  | 64/84 [00:08<00:02,  7.73it/s]
+ 96%|█████████▋| 81/84 [00:10<00:00,  8.60it/s]
+ 39%|███▉      | 33/84 [00:01<00:01, 27.84it/s]
+  9%|▉         | 1/11 [00:00<00:03,  2.97it/s]
+  9%|▉         | 1/11 [00:00<00:03,  2.97it/s]
+epoch: 87 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9697 	recall: 0.9902 	f1: 0.9793
+ 10%|▉         | 8/84 [00:01<00:13,  5.69it/s]
+ 27%|██▋       | 23/84 [00:03<00:08,  7.49it/s]
+ 46%|████▋     | 39/84 [00:05<00:05,  8.04it/s]
+ 64%|██████▍   | 54/84 [00:07<00:03,  7.77it/s]
+ 83%|████████▎ | 70/84 [00:09<00:01,  7.96it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 64%|██████▍   | 54/84 [00:02<00:01, 29.00it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 88 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9697 	recall: 0.9902 	f1: 0.9793
+ 15%|█▌        | 13/84 [00:02<00:10,  6.74it/s]
+ 33%|███▎      | 28/84 [00:04<00:06,  8.79it/s]
+ 50%|█████     | 42/84 [00:06<00:07,  5.27it/s]
+ 69%|██████▉   | 58/84 [00:08<00:03,  7.75it/s]
+ 89%|████████▉ | 75/84 [00:10<00:01,  8.63it/s]
+ 13%|█▎        | 11/84 [00:00<00:03, 18.32it/s]
+ 83%|████████▎ | 70/84 [00:02<00:00, 30.89it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.09it/s]
+  4%|▎         | 3/84 [00:00<00:15,  5.09it/s]
+epoch: 89 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9697 	recall: 0.9902 	f1: 0.9793
+ 19%|█▉        | 16/84 [00:02<00:09,  6.88it/s]
+ 38%|███▊      | 32/84 [00:04<00:06,  7.48it/s]
+ 55%|█████▍    | 46/84 [00:06<00:05,  7.54it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.43it/s]
+ 94%|█████████▍| 79/84 [00:10<00:00,  8.42it/s]
+ 29%|██▊       | 24/84 [00:01<00:02, 25.73it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  7%|▋         | 6/84 [00:01<00:12,  6.44it/s]
+  7%|▋         | 6/84 [00:01<00:12,  6.44it/s]
+epoch: 90 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9656 	recall: 0.9948 	f1: 0.9794
+ 24%|██▍       | 20/84 [00:03<00:10,  6.35it/s]
+ 43%|████▎     | 36/84 [00:05<00:05,  8.03it/s]
+ 58%|█████▊    | 49/84 [00:07<00:04,  8.17it/s]
+ 79%|███████▊  | 66/84 [00:09<00:02,  8.44it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  8.16it/s]
+ 49%|████▉     | 41/84 [00:01<00:01, 27.54it/s]
+ 36%|███▋      | 4/11 [00:00<00:00, 10.94it/s]
+ 36%|███▋      | 4/11 [00:00<00:00, 10.94it/s]
+epoch: 91 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9697 	recall: 0.9902 	f1: 0.9793
+ 11%|█         | 9/84 [00:01<00:12,  6.19it/s]
+ 29%|██▊       | 24/84 [00:03<00:07,  7.74it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.62it/s]
+ 64%|██████▍   | 54/84 [00:07<00:03,  7.53it/s]
+ 83%|████████▎ | 70/84 [00:09<00:01,  8.07it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 64%|██████▍   | 54/84 [00:02<00:01, 29.15it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 92 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9697 	recall: 0.9902 	f1: 0.9793
+ 15%|█▌        | 13/84 [00:02<00:10,  6.67it/s]
+ 33%|███▎      | 28/84 [00:04<00:06,  8.60it/s]
+ 49%|████▉     | 41/84 [00:06<00:07,  6.00it/s]
+ 69%|██████▉   | 58/84 [00:08<00:03,  7.82it/s]
+ 88%|████████▊ | 74/84 [00:10<00:01,  8.38it/s]
+ 10%|▉         | 8/84 [00:00<00:04, 15.69it/s]
+ 79%|███████▊  | 66/84 [00:02<00:00, 30.86it/s]
+  2%|▏         | 2/84 [00:00<00:20,  3.97it/s]
+  2%|▏         | 2/84 [00:00<00:20,  3.97it/s]
+epoch: 93 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9697 	recall: 0.9902 	f1: 0.9793
+ 19%|█▉        | 16/84 [00:02<00:09,  6.90it/s]
+ 37%|███▋      | 31/84 [00:04<00:07,  7.16it/s]
+ 55%|█████▍    | 46/84 [00:06<00:04,  7.63it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.51it/s]
+ 93%|█████████▎| 78/84 [00:10<00:00,  8.46it/s]
+ 31%|███       | 26/84 [00:01<00:02, 28.05it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  7%|▋         | 6/84 [00:01<00:12,  6.38it/s]
+  7%|▋         | 6/84 [00:01<00:12,  6.38it/s]
+epoch: 94 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9697 	recall: 0.9902 	f1: 0.9793
+ 23%|██▎       | 19/84 [00:03<00:09,  6.66it/s]
+ 42%|████▏     | 35/84 [00:05<00:06,  7.53it/s]
+ 61%|██████    | 51/84 [00:07<00:03,  8.96it/s]
+ 79%|███████▊  | 66/84 [00:09<00:02,  8.48it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  8.14it/s]
+ 45%|████▌     | 38/84 [00:01<00:01, 30.47it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 95 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9656 	recall: 0.9948 	f1: 0.9794
+  8%|▊         | 7/84 [00:01<00:10,  7.02it/s]
+ 24%|██▍       | 20/84 [00:03<00:09,  6.41it/s]
+ 42%|████▏     | 35/84 [00:05<00:06,  7.42it/s]
+ 61%|██████    | 51/84 [00:07<00:03,  9.00it/s]
+ 79%|███████▊  | 66/84 [00:09<00:02,  8.44it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  8.11it/s]
+ 46%|████▋     | 39/84 [00:01<00:01, 30.52it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.19it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 18.19it/s]
+epoch: 96 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9656 	recall: 0.9948 	f1: 0.9794
+ 11%|█         | 9/84 [00:01<00:12,  6.18it/s]
+ 29%|██▊       | 24/84 [00:03<00:07,  7.81it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.78it/s]
+ 64%|██████▍   | 54/84 [00:07<00:03,  7.75it/s]
+ 83%|████████▎ | 70/84 [00:09<00:01,  8.12it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 67%|██████▋   | 56/84 [00:02<00:00, 28.58it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 97 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9656 	recall: 0.9948 	f1: 0.9794
+ 15%|█▌        | 13/84 [00:02<00:10,  6.75it/s]
+ 35%|███▍      | 29/84 [00:04<00:06,  8.35it/s]
+ 51%|█████     | 43/84 [00:06<00:06,  6.06it/s]
+ 70%|███████   | 59/84 [00:08<00:03,  8.24it/s]
+ 89%|████████▉ | 75/84 [00:10<00:01,  8.52it/s]
+ 19%|█▉        | 16/84 [00:00<00:03, 22.06it/s]
+ 90%|█████████ | 76/84 [00:02<00:00, 32.58it/s]
+  4%|▎         | 3/84 [00:00<00:16,  4.89it/s]
+  4%|▎         | 3/84 [00:00<00:16,  4.89it/s]
+epoch: 98 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9656 	recall: 0.9948 	f1: 0.9794
+ 20%|██        | 17/84 [00:02<00:09,  7.24it/s]
+ 38%|███▊      | 32/84 [00:04<00:06,  7.63it/s]
+ 55%|█████▍    | 46/84 [00:06<00:05,  7.55it/s]
+ 74%|███████▍  | 62/84 [00:08<00:03,  6.52it/s]
+ 94%|█████████▍| 79/84 [00:10<00:00,  8.43it/s]
+ 31%|███       | 26/84 [00:01<00:02, 27.35it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+epoch: 99 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9656 	recall: 0.9948 	f1: 0.9794
+                                              /python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+                                              /python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+{'best-epoch': 51, 'loss': 0.010659819557553246, 'accuracy': 0.8392857142857143, 'precision': 0.9168831168831169, 'recall': 0.7416677653263019, 'f1': 0.7977224964566737}
+OptimizedModule(
+  (_orig_mod): BertForSequenceClassification(
+    (bert): BertModel(
+      (embeddings): BertEmbeddings(
+        (word_embeddings): Embedding(32784, 768)
+        (position_embeddings): Embedding(512, 768)
+        (token_type_embeddings): Embedding(2, 768)
+        (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (encoder): BertEncoder(
+        (layer): ModuleList(
+          (0-11): 12 x BertLayer(
+            (attention): BertAttention(
+              (self): BertSelfAttention(
+                (query): Linear(in_features=768, out_features=768, bias=True)
+                (key): Linear(in_features=768, out_features=768, bias=True)
+                (value): Linear(in_features=768, out_features=768, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): BertSelfOutput(
+                (dense): Linear(in_features=768, out_features=768, bias=True)
+                (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): BertIntermediate(
+              (dense): Linear(in_features=768, out_features=3072, bias=True)
+              (intermediate_act_fn): GELUActivation()
+No traceback available to show.               /python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+No traceback available to show.               /python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.

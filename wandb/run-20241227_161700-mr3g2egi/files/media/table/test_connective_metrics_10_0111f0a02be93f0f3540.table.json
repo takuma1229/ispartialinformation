@@ -1,0 +1,1 @@
+{"columns": ["experiment_type", "connective", "accuracy", "precision", "recall", "f1"], "data": [["exclude_mo", "\u3068\u3053\u308d", 0.2, 0.1111111111111111, 0.25, 0.09090909090909091]]}

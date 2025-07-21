@@ -1,0 +1,14 @@
+{
+    "normal": "Original",
+    "ordinal_forms_shuffle": "Shuffled",
+    "former-only": "Arg2 ablation",
+    "latter-only": "Arg1 ablation",
+    "exclude_mo": "Mo ablation",
+    "exclude_function_words": "Function-words ablation",
+    "exclude_content_words": "Content-words ablation",
+    "exclude_negation": "Negation ablation",
+    "exclude_connectives": "Connective ablation",
+    "convert_content_words_to_dummy": "Content-words semantic ablation",
+    "convert_function_words_to_dummy": "Function-words semantic ablation",
+    "convert_all_words_to_dummy": "All-words semantic ablation"
+}

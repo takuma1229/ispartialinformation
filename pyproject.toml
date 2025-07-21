@@ -1,0 +1,86 @@
+[project]
+name = "discourse-relation-explainability"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "takuma1229", email = "takuma1229tennis@gmail.com" }
+]
+dependencies = [
+    "datasets>=2.20.0",
+    "wandb>=0.17.4",
+    "transformers[torch]>=4.42.3",
+    "pytz>=2024.1",
+    "accelerate>=0.32.1",
+    "fugashi[unidic-lite]>=1.3.2",
+    "numpy",
+    "scikit-learn>=1.5.1",
+    "pandas>=2.2.2",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.9.1",
+    "openpyxl>=3.1.5",
+    "chardet>=5.2.0",
+    "ruff>=0.8.4",
+    "pre-commit>=4.0.1",
+    "hydra-core>=1.3.2",
+    "huggingface-hub>=0.27.0",
+    "beautifulsoup4>=4.12.3",
+    "mecab-python3>=1.0.10",
+    "unidic>=1.1.0",
+    "dataframe-image>=0.2.6",
+    "openai>=1.78.1",
+    "dotenv>=0.9.9",
+    "tiktoken>=0.9.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/discourse_relation_explainability"]
+
+# ruffの設定
+[tool.ruff]
+line-length = 120
+indent-width = 4
+target-version = "py312"
+
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "D"]
+ignore = [
+    "I001",
+    "D415", # 最初のlineをperiodで終わらせるルール
+    "D400",  # 最初のlineをperiodで終わらせるルール（同上だがどちらも指定しないとwarning出る）
+    "D100", # Missing docstring in public module
+] 
+fixable = ["ALL"]
+
+# 特定のファイルやフォルダで無視するルールを設定
+[tool.ruff.lint.extend-per-file-ignores]
+"__init__.py" = ["ALL"]
+
+
+[tool.ruff.lint.mccabe]
+max-complexity = 5
+
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy" # docstringはnumpy-convensionを使用

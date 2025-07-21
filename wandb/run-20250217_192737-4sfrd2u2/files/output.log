@@ -1,0 +1,880 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Some weights of DebertaV2ForSequenceClassification were not initialized from the model checkpoint at ku-nlp/deberta-v3-base-japanese and are newly initialized: ['classifier.bias', 'classifier.weight', 'pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+input_text: [CLS]また両岸数十メートルの絶壁で、岸壁間に大丸太を横に渡す、その上に中丸太三本をたてに乗せるて、長い橋を掛ける、下は激流が白アワを吹くて流れる、目も眩む様だところでも、この黒虎毛は平気だ顔を為るて、軽い渡るて歩くのにはこれまた驚くますた。[SEP][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]
+input_text: [CLS]僕はあなたが、僕の知るずところで僕の知るずことを為るて居ると思うと、いらいら為るて居るても立つても居るられるない成る」[SEP][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]
+input_text: [CLS]余事は<0xE6><0x89><0xA0>置く、私はこの問に対するて、「それはなんでも無いことだ、将棋さしが詰将棋の手を考えるのと同じことだ、木村名人が生涯に三百題の詰将棋を考えるたところで、少しの不思議も無いだは無いか」――と。[SEP][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]
+input_text: [CLS]また、このストーリーが正しいば、生産に於くり企業間分業体制がより重要だ産業や地域に於くて、より企業間のつながりが重要だ有ることが予想為るれるますが、実際にそう言うところで中心性、つまり企業のつながりの果たす役割がより強いことなどが分かるますた。[SEP][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]
+input_text: [CLS]「まだ何とも言うがたいところでね、ワトスンくん。[SEP][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD][PAD]
+
+
+  0%|                                                                  | 9/5010 [00:05<52:47,  1.58it/s]
+
+
+
+  0%|▏                                                                | 19/5010 [00:12<52:39,  1.58it/s]
+
+
+
+
+  1%|▍                                                                | 31/5010 [00:19<52:36,  1.58it/s]
+
+
+
+  1%|▌                                                                | 41/5010 [00:25<52:28,  1.58it/s]
+
+
+
+  1%|▋                                                                | 50/5010 [00:31<52:25,  1.58it/s]
+
+
+
+  1%|▊                                                                | 60/5010 [00:38<52:15,  1.58it/s]
+
+
+
+  1%|▉                                                                | 69/5010 [00:43<52:12,  1.58it/s]
+
+
+
+  2%|█                                                                | 79/5010 [00:50<52:06,  1.58it/s]
+
+
+
+
+  2%|█▏                                                               | 91/5010 [00:57<52:00,  1.58it/s]
+
+
+
+  2%|█▎                                                              | 101/5010 [01:04<51:56,  1.58it/s]
+
+
+
+  2%|█▍                                                              | 110/5010 [01:09<51:46,  1.58it/s]
+
+
+
+  2%|█▌                                                              | 120/5010 [01:16<51:40,  1.58it/s]
+
+
+
+  3%|█▋                                                              | 129/5010 [01:21<51:34,  1.58it/s]
+
+
+
+  3%|█▊                                                              | 139/5010 [01:28<51:28,  1.58it/s]
+
+
+
+
+  3%|█▉                                                              | 151/5010 [01:35<51:22,  1.58it/s]
+
+
+
+  3%|██                                                              | 161/5010 [01:42<51:15,  1.58it/s]
+
+  3%|██▏                                                             | 167/5010 [01:45<49:22,  1.63it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 62%|█████████████████████████████████████████▍                         | 13/21 [00:02<00:01,  4.78it/s]
+
+  3%|██                                                           | 169/5010 [02:32<13:36:11, 10.12s/it]
+
+
+
+
+  4%|██▏                                                           | 181/5010 [02:39<1:01:42,  1.30it/s]
+
+
+
+  4%|██▍                                                             | 191/5010 [02:46<51:15,  1.57it/s]
+
+
+
+  4%|██▌                                                             | 200/5010 [02:51<50:54,  1.57it/s]
+
+
+
+  4%|██▋                                                             | 210/5010 [02:58<50:44,  1.58it/s]
+
+
+
+  4%|██▊                                                             | 219/5010 [03:04<50:37,  1.58it/s]
+
+
+
+
+  5%|██▉                                                             | 232/5010 [03:12<50:30,  1.58it/s]
+
+
+
+  5%|███                                                             | 241/5010 [03:17<50:24,  1.58it/s]
+
+
+
+  5%|███▏                                                            | 251/5010 [03:24<50:16,  1.58it/s]
+
+
+
+  5%|███▎                                                            | 260/5010 [03:29<50:13,  1.58it/s]
+
+
+
+  5%|███▍                                                            | 270/5010 [03:36<50:05,  1.58it/s]
+
+
+
+  6%|███▌                                                            | 279/5010 [03:42<49:59,  1.58it/s]
+
+
+
+
+  6%|███▋                                                            | 292/5010 [03:50<49:50,  1.58it/s]
+
+
+
+  6%|███▊                                                            | 301/5010 [03:55<49:46,  1.58it/s]
+
+
+
+  6%|███▉                                                            | 311/5010 [04:02<49:39,  1.58it/s]
+
+
+
+  6%|████                                                            | 320/5010 [04:08<49:33,  1.58it/s]
+
+
+
+  7%|████▏                                                           | 329/5010 [04:13<49:27,  1.58it/s]
+
+  7%|████▎                                                           | 334/5010 [04:16<47:45,  1.63it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 52%|███████████████████████████████████                                | 11/21 [00:02<00:02,  4.81it/s]
+
+ 90%|████████████████████████████████████████████████████████████▌      | 19/21 [00:03<00:00,  4.76it/s]
+
+
+
+  7%|████▏                                                         | 340/5010 [05:05<3:46:50,  2.91s/it]
+
+
+
+  7%|████▍                                                           | 350/5010 [05:12<54:19,  1.43it/s]
+
+
+
+  7%|████▌                                                           | 359/5010 [05:18<49:25,  1.57it/s]
+
+
+
+  7%|████▋                                                           | 369/5010 [05:24<49:02,  1.58it/s]
+
+
+
+
+  8%|████▊                                                           | 381/5010 [05:31<48:57,  1.58it/s]
+
+
+
+  8%|████▉                                                           | 391/5010 [05:38<48:50,  1.58it/s]
+
+
+
+  8%|█████                                                           | 400/5010 [05:44<48:44,  1.58it/s]
+
+
+
+  8%|█████▏                                                          | 410/5010 [05:50<48:36,  1.58it/s]
+
+
+
+  8%|█████▎                                                          | 419/5010 [05:56<48:30,  1.58it/s]
+
+
+
+
+  9%|█████▌                                                          | 432/5010 [06:04<48:25,  1.58it/s]
+
+
+
+  9%|█████▋                                                          | 441/5010 [06:10<48:18,  1.58it/s]
+
+
+
+  9%|█████▊                                                          | 451/5010 [06:16<48:11,  1.58it/s]
+
+
+
+  9%|█████▉                                                          | 460/5010 [06:22<48:05,  1.58it/s]
+
+
+
+  9%|█████▉                                                          | 469/5010 [06:27<48:00,  1.58it/s]
+
+
+
+ 10%|██████                                                          | 479/5010 [06:34<47:53,  1.58it/s]
+
+
+
+
+ 10%|██████▎                                                         | 492/5010 [06:42<47:43,  1.58it/s]
+
+
+ 10%|██████▍                                                         | 501/5010 [06:47<45:56,  1.64it/s]
+  0%|                                                                           | 0/167 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 62%|█████████████████████████████████████████▍                         | 13/21 [00:02<00:01,  4.78it/s]
+
+
+
+ 10%|██████▎                                                       | 509/5010 [07:38<2:11:25,  1.75s/it]
+
+
+
+
+ 10%|██████▋                                                         | 521/5010 [07:45<48:43,  1.54it/s]
+
+
+
+ 11%|██████▊                                                         | 531/5010 [07:52<47:26,  1.57it/s]
+
+
+
+ 11%|██████▉                                                         | 540/5010 [07:58<47:14,  1.58it/s]
+
+
+
+ 11%|███████                                                         | 550/5010 [08:04<47:07,  1.58it/s]
+
+
+
+ 11%|███████▏                                                        | 559/5010 [08:10<47:01,  1.58it/s]
+
+
+
+
+ 11%|███████▎                                                        | 572/5010 [08:18<46:53,  1.58it/s]
+
+
+
+ 12%|███████▍                                                        | 581/5010 [08:24<46:48,  1.58it/s]
+
+
+
+ 12%|███████▌                                                        | 591/5010 [08:30<46:42,  1.58it/s]
+
+
+
+ 12%|███████▋                                                        | 600/5010 [08:36<46:36,  1.58it/s]
+
+
+
+ 12%|███████▊                                                        | 610/5010 [08:42<46:30,  1.58it/s]
+
+
+
+ 12%|███████▉                                                        | 619/5010 [08:48<46:24,  1.58it/s]
+
+
+
+
+ 13%|████████                                                        | 632/5010 [08:56<46:16,  1.58it/s]
+
+
+
+ 13%|████████▏                                                       | 641/5010 [09:02<46:09,  1.58it/s]
+
+
+
+ 13%|████████▎                                                       | 651/5010 [09:08<46:03,  1.58it/s]
+
+
+
+ 13%|████████▍                                                       | 660/5010 [09:14<45:56,  1.58it/s]
+
+
+ 13%|████████▌                                                       | 668/5010 [09:19<44:13,  1.64it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 86%|█████████████████████████████████████████████████████████▍         | 18/21 [00:03<00:00,  4.76it/s]
+
+
+ 13%|████████▎                                                     | 671/5010 [10:06<8:46:36,  7.28s/it]
+
+
+
+ 14%|████████▍                                                     | 680/5010 [10:12<1:05:07,  1.11it/s]
+
+
+
+ 14%|████████▊                                                       | 690/5010 [10:18<46:14,  1.56it/s]
+
+
+
+ 14%|████████▉                                                       | 699/5010 [10:24<45:35,  1.58it/s]
+
+
+
+ 14%|█████████                                                       | 709/5010 [10:30<45:29,  1.58it/s]
+
+
+
+
+ 14%|█████████▏                                                      | 721/5010 [10:38<45:20,  1.58it/s]
+
+
+
+ 15%|█████████▎                                                      | 731/5010 [10:44<45:13,  1.58it/s]
+
+
+
+ 15%|█████████▍                                                      | 740/5010 [10:50<45:08,  1.58it/s]
+
+
+
+ 15%|█████████▌                                                      | 750/5010 [10:56<45:01,  1.58it/s]
+
+
+
+ 15%|█████████▋                                                      | 759/5010 [11:02<44:56,  1.58it/s]
+
+
+
+
+ 15%|█████████▊                                                      | 772/5010 [11:10<44:49,  1.58it/s]
+
+
+
+ 16%|█████████▉                                                      | 781/5010 [11:16<44:41,  1.58it/s]
+
+
+
+ 16%|██████████                                                      | 791/5010 [11:22<44:35,  1.58it/s]
+
+
+
+ 16%|██████████▏                                                     | 800/5010 [11:28<44:28,  1.58it/s]
+
+
+
+ 16%|██████████▎                                                     | 810/5010 [11:34<44:23,  1.58it/s]
+
+
+
+ 16%|██████████▍                                                     | 819/5010 [11:40<44:16,  1.58it/s]
+
+
+
+
+ 17%|██████████▋                                                     | 832/5010 [11:48<44:09,  1.58it/s]
+ 17%|██████████▋                                                     | 835/5010 [11:50<42:32,  1.64it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 62%|█████████████████████████████████████████▍                         | 13/21 [00:02<00:01,  4.78it/s]
+
+
+ 17%|██████████▍                                                   | 839/5010 [12:38<6:07:55,  5.29s/it]
+
+
+
+ 17%|██████████▊                                                     | 849/5010 [12:44<53:07,  1.31it/s]
+
+
+
+
+ 17%|██████████▉                                                     | 861/5010 [12:52<43:59,  1.57it/s]
+
+
+
+ 17%|███████████▏                                                    | 871/5010 [12:58<43:43,  1.58it/s]
+
+
+
+ 18%|███████████▏                                                    | 880/5010 [13:04<43:39,  1.58it/s]
+
+
+
+ 18%|███████████▎                                                    | 890/5010 [13:10<43:31,  1.58it/s]
+
+
+
+ 18%|███████████▍                                                    | 899/5010 [13:16<43:27,  1.58it/s]
+
+
+
+
+ 18%|███████████▋                                                    | 912/5010 [13:24<43:19,  1.58it/s]
+
+
+
+ 18%|███████████▊                                                    | 921/5010 [13:30<43:14,  1.58it/s]
+
+
+
+ 19%|███████████▉                                                    | 931/5010 [13:36<43:06,  1.58it/s]
+
+
+
+ 19%|████████████                                                    | 940/5010 [13:42<42:59,  1.58it/s]
+
+
+
+ 19%|████████████▏                                                   | 950/5010 [13:48<42:53,  1.58it/s]
+
+
+
+ 19%|████████████▎                                                   | 959/5010 [13:54<42:47,  1.58it/s]
+
+
+
+
+ 19%|████████████▍                                                   | 972/5010 [14:02<42:41,  1.58it/s]
+
+
+
+ 20%|████████████▌                                                   | 981/5010 [14:08<42:34,  1.58it/s]
+
+
+
+ 20%|████████████▋                                                   | 991/5010 [14:14<42:27,  1.58it/s]
+
+
+
+ 20%|████████████▌                                                  | 1000/5010 [14:20<42:21,  1.58it/s]
+ 20%|████████████▌                                                  | 1002/5010 [14:21<40:49,  1.64it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 95%|█████████████████████████████████████████████████████████████▍   | 158/167 [00:33<00:01,  4.75it/s]
+
+
+
+
+ 81%|██████████████████████████████████████████████████████▏            | 17/21 [00:03<00:00,  4.76it/s]
+
+
+
+ 20%|████████████▎                                                | 1009/5010 [15:14<2:36:44,  2.35s/it]
+
+
+
+
+ 20%|████████████▊                                                  | 1021/5010 [15:22<43:43,  1.52it/s]
+
+
+
+ 21%|████████████▉                                                  | 1031/5010 [15:28<42:04,  1.58it/s]
+
+
+
+ 21%|█████████████                                                  | 1040/5010 [15:34<41:55,  1.58it/s]
+
+
+
+ 21%|█████████████▏                                                 | 1050/5010 [15:40<41:51,  1.58it/s]
+
+
+
+ 21%|█████████████▎                                                 | 1059/5010 [15:46<41:44,  1.58it/s]
+
+
+
+
+ 21%|█████████████▍                                                 | 1072/5010 [15:54<41:35,  1.58it/s]
+
+
+
+ 22%|█████████████▌                                                 | 1081/5010 [16:00<41:30,  1.58it/s]
+
+
+
+ 22%|█████████████▋                                                 | 1091/5010 [16:06<41:22,  1.58it/s]
+
+
+
+ 22%|█████████████▊                                                 | 1100/5010 [16:12<41:17,  1.58it/s]
+
+
+
+ 22%|█████████████▉                                                 | 1110/5010 [16:18<41:23,  1.57it/s]
+
+
+
+ 22%|██████████████                                                 | 1119/5010 [16:24<41:06,  1.58it/s]
+
+
+
+
+ 23%|██████████████▏                                                | 1132/5010 [16:32<40:58,  1.58it/s]
+
+
+
+ 23%|██████████████▎                                                | 1141/5010 [16:38<40:51,  1.58it/s]
+
+
+
+ 23%|██████████████▍                                                | 1151/5010 [16:44<40:46,  1.58it/s]
+
+
+
+ 23%|██████████████▌                                                | 1160/5010 [16:50<40:40,  1.58it/s]
+
+
+ 23%|██████████████▋                                                | 1169/5010 [16:55<39:08,  1.64it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 76%|███████████████████████████████████████████████████                | 16/21 [00:03<00:01,  4.76it/s]
+
+ 23%|██████████████                                              | 1171/5010 [17:42<10:47:58, 10.13s/it]
+
+
+
+ 24%|██████████████▊                                                | 1181/5010 [17:48<57:35,  1.11it/s]
+
+
+
+ 24%|██████████████▉                                                | 1190/5010 [17:54<41:07,  1.55it/s]
+
+
+
+ 24%|███████████████                                                | 1200/5010 [18:00<40:32,  1.57it/s]
+
+
+
+ 24%|███████████████▏                                               | 1209/5010 [18:06<40:11,  1.58it/s]
+
+
+
+
+ 24%|███████████████▎                                               | 1222/5010 [18:14<40:02,  1.58it/s]
+
+
+
+ 25%|███████████████▍                                               | 1231/5010 [18:20<39:56,  1.58it/s]
+
+
+
+ 25%|███████████████▌                                               | 1241/5010 [18:26<39:50,  1.58it/s]
+
+
+
+ 25%|███████████████▋                                               | 1250/5010 [18:32<39:44,  1.58it/s]
+
+
+
+ 25%|███████████████▊                                               | 1259/5010 [18:38<39:39,  1.58it/s]
+
+
+
+ 25%|███████████████▉                                               | 1269/5010 [18:44<39:33,  1.58it/s]
+
+
+
+
+ 26%|████████████████                                               | 1282/5010 [18:52<39:24,  1.58it/s]
+
+
+
+ 26%|████████████████▏                                              | 1291/5010 [18:58<39:18,  1.58it/s]
+
+
+
+ 26%|████████████████▎                                              | 1300/5010 [19:04<39:11,  1.58it/s]
+
+
+
+ 26%|████████████████▍                                              | 1310/5010 [19:10<39:05,  1.58it/s]
+
+
+
+ 26%|████████████████▌                                              | 1319/5010 [19:16<38:59,  1.58it/s]
+
+
+
+ 27%|████████████████▋                                              | 1329/5010 [19:22<38:53,  1.58it/s]
+
+
+ 27%|████████████████▊                                              | 1336/5010 [19:26<37:25,  1.64it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 52%|███████████████████████████████████                                | 11/21 [00:02<00:02,  4.81it/s]
+
+
+ 27%|████████████████▎                                            | 1340/5010 [20:14<5:23:30,  5.29s/it]
+
+
+
+ 27%|████████████████▉                                              | 1349/5010 [20:20<50:11,  1.22it/s]
+
+
+
+
+ 27%|█████████████████▏                                             | 1362/5010 [20:28<38:41,  1.57it/s]
+
+
+
+ 27%|█████████████████▏                                             | 1371/5010 [20:34<38:29,  1.58it/s]
+
+
+
+ 28%|█████████████████▎                                             | 1381/5010 [20:40<38:22,  1.58it/s]
+
+
+
+ 28%|█████████████████▍                                             | 1390/5010 [20:46<38:15,  1.58it/s]
+
+
+
+ 28%|█████████████████▌                                             | 1400/5010 [20:52<38:09,  1.58it/s]
+
+
+
+ 28%|█████████████████▋                                             | 1409/5010 [20:58<38:03,  1.58it/s]
+
+
+
+
+ 28%|█████████████████▉                                             | 1422/5010 [21:06<37:55,  1.58it/s]
+
+
+
+ 29%|█████████████████▉                                             | 1431/5010 [21:12<37:48,  1.58it/s]
+
+
+
+ 29%|██████████████████                                             | 1441/5010 [21:18<37:42,  1.58it/s]
+
+
+
+ 29%|██████████████████▏                                            | 1450/5010 [21:24<37:36,  1.58it/s]
+
+
+
+ 29%|██████████████████▎                                            | 1460/5010 [21:30<37:33,  1.58it/s]
+
+
+
+ 29%|██████████████████▍                                            | 1469/5010 [21:36<37:25,  1.58it/s]
+
+
+
+
+ 30%|██████████████████▋                                            | 1482/5010 [21:44<37:17,  1.58it/s]
+
+
+
+ 30%|██████████████████▋                                            | 1491/5010 [21:50<37:11,  1.58it/s]
+
+
+
+ 30%|██████████████████▊                                            | 1501/5010 [21:56<37:06,  1.58it/s]
+ 30%|██████████████████▉                                            | 1503/5010 [21:58<35:46,  1.63it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 62%|█████████████████████████████████████████▍                         | 13/21 [00:02<00:01,  4.78it/s]
+ 30%|██████████████████▉                                            | 1503/5010 [22:43<53:01,  1.10it/s]
+ 19%|████████████▉                                                       | 4/21 [00:00<00:02,  5.81it/s]
+
+100%|███████████████████████████████████████████████████████████████████| 21/21 [00:04<00:00,  5.02it/s]
+ 10%|██████▍                                                             | 2/21 [00:00<00:02,  9.49it/s]
+
+
+100%|███████████████████████████████████████████████████████████████████| 21/21 [00:04<00:00,  4.99it/s]
+Test Results:
+Accuracy: 0.8273809523809523
+Precision: 0.7855774493705528
+Recall: 0.6049879147440123
+F1 Score: 0.578685955394816
+test_predictions_data: [['exclude_mo', '21_essay_tosanikki_20160903', 'やがて月の距離が現在の約１．５倍、公転・自転の周期が約４０日に成るたところで変化が止まると考えるられるて居るます。', 'ところ', 2, '時間', 3, '場所'], ['exclude_mo', '88_fiction_SAINT-EXUPERY-1943', '僕の住むで居るところでは、なんでもみんな小さいんだよ。', 'ところ', 3, '場所', 3, '場所'], ['exclude_mo', '80_diet_kaigiroku-12', '演説が終わるますたところで、動議に因る、国務大臣の演説に対する質疑は延期為る、来る三十日に行うことを決定為るて頂くます。', 'ところ', 2, '時間', 0, '逆接・譲歩'], ['exclude_mo', '35_aozora_Hisao-1939', 'なかなか、二人の娘のひきたて役ぐらいのところでは無いと思うれる。', 'ところ', 4, 'その他', 3, '場所'], ['exclude_mo', '162_fiction_munashisanoshotai', 'しかもそれを聞くたところで全く疑念は解消為るれるない。', 'ところ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '129_textbook_djg_advanced;page_142', 'この問題をいまさら議論為るたところで無意味です。', 'ところ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '59_aozora_Kishida-1950', 'これを即興と言うのだが、この即興の出来る訓練は劇を遣るうえに大切だ、人間だ有る以上、どんなだ覚えるたつもりでも忘れることが有る、どんなだ練習を為るても、とっさに手違いが出来ることも有るのだから、そこを、ただ良いかげんにごまかすのだは無い、劇の面白いさを減らすず様だ、そくざの機転で、巧みだ補うことは、これまた、劇の劇らしいところだ有る。', 'ところ', 4, 'その他', 3, '場所'], ['exclude_mo', '106_aozora_Hisao-1939', '三十を三つも越すて居るのに、なにを為るだも無いのらくらとこんなところで日を送るて居る。', 'ところ', 3, '場所', 3, '場所'], ['exclude_mo', '14_essay_tosanikki_20170401', 'タヒチでは、ゴーギャンの有名だ「我々はどこから来るたのか、我々は何者か、我々はどこへ行くのか」の複製画とともに、この題名を色々だところで目に為るますた。', 'ところ', 3, '場所', 3, '場所'], ['exclude_mo', '22_essay_tosanikki_20190202', '私の目には、晩年をオリオン座で過ごすと旅為るて来るた様だ見えるますが、もしさらに１００万年長生き為るたと為ると、オリオン座を通り過ぎるたところで漂泊の人生を終わることに成るます。', 'ところ', 3, '場所', 3, '場所'], ['exclude_mo', '53_essay_Hepburn_no_shoogai_to_nihongo2', '幕府は安政年間、条約国に対するて「既に踏絵の制度は廃するり」と声明を出すて居るたが、ヘボンが肥後出身者から聞くたところでは、その後も九州で実施為るれるて居るた。', 'ところ', 4, 'その他', 3, '場所'], ['exclude_mo', '10_essay_crossover27_IharaOct2015', '前回、ダ・ヴィンチの交通機関体系の創造に触れるたのも、船舶活用の可能性から水上交通を基軸に為るつつも、陸上、空中へのデザインを展開為るたモーティブフォースが大航海に有るたのだは無いかと推測為るたからです。', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '146_wikipedia_KYOTO_12;CLT_00005;218', 'ゆっくりと慎重だ音程を変更為るところから、具合を測るつつ物事を進めるさまを表わす。', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '480_textbook_djg_intermediate;page_543', 'たばこは体に良い無いと分かるつつなかなか止めるられるない。', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '782_whitepaper_shohi4_2018', '食育基本法（平成17年法律第63号）及び「第３次食育推進基本計画」（2016年３月食育推進会議決定）に基づく、関係府省等が連携為るつつ、家庭、学校、地域等に於くて国民運動と為るて食育を推進為るて居るます。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '812_whitepaper_shohi4_2018', '経済産業省では、2016年度、学識経験者、有識者、事業者、消費者団体、マスコミなど、幅広い関係者を構成員と為る、2030年頃の消費経済市場を見据えるつつ、消費者意識の変化、より一層の消費者理解やそれに伴う企業経営の有る方、消費者起点のイノベーション等につくて検討を行う「消費インテリジェンス研究会」を年度内に５回開催為る、2017年３月に報告書を取り纏めるますた。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '57_whitepaper_shohi4_2018', '消費者庁では、関係機関と連携為るつつ、特定商取引法の表示義務に違反為るて居るおそれの有る危険ドラッグの通信販売サイトに対する、適切だ措置を講ずるとともに、関係機関に対する情報提供を行う、消費者保護を十分だ確保為る様努めるて居るます。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '27_news_KAHOKU_184;K201406140A0T10XX00001', '東北大大学院工学研究科の風間基樹教授（地盤工学・地震工学）は「行政が作る防災マップを参考に為る、普段から地域の地形的特性を把握為るて、非常時の対策を考える必要が有る」と指摘為る。', 'つつ', 1, '同時進行', 0, '逆接・譲歩'], ['exclude_mo', '312_whitepaper_H28_kotsuanzen1', 'ア地域住民等の意見要望等を十分だ踏まえるつつ，駐車規制の点検・見直しを実施為るとともに，物流の必要性や自動二輪車の駐車需要等にも配慮為る，地域の交通実態等に応ずるた規制の緩和を行うなど，木目細かだ駐車規制を推進為るた。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '278_whitepaper_R1_gaiko_2', '安定的だ党・政権を運営為るためには、一定の経済成長を確保為るつつ国内外の各種課題に対応為る必要が有る、今後の経済財政政策の動向が注目為るれる。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '122_whitepaper_R2_bousai_5', 'この様だ状況に鑑みる、関係自治体の要望等も踏まえるつつ、この問題の終局的だ解決策が検討為るれる、与野党調整の結果、以下の7点を柱と為るて議員立法に因る災害弔慰金法が改正為るれるた（令和元年6月7日公布、8月1日施行）。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '46_diet_kaigiroku-11', '掛かる観点から、第一次石油危機から二十年を経るた今日、エネルギー政策全般の再構築を図る、地球環境問題の顕在化に対応為るつつ、エネルギーの安定的かつ効率的だ供給の確保に努めるて参るます。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '115_whitepaper_shohi4_2018', 'また、国民生活センターでは、人の生命・身体等に重大だ影響を及ぼす商品や品質・表示等に問題の有る商品につくて、消費者被害の救済や未然防止・拡大防止のために、消費者の使用実態を考慮為るつつ科学的だ信頼性の高い商品テストを実施為るて居るます。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '5_law_h15A119;4_1_1', 'この法律は、高度情報通信社会の進展に伴う個人情報の利用が著しい拡大為るて居ることに鑑みる、個人情報の適正だ取扱いに関する、基本理念及び政府に因る基本方針の作成その他の個人情報の保護に関する施策の基本と成る事項を定める、国及び地方公共団体の責務等を明らかだ為るとともに、個人情報を取り扱う事業者の遵守為るべし義務等を定めることに因る、個人情報の有用性に配慮為るつつ、個人の権利利益を保護為ることを目的と為る。', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '215_whitepaper_H28_kotsuanzen1', '社会資本整備重点計画に即するて，都道府県公安委員会及び道路管理者が連携為る，交通事故実態の調査・分析を行うつつ，重点的，効果的かつ効率的だ歩道や信号機の整備を始めと為るた交通安全施設等整備事業を推進為ることに因る，道路交通環境を改善為る，交通事故の防止と交通の円滑化を図るた。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '29_news_KAHOKU_513', '各地の伝説を受け止めるつつ、大嶽丸の姿を見詰める直すと南方の住民ら約２０人が集まるた。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '31_whitepaper_R1_gaiko_9', 'さらに、普天間飛行場の移設や在沖縄海兵隊約9，000人のグアム等への国外移転を始めと為る在日米軍再編につくても、在日米軍の抑止力を維持為るつつ、沖縄を始めと為る地元の負担を軽減為るため、日米で緊密だ連携為るて取り組むで来るて居る。', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '206_whitepaper_H28_kotsuanzen1', 'ウ道路の機能と沿道の土地利用を含めるた道路の利用実態との調和を図ることが交通の安全の確保に資することから，交通流の実態を踏まえるつつ，沿道からのアクセスを考慮為るた副道等の整備，植樹帯の設置，路上駐停車対策等を推進為るた。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '276_whitepaper_shohi3_2018', '第３期消費者基本計画では、消費者一人一人が、個々の消費者の特性や消費生活の多様性を相互に尊重為るつつ、自らの消費行動が将来の社会経済情勢や地球環境に影響を及ぼすことを自覚為る、公正だ持続可能だ社会の形成に積極的だ参画為る社会を目指すことが求めるられるて居るます。', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '19_essay_manabi72_Kuroda2015summer', '従うて、イスラームの理念性を念頭に置く、ムスリムたちの歴史は大いに可変的だ、事実、時代時代で否定為るがたい変容を被るて来るたことに注目為るべしだと思うます。', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '44_aozora_Koyama-1955-2', '始めるてその人の前に出るて二、三の受け答えを為るつつ、この人に見るて貰うのだなと言う感じを持つた。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '25_whitepaper_R1_gaiko_10', '人道支援と開発協力の連携を強化為るつつ、平和構築、難民等の支援、テロ・暴力的過激主義対策等の協力を通ずる、国際社会の平和と安定の実現に積極的だ貢献為る。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '479_textbook_djg_intermediate;page_543', '彼女は夫の無罪を信ずるつつ息を引き取るた。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '6_book_excerpt-26', 'やれやれどう為る、と思う居心地の良いバラナシを去る気にも成るず、汽車の切符を買う大変さを考えるてはやはり腰が上がるず、あと二、三日と思うつつずるずると居着くて仕舞うて居るたのだ。', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '516_essay_Hepburn_no_shoogai_to_nihongo2', 'Ｗ・Ｅ・グリフィスは、任期満了で帰国為るて以来、「Hepburn_of_Japan」を執筆為るつつ、ニューヨークやフィラデルフィアから、ヘボンにも、その弟スレーターにも、質問を寄せる続ける、しきりに「ヘボンを巡る人々」と文通為るて居るた。', 'つつ', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '90_fiction_sakurasakuanobashode', '修一は、出来るだけ元気だ声を出すながら玄関に入るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '507_aozora_Hori-1969', '私はちょっと意外だ問いに戸惑う為るながら、お前の方へ静かだ目を持つて行くた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '224_aozora_Akutagawa-1921', 'が、忽ち勇気を取り直すと、片手にナイフを握るながら、片手に妙子の襟髪を掴むで、ずるずる手もとへ引き寄せるますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '121_aozora_Akutagawa-1921', '遠藤はとうとう堪る兼ねて、火花の旋風に追うれるながら、転げる様だ外へ逃げ出すますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '91_aozora_Andersen-1967-1', '「良いかい、世の中って、こんなものだんだよ」と、アヒルの子供たちのおかあさんは、言うながら、自分も、くちばしをピチャピチャ遣るますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '762_aozora_Oda-1976-3', 'そして、おなかの子に障ることを忘れるて、傘も持つず、びしょ濡れの体をなお雨の鞭に任せるながら、うらぶれるて歩くて居るそんな芳子の姿を、グッドモーニングの銀ちゃんは人力車の上から見るた途端、はっと胸を突くれるて、同じ人力車に相乗り為るて居る坂野の手前がも為るないたと為るば、呼び止めるたい程の懐かしいさに痺れる、もはや芳子のあわれさは、芳子が持つて居るどんな女の嫌らしいさも、銀ちゃんの心から消すて仕舞うて居るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '767_whitepaper_R1_gaiko_2', '11月の日・ASEAN首脳会議では、安倍総理大臣から、2013年に約束為るた「5年で2兆円の対ASEAN支援」を上回る支援を実施為るたことに言及為るつつ、今後もASEANの一体性と中心性を尊重為るながら、民間投資を後押し為る、国際スタンダードだ則るた質の高いインフラを推進為ると発言為るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '68_aozora_Kobayashi-1929', 'その横に仰向けに引っ繰り返るて、林檎を食うながら、表紙のボロボロ為るた講談雑誌を見るて居るのが居るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '150_aozora_Oda-1976-3', '「芳ッちゃん、芳ッちゃんって、お安い言うないでよ」と、言うれるながら、京吉はしかし、ねえ、頼むよ、と、だんだん甘える様だ哀願的だ声に成るて居るた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '750_aozora_Oda-1976-1', 'そして男を利用為るながら、男を敵と考えるて来るた。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '38_aozora_Kaneko-1984', 'そう為るたとき母は従順だ父の衣類を壁の釘に掛けるたりなんか為るて居るたが、袂の中からお菓子の空袋や蜜柑の皮などを取り出すて、恨めしいそう-様態だ眺めるながら言うのだた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '403_fiction_sakurasakuanobashode', '修一は春の桜の匂いが交じるた風を感ずるながら呟くた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '77_aozora_Akutagawa-1922', 'トロッコは三人が乗り移ると同時に、蜜柑畑の匂（におい）を煽（あお）りながら、干るた辷（すべ）りに線路を走る出すた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '180_aozora_Yamakawa-1962-1', '遠い成るたその葬列との距離を縮めると言うのか、子供たちは芋畑の中に躍り込むと、歓声を上げるながら駆ける始めるた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '357_whitepaper_H28_kotsuanzen1', '児童が遊ぶながら交通知識等を体得出来る様だ各種の施設を設置為るた交通公園は，全国で開設為るれるて居る，一般の利用に供するれるて居る。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '66_whitepaper_H28_shinrinringyo2', 'これらの計画では、「全国森林計画」に即するつつ、地域の特性を踏まえるながら、森林の整備及び保全の目標並びに森林の区域（ゾーニング）及び伐採等の施業方法の考える方を提示為るて居る。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '370_textbook_djg_advanced;page_426', '外国に居るながらに為るて日本からの生のテレビ放送が見るられる様だ成るた。', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['exclude_mo', '112_aozora_Kaneko-1984', '叔母はそのうちの一つの櫛を取るて見回すながら行くた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '184_aozora_Miyazawa-1934', '一郎が箒を持つながら先生に聞くますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '507_aozora_Koyama-1955-1', '仔どもが揃うて互いに潜るっこを為るながら、メリーの乳房に取り付くて居るところは、なんとも言うず可愛い。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '7_essay_tosanikki_20190406', '私たちは地球の自転・公転運動に因るてらせんを描くながら太陽のまわりを疾走為るて居ることに成るます。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '276_fiction_mirai_e_no_okurimono', '俊也は彼女の名を叫ぶながら、警備員の目の前を通過為ると為るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '26_aozora_Oda-1976-3', 'だから、Ｄ堂の主人にからかうれるながら、いつまでも待つて居るた。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '99_fiction_kanojotachino_Christmas', '父が僅か《わずか》かながら生活費を送るて呉れるた。', 'ながら', 4, 'その他', 4, 'その他'], ['exclude_mo', '368_aozora_Hori-1969', '少ないともこのときお前はお前自身のことよりか私のことを、――それから私が打ちのめすれるながらじっとそれを耐えるて居る、見るにも見るかねる様だ様子を半ば気遣うながら、半ば苦々しい思うながら一人で想像為るて居るたことは考えるられる。', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['exclude_mo', '389_whitepaper_R1_gaiko_11', '2018年4月に開催為るれるた日本での会議は、日本政府、経済団体、関連企業等多方面から支援を得るながら11年ぶりに東京で開催為るれる、200人以上の方々が出席為るますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '616_aozora_Natsume-1908', '豚はぐうと言うながら、ころりと引っ繰り返るて、絶壁の下へ落ちるて行くた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '798_aozora_Oda-1976-2', '電話が掛かることを承知為るて居るながら、わざと「女の子」と出るて仕舞うなんて、ばかだ為るれるた様だ気が為るた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '826_fiction_onna_to_senso', '生き延びるた人々は飢えに苦しむで草を食べる、馬の足跡に溜まるた泥水をのみ、やぶ蚊や虱に悩ますれる、襲撃に継ぐ襲撃に怯えるながら終戦を知るずに逃避行を続けるた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '11_aozora_Hayakawa-1983', '上ることに決めるて有るながら寝坊を為るた惰性が、そのまま動作を鈍い為るて居るた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '773_fiction_onna_to_senso', '石光真清の記録『昿野の花』などに因ると、彼女たちは故国から捨てるられるた形で暮らすながら日本の軍事探偵に協力為る、彼女たちの齎すた情報は日露戦争に役立つたと言うれる。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '225_fiction_automatic-1', 'それを漠然と思い出すながら、朝田ハルキは声を張り上げるた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '448_aozora_Oda-1976-3', '「さんざん見せ付けるたのだ無いの。驕る代りに資本を出す為さるよ。ね。気を利くせるっぱなしだ、合うないわよ」と言う科白を用意為るながら、露子はわざわざ貴子と春隆を二人並ぶせるて、自分は別の座席へ遠慮為るたのだ有る。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '1117_aozora_Harada-1960', 'ドアの鍵を回すながら、「とうとうこれで！」と、妹は叫ぶた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '595_aozora_Hori-1969', '私はそう心のなかで、思うず母に呼び掛けるては、何遍もその手帳を中途で手放すと思うながら、やっぱり最後まで読むで仕舞うた。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '15_wikipedia_Sendai_City', '当地は、畿内に端を発する山道（後に東山道に再編）と海道（後に東海道に再編）とが合一為る唯一の地だ有る、その合一為るた街道は後年、奥大道や東街道と名称を変える同断層帯およびそれに続く高舘丘陵の東縁に沿うて南北に通る重要だ道と為るて存在為る続けるた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '758_aozora_Miyazawa-1934', '「おれそれであ、あの木の上がる落とすがらだ。」と一郎は言うながら崖の中ごろから出るて居るさいかちの木へするする上るて行くますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '205_aozora_Edogawa-1929', '頂上には、十人余りの見物が一かたまりに成るておっかない相だ顔を為るて、ボソボソ小声で囁くながら、品川の海の方を眺めるて居るますたが、兄はと見ると、それとは離れるた場所に、一人ぼっちで、遠眼鏡を目に当てるて、しきりと浅草の境内を眺め回すて居るますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '51_fiction_kemonofriends2_R2', 'キュルルは今更ながら思い出すのだた。', 'ながら', 4, 'その他', 4, 'その他'], ['exclude_mo', '785_textbook_purple_intermediate;page_237', '時々、後ろを振り返るながら、歩くた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '23_essay_tosanikki_20180707', 'もし探査ロボットに心が有るば、青い美しい輝く地球を眺めるながら何を考えるですか。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '205_aozora_Kobayashi-1929', '艦長を乗せるて仕舞うて、一人がタラップのおどり場からロープを外すながら、ちらっと艦長の方を見るて、低い声で言うた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '312_aozora_Hori-1969', '……その車が又埃を上げるながら立ち去るた後も、私たちは二人ともパラソルでその埃を避けるながら、何時までも黙るて草の中に立つて居るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '54_news_KAHOKU_82;K201402060A0T10XX00001', '多賀城市は、市域の３分の１が津波で浸水為る現地再建を決断為るた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '873_textbook_kisonihongo;page_159', '働くながらの勉学は困難を極めるた。', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['exclude_mo', '89_news_KAHOKU_34;K201404110A0T30XX00001', '窓の外を白いものがうねるながら、通り過ぎるますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '22_essay_tosanikki_20191102', 'ピーブルズ氏の受賞の報を聞くながら、ふとそんなことを考えるたのですた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '252_aozora_Oda-1976-3', 'なぜ付けるた――と、北山は昂奮に吃るながら、狂暴だ力で辛い子の肩を掴むで居るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '310_essay_Hepburn_no_shoogai_to_nihongo2', 'ミッションスクールを作る、孤児院や養老院の様だ社会活動に心血を注ぐ、活躍為る者たちを頼もしい眺めるながら、ヘボンは体の故障に悲鳴を上げるて居るた。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '545_whitepaper_H26_kodomowakamono2', '第1回の懇談会には，安倍総理大臣が出席為る，壁にぶつかるた経験が有る若者などをしっかり生かすて行く，全員が参加為ることに因るて日本は活力を取り戻すて行くことが出来ること，「再チャレンジ懇談会」での意見を踏まえるながら関連施策の推進に努めるて行くたい旨の発言が成すれるた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '309_aozora_Hori-1969', 'その間私は何か切ない様だ夢を見るながら、それから覚めるたいのだが、いつまでもそれが続くて居るて覚めるられるない様だ気さえ為るて居るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '382_fiction_sakurasakuanobashode', '修一はその声を聞くながら部屋を出るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '834_aozora_Umezaki-1966', '香のにおいを強い感ずるながら眼を瞑るて手を合わせるた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '549_aozora_Hori-1969', '心と心とはいつか自分自分の奥深いに引っ込めるますて仕舞うながら……', 'ながら', 4, 'その他', 4, 'その他'], ['exclude_mo', '100_aozora_Mori-1912', '主人はどっしり為るた体だ、胡坐を掻くて、ちびりちびり酒を飲むながら、小川の表情を、睫毛の動くのをも見る逃すない様だ見るて居る。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '6_essay_manabi28_Kijima2004summer', '私たちの身近だ有るながらあまり研究為るれるて居るない動物だのです。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '551_aozora_Umezaki-1966', 'ふらふら立つながら、雨戸を明け放つた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '127_fiction_mirai_e_no_okurimono', '書架をぐるっと見渡すながら、カフェコーナーに立ち寄るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '860_whitepaper_H27_akita_kankyo1', 'なお、一般廃棄物の保管や収集運搬、処分に掛かる行政処分は市町村の権限と成るて居るますが、県でも協力・連携為るながら適正処理の確保に努めるて居るます。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '11_aozora_Hitomi-1929', 'しかし原稿の出来上がるて行くに連れるてもうわたしはさっきまでの様だ元気も、若々しいさも無くなるてグラウンドのトラックを疾走為るながら世界記録を破るなんてことの出来るない人間に成るのみだは無いか、外国の競技場で邦人の歓呼を受けることももう出来るない成るんだと競技場に活躍為る自分の姿を自分の目に浮かぶせるのだ有るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '599_aozora_Hori-1969', 'ただそのときの丸木の腰かけだけが半ば壊れるながらまだ元の場所に残るて居るた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '148_whitepaper_H28_kotsuanzen1', '地域の協力を得るながら，通学路，生活道路，市街地の幹線道路等に於くて，歩道を整備為るなど，「人」の視点に立つた交通安全対策を推進為るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '6_news_KAHOKU_303;K201401010W5XP4XX00001', '東北に拠点を置くながら、全国的だ活躍為る３人の文化人、アーティストに、故郷への熱い思いや、その魅力を語るて貰うた。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '1029_aozora_Harada-1960', '妹が慣れるた手つきでベッドのふとんや枕を高い飛ばすながら寝具の用意を整えるのが見えるた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '591_bible_ot;b.NUM.16.30', 'しかし、主が新しい事を為るれる、地が口を開くて、これらの人々と、それに属する者とを、ことごとくのみ尽くすて、生きるながら陰府に下るせるられるだば、あなたがたはこれらの人々が、主を侮るたのだ有ることを知るないば成るない」。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '694_aozora_Andersen-1967-2', 'それでも、お姫さまは、ほほえみを浮かべるながら、踊る続けるのですた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '301_aozora_Doyle-1892', '学が有るながら運命の手に翻弄為るれるて来るた男、と言う印象を全体から感ずる。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '476_fiction_munashisanoshotai', '1人で返るながらそのことに気付くて仕舞うた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '375_aozora_Miyazawa-1934', '悦治がそれを潜ると為るますと、嘉助が、「おら凝るたなもの外すたぞ。」と言うながら片っぽうのはじを抜くて下に下ろすますたのだみんなはそれを跳ね越えるて中に入るますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '117_aozora_Miyamoto-1925', '五十銭で買うて貰うた釣竿を持つ、小さいなつめ形の顔の上に途方も無い大きい海水帽を被る――その鍔をフワフワ風に煽るせるながら、勇壮だ釣に出掛ける。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '15_essay_crossover28_Ihara2016', '地球中心説では当然ながら惑星の横転周期と言う概念は有るますずが、コペルニクスの理論では会合周期の観測に因るて太陽と地球の距離を1と為るて、各惑星軌道半径が求めるられることに成るますた。', 'ながら', 4, 'その他', 4, 'その他'], ['exclude_mo', '200_whitepaper_R1_gaiko_12', '欧米で日本マンガやアニメ文化がまだ殆ど認識為るれるて居るない当時、手塚先生はマンガの右開く形式や言葉の「壁」に触れる、アニメこそが「国際性に富むで居る素晴らしい親善大使」だと主張為る、アニメで日本マンガの体質に馴染むた人々は、マンガもきっと見る様だ成る、と考えるて居るますた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '188_aozora_Kobayashi-1929', '「一寸言うて置く」監督が土方の棒頭の様だ頑丈だ身体だ、片足を寝床の仕切りの上に掛けるて、楊子で口をモグモグ為るせるながら、時々歯に挟まるたものを、トットッと飛ばすて、口を切るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '218_aozora_Hayashida-2015', '「ええ、そうです」と微笑むながら答えるた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '34_aozora_Togawa-1937-3', '和尚は御経を読むながら、そこにただ独り座るて居るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '166_bible_nt;b.JOH.3.10', '「あなたはイスラエルの教師だ有るながら、これぐらいのことが分かるないのか。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '14_aozora_Miyazawa-1924', 'はじめの紳士は、すこし顔いろを悪い為るて、じっと、もひとりの紳士の、顔つきを見るながら言うますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '1074_aozora_Harada-1960', '妹は泣くながら激しい手を振るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '3_fiction_mirai_e_no_okurimono', '21世紀に発明為るれるたAIが第5世代に入る、人は生まれるながらに為るて脳にチップを埋めるられるた。', 'ながら', 4, 'その他', 1, '同時進行'], ['exclude_mo', '22_aozora_Kunieda-1925', 'おりから一人の老人がひしと胸の辺を抱くながら追うれるた様だ走るて来るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '20_aozora_Hori-1969', 'それがどんなものか分かるないながら、どうやらそれらしいと感ずるられるものが有る。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '501_aozora_Hori-1969', '私は思うず生き生き為るた微笑を為るながら黙るて居るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '315_whitepaper_R1_gaiko_9', 'この様だ状況の下、核軍縮を進めるて行くためには、核兵器国の協力を得るながら現実的かつ実践的だ取組を粘り強い進めるて行く必要が有る。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '124_aozora_Akutagawa-1922', '彼は左に海を感ずるながら、急だ坂路（さかみち）を駈（か）け上るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '66_whitepaper_H20_kokuminseikatsu2', '幸福度に関する分析に因るて、統計学的だ、ストレスが無い人は有る人より幸福だ有ると言うことが分かるたが、現代社会はストレス社会とも言うれる様だ、多くの人がストレスに晒すれるながら生活を送るて居る。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '319_fiction_sakurasakuanobashode', '朝御飯が終わる、かたづけを手伝うながら修一は言うた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '256_aozora_Miyazawa-1934', '為るとかよは立つて来るて、「兄だ、兄だの木ペンはきのう小屋だ無い為るて仕舞うたけなあ。寄越すったら。」と言うながら一生懸命取り返すと為るますたが、どう為るてももう佐太郎は机にくっ付くた大きな蟹の化石みたいだ成るて居るのだ、とうとうかよは立つたまま口を大きい曲げるて泣く出すそう-様態だ成るますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '236_aozora_Akutagawa-1921', '遠藤は殆ど気違いの様だ、妙子の名前を呼び掛けるながら、全身の力を肩に集めるて、何度も入口の戸へぶつかるますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '21_essay_tosanikki_20180804', 'その間、何度も地球に接近為る、ニアミスを繰り返すながら、長い旅路の果てについに地球（南極大陸）に辿り着くたのです。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '70_aozora_Dazai-1-1940', '家の西北の隅に、異様だ醜怪の、不浄のものが、とぐろを巻くて潜むで有る様だ、机に向かうて仕事を為るて居る、どうも、潔白の精進が、出来るない様だ不安だ、うしろ髪挽くれる思いだ、遣る切るないのだ有る。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '237_fiction_mirai_e_no_okurimono', '――途中、走るながらモバイルフォンを素早い鞄から取り出すた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '426_aozora_Oda-1976-3', '眼の中のコロコロと為るた痛みを我慢為るながら、一方で女の手の触感を楽しむなんて、思うば割れるながら吹き出すたい成る様だものだたが、もともと気の進むず旅行だ、それぐらいは為るても良いだと、春隆は思うたのだ有る。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '352_aozora_Sakaguchi-1947', 'リヤカーは路地の角々にぶつかるながら立ち去るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '45_aozora_Perrault-1950', '行くないと言うものは、とかく見るたいのが、人間のくせですから、そのうちいよいよ、がまんが為る切るない成るて来ると、この奥（置く）がたは、もうお客に対するて、失礼（しつれい）のなんのと言うことを、思うては居るられるない成るて、ひとりそっと裏（うら）ばしごを下りるて、二ども三ども、首の骨が居るたかと思うほど、激しい、柱や梁（はり）にぶつかるながら、夢中だ駆け出すて行くますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '88_aozora_Joyce-1914', 'と言うのもいつものことながら一週間分のタバコのしみが付くて黒い成るた赤いハンカチで落ちるた粒を払い除けると為るてもまったく効果が無いたからだ。', 'ながら', 4, 'その他', 4, 'その他'], ['exclude_mo', '102_aozora_Hori-1969', 'そう言うれるながら、絶えるずその暗い成るた空を気に為さるて居るた。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '1225_aozora_Harada-1960', '三人は座席にゆっくりと持つれるながら、未来の見込みをあれこれと相談為る合うた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '576_aozora_Hori-1969', '――それよりか、お前の顔を見るてから、こちらが自分をすっかり無くすて、なんの心用意も為るずにお前に立ち向かうながら、その場で自分に浮かぶで来ることをそのまま言うた方がお前の心を動かすことが言うのだは無いかと考えるた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '142_aozora_Yamakawa-1962-1', '彼は、胸に湧き上がるものを、懸命だ冷静だ押さえ付けるながら思うた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '499_bible_ot;b.NUM.14.23', 'わたしの栄光と、わたしがエジプトと荒野で行くたしるしを見るながら、この様だ十度もわたしを試みるて、わたしの声に聞く従うないた人々はひとりも、わたしがかつて彼らの先祖たちに与えると誓うた地を見るないだ有る。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '130_aozora_Oda-1976-2', '女と関係為るながら、恋だけはもっと素晴らしい女と為るんだと夢を抱くて来るたのだ。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '386_aozora_Hori-1969', '私の好むで行くた山よりの落葉松林は、ときおり林の切れ目から薄赤い穂を出すた芒の向うに浅間の鮮やかだ山肌を覗くせるながら、何処までも真直に続くて居るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '204_aozora_Doyle-1905', 'レストレイドは、この注目為るべし解説を聞くながら、2、3度、眉を吊り上げるたが、ここでようやく口を開くた。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '568_aozora_Umezaki-1966', '私は不味い莨を吹かすながら、煙が空気の中に消えるて行くのをじっと見るて居るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '652_whitepaper_shohi4_2018', 'また、消費者庁に於くて推進会議の意見を聞くながら、関係府省庁と連携為るつつ、高校生向け消費者教育教材「社会への扉」を2017年３月までに作成為る、４月以降に配布を開始為るますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '16_aozora_Chiri-1955-7', '北見の美幌では、この“きのこ”を見付けると、熊を取るた時の様だ、男は「フォー、フォー」と高らかだときの声を上げるながらその廻りを踏舞為る、女は「オノンノ、オノンノ」と歌うながら踊るたと言うことだ有るます。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '10_book_excerpt-19', '六畳一間ながら一戸建てのあの借家は最初から今度こそは期待の持つそう-様態だ話だたが、その時も三村だけが紹介者の知人に連れるられるて見るに行くたのだた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '370_fiction_sakurasakuanobashode', 'そう言うながら、大家さんは立ち上がる。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '259_aozora_Hori-1969', 'が、そう為るていつまでもう付けるた様だ、微かだ揺れ動くて居る梢を見上げるて居ると、いきなり私の眼の前に、蜘蛛が長い糸を引く-他動詞ながら落ちるて来るて、私をびっくり為るせるたり為るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '366_whitepaper_H28_shinrinringyo2', '松くい虫被害の拡大を防止為るため、林野庁では都府県と連携為るながら、公益的機能の高いマツ林等を対象と為るて、薬剤散布や樹幹注入等の予防対策と被害木の伐倒くん蒸等の駆除対策を合わせるて実施為るて居る。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '229_whitepaper_H28_shinrinringyo1', '近年に於くては、プログラマーやデザイナーがチームを組む、特定のテーマに対するてアイデアを出し合うながら集中的だアプリケーションやサービスを形成為るて行く、その内容を競うイベントだ有るハッカソンにつくて、近年、林業の技術開発をテーマと為るて開催為るれる機会も見るられる（事例I－６）。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '185_fiction_munashisanoshotai', '携帯を手に考えるながら、彼のベッドの上にぴったり寄り添うて座るて居るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '14_news_KAHOKU_34;K201404110A0T30XX00001', '「避難所に愛犬を連れるて行くか」などの災害時に想定為るれる課題に対する、参加者は「ＹＥＳ」「ＮＯ」のカードで自らの考えを決めるた後、意見を交わすながら、より良い解決方法を探るた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '997_whitepaper_shohi4_2018', 'これに伴う、個人情報の保護と効果的だ活用のバランスを図るながら、個人情報の適正だ取扱いを確保為るため、各主務大臣が行使為るて居るた監督権限を個人情報保護委員会が一元的だ所掌為ることと成るますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '220_aozora_Oda-1976-3', '人々は彼等の傍を通り抜けるながら、ふと優越的だ気持が同情に先立つらしい、蔑むの眼をちらと投げるて行くたが、北山の眼はそんな旅行者が羨ましい眼付だた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '191_wikipedia_Audrey_Hepburn', '歌唱部分が全く別の声質を持つ他の女優に吹き替えるられるたことにつくて質問為るれるたヘプバーンは、不快感を露に為るて「よくもそんなことを聞くものですね。確かだレックスは演技を為るながら、同時に歌の録音も熟すて居るますたが･･････次の機会には」と答える、唇を噛み締めるてそれ以上は何も口に為ることは無いた。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['exclude_mo', '49_aozora_Chiri-1955-7', '最初にこのぼろの着物を身に付けるた東風の神が、舞うながら祭場に出るて来るます。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '854_aozora_Oda-1976-3', '女の体は十六の歳から知るて居るながら、恋は一度も為るないた京吉に取るて、ただ一人密かだ陽子へ抱くて居る懐かしいさは、もはや恋心と言うても良いた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '508_aozora_Andersen-1967-2', 'まだ、お日さまの上るないころ、人魚のお姫さまは、王子のお城を見上げるながら、立派だ大理石の階段の上に上るますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '44_whitepaper_R1_gaiko_10', '日本は責任有る大国と為るて、引き続く国際協力事業関係者の安全を確保為るながら、国際社会の平和と安定及び繁栄に積極的だ貢献為るて行く。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '17_news_KAHOKU_67;K201407100A0KI0XX00001', '明け方、定宿の女将さんに起こすれるて雪景色を目に為ると、土門は助手に背負うれるながら夢中だシャッターを切るますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '666_aozora_Miyazawa-1934', '為ると耕助は恨めしいそう-様態だしばらく黙るて三郎の顔を見るながら、「うあい又三郎、汝などあ世界に無いても良いなあ。」', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '106_news_KAHOKU_85', '小中高生は、体が出来る基礎と成る時期だのだ、補助食品なども活用為るながら、バランスの取れるた食事を心掛けるて欲しい」', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '789_whitepaper_R1_gaiko_9', '年次総会に主賓と為るて出席為るた河野外務大臣及び山下法務大臣は、AALCOが国際法の発展に於くて貢献為るて来るたことを振り返るながら、日本がAALCO設立以来積極的だ関与為るて来るたことを述べるますた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '528_aozora_Oda-1976-3', '章三はその女の顔をじっと見詰めるながら、そう思うた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '330_whitepaper_H28_shinrinringyo1', 'この様だ不安を払拭為るて行くためには、実証試験で得るられるた結果等に基づくた知見を有する行政機関、国立研究開発法人森林総合研究所や都道府県の林業試験場等の研究機関、業界団体が連携為るながら林業事業体等に対する普及指導に取り組むで行く必要が有る。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '25_whitepaper_H27_akita_kankyo1', '新ただ計画では、「省エネルギー対策」と「再生可能エネルギー等の導入」を２本柱と為るながら、「循環型社会の形成（廃棄物の抑制等）」や「環境価値の創出とカーボンオフセットの普及」など、８つの分野に於くて総合的だ対策を進めることと為るて居るます。', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['exclude_mo', '27_aozora_Chiri-1956-2', 'アイヌ語の研究などは、世に顧みるられるない寂しい道だのだ有るますが、同じくこのアイヌ語研究の部門に属するながら多くの研究家とファンを抱えるて、いつも賑やかだ店先の繁昌為るて居るのが、この地名研究の部門だ有るます。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '82_whitepaper_H28_shinrinringyo1', 'その一方、主伐後の再造林の事業量が増加為るて行く中、「伐採と造林の一貫作業システム」に因る効率化を図るながら年間を通ずるて再造林を実施為るて行くためには、植栽適期を拡大為るて行くための技術が必要と成る。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '46_fiction_automatic-1', '背中を丸めるながら、裏通りを当ても無い前方に進む続けるた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '96_news_KAHOKU_34;K201404110A0T30XX00001', '気が付くと、がれきに囲むれる息が出来る状態ですた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['exclude_mo', '693_fiction_sakurasakuanobashode', '不意だ開くた扉の方を向くながら発するた言葉が思うず、裏返るて仕舞う修一。', 'ながら', 1, '同時進行', 1, '同時進行'], ['exclude_mo', '85_aozora_Miyamoto-1925', '私は困るたと思うながら、それなり祖母の埋骨式に旅立つたのだ有るた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩']]
+test_predictions_table:     experiment type                                        id  ... predicted_label predicted_label_text
+0        exclude_mo               21_essay_tosanikki_20160903  ...               3                   場所
+1        exclude_mo             88_fiction_SAINT-EXUPERY-1943  ...               3                   場所
+2        exclude_mo                      80_diet_kaigiroku-12  ...               0                逆接・譲歩
+3        exclude_mo                      35_aozora_Hisao-1939  ...               3                   場所
+4        exclude_mo             162_fiction_munashisanoshotai  ...               0                逆接・譲歩
+..              ...                                       ...  ...             ...                  ...
+163      exclude_mo          82_whitepaper_H28_shinrinringyo1  ...               1                 同時進行
+164      exclude_mo                    46_fiction_automatic-1  ...               1                 同時進行
+165      exclude_mo  96_news_KAHOKU_34;K201404110A0T30XX00001  ...               0                逆接・譲歩
+166      exclude_mo          693_fiction_sakurasakuanobashode  ...               1                 同時進行
+167      exclude_mo                   85_aozora_Miyamoto-1925  ...               0                逆接・譲歩
+[168 rows x 8 columns]
+connective_table:   experiment_type connective  accuracy  precision    recall        f1
+0      exclude_mo        ところ  0.545455   0.583333  0.500000  0.366667
+1      exclude_mo         つつ  0.750000   0.750000  0.656250  0.666667
+2      exclude_mo        ながら  0.864662   0.895369  0.754451  0.809334
+test_dataset.exclude_count in exclude_mo: 16
+test_dataset.negation_position_dict: {'arg1': 0, 'arg2': 0}

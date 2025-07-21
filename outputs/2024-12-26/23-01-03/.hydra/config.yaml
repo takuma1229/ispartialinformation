@@ -1,0 +1,11 @@
+model_name: ???
+experiment_type: normal
+is_debug: true
+num_labels: 5
+training:
+  batch_size: 8
+  epochs: 1
+  weight_decay: 0.01
+evaluation:
+  metric_average: macro
+  zero_division: np.nan

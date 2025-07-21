@@ -1,0 +1,732 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at tohoku-nlp/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[34m[1mwandb[39m[22m: [33mWARNING[39m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+input_text: [CLS] また 両岸 数十 メートル の 絶壁 で 、 岸壁 間 に 大 丸太 を 横 に 渡し 、 その 上 に 中 丸太 三 本 を たて に のせ て 、 長い 橋 を かけ 、 下 は 激流 が 白 アワ を ふい て 流れ 、 目 も くらむ よう な で あり くが も 、 この 黒 虎毛 は 平気 な 顔 を し て 、 軽く 渡っ て 歩く の に は これ また 驚き まし た 。 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 僕 は あなた が 、 僕 の 知ら ぬ で あ りく が 僕 の 知ら ぬ こと を し て いる と 思う と 、 いらいら し て 居 て も 立っ て も い られ なく なる 」 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 余事 は さておき 、 私 は この 問 に 対し て 、 「 それ は なん で も ない こと だ 、 将棋 さし が 詰 将棋 の 手 を 考える の と 同じ こと だ 、 木村 名人 が 生涯 に 三百 題 の 詰 将棋 を 考え た で あ りく が 、 少し の 不思議 も ない で は ない か 」 ― ― と 。 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] また 、 この ストーリー が 正しけれ ば 、 生産 に おけ る 企業 間 分業 体制 が より 重要 な 産業 や 地域 に おい て 、 より 企業 間 の つながり が 重要 で ある こと が 予想 さ れ ます が 、 実際 に そう いう で あ りく が 中心 性 、 つまり 企業 の つながり の 果たす 役割 が より 強い こと など が わかり まし た 。 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 「 まだ 何 と も 言い がたい で あ りく が ね 、 ワトスン くん 。 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+  0%|▍                                                                                                                                                  | 14/5010 [00:04<25:47,  3.23it/s]
+
+  0%|▌                                                                                                                                                  | 20/5010 [00:06<25:44,  3.23it/s]
+
+
+  1%|▉                                                                                                                                                  | 33/5010 [00:10<25:40,  3.23it/s]
+
+  1%|█▏                                                                                                                                                 | 40/5010 [00:12<25:38,  3.23it/s]
+
+
+  1%|█▌                                                                                                                                                 | 53/5010 [00:16<25:44,  3.21it/s]
+
+  1%|█▋                                                                                                                                                 | 59/5010 [00:18<25:37,  3.22it/s]
+
+
+  1%|██                                                                                                                                                 | 72/5010 [00:22<25:35,  3.22it/s]
+
+
+  2%|██▍                                                                                                                                                | 85/5010 [00:26<25:30,  3.22it/s]
+
+  2%|██▋                                                                                                                                                | 90/5010 [00:28<25:29,  3.22it/s]
+
+
+  2%|███                                                                                                                                               | 104/5010 [00:32<25:28,  3.21it/s]
+
+  2%|███▏                                                                                                                                              | 111/5010 [00:34<25:22,  3.22it/s]
+
+
+  2%|███▌                                                                                                                                              | 123/5010 [00:38<25:22,  3.21it/s]
+
+  3%|███▊                                                                                                                                              | 130/5010 [00:40<25:18,  3.21it/s]
+
+
+  3%|████▏                                                                                                                                             | 143/5010 [00:44<25:15,  3.21it/s]
+
+  3%|████▎                                                                                                                                             | 149/5010 [00:46<25:12,  3.21it/s]
+
+
+  3%|████▋                                                                                                                                             | 162/5010 [00:50<25:11,  3.21it/s]
+  3%|████▊                                                                                                                                             | 167/5010 [00:52<24:14,  3.33it/s]
+
+
+
+
+
+
+
+
+
+ 90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊              | 19/21 [00:01<00:00, 11.29it/s]
+
+{'eval_loss': 0.707094669342041, 'eval_accuracy': 0.7784431137724551, 'eval_precision': 0.6941176470588235, 'eval_recall': 0.2625, 'eval_f1': 0.2594104308390023, 'eval_runtime': 1.8731, 'eval_samples_per_second': 89.159, 'eval_steps_per_second': 11.212, 'epoch': 1.0}
+
+
+  4%|█████▎                                                                                                                                            | 183/5010 [01:16<27:19,  2.94it/s]
+
+  4%|█████▌                                                                                                                                            | 189/5010 [01:18<25:18,  3.18it/s]
+
+
+  4%|█████▉                                                                                                                                            | 202/5010 [01:22<25:03,  3.20it/s]
+
+
+  4%|██████▎                                                                                                                                           | 215/5010 [01:26<24:59,  3.20it/s]
+
+  4%|██████▍                                                                                                                                           | 221/5010 [01:28<24:53,  3.21it/s]
+
+
+  5%|██████▊                                                                                                                                           | 234/5010 [01:32<24:49,  3.21it/s]
+
+  5%|███████                                                                                                                                           | 241/5010 [01:34<24:49,  3.20it/s]
+
+
+  5%|███████▎                                                                                                                                          | 253/5010 [01:38<24:39,  3.22it/s]
+
+  5%|███████▌                                                                                                                                          | 260/5010 [01:40<24:43,  3.20it/s]
+
+
+  5%|███████▉                                                                                                                                          | 273/5010 [01:44<24:40,  3.20it/s]
+
+
+  6%|████████▎                                                                                                                                         | 285/5010 [01:48<24:33,  3.21it/s]
+
+  6%|████████▌                                                                                                                                         | 292/5010 [01:50<24:30,  3.21it/s]
+
+
+  6%|████████▉                                                                                                                                         | 305/5010 [01:54<24:28,  3.20it/s]
+
+  6%|█████████                                                                                                                                         | 311/5010 [01:56<24:22,  3.21it/s]
+
+
+  6%|█████████▍                                                                                                                                        | 324/5010 [02:00<24:20,  3.21it/s]
+
+  7%|█████████▌                                                                                                                                        | 330/5010 [02:02<24:21,  3.20it/s]
+  7%|█████████▋                                                                                                                                        | 334/5010 [02:03<23:24,  3.33it/s]
+
+
+
+
+
+
+
+
+  0%|                                                                                                                                                              | 0/21 [00:00<?, ?it/s]
+
+
+  7%|██████████                                                                                                                                        | 345/5010 [02:26<37:08,  2.09it/s]
+
+  7%|██████████▏                                                                                                                                       | 351/5010 [02:28<25:45,  3.01it/s]
+
+
+  7%|██████████▌                                                                                                                                       | 364/5010 [02:32<24:07,  3.21it/s]
+
+  7%|██████████▊                                                                                                                                       | 370/5010 [02:34<24:08,  3.20it/s]
+
+
+  8%|███████████▏                                                                                                                                      | 383/5010 [02:38<24:05,  3.20it/s]
+
+  8%|███████████▎                                                                                                                                      | 390/5010 [02:40<24:01,  3.20it/s]
+
+
+  8%|███████████▋                                                                                                                                      | 402/5010 [02:44<23:59,  3.20it/s]
+
+
+  8%|████████████                                                                                                                                      | 415/5010 [02:48<23:56,  3.20it/s]
+
+  8%|████████████▎                                                                                                                                     | 422/5010 [02:50<23:49,  3.21it/s]
+
+
+  9%|████████████▋                                                                                                                                     | 435/5010 [02:54<23:46,  3.21it/s]
+
+  9%|████████████▊                                                                                                                                     | 441/5010 [02:56<23:46,  3.20it/s]
+
+
+  9%|█████████████▏                                                                                                                                    | 454/5010 [03:00<23:43,  3.20it/s]
+
+  9%|█████████████▍                                                                                                                                    | 460/5010 [03:02<23:37,  3.21it/s]
+
+
+  9%|█████████████▊                                                                                                                                    | 473/5010 [03:06<23:36,  3.20it/s]
+
+ 10%|█████████████▉                                                                                                                                    | 479/5010 [03:08<23:34,  3.20it/s]
+
+
+ 10%|██████████████▎                                                                                                                                   | 492/5010 [03:12<23:30,  3.20it/s]
+
+ 10%|██████████████▌                                                                                                                                   | 501/5010 [03:15<22:33,  3.33it/s]
+  9%|█████████████▎                                                                                                                                      | 15/167 [00:01<00:13, 11.33it/s]
+
+
+
+
+
+
+
+
+
+ 33%|██████████████████████████████████████████████████                                                                                                    | 7/21 [00:00<00:01, 12.42it/s]
+
+
+ 10%|██████████████▉                                                                                                                                   | 513/5010 [03:38<32:05,  2.34it/s]
+
+
+ 10%|███████████████▎                                                                                                                                  | 526/5010 [03:42<23:26,  3.19it/s]
+
+ 11%|███████████████▌                                                                                                                                  | 532/5010 [03:44<23:19,  3.20it/s]
+
+
+ 11%|███████████████▉                                                                                                                                  | 545/5010 [03:48<23:14,  3.20it/s]
+
+ 11%|████████████████                                                                                                                                  | 552/5010 [03:50<23:09,  3.21it/s]
+
+
+ 11%|████████████████▍                                                                                                                                 | 564/5010 [03:54<23:07,  3.20it/s]
+
+ 11%|████████████████▋                                                                                                                                 | 571/5010 [03:56<23:04,  3.21it/s]
+
+
+ 12%|█████████████████                                                                                                                                 | 584/5010 [04:00<23:00,  3.21it/s]
+
+ 12%|█████████████████▏                                                                                                                                | 590/5010 [04:02<23:01,  3.20it/s]
+
+
+ 12%|█████████████████▌                                                                                                                                | 603/5010 [04:06<22:56,  3.20it/s]
+
+
+ 12%|█████████████████▉                                                                                                                                | 616/5010 [04:10<22:51,  3.20it/s]
+
+ 12%|██████████████████▏                                                                                                                               | 622/5010 [04:12<22:47,  3.21it/s]
+
+
+ 13%|██████████████████▌                                                                                                                               | 635/5010 [04:16<22:44,  3.21it/s]
+
+ 13%|██████████████████▋                                                                                                                               | 641/5010 [04:18<22:42,  3.21it/s]
+
+
+ 13%|███████████████████                                                                                                                               | 654/5010 [04:22<22:40,  3.20it/s]
+
+ 13%|███████████████████▎                                                                                                                              | 661/5010 [04:24<22:38,  3.20it/s]
+
+ 13%|███████████████████▍                                                                                                                              | 668/5010 [04:26<21:45,  3.33it/s]
+
+
+
+
+
+
+
+
+
+ 52%|██████████████████████████████████████████████████████████████████████████████                                                                       | 11/21 [00:00<00:00, 11.63it/s]
+
+ 13%|███████████████████▍                                                                                                                            | 675/5010 [04:48<1:12:29,  1.00s/it]
+
+ 14%|███████████████████▊                                                                                                                              | 681/5010 [04:50<28:27,  2.54it/s]
+
+
+ 14%|████████████████████▏                                                                                                                             | 694/5010 [04:54<22:31,  3.19it/s]
+
+ 14%|████████████████████▍                                                                                                                             | 701/5010 [04:56<22:22,  3.21it/s]
+
+
+ 14%|████████████████████▊                                                                                                                             | 713/5010 [05:00<22:17,  3.21it/s]
+
+ 14%|████████████████████▉                                                                                                                             | 720/5010 [05:02<22:17,  3.21it/s]
+
+
+ 15%|█████████████████████▎                                                                                                                            | 733/5010 [05:06<22:14,  3.21it/s]
+
+
+ 15%|█████████████████████▋                                                                                                                            | 745/5010 [05:10<22:11,  3.20it/s]
+
+ 15%|█████████████████████▉                                                                                                                            | 752/5010 [05:12<22:06,  3.21it/s]
+
+
+ 15%|██████████████████████▎                                                                                                                           | 765/5010 [05:16<22:06,  3.20it/s]
+
+ 15%|██████████████████████▍                                                                                                                           | 771/5010 [05:18<22:04,  3.20it/s]
+
+
+ 16%|██████████████████████▊                                                                                                                           | 784/5010 [05:22<21:58,  3.20it/s]
+
+ 16%|███████████████████████                                                                                                                           | 790/5010 [05:24<21:55,  3.21it/s]
+
+
+ 16%|███████████████████████▍                                                                                                                          | 803/5010 [05:28<21:52,  3.21it/s]
+
+
+ 16%|███████████████████████▊                                                                                                                          | 816/5010 [05:32<21:48,  3.21it/s]
+
+ 16%|███████████████████████▉                                                                                                                          | 822/5010 [05:34<21:46,  3.21it/s]
+
+ 17%|████████████████████████▎                                                                                                                         | 835/5010 [05:38<20:50,  3.34it/s]
+  2%|██▋                                                                                                                                                  | 3/167 [00:00<00:09, 16.79it/s]
+
+
+
+
+
+
+
+
+
+
+ 71%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                          | 15/21 [00:01<00:00, 11.37it/s]
+
+ 17%|████████████████████████▌                                                                                                                         | 843/5010 [06:00<55:15,  1.26it/s]
+
+
+ 17%|████████████████████████▉                                                                                                                         | 856/5010 [06:04<21:55,  3.16it/s]
+
+ 17%|█████████████████████████                                                                                                                         | 862/5010 [06:06<21:39,  3.19it/s]
+
+
+ 17%|█████████████████████████▍                                                                                                                        | 875/5010 [06:10<21:31,  3.20it/s]
+
+ 18%|█████████████████████████▋                                                                                                                        | 882/5010 [06:12<21:25,  3.21it/s]
+
+
+ 18%|██████████████████████████                                                                                                                        | 895/5010 [06:16<21:22,  3.21it/s]
+
+ 18%|██████████████████████████▎                                                                                                                       | 901/5010 [06:18<21:22,  3.20it/s]
+
+
+ 18%|██████████████████████████▋                                                                                                                       | 914/5010 [06:22<21:17,  3.21it/s]
+
+ 18%|██████████████████████████▊                                                                                                                       | 920/5010 [06:24<21:13,  3.21it/s]
+
+
+ 19%|███████████████████████████▏                                                                                                                      | 933/5010 [06:28<21:11,  3.21it/s]
+
+
+ 19%|███████████████████████████▌                                                                                                                      | 946/5010 [06:32<21:08,  3.20it/s]
+
+ 19%|███████████████████████████▋                                                                                                                      | 952/5010 [06:34<21:05,  3.21it/s]
+
+
+ 19%|████████████████████████████                                                                                                                      | 965/5010 [06:38<21:01,  3.21it/s]
+
+ 19%|████████████████████████████▎                                                                                                                     | 972/5010 [06:41<20:59,  3.21it/s]
+
+
+ 20%|████████████████████████████▋                                                                                                                     | 984/5010 [06:44<20:54,  3.21it/s]
+
+ 20%|████████████████████████████▉                                                                                                                     | 991/5010 [06:46<20:57,  3.19it/s]
+
+ 20%|█████████████████████████████                                                                                                                    | 1002/5010 [06:50<20:03,  3.33it/s]
+  4%|██████▏                                                                                                                                              | 7/167 [00:00<00:12, 12.42it/s]
+
+
+
+
+
+
+
+
+
+
+ 20%|████████████████████████████▋                                                                                                                  | 1005/5010 [07:10<3:33:00,  3.19s/it]
+
+ 20%|█████████████████████████████▎                                                                                                                   | 1011/5010 [07:12<43:23,  1.54it/s]
+
+
+ 20%|█████████████████████████████▋                                                                                                                   | 1024/5010 [07:16<20:57,  3.17it/s]
+
+ 21%|█████████████████████████████▊                                                                                                                   | 1031/5010 [07:18<20:41,  3.21it/s]
+
+
+ 21%|██████████████████████████████▏                                                                                                                  | 1044/5010 [07:23<20:38,  3.20it/s]
+
+ 21%|██████████████████████████████▍                                                                                                                  | 1050/5010 [07:24<20:36,  3.20it/s]
+
+
+ 21%|██████████████████████████████▊                                                                                                                  | 1063/5010 [07:28<20:32,  3.20it/s]
+
+
+ 21%|███████████████████████████████▏                                                                                                                 | 1076/5010 [07:33<20:25,  3.21it/s]
+
+ 22%|███████████████████████████████▎                                                                                                                 | 1082/5010 [07:34<20:25,  3.21it/s]
+
+
+ 22%|███████████████████████████████▋                                                                                                                 | 1095/5010 [07:38<20:21,  3.20it/s]
+
+ 22%|███████████████████████████████▊                                                                                                                 | 1101/5010 [07:40<20:22,  3.20it/s]
+
+
+ 22%|████████████████████████████████▏                                                                                                                | 1114/5010 [07:44<20:18,  3.20it/s]
+
+ 22%|████████████████████████████████▍                                                                                                                | 1121/5010 [07:47<20:12,  3.21it/s]
+
+
+ 23%|████████████████████████████████▊                                                                                                                | 1133/5010 [07:50<20:09,  3.21it/s]
+
+
+ 23%|█████████████████████████████████▏                                                                                                               | 1146/5010 [07:54<20:05,  3.21it/s]
+
+ 23%|█████████████████████████████████▎                                                                                                               | 1153/5010 [07:57<20:02,  3.21it/s]
+
+
+ 23%|█████████████████████████████████▋                                                                                                               | 1165/5010 [08:00<20:03,  3.19it/s]
+ 23%|█████████████████████████████████▊                                                                                                               | 1169/5010 [08:02<19:14,  3.33it/s]
+
+
+
+
+
+
+
+
+  0%|                                                                                                                                                              | 0/21 [00:00<?, ?it/s]
+
+ 23%|█████████████████████████████████▍                                                                                                             | 1172/5010 [08:23<3:29:00,  3.27s/it]
+
+
+ 24%|██████████████████████████████████▎                                                                                                              | 1185/5010 [08:27<21:41,  2.94it/s]
+
+ 24%|██████████████████████████████████▍                                                                                                              | 1191/5010 [08:29<20:08,  3.16it/s]
+
+
+ 24%|██████████████████████████████████▊                                                                                                              | 1204/5010 [08:33<19:46,  3.21it/s]
+
+ 24%|███████████████████████████████████                                                                                                              | 1210/5010 [08:34<19:42,  3.21it/s]
+
+
+ 24%|███████████████████████████████████▍                                                                                                             | 1223/5010 [08:38<19:38,  3.21it/s]
+
+
+ 25%|███████████████████████████████████▊                                                                                                             | 1236/5010 [08:43<19:34,  3.21it/s]
+
+ 25%|███████████████████████████████████▉                                                                                                             | 1242/5010 [08:44<19:35,  3.20it/s]
+
+
+ 25%|████████████████████████████████████▎                                                                                                            | 1255/5010 [08:48<19:33,  3.20it/s]
+
+ 25%|████████████████████████████████████▌                                                                                                            | 1262/5010 [08:51<19:27,  3.21it/s]
+
+
+ 25%|████████████████████████████████████▊                                                                                                            | 1274/5010 [08:54<19:25,  3.21it/s]
+
+ 26%|█████████████████████████████████████                                                                                                            | 1281/5010 [08:57<19:23,  3.21it/s]
+
+
+ 26%|█████████████████████████████████████▍                                                                                                           | 1294/5010 [09:01<19:20,  3.20it/s]
+
+
+ 26%|█████████████████████████████████████▊                                                                                                           | 1306/5010 [09:04<19:16,  3.20it/s]
+
+ 26%|██████████████████████████████████████                                                                                                           | 1313/5010 [09:07<19:14,  3.20it/s]
+
+
+ 26%|██████████████████████████████████████▍                                                                                                          | 1326/5010 [09:11<19:11,  3.20it/s]
+
+ 27%|██████████████████████████████████████▌                                                                                                          | 1332/5010 [09:12<19:03,  3.22it/s]
+ 27%|██████████████████████████████████████▋                                                                                                          | 1336/5010 [09:14<18:21,  3.33it/s]
+
+
+
+
+
+
+
+ 87%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                   | 145/167 [00:12<00:01, 11.19it/s]
+
+  0%|                                                                                                                                                              | 0/21 [00:00<?, ?it/s]
+
+
+ 27%|██████████████████████████████████████▉                                                                                                          | 1346/5010 [09:36<33:31,  1.82it/s]
+
+ 27%|███████████████████████████████████████▏                                                                                                         | 1353/5010 [09:39<20:17,  3.00it/s]
+
+
+ 27%|███████████████████████████████████████▌                                                                                                         | 1366/5010 [09:43<18:56,  3.21it/s]
+
+ 27%|███████████████████████████████████████▋                                                                                                         | 1372/5010 [09:45<18:54,  3.21it/s]
+
+
+ 28%|████████████████████████████████████████                                                                                                         | 1385/5010 [09:49<18:50,  3.21it/s]
+
+ 28%|████████████████████████████████████████▎                                                                                                        | 1391/5010 [09:50<18:48,  3.21it/s]
+
+
+ 28%|████████████████████████████████████████▋                                                                                                        | 1404/5010 [09:55<18:45,  3.21it/s]
+
+ 28%|████████████████████████████████████████▊                                                                                                        | 1411/5010 [09:57<18:42,  3.21it/s]
+
+
+ 28%|█████████████████████████████████████████▏                                                                                                       | 1423/5010 [10:00<18:38,  3.21it/s]
+
+
+ 29%|█████████████████████████████████████████▌                                                                                                       | 1436/5010 [10:04<18:33,  3.21it/s]
+
+ 29%|█████████████████████████████████████████▊                                                                                                       | 1443/5010 [10:07<18:29,  3.22it/s]
+
+
+ 29%|██████████████████████████████████████████▏                                                                                                      | 1456/5010 [10:11<18:24,  3.22it/s]
+
+ 29%|██████████████████████████████████████████▎                                                                                                      | 1462/5010 [10:13<18:26,  3.21it/s]
+
+
+ 29%|██████████████████████████████████████████▋                                                                                                      | 1475/5010 [10:17<18:22,  3.21it/s]
+
+ 30%|██████████████████████████████████████████▊                                                                                                      | 1481/5010 [10:19<18:20,  3.21it/s]
+
+
+ 30%|███████████████████████████████████████████▏                                                                                                     | 1494/5010 [10:23<18:16,  3.21it/s]
+
+ 30%|███████████████████████████████████████████▍                                                                                                     | 1501/5010 [10:25<18:14,  3.21it/s]
+ 30%|███████████████████████████████████████████▌                                                                                                     | 1503/5010 [10:25<17:34,  3.33it/s]
+
+
+
+
+
+
+
+
+
+  0%|                                                                                                                                                              | 0/21 [00:00<?, ?it/s]
+
+
+ 30%|███████████████████████████████████████████▊                                                                                                     | 1513/5010 [10:48<31:59,  1.82it/s]
+
+ 30%|███████████████████████████████████████████▉                                                                                                     | 1520/5010 [10:50<19:16,  3.02it/s]
+
+
+ 31%|████████████████████████████████████████████▎                                                                                                    | 1532/5010 [10:54<18:09,  3.19it/s]
+
+
+ 31%|████████████████████████████████████████████▋                                                                                                    | 1545/5010 [10:58<18:01,  3.20it/s]
+
+ 31%|████████████████████████████████████████████▉                                                                                                    | 1552/5010 [11:00<17:59,  3.20it/s]
+
+
+ 31%|█████████████████████████████████████████████▎                                                                                                   | 1565/5010 [11:04<17:54,  3.21it/s]
+
+ 31%|█████████████████████████████████████████████▍                                                                                                   | 1571/5010 [11:06<17:52,  3.21it/s]
+
+
+ 32%|█████████████████████████████████████████████▊                                                                                                   | 1584/5010 [11:10<17:46,  3.21it/s]
+
+ 32%|██████████████████████████████████████████████                                                                                                   | 1590/5010 [11:12<17:47,  3.20it/s]
+
+
+ 32%|██████████████████████████████████████████████▍                                                                                                  | 1603/5010 [11:16<17:39,  3.22it/s]
+
+ 32%|██████████████████████████████████████████████▌                                                                                                  | 1609/5010 [11:18<17:42,  3.20it/s]
+
+
+ 32%|██████████████████████████████████████████████▉                                                                                                  | 1622/5010 [11:22<17:37,  3.20it/s]
+
+
+ 33%|███████████████████████████████████████████████▎                                                                                                 | 1635/5010 [11:26<17:32,  3.21it/s]
+
+ 33%|███████████████████████████████████████████████▌                                                                                                 | 1642/5010 [11:28<17:33,  3.20it/s]
+
+
+ 33%|███████████████████████████████████████████████▊                                                                                                 | 1654/5010 [11:32<17:24,  3.21it/s]
+
+ 33%|████████████████████████████████████████████████                                                                                                 | 1661/5010 [11:34<17:23,  3.21it/s]
+
+ 33%|████████████████████████████████████████████████▎                                                                                                | 1670/5010 [11:37<16:40,  3.34it/s]
+  9%|█████████████▎                                                                                                                                      | 15/167 [00:01<00:13, 11.32it/s]
+
+
+
+
+
+
+
+
+
+ 24%|███████████████████████████████████▋                                                                                                                  | 5/21 [00:00<00:01, 13.40it/s]
+
+
+ 34%|████████████████████████████████████████████████▋                                                                                                | 1682/5010 [12:00<23:46,  2.33it/s]
+
+
+ 34%|█████████████████████████████████████████████████                                                                                                | 1694/5010 [12:04<17:19,  3.19it/s]
+
+ 34%|█████████████████████████████████████████████████▏                                                                                               | 1701/5010 [12:06<17:13,  3.20it/s]
+
+
+ 34%|█████████████████████████████████████████████████▌                                                                                               | 1714/5010 [12:10<17:07,  3.21it/s]
+
+ 34%|█████████████████████████████████████████████████▊                                                                                               | 1720/5010 [12:12<17:05,  3.21it/s]
+
+
+ 35%|██████████████████████████████████████████████████▏                                                                                              | 1733/5010 [12:16<17:01,  3.21it/s]
+
+ 35%|██████████████████████████████████████████████████▎                                                                                              | 1739/5010 [12:18<16:58,  3.21it/s]
+
+
+ 35%|██████████████████████████████████████████████████▋                                                                                              | 1752/5010 [12:22<16:55,  3.21it/s]
+
+
+ 35%|███████████████████████████████████████████████████                                                                                              | 1765/5010 [12:26<16:51,  3.21it/s]
+
+ 35%|███████████████████████████████████████████████████▎                                                                                             | 1771/5010 [12:28<16:47,  3.21it/s]
+
+
+ 36%|███████████████████████████████████████████████████▋                                                                                             | 1784/5010 [12:32<16:44,  3.21it/s]
+
+ 36%|███████████████████████████████████████████████████▊                                                                                             | 1791/5010 [12:34<16:43,  3.21it/s]
+
+
+ 36%|████████████████████████████████████████████████████▏                                                                                            | 1804/5010 [12:38<16:37,  3.21it/s]
+
+ 36%|████████████████████████████████████████████████████▍                                                                                            | 1810/5010 [12:40<16:36,  3.21it/s]
+
+
+ 36%|████████████████████████████████████████████████████▊                                                                                            | 1823/5010 [12:44<16:32,  3.21it/s]
+
+ 37%|████████████████████████████████████████████████████▉                                                                                            | 1829/5010 [12:46<16:32,  3.20it/s]
+
+ 37%|█████████████████████████████████████████████████████▏                                                                                           | 1837/5010 [12:49<15:50,  3.34it/s]
+
+
+
+
+
+
+
+
+
+ 43%|████████████████████████████████████████████████████████████████▎                                                                                     | 9/21 [00:00<00:01, 11.89it/s]
+
+ 37%|█████████████████████████████████████████████████████▎                                                                                           | 1844/5010 [13:10<52:56,  1.00s/it]
+
+ 37%|█████████████████████████████████████████████████████▌                                                                                           | 1850/5010 [13:12<20:40,  2.55it/s]
+
+
+ 37%|█████████████████████████████████████████████████████▉                                                                                           | 1863/5010 [13:16<16:25,  3.19it/s]
+
+
+ 37%|██████████████████████████████████████████████████████▎                                                                                          | 1876/5010 [13:20<16:17,  3.21it/s]
+
+ 38%|██████████████████████████████████████████████████████▍                                                                                          | 1882/5010 [13:22<16:17,  3.20it/s]
+
+
+ 38%|██████████████████████████████████████████████████████▊                                                                                          | 1895/5010 [13:26<16:11,  3.21it/s]
+
+ 38%|███████████████████████████████████████████████████████                                                                                          | 1901/5010 [13:28<16:11,  3.20it/s]
+
+
+ 38%|███████████████████████████████████████████████████████▍                                                                                         | 1914/5010 [13:32<16:03,  3.21it/s]
+
+ 38%|███████████████████████████████████████████████████████▌                                                                                         | 1921/5010 [13:34<16:02,  3.21it/s]
+
+
+ 39%|███████████████████████████████████████████████████████▉                                                                                         | 1933/5010 [13:38<16:00,  3.20it/s]
+
+ 39%|████████████████████████████████████████████████████████▏                                                                                        | 1940/5010 [13:40<15:58,  3.20it/s]
+
+
+ 39%|████████████████████████████████████████████████████████▌                                                                                        | 1953/5010 [13:44<15:53,  3.20it/s]
+
+
+ 39%|████████████████████████████████████████████████████████▊                                                                                        | 1965/5010 [13:48<15:48,  3.21it/s]
+
+ 39%|█████████████████████████████████████████████████████████                                                                                        | 1972/5010 [13:50<15:46,  3.21it/s]
+
+
+ 40%|█████████████████████████████████████████████████████████▍                                                                                       | 1985/5010 [13:54<15:42,  3.21it/s]
+
+ 40%|█████████████████████████████████████████████████████████▌                                                                                       | 1991/5010 [13:56<15:39,  3.21it/s]
+
+ 40%|██████████████████████████████████████████████████████████                                                                                       | 2004/5010 [14:00<15:03,  3.33it/s]
+  0%|                                                                                                                                                             | 0/167 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+ 71%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                          | 15/21 [00:01<00:00, 11.36it/s]
+
+ 40%|██████████████████████████████████████████████████████████▏                                                                                      | 2012/5010 [14:22<39:46,  1.26it/s]
+
+
+ 40%|██████████████████████████████████████████████████████████▌                                                                                      | 2025/5010 [14:26<15:45,  3.16it/s]
+
+ 41%|██████████████████████████████████████████████████████████▊                                                                                      | 2031/5010 [14:28<15:32,  3.19it/s]
+
+
+ 41%|███████████████████████████████████████████████████████████▏                                                                                     | 2044/5010 [14:32<15:27,  3.20it/s]
+
+ 41%|███████████████████████████████████████████████████████████▎                                                                                     | 2050/5010 [14:34<15:23,  3.21it/s]
+
+
+ 41%|███████████████████████████████████████████████████████████▋                                                                                     | 2063/5010 [14:38<15:19,  3.20it/s]
+
+ 41%|███████████████████████████████████████████████████████████▉                                                                                     | 2070/5010 [14:41<15:16,  3.21it/s]
+
+
+ 42%|████████████████████████████████████████████████████████████▎                                                                                    | 2082/5010 [14:44<15:15,  3.20it/s]
+
+
+ 42%|████████████████████████████████████████████████████████████▋                                                                                    | 2095/5010 [14:48<15:10,  3.20it/s]
+
+ 42%|████████████████████████████████████████████████████████████▊                                                                                    | 2102/5010 [14:51<15:07,  3.21it/s]
+
+
+ 42%|█████████████████████████████████████████████████████████████▏                                                                                   | 2114/5010 [14:54<15:03,  3.21it/s]
+
+ 42%|█████████████████████████████████████████████████████████████▍                                                                                   | 2121/5010 [14:56<15:01,  3.20it/s]
+
+
+ 43%|█████████████████████████████████████████████████████████████▊                                                                                   | 2134/5010 [15:00<14:58,  3.20it/s]
+
+ 43%|█████████████████████████████████████████████████████████████▉                                                                                   | 2140/5010 [15:02<14:55,  3.21it/s]
+
+
+ 43%|██████████████████████████████████████████████████████████████▎                                                                                  | 2153/5010 [15:06<14:50,  3.21it/s]
+
+
+ 43%|██████████████████████████████████████████████████████████████▋                                                                                  | 2166/5010 [15:10<14:46,  3.21it/s]
+ 43%|██████████████████████████████████████████████████████████████▊                                                                                  | 2171/5010 [15:12<14:09,  3.34it/s]
+  3%|████▍                                                                                                                                                | 5/167 [00:00<00:12, 13.45it/s]
+
+
+
+
+
+
+
+
+
+
+ 43%|████████████████████████████████████████████████████████████████▎                                                                                     | 9/21 [00:00<00:01, 11.87it/s]
+{'eval_loss': 1.002468228340149, 'eval_accuracy': 0.8562874251497006, 'eval_precision': 0.8401960784313726, 'eval_recall': 0.6904166666666667, 'eval_f1': 0.6891369047619047, 'eval_runtime': 1.8756, 'eval_samples_per_second': 89.04, 'eval_steps_per_second': 11.197, 'epoch': 13.0}
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:01<00:00, 11.80it/s]
+ 43%|████████████████████████████████████████████████████████████████▎                                                                                     | 9/21 [00:00<00:01, 11.94it/s]
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:01<00:00, 11.75it/s]
+Test Results:
+Accuracy: 0.8392857142857143
+Precision: 0.8000658571722576
+Recall: 0.730125247198418
+F1 Score: 0.7059523809523809
+test_predictions_data: [['convert_connectives_to_dummy', '21_essay_tosanikki_20160903', 'やがて月の距離が現在の約１．５倍、公転・自転の周期が約４０日になったでありくが変化が止まると考えられています。', 'ところ', 2, '時間', 2, '時間'], ['convert_connectives_to_dummy', '88_fiction_SAINT-EXUPERY-1943', '僕の住んでいるでありくがは、なんでもみんな小さいんだよ。', 'ところ', 3, '場所', 2, '時間'], ['convert_connectives_to_dummy', '80_diet_kaigiroku-12', '演説が終わりましたでありくが、動議により、国務大臣の演説に対する質疑は延期し、来る三十日に行うことを決定していただきます。', 'ところ', 2, '時間', 2, '時間'], ['convert_connectives_to_dummy', '35_aozora_Hisao-1939', 'なかなか、二人の娘のひきたて役ぐらいのでありくがはなかろうとおもわれる。', 'ところ', 4, 'その他', 4, 'その他'], ['convert_connectives_to_dummy', '162_fiction_munashisanoshotai', 'しかもそれを聞いたでありくが全く疑念は解消されない。', 'ところ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '129_textbook_djg_advanced;page_142', 'この問題をいまさら議論したでありくが無意味でしょう。', 'ところ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '59_aozora_Kishida-1950', 'これを即興というのだが、この即興のできる訓練は劇をやるうえに大切で、人間である以上、どんなにおぼえたつもりでも忘れることがあり、どんなに練習をしても、とっさに手違いができることもあるのだから、そこを、ただいいかげんにごまかすのではなく、劇の面白さをへらさぬように、そくざの機転で、たくみに補うことは、これまた、劇の劇らしいでありくがある。', 'ところ', 4, 'その他', 4, 'その他'], ['convert_connectives_to_dummy', '106_aozora_Hisao-1939', '三十を三つも越しているのに、なにをするでもなくのらくらとこんなでありくが日を送っている。', 'ところ', 3, '場所', 3, '場所'], ['convert_connectives_to_dummy', '14_essay_tosanikki_20170401', 'タヒチでは、ゴーギャンの有名な「我々はどこから来たのか、我々は何者か、我々はどこへ行くのか」の複製画とともに、この題名をいろいろなでありくが目にしました。', 'ところ', 3, '場所', 3, '場所'], ['convert_connectives_to_dummy', '22_essay_tosanikki_20190202', '私の目には、晩年をオリオン座で過ごそうと旅してきたように見えますが、もしさらに１００万年長生きしたとすると、オリオン座を通り過ぎたでありくが漂泊の人生を終わることになります。', 'ところ', 3, '場所', 2, '時間'], ['convert_connectives_to_dummy', '53_essay_Hepburn_no_shoogai_to_nihongo2', '幕府は安政年間、条約国に対して「既に踏絵の制度は廃せり」と声明を出していたが、ヘボンが肥後出身者から聞いたでありくがは、その後も九州で実施されていた。', 'ところ', 4, 'その他', 2, '時間'], ['convert_connectives_to_dummy', '10_essay_crossover27_IharaOct2015', '前回、ダ・ヴィンチの交通機関体系の創造に触れたのも、船舶活用の可能性から水上交通を基軸にしでありくも、陸上、空中へのデザインを展開したモーティブフォースが大航海にあったのではないかと推測したからです。', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '146_wikipedia_KYOTO_12;CLT_00005;218', 'ゆっくりと慎重に音程を変更するところから、具合を測りでありく物事を進めるさまを表す。', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '480_textbook_djg_intermediate;page_543', 'たばこは体によくないと分かりでありくなかなかやめられない。', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '782_whitepaper_shohi4_2018', '食育基本法（平成17年法律第63号）及び「第３次食育推進基本計画」（2016年３月食育推進会議決定）に基づき、関係府省等が連携しでありく、家庭、学校、地域等において国民運動として食育を推進しています。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '812_whitepaper_shohi4_2018', '経済産業省では、2016年度、学識経験者、有識者、事業者、消費者団体、マスコミなど、幅広い関係者を構成員とし、2030年頃の消費経済市場を見据えでありく、消費者意識の変化、より一層の消費者理解やそれに伴う企業経営の在り方、消費者起点のイノベーション等について検討を行う「消費インテリジェンス研究会」を年度内に５回開催し、2017年３月に報告書を取りまとめました。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '57_whitepaper_shohi4_2018', '消費者庁では、関係機関と連携しでありく、特定商取引法の表示義務に違反しているおそれのある危険ドラッグの通信販売サイトに対し、適切な措置を講ずるとともに、関係機関に対する情報提供を行い、消費者保護を十分に確保するよう努めています。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '27_news_KAHOKU_184;K201406140A0T10XX00001', '東北大大学院工学研究科の風間基樹教授（地盤工学・地震工学）は「行政が作る防災マップを参考にしでありくも、普段から地域の地形的特性を把握して、非常時の対策を考える必要がある」と指摘する。', 'つつ', 1, '同時進行', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '312_whitepaper_H28_kotsuanzen1', 'ア地域住民等の意見要望等を十分に踏まえでありく，駐車規制の点検・見直しを実施するとともに，物流の必要性や自動二輪車の駐車需要等にも配慮し，地域の交通実態等に応じた規制の緩和を行うなど，きめ細かな駐車規制を推進した。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '278_whitepaper_R1_gaiko_2', '安定的に党・政権を運営するためには、一定の経済成長を確保しでありく国内外の各種課題に対応する必要があり、今後の経済財政政策の動向が注目される。', 'つつ', 1, '同時進行', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '122_whitepaper_R2_bousai_5', 'このような状況に鑑み、関係自治体の要望等も踏まえでありく、この問題の終局的な解決策が検討され、与野党調整の結果、以下の7点を柱として議員立法により災害弔慰金法が改正された（令和元年6月7日公布、8月1日施行）。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '46_diet_kaigiroku-11', 'かかる観点から、第一次石油危機から二十年を経た今日、エネルギー政策全般の再構築を図り、地球環境問題の顕在化に対応しでありく、エネルギーの安定的かつ効率的な供給の確保に努めてまいります。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '115_whitepaper_shohi4_2018', 'また、国民生活センターでは、人の生命・身体等に重大な影響を及ぼす商品や品質・表示等に問題のある商品について、消費者被害の救済や未然防止・拡大防止のために、消費者の使用実態を考慮しでありく科学的に信頼性の高い商品テストを実施しています。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '5_law_h15A119;4_1_1', 'この法律は、高度情報通信社会の進展に伴い個人情報の利用が著しく拡大していることにかんがみ、個人情報の適正な取扱いに関し、基本理念及び政府による基本方針の作成その他の個人情報の保護に関する施策の基本となる事項を定め、国及び地方公共団体の責務等を明らかにするとともに、個人情報を取り扱う事業者の遵守すべき義務等を定めることにより、個人情報の有用性に配慮しでありく、個人の権利利益を保護することを目的とする。', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '215_whitepaper_H28_kotsuanzen1', '社会資本整備重点計画に即して，都道府県公安委員会及び道路管理者が連携し，交通事故実態の調査・分析を行いでありく，重点的，効果的かつ効率的に歩道や信号機の整備を始めとした交通安全施設等整備事業を推進することにより，道路交通環境を改善し，交通事故の防止と交通の円滑化を図った。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '29_news_KAHOKU_513', '各地の伝説を受け止めでありく、大嶽丸の姿を見つめ直そうと南方の住民ら約２０人が集まった。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '31_whitepaper_R1_gaiko_9', 'さらに、普天間飛行場の移設や在沖縄海兵隊約9，000人のグアム等への国外移転を始めとする在日米軍再編についても、在日米軍の抑止力を維持しでありく、沖縄を始めとする地元の負担を軽減するため、日米で緊密に連携して取り組んできている。', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '206_whitepaper_H28_kotsuanzen1', 'ウ道路の機能と沿道の土地利用を含めた道路の利用実態との調和を図ることが交通の安全の確保に資することから，交通流の実態を踏まえでありく，沿道からのアクセスを考慮した副道等の整備，植樹帯の設置，路上駐停車対策等を推進した。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '276_whitepaper_shohi3_2018', '第３期消費者基本計画では、消費者一人一人が、個々の消費者の特性や消費生活の多様性を相互に尊重しでありく、自らの消費行動が将来の社会経済情勢や地球環境に影響を及ぼすことを自覚し、公正で持続可能な社会の形成に積極的に参画する社会を目指すことが求められています。', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '19_essay_manabi72_Kuroda2015summer', '従って、イスラームの理念性を念頭に置きでありくも、ムスリムたちの歴史は大いに可変的で、事実、時代時代で否定しがたい変容をこうむってきたことに注目すべきだと思います。', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '44_aozora_Koyama-1955-2', 'はじめてその人の前に出て二、三の受け答えをしでありく、この人に看てもらうのだなという感じを持った。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '25_whitepaper_R1_gaiko_10', '人道支援と開発協力の連携を強化しでありく、平和構築、難民等の支援、テロ・暴力的過激主義対策等の協力を通じ、国際社会の平和と安定の実現に積極的に貢献する。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '479_textbook_djg_intermediate;page_543', '彼女は夫の無罪を信じでありく息を引き取った。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '6_book_excerpt-26', 'やれやれどうしよう、と思いでありくも居心地の良いバラナシを去る気にもなれず、汽車の切符を買う大変さを考えてはやはり腰が上がらず、あと二、三日と思いでありくずるずると居着いてしまっていたのだ。', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '516_essay_Hepburn_no_shoogai_to_nihongo2', 'Ｗ・Ｅ・グリフィスは、任期満了で帰国して以来、「Hepburn_of_Japan」を執筆しでありく、ニューヨークやフィラデルフィアから、ヘボンにも、その弟スレーターにも、質問を寄せ続け、しきりに「ヘボンをめぐる人々」と文通していた。', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '90_fiction_sakurasakuanobashode', '修一は、出来るだけ元気な声を出しでありく玄関に入った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '507_aozora_Hori-1969', '私はちょっと意外な問いに戸惑いしでありく、お前の方へ徐かに目をもっていった。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '224_aozora_Akutagawa-1921', 'が、忽ち勇気をとり直すと、片手にナイフを握りでありく、片手に妙子の襟髪を掴んで、ずるずる手もとへ引き寄せました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '121_aozora_Akutagawa-1921', '遠藤はとうとうたまり兼ねて、火花の旋風に追われでありく、転げるように外へ逃げ出しました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '91_aozora_Andersen-1967-1', '「いいかい、世の中って、こんなものなんだよ」と、アヒルの子供たちのおかあさんは、言いでありく、自分も、くちばしをピチャピチャやりました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '762_aozora_Oda-1976-3', 'そして、おなかの子に障ることを忘れて、傘も持たず、びしょ濡れの体をなお雨の鞭に任せでありく、うらぶれて歩いているそんな芳子の姿を、グッドモーニングの銀ちゃんは人力車の上から見た途端、はっと胸を突かれて、同じ人力車に相乗りしている坂野の手前がもしなかったとすれば、呼びとめたい程のなつかしさにしびれ、もはや芳子のあわれさは、芳子が持っているどんな女のいやらしさも、銀ちゃんの心から消してしまっていた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '767_whitepaper_R1_gaiko_2', '11月の日・ASEAN首脳会議では、安倍総理大臣から、2013年に約束した「5年で2兆円の対ASEAN支援」を上回る支援を実施したことに言及しでありく、今後もASEANの一体性と中心性を尊重しでありく、民間投資を後押しし、国際スタンダードにのっとった質の高いインフラを推進すると発言した。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '68_aozora_Kobayashi-1929', 'その横に仰向けにひっくり返って、林檎を食いでありく、表紙のボロボロした講談雑誌を見ているのがいた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '150_aozora_Oda-1976-3', '「芳ッちゃん、芳ッちゃんって、お安くいわないでよ」と、いわれでありく、京吉はしかし、ねえ、たのむよ、と、だんだん甘えるような哀願的な声になっていた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '750_aozora_Oda-1976-1', 'そして男を利用しでありく、男を敵と考えて来た。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '38_aozora_Kaneko-1984', 'そうしたとき母は従順に父の衣類を壁の釘にかけたりなんかしていたが、袂の中からお菓子の空袋や蜜柑の皮などを取出して、恨めしそうに眺めでありくいうのだった。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '403_fiction_sakurasakuanobashode', '修一は春の桜の匂いが混じった風を感じでありくつぶやいた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '77_aozora_Akutagawa-1922', 'トロッコは三人が乗り移ると同時に、蜜柑畑の匂（におい）を煽（あお）りでありく、ひた辷（すべ）りに線路を走り出した。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '180_aozora_Yamakawa-1962-1', '遠くなったその葬列との距離を縮めようというのか、子供たちは芋畑の中におどりこむと、歓声をあげでありく駈けはじめた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '357_whitepaper_H28_kotsuanzen1', '児童が遊びでありく交通知識等を体得できるような各種の施設を設置した交通公園は，全国で開設されており，一般の利用に供されている。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '66_whitepaper_H28_shinrinringyo2', 'これらの計画では、「全国森林計画」に即しでありく、地域の特性を踏まえでありく、森林の整備及び保全の目標並びに森林の区域（ゾーニング）及び伐採等の施業方法の考え方を提示している。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '370_textbook_djg_advanced;page_426', '外国に居でありくにして日本からの生のテレビ放送が見られるようになった。', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '112_aozora_Kaneko-1984', '叔母はそのうちの一つの櫛を取って見まわしでありくいった。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '184_aozora_Miyazawa-1934', '一郎が箒をもちでありく先生にききました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '507_aozora_Koyama-1955-1', '仔どもがそろって互いにもぐりっこをしでありく、メリーの乳房にとりついているところは、なんとも云えず可愛い。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '7_essay_tosanikki_20190406', '私たちは地球の自転・公転運動によってらせんを描きでありく太陽のまわりを疾走していることになります。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '276_fiction_mirai_e_no_okurimono', '俊也は彼女の名を叫びでありく、警備員の目の前を通過しようとした。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '26_aozora_Oda-1976-3', 'だから、Ｄ堂の主人にからかわれでありく、いつまでも待っていた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '99_fiction_kanojotachino_Christmas', '父が僅《わずか》かでありく生活費を送ってくれた。', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '368_aozora_Hori-1969', '少なくともこのときお前はお前自身のことよりか私のことを、――それから私が打ちのめされでありくじっとそれを耐えている、見るにも見かねるような様子を半ば気づかいでありく、半ば苦々しく思いでありく一人で想像していたろうことは考えられる。', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '389_whitepaper_R1_gaiko_11', '2018年4月に開催された日本での会議は、日本政府、経済団体、関連企業等多方面から支援を得でありく11年ぶりに東京で開催され、200人以上の方々が出席しました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '616_aozora_Natsume-1908', '豚はぐうと云いでありく、ころりと引っ繰り返って、絶壁の下へ落ちて行った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '798_aozora_Oda-1976-2', '電話が掛かることを承知していでありく、わざと「女の子」と出てしまうなんて、ばかにされたような気がした。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '826_fiction_onna_to_senso', '生きのびた人々は飢えに苦しんで草をたべ、馬の足跡にたまった泥水をのみ、やぶ蚊や虱に悩まされ、襲撃につぐ襲撃におびえでありく終戦を知らずに逃避行を続けた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '11_aozora_Hayakawa-1983', '登ることに決めてありでありく寝坊をした惰性が、そのまま動作を鈍くしていた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '773_fiction_onna_to_senso', '石光真清の記録『昿野の花』などによると、彼女たちは故国から棄てられた形で暮らしでありく日本の軍事探偵に協力し、彼女たちのもたらした情報は日露戦争に役立ったといわれる。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '225_fiction_automatic-1', 'それを漠然と思い出しでありく、朝田ハルキは声を張り上げた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '448_aozora_Oda-1976-3', '「さんざん見せつけたのじゃないの。おごる代りに資本を出しなさいよ。ね。気を利かせっぱなしじゃ、合わないわよ」という科白を用意しでありく、露子はわざわざ貴子と春隆を二人並ばせて、自分は別の座席へ遠慮したのである。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '1117_aozora_Harada-1960', 'ドアの鍵を廻しでありく、「とうとうこれで！」と、妹は叫んだ。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '595_aozora_Hori-1969', '私はそう心のなかで、思わず母に呼びかけては、何遍もその手帳を中途で手放そうと思いでありく、やっぱり最後まで読んでしまった。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '15_wikipedia_Sendai_City', '当地は、畿内に端を発する山道（後に東山道に再編）と海道（後に東海道に再編）とが合一する唯一の地であり、その合一した街道は後年、奥大道や東街道と名称を変えでありくも同断層帯およびそれに続く高舘丘陵の東縁に沿って南北に通る重要な道として存在し続けた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '758_aozora_Miyazawa-1934', '「おれそれであ、あの木の上がら落とすがらな。」と一郎は言いでありく崖の中ごろから出ているさいかちの木へするするのぼって行きました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '205_aozora_Edogawa-1929', '頂上には、十人余りの見物が一かたまりになっておっかな相な顔をして、ボソボソ小声で囁きでありく、品川の海の方を眺めて居りましたが、兄はと見ると、それとは離れた場所に、一人ぼっちで、遠眼鏡を目に当てて、しきりと浅草の境内を眺め廻して居りました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '51_fiction_kemonofriends2_R2', 'キュルルは今更でありく思い出すのだった。', 'ながら', 4, 'その他', 4, 'その他'], ['convert_connectives_to_dummy', '785_textbook_purple_intermediate;page_237', '時々、後ろを振り返りでありく、歩いた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '23_essay_tosanikki_20180707', 'もし探査ロボットに心があれば、青く美しく輝く地球を眺めでありく何を考えるでしょうか。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '205_aozora_Kobayashi-1929', '艦長をのせてしまって、一人がタラップのおどり場からロープを外しでありく、ちらっと艦長の方を見て、低い声で云った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '312_aozora_Hori-1969', '……その車が又埃を上げでありく立ち去った後も、私たちは二人ともパラソルでその埃を避けでありく、何時までも黙って草の中に立っていた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '54_news_KAHOKU_82;K201402060A0T10XX00001', '多賀城市は、市域の３分の１が津波で浸水しでありくも現地再建を決断した。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '873_textbook_kisonihongo;page_159', '働きでありくの勉学は困難を極めた。', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '89_news_KAHOKU_34;K201404110A0T30XX00001', '窓の外を白いものがうねりでありく、通り過ぎました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '22_essay_tosanikki_20191102', 'ピーブルズ氏の受賞の報を聞きでありく、ふとそんなことを考えたのでした。', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '252_aozora_Oda-1976-3', 'なぜつけた――と、北山は昂奮に吃りでありく、狂暴な力でカラ子の肩を掴んでいた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '310_essay_Hepburn_no_shoogai_to_nihongo2', 'ミッションスクールを作り、孤児院や養老院のような社会活動に心血を注ぎ、活躍する者たちを頼もしく眺めでありく、ヘボンは体の故障に悲鳴をあげていた。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '545_whitepaper_H26_kodomowakamono2', '第1回の懇談会には，安倍総理大臣が出席し，壁にぶつかった経験がある若者などをしっかり生かしていく，全員が参加することによって日本は活力を取り戻していくことができること，「再チャレンジ懇談会」での意見を踏まえでありく関連施策の推進に努めていきたい旨の発言がなされた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '309_aozora_Hori-1969', 'その間私は何か切ないような夢を見でありく、それから醒めたいのだが、いつまでもそれが続いていて醒められないような気さえしていた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '382_fiction_sakurasakuanobashode', '修一はその声を聞きでありく部屋を出た。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '834_aozora_Umezaki-1966', '香のにおいを強く感じでありく眼をつむって手を合せた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '549_aozora_Hori-1969', '心と心とはいつか自分自分の奥深くに引込ませてしまいでありく……', 'ながら', 4, 'その他', 4, 'その他'], ['convert_connectives_to_dummy', '100_aozora_Mori-1912', '主人はどっしりした体で、胡坐を掻いて、ちびりちびり酒を飲みでありく、小川の表情を、睫毛の動くのをも見遁がさないように見ている。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '6_essay_manabi28_Kijima2004summer', '私たちの身近にありでありくあまり研究されていない動物なのです。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '551_aozora_Umezaki-1966', 'ふらふら立ちでありく、雨戸をあけ放った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '127_fiction_mirai_e_no_okurimono', '書架をぐるっと見渡しでありく、カフェコーナーに立ち寄った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '860_whitepaper_H27_akita_kankyo1', 'なお、一般廃棄物の保管や収集運搬、処分に係る行政処分は市町村の権限となっていますが、県でも協力・連携しでありく適正処理の確保に努めています。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '11_aozora_Hitomi-1929', 'しかし原稿の出来上って行くにつれてもうわたしはさっきまでのような元気も、若々しさもなくなってグラウンドのトラックを疾走しでありく世界記録を破るなんてことの出来ない人間になるのみではなかろうか、外国の競技場で邦人の歓呼をうけることももう出来なくなるんだと競技場に活躍する自分の姿を自分の目に浮かばせるのであった。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '599_aozora_Hori-1969', 'ただそのときの丸木の腰かけだけが半ば毀れでありくまだ元の場所に残っていた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '148_whitepaper_H28_kotsuanzen1', '地域の協力を得でありく，通学路，生活道路，市街地の幹線道路等において，歩道を整備するなど，「人」の視点に立った交通安全対策を推進した。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '6_news_KAHOKU_303;K201401010W5XP4XX00001', '東北に拠点を置きでありく、全国的に活躍する３人の文化人、アーティストに、故郷への熱い思いや、その魅力を語ってもらった。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '1029_aozora_Harada-1960', '妹が慣れた手つきでベッドのふとんや枕を高く飛ばしでありく寝具の用意を整えるのが見えた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '591_bible_ot;b.NUM.16.30', 'しかし、主が新しい事をされ、地が口を開いて、これらの人々と、それに属する者とを、ことごとくのみつくして、生きでありく陰府に下らせられるならば、あなたがたはこれらの人々が、主を侮ったのであることを知らなければならない」。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '694_aozora_Andersen-1967-2', 'それでも、お姫さまは、ほほえみを浮べでありく、踊りつづけるのでした。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '301_aozora_Doyle-1892', '学がありでありく運命の手に翻弄されてきた男、という印象を全体から感じる。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '476_fiction_munashisanoshotai', '1人で帰りでありくそのことに気づいてしまった。', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '375_aozora_Miyazawa-1934', '悦治がそれをくぐろうとしますと、嘉助が、「おらこったなものはずせだぞ。」と言いでありく片っぽうのはじをぬいて下におろしましたのでみんなはそれをはね越えて中にはいりました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '117_aozora_Miyamoto-1925', '五十銭で買ってもらった釣竿を持ち、小さいなつめ形の顔の上に途方もなく大きい海水帽をかぶり――その鍔をフワフワ風に煽らせでありく、勇壮に釣に出かける。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '15_essay_crossover28_Ihara2016', '地球中心説では当然でありく惑星の横転周期という概念はありませんが、コペルニクスの理論では会合周期の観測によって太陽と地球の距離を1として、各惑星軌道半径が求められることになりました。', 'ながら', 4, 'その他', 4, 'その他'], ['convert_connectives_to_dummy', '200_whitepaper_R1_gaiko_12', '欧米で日本マンガやアニメ文化がまだ殆ど認識されていない当時、手塚先生はマンガの右開き形式や言葉の「壁」に触れでありくも、アニメこそが「国際性に富んでいる素晴らしい親善大使」だと主張し、アニメで日本マンガの体質になじんだ人々は、マンガもきっと見るようになる、と考えていました。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '188_aozora_Kobayashi-1929', '「一寸云って置く」監督が土方の棒頭のように頑丈な身体で、片足を寝床の仕切りの上にかけて、楊子で口をモグモグさせでありく、時々歯にはさまったものを、トットッと飛ばして、口を切った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '218_aozora_Hayashida-2015', '「ええ、そうです」と微笑みでありく答えた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '34_aozora_Togawa-1937-3', '和尚は御経を読みでありく、そこにただ独り坐っていた。', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '166_bible_nt;b.JOH.3.10', '「あなたはイスラエルの教師でありでありく、これぐらいのことがわからないのか。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '14_aozora_Miyazawa-1924', 'はじめの紳士は、すこし顔いろを悪くして、じっと、もひとりの紳士の、顔つきを見でありく云いました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '1074_aozora_Harada-1960', '妹は泣きでありくはげしく手を振った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '3_fiction_mirai_e_no_okurimono', '21世紀に発明されたAIが第5世代に入り、人は生まれでありくにして脳にチップを埋められた。', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '22_aozora_Kunieda-1925', 'おりから一人の老人がひしと胸の辺を抱きでありく追われたように走って来た。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '20_aozora_Hori-1969', 'それがどんなものか分らないでありく、どうやらそれらしいと感ぜられるものがある。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '501_aozora_Hori-1969', '私は思わず生き生きした微笑をしでありく黙っていた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '315_whitepaper_R1_gaiko_9', 'このような状況の下、核軍縮を進めていくためには、核兵器国の協力を得でありく現実的かつ実践的な取組を粘り強く進めていく必要がある。', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '124_aozora_Akutagawa-1922', '彼は左に海を感じでありく、急な坂路（さかみち）を駈（か）け登った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '66_whitepaper_H20_kokuminseikatsu2', '幸福度に関する分析によって、統計学的に、ストレスがない人はある人より幸福であるということが分かったが、現代社会はストレス社会とも言われるように、多くの人がストレスにさらされでありく生活を送っている。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '319_fiction_sakurasakuanobashode', '朝御飯が終わり、かたづけを手伝いでありく修一は言った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '256_aozora_Miyazawa-1934', 'するとかよは立って来て、「兄な、兄なの木ペンはきのう小屋でなくしてしまったけなあ。よこせったら。」と言いでありく一生けん命とり返そうとしましたが、どうしてももう佐太郎は机にくっついた大きな蟹の化石みたいになっているので、とうとうかよは立ったまま口を大きくまげて泣きだしそうになりました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '236_aozora_Akutagawa-1921', '遠藤は殆ど気違いのように、妙子の名前を呼びかけでありく、全身の力を肩に集めて、何度も入口の戸へぶつかりました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '21_essay_tosanikki_20180804', 'その間、何度も地球に接近し、ニアミスを繰り返しでありく、長い旅路の果てについに地球（南極大陸）にたどり着いたのです。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '70_aozora_Dazai-1-1940', '家の西北の隅に、異様に醜怪の、不浄のものが、とぐろを巻いてひそんで在るようで、机に向って仕事をしていでありくも、どうも、潔白の精進が、できないような不安な、うしろ髪ひかれる思いで、やりきれないのである。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '237_fiction_mirai_e_no_okurimono', '――途中、走りでありくモバイルフォンを素早く鞄から取り出した。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '426_aozora_Oda-1976-3', '眼の中のコロコロとした痛みを我慢しでありく、一方で女の手の触感をたのしむなんて、思えばわれでありく噴き出したくなるようなものだったが、もともと気のすすまぬ旅行だ、それぐらいはしてもいいだろうと、春隆は思ったのである。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '352_aozora_Sakaguchi-1947', 'リヤカーは路地の角々にぶつかりでありく立去った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '45_aozora_Perrault-1950', 'いけないというものは、とかく見たいのが、人間のくせですから、そのうちいよいよ、がまんがしきれなくなってくると、この奥（おく）がたは、もうお客にたいして、失礼（しつれい）のなんのということを、おもってはいられなくなって、ひとりそっと裏（うら）ばしごをおりて、二ども三ども、首の骨がおれたかとおもうほど、はげしく、柱や梁（はり）にぶつかりでありく、むちゅうでかけ出して行きました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '88_aozora_Joyce-1914', 'というのもいつものことでありく一週間分のタバコのしみがついて黒くなった赤いハンカチで落ちた粒を払いのけようとしてもまったく効果がなかったからだ。', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '102_aozora_Hori-1969', 'そう云われでありく、絶えずその暗くなった空を気になさっていた。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '1225_aozora_Harada-1960', '三人は座席にゆっくりともたれでありく、未来の見込みをあれこれと相談し合った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '576_aozora_Hori-1969', '――それよりか、お前の顔を見てから、こちらが自分をすっかり無くして、なんの心用意もせずにお前に立ち向いでありく、その場で自分に浮んでくることをそのまま云った方がお前の心を動かすことが云えるのではないかと考えた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '142_aozora_Yamakawa-1962-1', '彼は、胸に湧きあがるものを、けんめいに冷静におさえつけでありく思った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '499_bible_ot;b.NUM.14.23', 'わたしの栄光と、わたしがエジプトと荒野で行ったしるしを見でありく、このように十度もわたしを試みて、わたしの声に聞きしたがわなかった人々はひとりも、わたしがかつて彼らの先祖たちに与えると誓った地を見ないであろう。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '130_aozora_Oda-1976-2', '女と関係しでありく、恋だけはもっと素晴しい女とするんだと夢を抱いて来たのだ。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '386_aozora_Hori-1969', '私の好んで行った山よりの落葉松林は、ときおり林の切れ目から薄赤い穂を出した芒の向うに浅間の鮮やかな山肌をのぞかせでありく、何処までも真直に続いていた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '204_aozora_Doyle-1905', 'レストレイドは、この注目すべき解説を聞きでありく、2、3度、眉を釣りあげたが、ここでようやく口を開いた。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '568_aozora_Umezaki-1966', '私は不味い莨をふかしでありく、煙が空気の中に消えて行くのをじっと見ていた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '652_whitepaper_shohi4_2018', 'また、消費者庁において推進会議の意見を聴きでありく、関係府省庁と連携しでありく、高校生向け消費者教育教材「社会への扉」を2017年３月までに作成し、４月以降に配布を開始しました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '16_aozora_Chiri-1955-7', '北見の美幌では、この“きのこ”を見つけると、熊を取った時のように、男は「フォー、フォー」と高らかにときの声をあげでありくその廻りを踏舞し、女は「オノンノ、オノンノ」と歌いでありく踊ったということであります。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '10_book_excerpt-19', '六畳一間でありく一戸建てのあの借家は最初から今度こそは期待のもてそうな話だったが、その時も三村だけが紹介者の知人に連れられて見に行ったのだった。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '370_fiction_sakurasakuanobashode', 'そう言いでありく、大家さんは立ち上がる。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '259_aozora_Hori-1969', 'が、そうしていつまでもうつけたように、かすかに揺れ動いている梢を見上げていると、いきなり私の眼の前に、蜘蛛が長く糸をひきでありく落ちてきて、私をびっくりさせたりした。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '366_whitepaper_H28_shinrinringyo2', '松くい虫被害の拡大を防止するため、林野庁では都府県と連携しでありく、公益的機能の高いマツ林等を対象として、薬剤散布や樹幹注入等の予防対策と被害木の伐倒くん蒸等の駆除対策を併せて実施している。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '229_whitepaper_H28_shinrinringyo1', '近年においては、プログラマーやデザイナーがチームを組み、特定のテーマに対してアイデアを出し合いでありく集中的にアプリケーションやサービスを形成していき、その内容を競うイベントであるハッカソンについて、近年、林業の技術開発をテーマとして開催される機会もみられる（事例I－６）。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '185_fiction_munashisanoshotai', '携帯を手に考えでありく、彼のベッドの上にぴったり寄り添って座っていた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '14_news_KAHOKU_34;K201404110A0T30XX00001', '「避難所に愛犬を連れて行くか」などの災害時に想定される課題に対し、参加者は「ＹＥＳ」「ＮＯ」のカードで自らの考えを決めた後、意見を交わしでありく、より良い解決方法を探った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '997_whitepaper_shohi4_2018', 'これに伴い、個人情報の保護と効果的な活用のバランスを図りでありく、個人情報の適正な取扱いを確保するため、各主務大臣が行使していた監督権限を個人情報保護委員会が一元的に所掌することとなりました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '220_aozora_Oda-1976-3', '人々は彼等の傍を通り抜けでありく、ふと優越的な気持が同情に先立つらしく、さげすみの眼をちらと投げて行ったが、北山の眼はそんな旅行者が羨ましい眼付だった。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '191_wikipedia_Audrey_Hepburn', '歌唱部分が全く別の声質を持つ他の女優に吹き替えられたことについて質問されたヘプバーンは、不快感を露にして「よくもそんなことを訊けるものですね。確かにレックスは演技をしでありく、同時に歌の録音もこなしていましたが･･････次の機会には」と応え、唇をかみ締めてそれ以上は何も口にすることはなかった。', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_connectives_to_dummy', '49_aozora_Chiri-1955-7', '最初にこのぼろの着物を身につけた東風の神が、舞いでありく祭場に出て来ます。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '854_aozora_Oda-1976-3', '女の体は十六の歳から知っていでありく、恋は一度もしなかった京吉にとって、ただ一人ひそかに陽子へ抱いているなつかしさは、もはや恋心といってもよかった。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '508_aozora_Andersen-1967-2', 'まだ、お日さまののぼらないころ、人魚のお姫さまは、王子のお城を見あげでありく、りっぱな大理石の階段の上にのぼりました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '44_whitepaper_R1_gaiko_10', '日本は責任ある大国として、引き続き国際協力事業関係者の安全を確保しでありく、国際社会の平和と安定及び繁栄に積極的に貢献していく。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '17_news_KAHOKU_67;K201407100A0KI0XX00001', '明け方、定宿の女将さんに起こされて雪景色を目にすると、土門は助手に背負われでありく夢中でシャッターを切りました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '666_aozora_Miyazawa-1934', 'すると耕助はうらめしそうにしばらくだまって三郎の顔を見でありく、「うあい又三郎、汝などあ世界になくてもいいなあ。」', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '106_news_KAHOKU_85', '小中高生は、体ができる基礎となる時期なので、補助食品なども活用しでありく、バランスの取れた食事を心掛けてほしい」', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '789_whitepaper_R1_gaiko_9', '年次総会に主賓として出席した河野外務大臣及び山下法務大臣は、AALCOが国際法の発展において貢献してきたことを振り返りでありく、日本がAALCO設立以来積極的に関与してきたことを述べました。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '528_aozora_Oda-1976-3', '章三はその女の顔をじっと見つめでありく、そう思った。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '330_whitepaper_H28_shinrinringyo1', 'このような不安を払拭していくためには、実証試験で得られた結果等に基づいた知見を有する行政機関、国立研究開発法人森林総合研究所や都道府県の林業試験場等の研究機関、業界団体が連携しでありく林業事業体等に対する普及指導に取り組んでいく必要がある。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '25_whitepaper_H27_akita_kankyo1', '新たな計画では、「省エネルギー対策」と「再生可能エネルギー等の導入」を２本柱としでありく、「循環型社会の形成（廃棄物の抑制等）」や「環境価値の創出とカーボンオフセットの普及」など、８つの分野において総合的に対策を進めることとしています。', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '27_aozora_Chiri-1956-2', 'アイヌ語の研究などは、世に顧みられない淋しい道なのでありますが、同じくこのアイヌ語研究の部門に属しでありく多くの研究家とファンを抱えて、いつも賑やかに店先の繁昌しているのが、この地名研究の部門であります。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '82_whitepaper_H28_shinrinringyo1', 'その一方、主伐後の再造林の事業量が増加していく中、「伐採と造林の一貫作業システム」により効率化を図りでありく年間を通じて再造林を実施していくためには、植栽適期を拡大していくための技術が必要となる。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '46_fiction_automatic-1', '背中を丸めでありく、裏通りを当てもなく前方に進み続けた。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '96_news_KAHOKU_34;K201404110A0T30XX00001', '気が付くと、がれきに囲まれでありくも息ができる状態でした。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_connectives_to_dummy', '693_fiction_sakurasakuanobashode', '不意に開いた扉の方を向きでありく発した言葉が思わず、裏返ってしまう修一。', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_connectives_to_dummy', '85_aozora_Miyamoto-1925', '私は困ったと思いでありく、それなり祖母の埋骨式に旅立ったのであった。', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩']]
+test_predictions_table:                   experiment type                                        id                                         input_text  ... true_label_text  predicted_label predicted_label_text
+0    convert_connectives_to_dummy               21_essay_tosanikki_20160903  やがて月の距離が現在の約１．５倍、公転・自転の周期が約４０日になったでありくが変化が止まると...  ...              時間                2                   時間
+1    convert_connectives_to_dummy             88_fiction_SAINT-EXUPERY-1943                       僕の住んでいるでありくがは、なんでもみんな小さいんだよ。  ...              場所                2                   時間
+2    convert_connectives_to_dummy                      80_diet_kaigiroku-12  演説が終わりましたでありくが、動議により、国務大臣の演説に対する質疑は延期し、来る三十日に行...  ...              時間                2                   時間
+3    convert_connectives_to_dummy                      35_aozora_Hisao-1939               なかなか、二人の娘のひきたて役ぐらいのでありくがはなかろうとおもわれる。  ...             その他                4                  その他
+4    convert_connectives_to_dummy             162_fiction_munashisanoshotai                         しかもそれを聞いたでありくが全く疑念は解消されない。  ...           逆接・譲歩                0                逆接・譲歩
+..                            ...                                       ...                                                ...  ...             ...              ...                  ...
+163  convert_connectives_to_dummy          82_whitepaper_H28_shinrinringyo1  その一方、主伐後の再造林の事業量が増加していく中、「伐採と造林の一貫作業システム」により効率...  ...            同時進行                1                 同時進行
+164  convert_connectives_to_dummy                    46_fiction_automatic-1                       背中を丸めでありく、裏通りを当てもなく前方に進み続けた。  ...            同時進行                1                 同時進行
+165  convert_connectives_to_dummy  96_news_KAHOKU_34;K201404110A0T30XX00001                      気が付くと、がれきに囲まれでありくも息ができる状態でした。  ...           逆接・譲歩                0                逆接・譲歩
+166  convert_connectives_to_dummy          693_fiction_sakurasakuanobashode               不意に開いた扉の方を向きでありく発した言葉が思わず、裏返ってしまう修一。  ...            同時進行                1                 同時進行
+167  convert_connectives_to_dummy                   85_aozora_Miyamoto-1925                 私は困ったと思いでありく、それなり祖母の埋骨式に旅立ったのであった。  ...           逆接・譲歩                0                逆接・譲歩
+[168 rows x 8 columns]
+connective_table:                 experiment_type connective  accuracy  precision    recall        f1
+0  convert_connectives_to_dummy        ところ  0.727273   0.850000  0.791667  0.759524
+1  convert_connectives_to_dummy         つつ  0.791667   0.768908  0.750000  0.757576
+2  convert_connectives_to_dummy        ながら  0.857143   0.864379  0.698941  0.743053
+test_dataset.exclude_count in convert_connectives_to_dummy: 188
+test_dataset.negation_position_dict: {'arg1': 0, 'arg2': 0}

@@ -1,0 +1,1 @@
+{"columns": ["experiment_type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["exclude_function_words", 0.7678571428571429, 0.6751332877648667, 0.5428872775214238, 0.578376268540203]]}

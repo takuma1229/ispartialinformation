@@ -1,0 +1,3 @@
+- model_name=tohoku-nlp/bert-base-japanese-v3
+- experiment_type=latter-only
+- training.epochs=15

@@ -1,0 +1,1 @@
+{"epoch": null, "valid/loss": 0.0652601069319034, "valid/accuracy": 0.25748502994011974, "valid/precision": 0.18481844242713807, "valid/recall": 0.23041666666666666, "valid/f1": 0.12325757575757576, "_timestamp": 1719659419.7007544, "_runtime": 6.658210515975952, "_step": 0, "_wandb": {"runtime": 41}}

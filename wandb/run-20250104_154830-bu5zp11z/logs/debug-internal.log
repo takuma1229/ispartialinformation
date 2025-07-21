@@ -1,0 +1,502 @@
+2025-01-04 15:48:30,573 INFO    StreamThr :1912063 [internal.py:wandb_internal():85] W&B internal server running at pid: 1912063, started at: 2025-01-04 15:48:30.573293
+2025-01-04 15:48:30,574 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: status
+2025-01-04 15:48:30,575 INFO    WriterThread:1912063 [datastore.py:open_for_write():87] open: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/run-bu5zp11z.wandb
+2025-01-04 15:48:30,575 DEBUG   SenderThread:1912063 [sender.py:send():379] send: header
+2025-01-04 15:48:30,575 DEBUG   SenderThread:1912063 [sender.py:send():379] send: run
+2025-01-04 15:48:31,046 INFO    SenderThread:1912063 [dir_watcher.py:__init__():211] watching files in: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files
+2025-01-04 15:48:31,046 INFO    SenderThread:1912063 [sender.py:_start_run_threads():1188] run started: bu5zp11z with start time 1735973310.075313
+2025-01-04 15:48:31,051 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: check_version
+2025-01-04 15:48:31,051 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: check_version
+2025-01-04 15:48:31,134 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: run_start
+2025-01-04 15:48:31,134 DEBUG   HandlerThread:1912063 [system_info.py:__init__():26] System info init
+2025-01-04 15:48:31,134 DEBUG   HandlerThread:1912063 [system_info.py:__init__():41] System info init done
+2025-01-04 15:48:31,134 INFO    HandlerThread:1912063 [system_monitor.py:start():194] Starting system monitor
+2025-01-04 15:48:31,134 INFO    SystemMonitor:1912063 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-01-04 15:48:31,135 INFO    HandlerThread:1912063 [system_monitor.py:probe():214] Collecting system info
+2025-01-04 15:48:31,135 INFO    SystemMonitor:1912063 [interfaces.py:start():188] Started cpu monitoring
+2025-01-04 15:48:31,135 INFO    SystemMonitor:1912063 [interfaces.py:start():188] Started disk monitoring
+2025-01-04 15:48:31,136 INFO    SystemMonitor:1912063 [interfaces.py:start():188] Started gpu monitoring
+2025-01-04 15:48:31,136 INFO    SystemMonitor:1912063 [interfaces.py:start():188] Started memory monitoring
+2025-01-04 15:48:31,137 INFO    SystemMonitor:1912063 [interfaces.py:start():188] Started network monitoring
+2025-01-04 15:48:31,141 DEBUG   HandlerThread:1912063 [system_info.py:probe():152] Probing system
+2025-01-04 15:48:31,141 DEBUG   HandlerThread:1912063 [system_info.py:_probe_git():137] Probing git
+2025-01-04 15:48:31,144 DEBUG   HandlerThread:1912063 [system_info.py:_probe_git():145] Probing git done
+2025-01-04 15:48:31,144 DEBUG   HandlerThread:1912063 [system_info.py:probe():200] Probing system done
+2025-01-04 15:48:31,144 DEBUG   HandlerThread:1912063 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-49-generic-x86_64-with-glibc2.35', 'python': '3.12.3', 'heartbeatAt': '2025-01-04T06:48:31.141057', 'startedAt': '2025-01-04T06:48:30.074032', 'docker': None, 'cuda': None, 'args': ('--multirun', 'model_name=tohoku-nlp/bert-base-japanese-v3', 'experiment_type=normal,former-only,latter-only,exclude_mo,exclude_koso,exclude_function_words,exclude_content_words,exclude_particle', 'is_debug=true'), 'state': 'running', 'program': '/home/takuma-s/Desktop/discourse_relation_explainability/src/fine_tuning.py', 'codePathLocal': 'src/fine_tuning.py', 'codePath': 'src/fine_tuning.py', 'git': {'remote': 'https://github.com/takuma1229/discourse_relation_explainability.git', 'commit': '1e26107a4733437577dcde488cbde78f4b33f63e'}, 'email': 'takuma1229tennis@gmail.com', 'root': '/home/takuma-s/Desktop/discourse_relation_explainability', 'host': 'takuma-s', 'username': 'takuma-s', 'executable': '/home/takuma-s/Desktop/discourse_relation_explainability/.venv/bin/python', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 1898.9062142857144, 'min': 800.0, 'max': 4842.857142857143}, 'cpu_freq_per_core': [{'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.366, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 5300.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 5309.573, 'min': 800.0, 'max': 5400.0}, {'current': 800.0, 'min': 800.0, 'max': 5400.0}, {'current': 801.587, 'min': 800.0, 'max': 5400.0}, {'current': 800.0, 'min': 800.0, 'max': 5400.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 800.0, 'min': 800.0, 'max': 5300.0}, {'current': 3880.963, 'min': 800.0, 'max': 4200.0}, {'current': 799.529, 'min': 800.0, 'max': 4200.0}, {'current': 3922.222, 'min': 800.0, 'max': 4200.0}, {'current': 3845.491, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 794.379, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 792.572, 'min': 800.0, 'max': 4200.0}, {'current': 803.782, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}], 'disk': {'/': {'total': 937.3305015563965, 'used': 195.83242797851562}}, 'gpu': 'NVIDIA GeForce RTX 4060 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4060 Ti', 'memory_total': 17175674880}], 'memory': {'total': 31.05651092529297}}
+2025-01-04 15:48:31,144 INFO    HandlerThread:1912063 [system_monitor.py:probe():224] Finished collecting system info
+2025-01-04 15:48:31,144 INFO    HandlerThread:1912063 [system_monitor.py:probe():227] Publishing system info
+2025-01-04 15:48:31,145 INFO    HandlerThread:1912063 [system_monitor.py:probe():229] Finished publishing system info
+2025-01-04 15:48:31,145 DEBUG   SenderThread:1912063 [sender.py:send():379] send: files
+2025-01-04 15:48:31,145 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2025-01-04 15:48:31,187 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: python_packages
+2025-01-04 15:48:31,187 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: python_packages
+2025-01-04 15:48:31,227 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-04 15:48:31,227 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:31,228 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: stop_status
+2025-01-04 15:48:31,551 DEBUG   SenderThread:1912063 [sender.py:send():379] send: telemetry
+2025-01-04 15:48:31,822 INFO    wandb-upload_0:1912063 [upload_job.py:push():130] Uploaded file /tmp/tmpg2u_z69owandb/l4onykpo-wandb-metadata.json
+2025-01-04 15:48:32,047 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_created():271] file/dir created: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-metadata.json
+2025-01-04 15:48:32,047 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_created():271] file/dir created: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/requirements.txt
+2025-01-04 15:48:32,047 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_created():271] file/dir created: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:32,188 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:32,454 DEBUG   SenderThread:1912063 [sender.py:send():379] send: config
+2025-01-04 15:48:32,494 DEBUG   SenderThread:1912063 [sender.py:send():379] send: telemetry
+2025-01-04 15:48:32,495 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:32,495 DEBUG   SenderThread:1912063 [sender.py:send():379] send: telemetry
+2025-01-04 15:48:32,495 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:32,495 WARNING SenderThread:1912063 [sender.py:send_metric():1405] Seen metric with glob (shouldn't happen)
+2025-01-04 15:48:32,495 DEBUG   SenderThread:1912063 [sender.py:send():379] send: telemetry
+2025-01-04 15:48:32,495 DEBUG   SenderThread:1912063 [sender.py:send():379] send: telemetry
+2025-01-04 15:48:32,495 DEBUG   SenderThread:1912063 [sender.py:send():379] send: config
+2025-01-04 15:48:32,681 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: log_artifact
+2025-01-04 15:48:32,681 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: log_artifact
+2025-01-04 15:48:33,188 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:34,046 INFO    wandb-upload_0:1912063 [upload_job.py:push():88] Uploaded file /tmp/tmpykagcl93/model_architecture.txt
+2025-01-04 15:48:34,047 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:34,188 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:34,247 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:34,506 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:34,507 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:34,803 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:34,829 INFO    SenderThread:1912063 [sender.py:send_request_log_artifact():1518] logged artifact model-bu5zp11z - {'id': 'QXJ0aWZhY3Q6MTQxODE2ODY1NQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyOTcxNTU0Ng==', 'latestArtifact': None}}
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:34,830 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:34,830 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:34,830 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:34,831 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:34,831 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:34,832 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:35,048 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:35,048 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_created():271] file/dir created: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:35,832 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: status_report
+2025-01-04 15:48:36,048 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:37,012 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:37,048 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:41,016 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: status_report
+2025-01-04 15:48:43,420 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:44,420 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:44,866 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:44,867 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:44,867 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:44,867 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:45,050 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:45,127 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:45,127 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:45,127 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:45,127 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:45,129 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:45,129 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:45,129 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:45,129 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:45,419 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:45,420 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:45,420 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:45,420 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:45,420 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:46,051 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:46,051 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:46,188 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-04 15:48:46,188 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: stop_status
+2025-01-04 15:48:46,420 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:46,440 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: status_report
+2025-01-04 15:48:47,051 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:47,420 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:47,647 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:47,648 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:47,648 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:47,648 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:47,944 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:47,944 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:47,944 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:47,944 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:47,946 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:47,947 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:47,947 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:47,947 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:48,051 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:48,051 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:48,241 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:48,241 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:48,241 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:48,242 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:48,421 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:49,052 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:49,421 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:50,052 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:50,421 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:50,552 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:50,553 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:50,553 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:50,553 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:50,813 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:50,813 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:50,814 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:50,814 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:50,815 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:50,816 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:50,816 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:50,816 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:51,052 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:51,052 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:51,113 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:51,113 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:51,113 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:51,114 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:51,463 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:52,053 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:52,053 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:52,114 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: status_report
+2025-01-04 15:48:52,463 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:53,053 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:53,179 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:53,180 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:53,180 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:48:53,425 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:53,425 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:53,457 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:53,463 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:53,497 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:53,498 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:53,498 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:53,535 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:53,753 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:53,753 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:53,753 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:53,755 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:53,758 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:53,758 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:53,758 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:53,767 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:54,044 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:54,044 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:54,044 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:54,053 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:54,053 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:54,067 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:54,463 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:55,053 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:55,463 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:56,054 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:56,319 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:56,319 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:56,319 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:56,380 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:56,463 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:56,619 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:56,619 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:56,619 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:56,621 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:56,625 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:56,625 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:56,625 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:56,635 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:56,896 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:56,897 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:56,897 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:56,902 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:57,054 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:57,054 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:57,464 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:57,902 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: status_report
+2025-01-04 15:48:57,961 DEBUG   SenderThread:1912063 [sender.py:send():379] send: telemetry
+2025-01-04 15:48:58,001 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:58,002 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:58,054 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:58,054 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:58,075 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:58,075 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:58,075 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:58,075 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:58,216 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:58,216 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:58,306 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:58,388 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:58,388 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:58,432 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:58,432 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:58,432 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:58,432 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:58,432 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:58,432 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:58,464 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:58,501 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:58,605 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:58,605 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:48:58,606 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:48:58,631 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:48:58,989 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: log_artifact
+2025-01-04 15:48:58,989 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: log_artifact
+2025-01-04 15:48:58,992 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:59,082 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:48:59,082 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:48:59,082 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_created():271] file/dir created: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table/label_metrics_28_051e6ccab4c60a7b7c3b.table.json
+2025-01-04 15:48:59,082 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_created():271] file/dir created: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table
+2025-01-04 15:48:59,082 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_created():271] file/dir created: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media
+2025-01-04 15:48:59,400 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: log_artifact
+2025-01-04 15:48:59,404 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:59,464 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:48:59,494 INFO    wandb-upload_0:1912063 [upload_job.py:push():130] Uploaded file /tmp/tmpg2u_z69owandb/ulfhgr7v-media/table/label_metrics_28_051e6ccab4c60a7b7c3b.table.json
+2025-01-04 15:48:59,739 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: log_artifact
+2025-01-04 15:48:59,779 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:48:59,978 INFO    wandb-upload_1:1912063 [upload_job.py:push():88] Uploaded file /home/takuma-s/.local/share/wandb/artifacts/staging/tmprkdypxny
+2025-01-04 15:49:00,082 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:49:00,082 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_created():271] file/dir created: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table/test-metrics_30_c730c6f2361c4aaf8a5d.table.json
+2025-01-04 15:49:00,083 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_created():271] file/dir created: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table/test_predictions_29_2c8c8c40f8cabae2b8f0.table.json
+2025-01-04 15:49:00,083 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table
+2025-01-04 15:49:00,132 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: log_artifact
+2025-01-04 15:49:00,136 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-04 15:49:00,137 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: server_info
+2025-01-04 15:49:00,787 INFO    SenderThread:1912063 [sender.py:send_request_log_artifact():1518] logged artifact run-bu5zp11z-label_metrics - {'id': 'QXJ0aWZhY3Q6MTQxODE2OTEzMg==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyOTcxNTYwOA==', 'latestArtifact': None}}
+2025-01-04 15:49:00,787 DEBUG   SenderThread:1912063 [sender.py:send():379] send: files
+2025-01-04 15:49:00,787 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file media/table/label_metrics_28_051e6ccab4c60a7b7c3b.table.json with policy now
+2025-01-04 15:49:00,787 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:00,787 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:00,787 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:00,787 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:00,787 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:00,787 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:00,787 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:00,787 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:00,787 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:49:00,788 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:49:00,788 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:49:00,788 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: log_artifact
+2025-01-04 15:49:01,083 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:49:01,083 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:49:01,083 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_created():271] file/dir created: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table/test_connective_metrics_31_971c0ae2c6810d9eb497.table.json
+2025-01-04 15:49:01,083 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table
+2025-01-04 15:49:01,210 INFO    wandb-upload_0:1912063 [upload_job.py:push():130] Uploaded file /tmp/tmpg2u_z69owandb/cl8pnkhh-media/table/test-metrics_30_c730c6f2361c4aaf8a5d.table.json
+2025-01-04 15:49:01,285 INFO    wandb-upload_1:1912063 [upload_job.py:push():130] Uploaded file /tmp/tmpg2u_z69owandb/r02h9859-media/table/test_predictions_29_2c8c8c40f8cabae2b8f0.table.json
+2025-01-04 15:49:01,372 INFO    wandb-upload_2:1912063 [upload_job.py:push():130] Uploaded file /tmp/tmpg2u_z69owandb/vybqj929-media/table/label_metrics_28_051e6ccab4c60a7b7c3b.table.json
+2025-01-04 15:49:01,554 INFO    wandb-upload_3:1912063 [upload_job.py:push():130] Uploaded file /tmp/tmpg2u_z69owandb/kfqpbkik-media/table/test_connective_metrics_31_971c0ae2c6810d9eb497.table.json
+2025-01-04 15:49:01,831 INFO    wandb-upload_0:1912063 [upload_job.py:push():88] Uploaded file /home/takuma-s/.local/share/wandb/artifacts/staging/tmpo9d072pu
+2025-01-04 15:49:02,595 INFO    SenderThread:1912063 [sender.py:send_request_log_artifact():1518] logged artifact run-bu5zp11z-test_predictions - {'id': 'QXJ0aWZhY3Q6MTQxODE2OTE2Mw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyOTcxNTYxNQ==', 'latestArtifact': None}}
+2025-01-04 15:49:02,595 DEBUG   SenderThread:1912063 [sender.py:send():379] send: files
+2025-01-04 15:49:02,595 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file media/table/test_predictions_29_2c8c8c40f8cabae2b8f0.table.json with policy now
+2025-01-04 15:49:02,595 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:02,595 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:02,595 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:02,595 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:02,595 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:02,595 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:02,595 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:02,595 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:02,596 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:49:02,596 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:49:02,596 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:49:02,596 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: log_artifact
+2025-01-04 15:49:03,081 INFO    wandb-upload_1:1912063 [upload_job.py:push():130] Uploaded file /tmp/tmpg2u_z69owandb/5gykt25y-media/table/test_predictions_29_2c8c8c40f8cabae2b8f0.table.json
+2025-01-04 15:49:03,083 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:49:03,583 INFO    wandb-upload_3:1912063 [upload_job.py:push():88] Uploaded file /home/takuma-s/.local/share/wandb/artifacts/staging/tmpxcedcy94
+2025-01-04 15:49:04,798 INFO    SenderThread:1912063 [sender.py:send_request_log_artifact():1518] logged artifact run-bu5zp11z-testmetrics - {'id': 'QXJ0aWZhY3Q6MTQxODE2OTE5Ng==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyOTcxNTYyMA==', 'latestArtifact': None}}
+2025-01-04 15:49:04,799 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: status_report
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send():379] send: files
+2025-01-04 15:49:05,007 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file media/table/test-metrics_30_c730c6f2361c4aaf8a5d.table.json with policy now
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:49:05,007 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:49:05,008 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:49:05,008 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: log_artifact
+2025-01-04 15:49:05,084 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:49:05,084 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/config.yaml
+2025-01-04 15:49:05,138 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: keepalive
+2025-01-04 15:49:05,491 INFO    wandb-upload_2:1912063 [upload_job.py:push():130] Uploaded file /tmp/tmpg2u_z69owandb/w3nc160e-media/table/test-metrics_30_c730c6f2361c4aaf8a5d.table.json
+2025-01-04 15:49:05,991 INFO    wandb-upload_1:1912063 [upload_job.py:push():88] Uploaded file /home/takuma-s/.local/share/wandb/artifacts/staging/tmp3wddgkig
+2025-01-04 15:49:06,730 INFO    SenderThread:1912063 [sender.py:send_request_log_artifact():1518] logged artifact run-bu5zp11z-test_connective_metrics - {'id': 'QXJ0aWZhY3Q6MTQxODE2OTIyOA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyOTcxNTYyNw==', 'latestArtifact': None}}
+2025-01-04 15:49:06,730 DEBUG   SenderThread:1912063 [sender.py:send():379] send: files
+2025-01-04 15:49:06,730 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file media/table/test_connective_metrics_31_971c0ae2c6810d9eb497.table.json with policy now
+2025-01-04 15:49:06,730 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:06,730 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:06,730 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:06,730 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:06,730 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:06,730 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:06,730 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:06,731 DEBUG   SenderThread:1912063 [sender.py:send():379] send: metric
+2025-01-04 15:49:06,731 DEBUG   SenderThread:1912063 [sender.py:send():379] send: history
+2025-01-04 15:49:06,731 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: summary_record
+2025-01-04 15:49:06,731 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:49:06,731 DEBUG   SenderThread:1912063 [sender.py:send():379] send: telemetry
+2025-01-04 15:49:06,731 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: server_info
+2025-01-04 15:49:06,899 DEBUG   SenderThread:1912063 [sender.py:send():379] send: exit
+2025-01-04 15:49:06,899 INFO    SenderThread:1912063 [sender.py:send_exit():586] handling exit code: 0
+2025-01-04 15:49:06,899 INFO    SenderThread:1912063 [sender.py:send_exit():588] handling runtime: 35
+2025-01-04 15:49:06,899 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:49:06,899 INFO    SenderThread:1912063 [sender.py:send_exit():594] send defer
+2025-01-04 15:49:06,899 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:06,899 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 0
+2025-01-04 15:49:06,899 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:06,899 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 0
+2025-01-04 15:49:06,899 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 1
+2025-01-04 15:49:06,899 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:06,899 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 1
+2025-01-04 15:49:06,899 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:06,899 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 1
+2025-01-04 15:49:06,900 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 2
+2025-01-04 15:49:06,900 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:06,900 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 2
+2025-01-04 15:49:06,900 INFO    HandlerThread:1912063 [system_monitor.py:finish():203] Stopping system monitor
+2025-01-04 15:49:06,900 DEBUG   SystemMonitor:1912063 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-01-04 15:49:06,900 DEBUG   SystemMonitor:1912063 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-01-04 15:49:06,900 DEBUG   SystemMonitor:1912063 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-01-04 15:49:06,901 INFO    HandlerThread:1912063 [interfaces.py:finish():200] Joined cpu monitor
+2025-01-04 15:49:06,901 INFO    HandlerThread:1912063 [interfaces.py:finish():200] Joined disk monitor
+2025-01-04 15:49:06,922 INFO    HandlerThread:1912063 [interfaces.py:finish():200] Joined gpu monitor
+2025-01-04 15:49:06,922 INFO    HandlerThread:1912063 [interfaces.py:finish():200] Joined memory monitor
+2025-01-04 15:49:06,922 INFO    HandlerThread:1912063 [interfaces.py:finish():200] Joined network monitor
+2025-01-04 15:49:06,922 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:06,922 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 2
+2025-01-04 15:49:06,922 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 3
+2025-01-04 15:49:06,922 DEBUG   SenderThread:1912063 [sender.py:send():379] send: stats
+2025-01-04 15:49:06,922 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:06,922 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 3
+2025-01-04 15:49:06,922 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:06,922 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 3
+2025-01-04 15:49:06,922 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 4
+2025-01-04 15:49:06,923 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:06,923 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 4
+2025-01-04 15:49:06,923 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:06,923 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 4
+2025-01-04 15:49:06,923 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 5
+2025-01-04 15:49:06,923 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:06,923 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 5
+2025-01-04 15:49:06,925 DEBUG   SenderThread:1912063 [sender.py:send():379] send: summary
+2025-01-04 15:49:06,925 INFO    SenderThread:1912063 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-04 15:49:06,925 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:06,925 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 5
+2025-01-04 15:49:06,925 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 6
+2025-01-04 15:49:06,925 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:06,925 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 6
+2025-01-04 15:49:06,925 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:06,925 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 6
+2025-01-04 15:49:06,926 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: status_report
+2025-01-04 15:49:07,085 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:49:07,085 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:49:07,137 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 7
+2025-01-04 15:49:07,137 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:07,137 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 7
+2025-01-04 15:49:07,137 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:07,137 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 7
+2025-01-04 15:49:07,216 INFO    wandb-upload_0:1912063 [upload_job.py:push():130] Uploaded file /tmp/tmpg2u_z69owandb/dqc4f1te-media/table/test_connective_metrics_31_971c0ae2c6810d9eb497.table.json
+2025-01-04 15:49:07,899 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-04 15:49:08,085 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/config.yaml
+2025-01-04 15:49:08,118 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 8
+2025-01-04 15:49:08,118 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: poll_exit
+2025-01-04 15:49:08,119 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:08,119 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 8
+2025-01-04 15:49:08,119 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:08,119 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 8
+2025-01-04 15:49:08,119 INFO    SenderThread:1912063 [job_builder.py:build():440] Attempting to build job artifact
+2025-01-04 15:49:08,119 INFO    SenderThread:1912063 [job_builder.py:_get_source_type():569] is repo sourced job
+2025-01-04 15:49:08,120 INFO    SenderThread:1912063 [job_builder.py:build():545] adding wandb-job metadata file
+2025-01-04 15:49:08,123 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 9
+2025-01-04 15:49:08,123 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:08,123 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 9
+2025-01-04 15:49:08,123 DEBUG   SenderThread:1912063 [sender.py:send():379] send: artifact
+2025-01-04 15:49:08,899 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-04 15:49:09,045 INFO    wandb-upload_2:1912063 [upload_job.py:push():85] Skipped uploading /home/takuma-s/.local/share/wandb/artifacts/staging/tmpyzlw03y0
+2025-01-04 15:49:09,085 INFO    Thread-30 :1912063 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:49:09,441 INFO    wandb-upload_1:1912063 [upload_job.py:push():88] Uploaded file /tmp/tmp1f30vr7k/wandb-job.json
+2025-01-04 15:49:10,716 INFO    SenderThread:1912063 [sender.py:send_artifact():1530] sent artifact job-https___github.com_takuma1229_discourse_relation_explainability.git_src_fine_tuning.py - {'id': 'QXJ0aWZhY3Q6MTQxODE2OTI3Mg==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyNTcwNTUwMA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTQxODE2ODUyOA==', 'versionIndex': 38}}}
+2025-01-04 15:49:10,716 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:10,716 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 9
+2025-01-04 15:49:10,716 INFO    SenderThread:1912063 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-01-04 15:49:11,086 INFO    SenderThread:1912063 [dir_watcher.py:finish():388] scan: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [dir_watcher.py:finish():402] scan save: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log output.log
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [dir_watcher.py:finish():402] scan save: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-metadata.json wandb-metadata.json
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [dir_watcher.py:finish():402] scan save: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/requirements.txt requirements.txt
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [dir_watcher.py:finish():402] scan save: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/config.yaml config.yaml
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [dir_watcher.py:finish():402] scan save: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json wandb-summary.json
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [dir_watcher.py:finish():402] scan save: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table/test_connective_metrics_31_971c0ae2c6810d9eb497.table.json media/table/test_connective_metrics_31_971c0ae2c6810d9eb497.table.json
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [dir_watcher.py:finish():402] scan save: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table/label_metrics_28_051e6ccab4c60a7b7c3b.table.json media/table/label_metrics_28_051e6ccab4c60a7b7c3b.table.json
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [dir_watcher.py:finish():402] scan save: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table/test_predictions_29_2c8c8c40f8cabae2b8f0.table.json media/table/test_predictions_29_2c8c8c40f8cabae2b8f0.table.json
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [dir_watcher.py:finish():402] scan save: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/media/table/test-metrics_30_c730c6f2361c4aaf8a5d.table.json media/table/test-metrics_30_c730c6f2361c4aaf8a5d.table.json
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 10
+2025-01-04 15:49:11,087 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: poll_exit
+2025-01-04 15:49:11,087 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:11,087 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 10
+2025-01-04 15:49:11,087 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 10
+2025-01-04 15:49:11,087 INFO    SenderThread:1912063 [file_pusher.py:finish():169] shutting down file pusher
+2025-01-04 15:49:11,515 INFO    wandb-upload_1:1912063 [upload_job.py:push():130] Uploaded file /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/wandb-summary.json
+2025-01-04 15:49:11,576 INFO    wandb-upload_3:1912063 [upload_job.py:push():130] Uploaded file /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/requirements.txt
+2025-01-04 15:49:11,598 INFO    wandb-upload_0:1912063 [upload_job.py:push():130] Uploaded file /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/output.log
+2025-01-04 15:49:11,899 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-04 15:49:11,900 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: poll_exit
+2025-01-04 15:49:11,989 INFO    wandb-upload_2:1912063 [upload_job.py:push():130] Uploaded file /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/files/config.yaml
+2025-01-04 15:49:12,189 INFO    Thread-29 (_thread_body):1912063 [sender.py:transition_state():614] send defer: 11
+2025-01-04 15:49:12,189 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:12,189 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 11
+2025-01-04 15:49:12,190 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:12,190 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 11
+2025-01-04 15:49:12,190 INFO    SenderThread:1912063 [file_pusher.py:join():175] waiting for file pusher
+2025-01-04 15:49:12,190 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 12
+2025-01-04 15:49:12,190 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:12,190 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 12
+2025-01-04 15:49:12,191 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:12,191 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 12
+2025-01-04 15:49:12,191 INFO    SenderThread:1912063 [file_stream.py:finish():601] file stream finish called
+2025-01-04 15:49:12,374 INFO    SenderThread:1912063 [file_stream.py:finish():605] file stream finish is done
+2025-01-04 15:49:12,374 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 13
+2025-01-04 15:49:12,374 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:12,374 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 13
+2025-01-04 15:49:12,374 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:12,374 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 13
+2025-01-04 15:49:12,374 INFO    SenderThread:1912063 [sender.py:transition_state():614] send defer: 14
+2025-01-04 15:49:12,375 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: defer
+2025-01-04 15:49:12,375 INFO    HandlerThread:1912063 [handler.py:handle_request_defer():184] handle defer: 14
+2025-01-04 15:49:12,375 DEBUG   SenderThread:1912063 [sender.py:send():379] send: final
+2025-01-04 15:49:12,375 DEBUG   SenderThread:1912063 [sender.py:send():379] send: footer
+2025-01-04 15:49:12,375 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: defer
+2025-01-04 15:49:12,375 INFO    SenderThread:1912063 [sender.py:send_request_defer():610] handle sender defer: 14
+2025-01-04 15:49:12,375 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-04 15:49:12,376 DEBUG   SenderThread:1912063 [sender.py:send_request():406] send_request: poll_exit
+2025-01-04 15:49:12,376 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-04 15:49:12,377 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: get_summary
+2025-01-04 15:49:12,377 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: sampled_history
+2025-01-04 15:49:12,378 DEBUG   HandlerThread:1912063 [handler.py:handle_request():158] handle_request: shutdown
+2025-01-04 15:49:12,378 INFO    HandlerThread:1912063 [handler.py:finish():882] shutting down handler
+2025-01-04 15:49:13,376 INFO    WriterThread:1912063 [datastore.py:close():296] close: /home/takuma-s/Desktop/discourse_relation_explainability/wandb/run-20250104_154830-bu5zp11z/run-bu5zp11z.wandb
+2025-01-04 15:49:13,376 INFO    SenderThread:1912063 [sender.py:finish():1608] shutting down sender
+2025-01-04 15:49:13,376 INFO    SenderThread:1912063 [file_pusher.py:finish():169] shutting down file pusher
+2025-01-04 15:49:13,376 INFO    SenderThread:1912063 [file_pusher.py:join():175] waiting for file pusher

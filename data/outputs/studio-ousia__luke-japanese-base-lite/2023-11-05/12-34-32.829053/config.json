@@ -1,0 +1,17 @@
+{
+  "num_warmup_epochs": 1,
+  "labels": "[0, 1, 2, 3, 3]",
+  "model_name": "studio-ousia/luke-japanese-base-lite",
+  "weight_decay": 0.01,
+  "connection_expression": "tokorode",
+  "batch_size": 16,
+  "seed": 42,
+  "device": "cuda:0",
+  "max_seq_len": 512,
+  "gradient_checkpointing": false,
+  "output_dir": "outputs/studio-ousia__luke-japanese-base-lite/2023-11-05/12-34-32.829053",
+  "dataset_dir": "data",
+  "epochs": 15,
+  "lr": 5e-05,
+  "label2id": "{'場所': 0, '時間': 1, '逆接・譲歩': 2, '対象外': 3, 'その他・イディオム': 3}"
+}

@@ -1,0 +1,2 @@
+- model_name=tohoku-nlp/bert-base-japanese-v3
+- experiment_type=convert_content_words_to_dummy

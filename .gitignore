@@ -1,0 +1,14 @@
+models/
+*.pth
+*.pkl
+*.pptx
+results/checkpoint-*
+data/KWDLC/
+*.ipynb
+.env
+show_statistics.py
+multirun/
+data/archive
+data/error_analysis
+data/kwdlc_processed
+data/prompts

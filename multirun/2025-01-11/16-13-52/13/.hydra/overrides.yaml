@@ -1,0 +1,4 @@
+- model_name=tohoku-nlp/bert-base-japanese-v3
+- experiment_type=convert_connectives_to_dummy
+- training.epochs=1
+- is_debug=True

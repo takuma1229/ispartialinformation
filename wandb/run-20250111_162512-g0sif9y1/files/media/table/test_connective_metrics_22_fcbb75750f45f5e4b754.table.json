@@ -1,0 +1,1 @@
+{"columns": ["experiment_type", "connective", "accuracy", "precision", "recall", "f1"], "data": [["exclude_negation", "\u3068\u3053\u308d", 0.0, 0.0, 0.0, 0.0]]}
