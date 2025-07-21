@@ -1,0 +1,442 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at tohoku-nlp/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at tohoku-nlp/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+[2024-12-28 18:05:08,352][HYDRA] 	#1 : model_name=tohoku-nlp/bert-base-japanese-v3 experiment_type=ordinal_forms_shuffle training.epochs=10
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+input_text: [CLS] 本 掛ける の 丸太 長い 、 流れる 渡す て 様 。 も 両岸 に 岸壁 に の だ 目 渡る 丸太 て を 、 、 たて た また 乗せる 中上 アワ 虎毛 大 ところ 橋 平気 顔 数 ます 絶壁 この 黒 十 これ は 三 白 、 に 、 、 軽い 驚く 為る で て また 吹く を は を 激流 に を て 、 その 間 眩む がに メートル 横 だ は 歩く も を で 下 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 居る 」 いらいら を と 為る はて も て の 思う 、 為る がら れる あなた の 立つ こと て ない ず 、 僕 僕 知る 居る も 成る ず 知る で て ところ 僕 と 居る [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] に 不思議 考える 題 なん を の 余事 木村 」 、 、 問 将棋 は 対する 詰 ― ― こと 、 さし 手 と と 同じ 無い無い 将棋 ところ を 、 それ 詰 の こと た か 考える が 扠置く の 無い 、 も 生涯 は が 。 で は だ の て 少し 「 この 三百 は だ 私 名人 で だに 将棋 も [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] こと また や 企業 地域 の 有る つながり 果たす て より 。 実際 、 分業 が 、 に 於く だ ストーリー この より こと に 為る 、 に の 予想 企業 分かる 、 間 つまり 生産 間 言う り れる で 産業 だ つながり が ところ など 体制 の ます が 重要 が がば より 正しい そう が 役割 於く 、 企業 強い た 性 中心 重要 が ます [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] と 、 くん で ね 言う ワトスン 「 がた い 何 も 。 ところ まだ [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+[34m[1mwandb[39m[22m: [33mWARNING[39m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+  1%|▋                                                                                                           | 11/1670 [00:03<08:31,  3.25it/s]
+
+
+  1%|█▏                                                                              | 24/1670 [00:07<08:25,  3.26it/s]
+
+  2%|█▍                                                                              | 30/1670 [00:09<08:25,  3.25it/s]
+
+
+  3%|██                                                                              | 43/1670 [00:13<08:20,  3.25it/s]
+
+  3%|██▍                                                                             | 50/1670 [00:15<08:17,  3.26it/s]
+
+
+  4%|███                                                                             | 63/1670 [00:19<08:14,  3.25it/s]
+
+  4%|███▎                                                                            | 69/1670 [00:21<08:11,  3.25it/s]
+
+
+  5%|███▉                                                                            | 82/1670 [00:25<08:08,  3.25it/s]
+
+
+  6%|████▌                                                                           | 95/1670 [00:29<08:04,  3.25it/s]
+
+  6%|████▊                                                                          | 102/1670 [00:31<08:03,  3.24it/s]
+
+
+  7%|█████▍                                                                         | 115/1670 [00:35<07:58,  3.25it/s]
+
+  7%|█████▋                                                                         | 121/1670 [00:37<07:58,  3.24it/s]
+
+
+  8%|██████▎                                                                        | 134/1670 [00:41<07:53,  3.24it/s]
+
+  8%|██████▋                                                                        | 141/1670 [00:43<07:51,  3.24it/s]
+
+
+  9%|███████▎                                                                       | 154/1670 [00:47<07:48,  3.24it/s]
+
+ 10%|███████▌                                                                       | 160/1670 [00:49<07:44,  3.25it/s]
+
+ 10%|███████▉                                                                       | 167/1670 [00:51<07:26,  3.37it/s]
+
+
+
+
+
+
+
+
+
+ 81%|██████████████████████████████████████████████████████████████████▍               | 17/21 [00:01<00:00, 11.48it/s]
+{'eval_loss': 0.7580706477165222, 'eval_accuracy': 0.7125748502994012, 'eval_precision': 0.5084821428571429, 'eval_recall': 0.20750000000000002, 'eval_f1': 0.18765567765567764, 'eval_runtime': 1.8456, 'eval_samples_per_second': 90.483, 'eval_steps_per_second': 11.378, 'epoch': 1.0}
+
+
+ 11%|████████▌                                                                      | 182/1670 [01:15<08:39,  2.86it/s]
+
+
+ 12%|█████████▏                                                                     | 195/1670 [01:19<07:37,  3.23it/s]
+
+ 12%|█████████▌                                                                     | 202/1670 [01:21<07:34,  3.23it/s]
+
+
+ 13%|██████████                                                                     | 214/1670 [01:25<07:31,  3.22it/s]
+
+ 13%|██████████▍                                                                    | 221/1670 [01:27<07:28,  3.23it/s]
+
+
+
+ 14%|███████████▎                                                                   | 240/1670 [01:33<07:24,  3.22it/s]
+{'loss': 0.6973, 'grad_norm': 20.608015060424805, 'learning_rate': 2.3000000000000003e-05, 'epoch': 1.38}
+
+
+ 15%|███████████▉                                                                   | 253/1670 [01:37<07:17,  3.24it/s]
+
+ 16%|████████████▎                                                                  | 260/1670 [01:39<07:17,  3.23it/s]
+
+
+ 16%|████████████▉                                                                  | 273/1670 [01:43<07:13,  3.22it/s]
+
+
+ 17%|█████████████▌                                                                 | 286/1670 [01:47<07:08,  3.23it/s]
+
+ 17%|█████████████▊                                                                 | 292/1670 [01:49<07:06,  3.23it/s]
+
+
+ 18%|██████████████▍                                                                | 305/1670 [01:53<07:03,  3.22it/s]
+
+ 19%|██████████████▋                                                                | 311/1670 [01:55<07:01,  3.23it/s]
+
+
+ 19%|███████████████▎                                                               | 324/1670 [01:59<06:56,  3.24it/s]
+
+ 20%|███████████████▋                                                               | 331/1670 [02:01<06:54,  3.23it/s]
+ 20%|███████████████▊                                                               | 334/1670 [02:02<06:39,  3.35it/s]
+
+
+
+
+
+
+
+
+
+ 24%|███████████████████▊                                                               | 5/21 [00:00<00:01, 13.59it/s]
+
+ 20%|████████████████                                                               | 339/1670 [02:23<37:49,  1.71s/it]
+
+
+ 21%|████████████████▋                                                              | 352/1670 [02:27<07:06,  3.09it/s]
+
+
+ 22%|█████████████████▎                                                             | 365/1670 [02:31<06:44,  3.23it/s]
+
+ 22%|█████████████████▌                                                             | 372/1670 [02:33<06:42,  3.22it/s]
+
+
+ 23%|██████████████████▏                                                            | 385/1670 [02:37<06:38,  3.22it/s]
+
+ 23%|██████████████████▍                                                            | 391/1670 [02:39<06:36,  3.22it/s]
+
+
+ 24%|███████████████████                                                            | 404/1670 [02:43<06:31,  3.23it/s]
+
+ 25%|███████████████████▍                                                           | 410/1670 [02:45<06:30,  3.23it/s]
+
+
+ 25%|████████████████████                                                           | 423/1670 [02:49<06:26,  3.23it/s]
+
+ 26%|████████████████████▎                                                          | 430/1670 [02:51<06:23,  3.23it/s]
+
+
+ 27%|████████████████████▉                                                          | 443/1670 [02:55<06:20,  3.23it/s]
+
+
+ 27%|█████████████████████▌                                                         | 456/1670 [02:59<06:15,  3.23it/s]
+
+ 28%|█████████████████████▊                                                         | 462/1670 [03:01<06:13,  3.23it/s]
+
+
+ 28%|██████████████████████▍                                                        | 475/1670 [03:05<06:09,  3.23it/s]
+
+ 29%|██████████████████████▊                                                        | 481/1670 [03:07<06:08,  3.22it/s]
+
+
+ 30%|███████████████████████▎                                                       | 494/1670 [03:11<06:03,  3.23it/s]
+ 30%|███████████████████████▋                                                       | 501/1670 [03:13<05:49,  3.35it/s]
+  0%|                                                                                          | 0/167 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+ 81%|██████████████████████████████████████████████████████████████████▍               | 17/21 [00:01<00:00, 11.43it/s]
+
+ 30%|████████████████████████                                                       | 509/1670 [03:35<15:16,  1.27it/s]
+
+
+ 31%|████████████████████████▋                                                      | 522/1670 [03:39<06:01,  3.18it/s]
+
+
+ 32%|█████████████████████████▎                                                     | 535/1670 [03:43<05:52,  3.22it/s]
+
+ 32%|█████████████████████████▋                                                     | 542/1670 [03:45<05:50,  3.22it/s]
+
+
+ 33%|██████████████████████████▏                                                    | 554/1670 [03:49<05:46,  3.22it/s]
+
+ 34%|██████████████████████████▌                                                    | 561/1670 [03:51<05:44,  3.22it/s]
+
+
+ 34%|███████████████████████████▏                                                   | 574/1670 [03:55<05:39,  3.23it/s]
+
+ 35%|███████████████████████████▍                                                   | 580/1670 [03:57<05:38,  3.22it/s]
+
+
+ 36%|████████████████████████████                                                   | 593/1670 [04:01<05:33,  3.23it/s]
+
+ 36%|████████████████████████████▍                                                  | 600/1670 [04:03<05:31,  3.23it/s]
+
+
+ 37%|████████████████████████████▉                                                  | 613/1670 [04:07<05:27,  3.23it/s]
+
+
+ 37%|█████████████████████████████▌                                                 | 626/1670 [04:11<05:23,  3.23it/s]
+
+ 38%|█████████████████████████████▉                                                 | 632/1670 [04:13<05:21,  3.23it/s]
+
+
+ 39%|██████████████████████████████▌                                                | 645/1670 [04:17<05:17,  3.23it/s]
+
+ 39%|██████████████████████████████▊                                                | 651/1670 [04:19<05:15,  3.23it/s]
+
+
+ 40%|███████████████████████████████▍                                               | 664/1670 [04:23<05:11,  3.23it/s]
+ 40%|███████████████████████████████▌                                               | 668/1670 [04:24<04:58,  3.36it/s]
+
+
+
+
+
+
+
+
+
+ 14%|███████████▊                                                                       | 3/21 [00:00<00:01, 16.85it/s]
+
+ 40%|███████████████████████████████▊                                               | 673/1670 [04:45<28:21,  1.71s/it]
+
+
+ 41%|████████████████████████████████▍                                              | 686/1670 [04:49<05:17,  3.10it/s]
+
+ 41%|████████████████████████████████▋                                              | 692/1670 [04:51<05:05,  3.21it/s]
+
+
+ 42%|█████████████████████████████████▎                                             | 705/1670 [04:55<04:59,  3.22it/s]
+
+ 43%|█████████████████████████████████▋                                             | 712/1670 [04:57<04:57,  3.22it/s]
+
+
+ 43%|██████████████████████████████████▏                                            | 724/1670 [05:01<04:52,  3.23it/s]
+
+ 44%|██████████████████████████████████▌                                            | 731/1670 [05:03<04:51,  3.22it/s]
+
+
+ 45%|███████████████████████████████████▏                                           | 744/1670 [05:07<04:47,  3.23it/s]
+
+ 45%|███████████████████████████████████▍                                           | 750/1670 [05:09<04:45,  3.23it/s]
+
+
+ 46%|████████████████████████████████████                                           | 763/1670 [05:13<04:41,  3.23it/s]
+
+ 46%|████████████████████████████████████▍                                          | 770/1670 [05:15<04:39,  3.23it/s]
+
+
+ 47%|█████████████████████████████████████                                          | 783/1670 [05:19<04:34,  3.23it/s]
+
+
+ 48%|█████████████████████████████████████▋                                         | 796/1670 [05:23<04:31,  3.22it/s]
+
+ 48%|█████████████████████████████████████▉                                         | 802/1670 [05:25<04:28,  3.23it/s]
+
+
+ 49%|██████████████████████████████████████▌                                        | 815/1670 [05:29<04:25,  3.22it/s]
+
+ 49%|██████████████████████████████████████▊                                        | 821/1670 [05:31<04:23,  3.23it/s]
+
+
+ 50%|███████████████████████████████████████▍                                       | 834/1670 [05:35<04:18,  3.23it/s]
+ 50%|███████████████████████████████████████▌                                       | 835/1670 [05:35<04:08,  3.36it/s]
+
+
+
+
+
+
+
+
+
+ 71%|██████████████████████████████████████████████████████████▌                       | 15/21 [00:01<00:00, 11.50it/s]
+
+ 50%|███████████████████████████████████████▉                                       | 843/1670 [05:57<10:51,  1.27it/s]
+
+
+ 51%|████████████████████████████████████████▍                                      | 856/1670 [06:01<04:16,  3.17it/s]
+
+ 52%|████████████████████████████████████████▊                                      | 862/1670 [06:03<04:11,  3.22it/s]
+
+
+ 52%|█████████████████████████████████████████▍                                     | 875/1670 [06:07<04:06,  3.23it/s]
+
+ 53%|█████████████████████████████████████████▋                                     | 882/1670 [06:09<04:04,  3.23it/s]
+
+
+ 54%|██████████████████████████████████████████▎                                    | 895/1670 [06:13<03:59,  3.23it/s]
+
+ 54%|██████████████████████████████████████████▌                                    | 901/1670 [06:15<03:58,  3.23it/s]
+
+
+ 55%|███████████████████████████████████████████▏                                   | 914/1670 [06:19<03:54,  3.22it/s]
+
+ 55%|███████████████████████████████████████████▌                                   | 920/1670 [06:21<03:53,  3.21it/s]
+
+
+ 56%|████████████████████████████████████████████▏                                  | 933/1670 [06:25<03:48,  3.22it/s]
+
+ 56%|████████████████████████████████████████████▎                                  | 937/1670 [06:26<03:47,  3.22it/s]
+
+ 57%|████████████████████████████████████████████▉                                  | 949/1670 [06:30<03:43,  3.22it/s]
+
+
+
+ 58%|█████████████████████████████████████████████▉                                 | 970/1670 [06:37<03:37,  3.22it/s]
+
+ 59%|██████████████████████████████████████████████▎                                | 980/1670 [06:40<03:33,  3.22it/s]
+
+ 59%|██████████████████████████████████████████████▌                                | 985/1670 [06:41<03:32,  3.22it/s]
+
+ 59%|██████████████████████████████████████████████▊                                | 990/1670 [06:43<03:30,  3.23it/s]
+{'loss': 0.3299, 'grad_norm': 0.39412185549736023, 'learning_rate': 2.9059829059829063e-05, 'epoch': 5.93}
+ 60%|██████████████████████████████████████████████▊                               | 1002/1670 [06:46<03:19,  3.35it/s]
+
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/src/fine_tuning.py", line 456, in <module>, 11.27it/s]
+    main()
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/hydra/_internal/utils.py", line 465, in _run_app
+    run_and_report(
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+           ^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/hydra/_internal/utils.py", line 466, in <lambda>
+    lambda: hydra.multirun(
+            ^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/hydra/_internal/hydra.py", line 162, in multirun
+    ret = sweeper.sweep(arguments=task_overrides)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/hydra/_internal/core_plugins/basic_sweeper.py", line 177, in sweep
+    results = self.launcher.launch(batch, initial_job_idx=initial_job_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/hydra/_internal/core_plugins/basic_launcher.py", line 74, in launch
+    ret = run_job(
+          ^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/src/fine_tuning.py", line 447, in main
+    trained_trainer = train(trainer)
+                      ^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/src/fine_tuning.py", line 192, in train
+    trainer.train()
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 1932, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 2364, in _inner_training_loop
+    self.control = self.callback_handler.on_epoch_end(args, self.state, self.control)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/trainer_callback.py", line 471, in on_epoch_end
+    return self.call_event("on_epoch_end", args, state, control)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/trainer_callback.py", line 508, in call_event
+    result = getattr(callback, event)(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/src/log.py", line 59, in on_epoch_end
+    train_output = self.trainer.predict(self.trainer.train_dataset)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 3717, in predict
+    output = eval_loop(
+             ^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 3826, in evaluation_loop
+    losses, logits, labels = self.prediction_step(model, inputs, prediction_loss_only, ignore_keys=ignore_keys)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 4040, in prediction_step
+    loss, outputs = self.compute_loss(model, inputs, return_outputs=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/trainer.py", line 3338, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 1695, in forward
+    outputs = self.bert(
+              ^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 1141, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 694, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 584, in forward
+    self_attention_outputs = self.attention(
+                             ^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 514, in forward
+    self_outputs = self.self(
+                   ^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 408, in forward
+    value_layer = self.transpose_for_scores(self.value(current_states))
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

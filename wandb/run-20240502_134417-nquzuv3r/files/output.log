@@ -1,0 +1,330 @@
+/content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at cl-tohoku/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+  0%|          | 0/20 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: None 	loss: 0.065450   	accuracy: 0.1737 	precision: 0.2217 	recall: 0.2554 	f1: 0.1006
+epoch: None 	loss: 0.075550   	accuracy: 0.2321 	precision: 0.1715 	recall: 0.2667 	f1: 0.1020
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  5%|▌         | 1/20 [01:34<29:55, 94/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 0 	loss: 0.001837   	accuracy: 0.7948 	precision: 0.2715 	recall: 0.3072 	f1: 0.2877
+epoch: 0 	loss: 0.028211   	accuracy: 0.7904 	precision: 0.2847 	recall: 0.3208 	f1: 0.3014
+epoch: 0 	loss: 0.030309   	accuracy: 0.7381 	precision: 0.2704 	recall: 0.2973 	f1: 0.2832
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 82%|████████▏ | 9/11 [00:00<00:00, 22.26it/s]
+epoch: 1 	loss: 0.001404   	accuracy: 0.8457 	precision: 0.4948 	recall: 0.3280 	f1: 0.3152
+epoch: 1 	loss: 0.014036   	accuracy: 0.7964 	precision: 0.2765 	recall: 0.2858 	f1: 0.2789
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 15%|█▌        | 3/20 [02:07<09:38, 34/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  7%|▋         | 6/84 [00:01<00:12,  6.38it/s]
+epoch: 2 	loss: 0.000223   	accuracy: 0.8914 	precision: 0.4524 	recall: 0.5178 	f1: 0.4719
+epoch: 2 	loss: 0.026951   	accuracy: 0.8323 	precision: 0.4177 	recall: 0.4963 	f1: 0.4321
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 20%|██        | 4/20 [02:24<07:15, 27/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 3 	loss: 0.000541   	accuracy: 0.9109 	precision: 0.4660 	recall: 0.5518 	f1: 0.4903
+epoch: 3 	loss: 0.023588   	accuracy: 0.8383 	precision: 0.4130 	recall: 0.5162 	f1: 0.4385
+epoch: 3 	loss: 0.012564   	accuracy: 0.8571 	precision: 0.4544 	recall: 0.5125 	f1: 0.4727
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 82%|████████▏ | 9/11 [00:00<00:00, 22.13it/s]
+epoch: 4 	loss: 0.000159   	accuracy: 0.9356 	precision: 0.7151 	recall: 0.5615 	f1: 0.5951
+epoch: 4 	loss: 0.016935   	accuracy: 0.8383 	precision: 0.5128 	recall: 0.4138 	f1: 0.4450
+  self.pid = os.fork()[00:00<?, ?it/s]
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 30%|███       | 6/20 [02:57<04:56, 21/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  6%|▌         | 5/84 [00:00<00:13,  6.01it/s]
+epoch: 5 	loss: 0.000046   	accuracy: 0.9723 	precision: 0.7512 	recall: 0.7510 	f1: 0.7508
+epoch: 5 	loss: 0.022450   	accuracy: 0.8743 	precision: 0.5721 	recall: 0.6050 	f1: 0.5731
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 35%|███▌      | 7/20 [03:14<04:16, 19/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 6 	loss: 0.000036   	accuracy: 0.9783 	precision: 0.9797 	recall: 0.9192 	f1: 0.9453
+epoch: 6 	loss: 0.029248   	accuracy: 0.8922 	precision: 0.6484 	recall: 0.7121 	f1: 0.6620
+epoch: 6 	loss: 0.000570   	accuracy: 0.8571 	precision: 0.8764 	recall: 0.8135 	f1: 0.8157
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 10%|▉         | 8/84 [00:01<00:14,  5.27it/s]
+epoch: 7 	loss: 0.000023   	accuracy: 0.9880 	precision: 0.9571 	recall: 0.9302 	f1: 0.9429
+epoch: 7 	loss: 0.027800   	accuracy: 0.8922 	precision: 0.6564 	recall: 0.7263 	f1: 0.6713
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 45%|████▌     | 9/20 [03:48<03:19, 18/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  5%|▍         | 4/84 [00:00<00:13,  5.94it/s]
+epoch: 8 	loss: 0.000016   	accuracy: 0.9918 	precision: 0.9376 	recall: 0.9791 	f1: 0.9539
+epoch: 8 	loss: 0.004609   	accuracy: 0.8743 	precision: 0.8551 	recall: 0.7279 	f1: 0.7192
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 50%|█████     | 10/20 [04:04<02:56, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  1%|          | 1/84 [00:00<00:31,  2.63it/s]
+epoch: 9 	loss: 0.000012   	accuracy: 0.9933 	precision: 0.9638 	recall: 0.9638 	f1: 0.9637
+epoch: 9 	loss: 0.020635   	accuracy: 0.8503 	precision: 0.6358 	recall: 0.6217 	f1: 0.5855
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 55%|█████▌    | 11/20 [04:21<02:35, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+epoch: 10 	loss: 0.000009   	accuracy: 0.9940 	precision: 0.9764 	recall: 0.9835 	f1: 0.9792
+epoch: 10 	loss: 0.032116   	accuracy: 0.8503 	precision: 0.8567 	recall: 0.6608 	f1: 0.6694
+epoch: 10 	loss: 0.006042   	accuracy: 0.8274 	precision: 0.8752 	recall: 0.7440 	f1: 0.7840
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 11%|█         | 9/84 [00:01<00:12,  5.85it/s]
+epoch: 11 	loss: 0.000008   	accuracy: 0.9940 	precision: 0.9718 	recall: 0.9881 	f1: 0.9793
+epoch: 11 	loss: 0.029838   	accuracy: 0.8623 	precision: 0.8714 	recall: 0.6687 	f1: 0.6795
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 65%|██████▌   | 13/20 [04:53<01:57, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  8%|▊         | 7/84 [00:01<00:11,  6.82it/s]
+epoch: 12 	loss: 0.000007   	accuracy: 0.9940 	precision: 0.9718 	recall: 0.9881 	f1: 0.9793
+epoch: 12 	loss: 0.020194   	accuracy: 0.8623 	precision: 0.8700 	recall: 0.6967 	f1: 0.7131
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 70%|███████   | 14/20 [05:10<01:40, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  5%|▍         | 4/84 [00:00<00:13,  5.94it/s]
+epoch: 13 	loss: 0.000007   	accuracy: 0.9940 	precision: 0.9764 	recall: 0.9835 	f1: 0.9792
+epoch: 13 	loss: 0.022192   	accuracy: 0.8563 	precision: 0.8605 	recall: 0.6950 	f1: 0.7097
+
+
+
+
+
+
+
+  self.pid = os.fork()[00:00<?, ?it/s]
+                                      /usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 75%|███████▌  | 15/20 [05:26<01:23, 1/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()[00:00<?, ?it/s]
+  1%|          | 1/84 [00:00<00:31,  2.61it/s]
+epoch: 14 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9764 	recall: 0.9835 	f1: 0.9792
+epoch: 14 	loss: 0.023133   	accuracy: 0.8503 	precision: 0.6405 	recall: 0.6450 	f1: 0.6131
+ 17%|█▋        | 14/84 [00:02<00:10,  6.98it/s]
+ 36%|███▌      | 30/84 [00:04<00:06,  8.09it/s]
+ 50%|█████     | 42/84 [00:06<00:08,  4.78it/s]
+ 69%|██████▉   | 58/84 [00:08<00:03,  7.62it/s]
+ 88%|████████▊ | 74/84 [00:10<00:01,  8.24it/s]
+ 10%|▉         | 8/84 [00:00<00:04, 16.11it/s]
+ 79%|███████▊  | 66/84 [00:02<00:00, 29.98it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+ 13%|█▎        | 11/84 [00:01<00:12,  6.07it/s]
+ 13%|█▎        | 11/84 [00:01<00:12,  6.07it/s]
+epoch: 15 	loss: 0.000006   	accuracy: 0.9940 	precision: 0.9764 	recall: 0.9835 	f1: 0.9792
+epoch: 15 	loss: 0.025384   	accuracy: 0.8503 	precision: 0.6405 	recall: 0.6450 	f1: 0.6131
+ 31%|███       | 26/84 [00:03<00:06,  8.36it/s]
+ 48%|████▊     | 40/84 [00:05<00:05,  7.51it/s]
+ 64%|██████▍   | 54/84 [00:07<00:04,  7.32it/s]
+ 83%|████████▎ | 70/84 [00:10<00:01,  7.63it/s]
+  0%|          | 0/84 [00:00<?, ?it/s]
+ 64%|██████▍   | 54/84 [00:02<00:01, 27.99it/s]
+  9%|▉         | 1/11 [00:00<00:02,  3.66it/s]
+ 11%|█         | 9/84 [00:01<00:12,  5.85it/s]
+ 11%|█         | 9/84 [00:01<00:12,  5.85it/s]
+epoch: 16 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9718 	recall: 0.9881 	f1: 0.9793
+epoch: 16 	loss: 0.024489   	accuracy: 0.8503 	precision: 0.6405 	recall: 0.6450 	f1: 0.6131
+ 27%|██▋       | 23/84 [00:03<00:08,  7.10it/s]
+ 45%|████▌     | 38/84 [00:05<00:05,  8.09it/s]
+ 62%|██████▏   | 52/84 [00:07<00:04,  7.62it/s]
+ 80%|███████▉  | 67/84 [00:09<00:02,  8.05it/s]
+ 99%|█████████▉| 83/84 [00:11<00:00,  7.60it/s]
+ 50%|█████     | 42/84 [00:01<00:01, 22.84it/s]
+ 73%|███████▎  | 8/11 [00:00<00:00, 19.63it/s]
+  8%|▊         | 7/84 [00:01<00:11,  6.89it/s]
+  8%|▊         | 7/84 [00:01<00:11,  6.89it/s]
+epoch: 17 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9718 	recall: 0.9881 	f1: 0.9793
+epoch: 17 	loss: 0.024340   	accuracy: 0.8503 	precision: 0.6405 	recall: 0.6450 	f1: 0.6131
+ 24%|██▍       | 20/84 [00:03<00:09,  6.43it/s]
+ 42%|████▏     | 35/84 [00:05<00:06,  7.21it/s]
+ 58%|█████▊    | 49/84 [00:07<00:04,  7.79it/s]
+ 76%|███████▌  | 64/84 [00:09<00:02,  7.38it/s]
+ 95%|█████████▌| 80/84 [00:11<00:00,  8.54it/s]
+ 38%|███▊      | 32/84 [00:01<00:01, 27.11it/s]
+  self.pid = os.fork()[00:00<?, ?it/s]
+  5%|▍         | 4/84 [00:00<00:13,  5.99it/s]
+  5%|▍         | 4/84 [00:00<00:13,  5.99it/s]
+epoch: 18 	loss: 0.000005   	accuracy: 0.9940 	precision: 0.9718 	recall: 0.9881 	f1: 0.9793
+epoch: 18 	loss: 0.023259   	accuracy: 0.8503 	precision: 0.6405 	recall: 0.6450 	f1: 0.6131
+ 20%|██        | 17/84 [00:02<00:09,  7.14it/s]
+ 38%|███▊      | 32/84 [00:04<00:07,  7.22it/s]
+ 55%|█████▍    | 46/84 [00:06<00:05,  7.08it/s]
+ 73%|███████▎  | 61/84 [00:08<00:02,  8.26it/s]
+ 92%|█████████▏| 77/84 [00:10<00:00,  7.76it/s]
+ 24%|██▍       | 20/84 [00:01<00:02, 23.40it/s]
+ 93%|█████████▎| 78/84 [00:03<00:00, 31.67it/s]
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  0%|          | 0/11 [00:00<?, ?it/s]/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+                                              /python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+                                              /python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+epoch: 19 	loss: 0.022842   	accuracy: 0.8503 	precision: 0.6405 	recall: 0.6450 	f1: 0.6131
+No traceback available to show.               /python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+No traceback available to show.               /python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+OptimizedModule(
+  (_orig_mod): BertForSequenceClassification(
+    (bert): BertModel(
+      (embeddings): BertEmbeddings(
+        (word_embeddings): Embedding(32784, 768)
+        (position_embeddings): Embedding(512, 768)
+        (token_type_embeddings): Embedding(2, 768)
+        (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (encoder): BertEncoder(
+        (layer): ModuleList(
+          (0-11): 12 x BertLayer(
+            (attention): BertAttention(
+              (self): BertSelfAttention(
+                (query): Linear(in_features=768, out_features=768, bias=True)
+                (key): Linear(in_features=768, out_features=768, bias=True)
+                (value): Linear(in_features=768, out_features=768, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): BertSelfOutput(
+                (dense): Linear(in_features=768, out_features=768, bias=True)
+                (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): BertIntermediate(
+              (dense): Linear(in_features=768, out_features=3072, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): BertOutput(
+              (dense): Linear(in_features=3072, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+        )
+      )
+      (pooler): BertPooler(
+        (dense): Linear(in_features=768, out_features=768, bias=True)
+        (activation): Tanh()
+      )
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+    (classifier): Linear(in_features=768, out_features=5, bias=True)
+  )
+)
+<class 'torch._dynamo.eval_frame.OptimizedModule'>
+<class 'transformers.models.bert.modeling_bert.BertForSequenceClassification'>

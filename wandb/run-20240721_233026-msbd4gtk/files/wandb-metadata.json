@@ -1,0 +1,188 @@
+{
+    "os": "Linux-6.5.0-41-generic-x86_64-with-glibc2.35",
+    "python": "3.12.3",
+    "heartbeatAt": "2024-07-21T14:30:27.079534",
+    "startedAt": "2024-07-21T14:30:26.458976",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/takuma-s/Desktop/discourse_relation_explainability/src/fine-tuning.py",
+    "codePathLocal": "src/fine-tuning.py",
+    "codePath": "src/fine-tuning.py",
+    "git": {
+        "remote": "https://github.com/takuma1229/discourse_relation_explainability.git",
+        "commit": "1f2003ab58357e1238d4deb870577048ab98c0dc"
+    },
+    "email": "takuma1229tennis@gmail.com",
+    "root": "/home/takuma-s/Desktop/discourse_relation_explainability",
+    "host": "takuma-s",
+    "username": "takuma-s",
+    "executable": "/home/takuma-s/Desktop/discourse_relation_explainability/.venv/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 1147.5409642857144,
+        "min": 800.0,
+        "max": 4842.857142857143
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1741.066,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 801.318,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1494.592,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1484.329,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.236,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.235,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 799.643,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 799.186,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1843.356,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 1757.931,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 1391.276,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 1332.692,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 799.401,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1093.118,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 799.276,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1018.772,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1289.592,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 982.065,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 996.312,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 798.919,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.161,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.721,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 798.251,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.935,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 799.801,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.333,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 937.3305015563965,
+            "used": 45.879638671875
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "memory_total": 17175674880
+        }
+    ],
+    "memory": {
+        "total": 31.049339294433594
+    }
+}

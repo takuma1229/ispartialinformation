@@ -1,0 +1,352 @@
+/content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at cl-tohoku/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+ 18%|█▊        | 2/11 [00:01<00:04,  1.87it/s]
+  0%|          | 0/15 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████▋| 81/84 [00:13<00:00,  7.48it/s]
+epoch: 0 	loss: 0.003837   	accuracy: 0.7506 	precision: 0.1501 	recall: 0.2000 	f1: 0.1715
+  7%|▋         | 1/15 [00:36<08:36, 36.90s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 91%|█████████ | 10/11 [00:01<00:00,  7.90it/s]
+epoch: 1 	loss: 0.002944   	accuracy: 0.7543 	precision: 0.2437 	recall: 0.2053 	f1: 0.1827
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 98%|█████████▊| 82/84 [00:13<00:00,  6.23it/s]
+epoch: 2 	loss: 0.001871   	accuracy: 0.8015 	precision: 0.2899 	recall: 0.2631 	f1: 0.2641
+ 20%|██        | 3/15 [01:45<06:56, 34.74s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 64%|██████▎   | 7/11 [00:01<00:00,  6.00it/s]
+epoch: 3 	loss: 0.001624   	accuracy: 0.8951 	precision: 0.3259 	recall: 0.3814 	f1: 0.3499
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 55%|█████▍    | 6/11 [00:01<00:00,  7.29it/s]
+epoch: 4 	loss: 0.001500   	accuracy: 0.8981 	precision: 0.3267 	recall: 0.3815 	f1: 0.3505
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 45%|████▌     | 5/11 [00:00<00:00,  6.58it/s]
+epoch: 5 	loss: 0.001402   	accuracy: 0.9019 	precision: 0.3269 	recall: 0.3896 	f1: 0.3527
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 27%|██▋       | 3/11 [00:00<00:01,  4.69it/s]
+epoch: 6 	loss: 0.001362   	accuracy: 0.9049 	precision: 0.3290 	recall: 0.3911 	f1: 0.3549
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 36%|███▋      | 4/11 [00:00<00:01,  5.78it/s]
+epoch: 7 	loss: 0.001301   	accuracy: 0.9071 	precision: 0.5303 	recall: 0.3946 	f1: 0.3620
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 36%|███▋      | 4/11 [00:00<00:01,  5.74it/s]
+epoch: 8 	loss: 0.001259   	accuracy: 0.9101 	precision: 0.5313 	recall: 0.3976 	f1: 0.3635
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 36%|███▋      | 4/11 [00:00<00:01,  5.69it/s]
+epoch: 9 	loss: 0.001218   	accuracy: 0.9139 	precision: 0.5345 	recall: 0.4130 	f1: 0.3936
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 27%|██▋       | 3/11 [00:00<00:01,  4.65it/s]
+epoch: 10 	loss: 0.001173   	accuracy: 0.9169 	precision: 0.5360 	recall: 0.4231 	f1: 0.4097
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 18%|█▊        | 2/11 [00:00<00:02,  4.24it/s]
+epoch: 11 	loss: 0.001122   	accuracy: 0.9221 	precision: 0.7386 	recall: 0.4487 	f1: 0.4520
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 18%|█▊        | 2/11 [00:00<00:02,  4.19it/s]
+epoch: 12 	loss: 0.001093   	accuracy: 0.9243 	precision: 0.7400 	recall: 0.4580 	f1: 0.4650
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2%|▏         | 2/84 [00:00<00:19,  4.18it/s]
+epoch: 13 	loss: 0.001066   	accuracy: 0.9288 	precision: 0.7423 	recall: 0.4764 	f1: 0.4881
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  9%|▉         | 1/11 [00:00<00:03,  3.27it/s]
+epoch: 14 	loss: 0.001054   	accuracy: 0.9303 	precision: 0.7436 	recall: 0.4826 	f1: 0.4956
+
+
+ 27%|██▋       | 3/11 [00:00<00:01,  5.10it/s]
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+{'best-epoch': 5, 'loss': 0.02074032738095238, 'accuracy': 0.75, 'precision': 0.2751131221719457, 'recall': 0.31008569545154907, 'f1': 0.29107551487414185}
+OptimizedModule(
+  (_orig_mod): BertForSequenceClassification(
+    (bert): BertModel(
+      (embeddings): BertEmbeddings(
+        (word_embeddings): Embedding(32784, 768)
+        (position_embeddings): Embedding(512, 768)
+        (token_type_embeddings): Embedding(2, 768)
+        (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (encoder): BertEncoder(
+        (layer): ModuleList(
+          (0-11): 12 x BertLayer(
+            (attention): BertAttention(
+              (self): BertSdpaSelfAttention(
+                (query): Linear(in_features=768, out_features=768, bias=True)
+                (key): Linear(in_features=768, out_features=768, bias=True)
+                (value): Linear(in_features=768, out_features=768, bias=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+              (output): BertSelfOutput(
+                (dense): Linear(in_features=768, out_features=768, bias=True)
+                (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+                (dropout): Dropout(p=0.1, inplace=False)
+              )
+            )
+            (intermediate): BertIntermediate(
+              (dense): Linear(in_features=768, out_features=3072, bias=True)
+              (intermediate_act_fn): GELUActivation()
+            )
+            (output): BertOutput(
+              (dense): Linear(in_features=3072, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+        )
+      )
+      (pooler): BertPooler(
+        (dense): Linear(in_features=768, out_features=768, bias=True)
+        (activation): Tanh()
+      )
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+    (classifier): Linear(in_features=768, out_features=5, bias=True)
+  )
+)
+<class 'torch._dynamo.eval_frame.OptimizedModule'>
+<class 'transformers.models.bert.modeling_bert.BertForSequenceClassification'>

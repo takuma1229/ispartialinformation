@@ -1,0 +1,567 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at tohoku-nlp/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+input_text: [CLS] また 両岸 数十 メートル の 絶壁 で 、 岸壁 間 に 大 丸太 を 横 に 渡し 、 その 上 に 中 丸太 三 本 を たて に のせ て 、 長い 橋 を かけ 、 下 は 激流 が 白 アワ を ふい て 流れ 、 目 も くらむ よう な [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 僕 は あなた が 、 僕 の 知ら ぬ [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 余事 は さておき 、 私 は この 問 に 対し て 、 「 それ は なん で も ない こと だ 、 将棋 さし が 詰 将棋 の 手 を 考える の と 同じ こと だ 、 木村 名人 が 生涯 に 三百 題 の 詰 将棋 を 考え た [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] また 、 この ストーリー が 正しけれ ば 、 生産 に おけ る 企業 間 分業 体制 が より 重要 な 産業 や 地域 に おい て 、 より 企業 間 の つながり が 重要 で ある こと が 予想 さ れ ます が 、 実際 に そう いう [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 「 まだ 何 と も 言い がたい [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+  0%|▎                                                                                                           | 15/5010 [00:04<25:32,  3.26it/s]
+
+  0%|▍                                                                                                           | 22/5010 [00:06<25:31,  3.26it/s]
+
+
+  1%|▊                                                                                                           | 35/5010 [00:10<25:33,  3.24it/s]
+
+  1%|▉                                                                                                           | 41/5010 [00:12<25:30,  3.25it/s]
+
+
+  1%|█▏                                                                                                          | 54/5010 [00:16<25:25,  3.25it/s]
+
+  1%|█▎                                                                                                          | 61/5010 [00:18<25:21,  3.25it/s]
+
+
+  1%|█▌                                                                                                          | 74/5010 [00:22<25:20,  3.25it/s]
+
+  2%|█▋                                                                                                          | 80/5010 [00:24<25:19,  3.24it/s]
+
+
+  2%|█▉                                                                                                          | 92/5010 [00:28<25:12,  3.25it/s]
+
+  2%|██▏                                                                                                        | 100/5010 [00:30<25:13,  3.24it/s]
+
+
+  2%|██▍                                                                                                        | 113/5010 [00:34<25:07,  3.25it/s]
+
+  2%|██▌                                                                                                        | 119/5010 [00:36<25:06,  3.25it/s]
+
+
+  3%|██▊                                                                                                        | 132/5010 [00:40<25:05,  3.24it/s]
+
+
+  3%|███                                                                                                        | 145/5010 [00:44<24:57,  3.25it/s]
+
+  3%|███▏                                                                                                       | 152/5010 [00:46<24:58,  3.24it/s]
+
+
+  3%|███▌                                                                                                       | 165/5010 [00:50<24:57,  3.24it/s]
+  3%|███▌                                                                                                       | 167/5010 [00:51<24:01,  3.36it/s]
+
+
+
+
+
+
+
+
+
+ 52%|█████████████████████████████████████████████████████████▌                                                    | 11/21 [00:00<00:00, 11.84it/s]
+
+  3%|███▋                                                                                                     | 174/5010 [01:12<1:19:24,  1.01it/s]
+
+  4%|███▊                                                                                                       | 181/5010 [01:14<29:27,  2.73it/s]
+
+
+  4%|████▏                                                                                                      | 194/5010 [01:18<24:51,  3.23it/s]
+
+  4%|████▎                                                                                                      | 200/5010 [01:20<24:49,  3.23it/s]
+
+
+  4%|████▌                                                                                                      | 213/5010 [01:24<24:43,  3.23it/s]
+
+  4%|████▋                                                                                                      | 219/5010 [01:26<24:39,  3.24it/s]
+
+
+  5%|████▉                                                                                                      | 232/5010 [01:30<24:36,  3.24it/s]
+
+
+  5%|█████▏                                                                                                     | 245/5010 [01:34<24:30,  3.24it/s]
+
+  5%|█████▍                                                                                                     | 252/5010 [01:36<24:28,  3.24it/s]
+
+
+  5%|█████▋                                                                                                     | 265/5010 [01:40<24:26,  3.24it/s]
+
+  5%|█████▊                                                                                                     | 271/5010 [01:42<24:27,  3.23it/s]
+
+
+  6%|██████                                                                                                     | 284/5010 [01:46<24:16,  3.25it/s]
+
+  6%|██████▏                                                                                                    | 291/5010 [01:48<24:19,  3.23it/s]
+
+
+  6%|██████▍                                                                                                    | 304/5010 [01:52<24:13,  3.24it/s]
+
+  6%|██████▌                                                                                                    | 310/5010 [01:54<24:09,  3.24it/s]
+
+
+  6%|██████▉                                                                                                    | 323/5010 [01:58<24:09,  3.23it/s]
+
+  7%|███████                                                                                                    | 330/5010 [02:00<24:04,  3.24it/s]
+  7%|███████▏                                                                                                   | 334/5010 [02:02<23:13,  3.36it/s]
+
+
+
+
+
+
+
+
+
+ 14%|███████████████▊                                                                                               | 3/21 [00:00<00:01, 17.01it/s]
+
+
+  7%|███████▎                                                                                                   | 345/5010 [02:24<36:39,  2.12it/s]
+
+  7%|███████▌                                                                                                   | 352/5010 [02:26<25:04,  3.10it/s]
+
+
+  7%|███████▊                                                                                                   | 365/5010 [02:30<23:49,  3.25it/s]
+
+  7%|███████▉                                                                                                   | 371/5010 [02:32<23:53,  3.24it/s]
+
+
+  8%|████████▏                                                                                                  | 384/5010 [02:36<23:52,  3.23it/s]
+
+  8%|████████▎                                                                                                  | 391/5010 [02:38<23:46,  3.24it/s]
+
+
+  8%|████████▋                                                                                                  | 404/5010 [02:42<23:35,  3.25it/s]
+
+  8%|████████▊                                                                                                  | 410/5010 [02:44<23:37,  3.24it/s]
+
+
+  8%|█████████                                                                                                  | 423/5010 [02:48<23:35,  3.24it/s]
+
+  9%|█████████▏                                                                                                 | 430/5010 [02:51<23:33,  3.24it/s]
+
+
+  9%|█████████▍                                                                                                 | 443/5010 [02:55<23:28,  3.24it/s]
+
+
+  9%|█████████▋                                                                                                 | 456/5010 [02:59<23:25,  3.24it/s]
+
+  9%|█████████▊                                                                                                 | 462/5010 [03:00<23:24,  3.24it/s]
+
+
+  9%|██████████▏                                                                                                | 475/5010 [03:04<23:22,  3.23it/s]
+
+ 10%|██████████▎                                                                                                | 481/5010 [03:06<23:17,  3.24it/s]
+
+
+ 10%|██████████▌                                                                                                | 494/5010 [03:10<23:15,  3.24it/s]
+ 10%|██████████▋                                                                                                | 501/5010 [03:12<22:23,  3.36it/s]
+  0%|                                                                                                                      | 0/167 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+ 81%|█████████████████████████████████████████████████████████████████████████████████████████                     | 17/21 [00:01<00:00, 11.50it/s]
+
+ 10%|██████████▉                                                                                                | 510/5010 [03:34<47:58,  1.56it/s]
+
+
+ 10%|███████████▏                                                                                               | 523/5010 [03:38<23:15,  3.22it/s]
+
+ 11%|███████████▎                                                                                               | 530/5010 [03:41<23:05,  3.23it/s]
+
+
+ 11%|███████████▌                                                                                               | 543/5010 [03:45<22:58,  3.24it/s]
+
+
+ 11%|███████████▊                                                                                               | 556/5010 [03:49<22:55,  3.24it/s]
+
+ 11%|████████████                                                                                               | 562/5010 [03:50<22:52,  3.24it/s]
+
+
+ 11%|████████████▎                                                                                              | 575/5010 [03:54<22:47,  3.24it/s]
+
+ 12%|████████████▍                                                                                              | 582/5010 [03:57<22:42,  3.25it/s]
+
+
+ 12%|████████████▋                                                                                              | 595/5010 [04:01<22:40,  3.25it/s]
+
+ 12%|████████████▊                                                                                              | 601/5010 [04:02<22:37,  3.25it/s]
+
+
+ 12%|█████████████                                                                                              | 614/5010 [04:06<22:36,  3.24it/s]
+
+ 12%|█████████████▎                                                                                             | 621/5010 [04:09<22:35,  3.24it/s]
+
+
+ 13%|█████████████▌                                                                                             | 634/5010 [04:13<22:28,  3.24it/s]
+
+ 13%|█████████████▋                                                                                             | 640/5010 [04:14<22:25,  3.25it/s]
+
+
+ 13%|█████████████▉                                                                                             | 653/5010 [04:18<22:23,  3.24it/s]
+
+
+ 13%|██████████████▏                                                                                            | 666/5010 [04:22<22:20,  3.24it/s]
+ 13%|██████████████▎                                                                                            | 668/5010 [04:23<21:30,  3.37it/s]
+
+
+
+
+
+
+
+
+
+ 52%|█████████████████████████████████████████████████████████▌                                                    | 11/21 [00:00<00:00, 11.84it/s]
+
+ 13%|██████████████▏                                                                                          | 675/5010 [04:44<1:11:17,  1.01it/s]
+
+ 14%|██████████████▌                                                                                            | 682/5010 [04:47<26:17,  2.74it/s]
+
+
+ 14%|██████████████▊                                                                                            | 695/5010 [04:51<22:13,  3.24it/s]
+
+ 14%|██████████████▉                                                                                            | 701/5010 [04:52<22:12,  3.23it/s]
+
+
+ 14%|███████████████▏                                                                                           | 714/5010 [04:56<22:08,  3.23it/s]
+
+ 14%|███████████████▍                                                                                           | 721/5010 [04:59<22:04,  3.24it/s]
+
+
+ 15%|███████████████▋                                                                                           | 733/5010 [05:02<22:00,  3.24it/s]
+
+ 15%|███████████████▊                                                                                           | 740/5010 [05:05<21:57,  3.24it/s]
+
+
+ 15%|████████████████                                                                                           | 753/5010 [05:09<21:52,  3.24it/s]
+
+
+ 15%|████████████████▎                                                                                          | 766/5010 [05:13<21:52,  3.23it/s]
+
+ 15%|████████████████▍                                                                                          | 772/5010 [05:14<21:51,  3.23it/s]
+
+
+ 16%|████████████████▊                                                                                          | 785/5010 [05:18<21:46,  3.23it/s]
+
+ 16%|████████████████▉                                                                                          | 792/5010 [05:21<21:43,  3.24it/s]
+
+
+ 16%|█████████████████▏                                                                                         | 805/5010 [05:25<21:36,  3.24it/s]
+
+ 16%|█████████████████▎                                                                                         | 811/5010 [05:26<21:34,  3.24it/s]
+
+
+ 16%|█████████████████▌                                                                                         | 824/5010 [05:30<21:31,  3.24it/s]
+
+ 17%|█████████████████▋                                                                                         | 831/5010 [05:33<21:32,  3.23it/s]
+ 17%|█████████████████▊                                                                                         | 835/5010 [05:34<20:44,  3.36it/s]
+
+
+
+
+
+
+
+
+
+ 14%|███████████████▊                                                                                               | 3/21 [00:00<00:01, 16.99it/s]
+
+
+ 17%|██████████████████                                                                                         | 846/5010 [05:56<32:41,  2.12it/s]
+
+ 17%|██████████████████▏                                                                                        | 853/5010 [05:59<22:21,  3.10it/s]
+
+
+ 17%|██████████████████▍                                                                                        | 866/5010 [06:03<21:21,  3.23it/s]
+
+ 17%|██████████████████▌                                                                                        | 872/5010 [06:05<21:17,  3.24it/s]
+
+
+ 18%|██████████████████▉                                                                                        | 885/5010 [06:09<21:10,  3.25it/s]
+
+ 18%|███████████████████                                                                                        | 892/5010 [06:11<21:12,  3.24it/s]
+
+
+ 18%|███████████████████▎                                                                                       | 905/5010 [06:15<21:07,  3.24it/s]
+
+ 18%|███████████████████▍                                                                                       | 911/5010 [06:17<21:03,  3.24it/s]
+
+
+ 18%|███████████████████▋                                                                                       | 924/5010 [06:21<21:02,  3.24it/s]
+
+ 19%|███████████████████▉                                                                                       | 931/5010 [06:23<21:01,  3.23it/s]
+
+
+ 19%|████████████████████▏                                                                                      | 944/5010 [06:27<20:54,  3.24it/s]
+
+ 19%|████████████████████▎                                                                                      | 950/5010 [06:29<20:52,  3.24it/s]
+
+
+ 19%|████████████████████▌                                                                                      | 963/5010 [06:33<20:49,  3.24it/s]
+
+
+ 19%|████████████████████▊                                                                                      | 976/5010 [06:37<20:45,  3.24it/s]
+
+ 20%|████████████████████▉                                                                                      | 982/5010 [06:38<20:40,  3.25it/s]
+
+
+ 20%|█████████████████████▎                                                                                     | 995/5010 [06:42<20:40,  3.24it/s]
+ 20%|█████████████████████▏                                                                                    | 1002/5010 [06:45<19:53,  3.36it/s]
+  0%|                                                                                                                      | 0/167 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+ 81%|█████████████████████████████████████████████████████████████████████████████████████████                     | 17/21 [00:01<00:00, 11.50it/s]
+
+ 20%|█████████████████████▍                                                                                    | 1011/5010 [07:07<42:45,  1.56it/s]
+
+
+ 20%|█████████████████████▋                                                                                    | 1024/5010 [07:11<20:40,  3.21it/s]
+
+ 21%|█████████████████████▊                                                                                    | 1030/5010 [07:12<20:27,  3.24it/s]
+
+
+ 21%|██████████████████████                                                                                    | 1043/5010 [07:17<20:25,  3.24it/s]
+
+
+ 21%|██████████████████████▎                                                                                   | 1056/5010 [07:21<20:19,  3.24it/s]
+
+ 21%|██████████████████████▍                                                                                   | 1063/5010 [07:23<20:15,  3.25it/s]
+
+
+ 21%|██████████████████████▊                                                                                   | 1076/5010 [07:27<20:15,  3.24it/s]
+
+ 22%|██████████████████████▉                                                                                   | 1082/5010 [07:29<20:12,  3.24it/s]
+
+
+ 22%|███████████████████████▏                                                                                  | 1095/5010 [07:33<20:09,  3.24it/s]
+
+ 22%|███████████████████████▎                                                                                  | 1102/5010 [07:35<20:04,  3.25it/s]
+
+
+ 22%|███████████████████████▌                                                                                  | 1115/5010 [07:39<20:04,  3.23it/s]
+
+ 22%|███████████████████████▋                                                                                  | 1121/5010 [07:41<20:03,  3.23it/s]
+
+
+ 23%|███████████████████████▉                                                                                  | 1134/5010 [07:45<19:55,  3.24it/s]
+
+ 23%|████████████████████████▏                                                                                 | 1141/5010 [07:47<19:50,  3.25it/s]
+
+
+ 23%|████████████████████████▍                                                                                 | 1154/5010 [07:51<19:49,  3.24it/s]
+
+ 23%|████████████████████████▌                                                                                 | 1160/5010 [07:53<19:48,  3.24it/s]
+
+ 23%|████████████████████████▋                                                                                 | 1169/5010 [07:55<19:03,  3.36it/s]
+
+
+
+
+
+
+
+
+
+ 43%|███████████████████████████████████████████████▌                                                               | 9/21 [00:00<00:00, 12.13it/s]
+
+ 23%|████████████████████████▎                                                                               | 1173/5010 [08:25<3:23:46,  3.19s/it]
+
+
+ 24%|█████████████████████████                                                                                 | 1186/5010 [08:29<21:23,  2.98it/s]
+
+ 24%|█████████████████████████▏                                                                                | 1193/5010 [08:31<19:43,  3.22it/s]
+
+
+ 24%|█████████████████████████▌                                                                                | 1206/5010 [08:35<19:34,  3.24it/s]
+
+ 24%|█████████████████████████▋                                                                                | 1212/5010 [08:37<19:30,  3.24it/s]
+
+
+ 24%|█████████████████████████▉                                                                                | 1225/5010 [08:41<19:24,  3.25it/s]
+
+ 25%|██████████████████████████                                                                                | 1232/5010 [08:43<19:25,  3.24it/s]
+
+
+ 25%|██████████████████████████▎                                                                               | 1245/5010 [08:47<19:20,  3.24it/s]
+
+ 25%|██████████████████████████▍                                                                               | 1251/5010 [08:49<19:17,  3.25it/s]
+
+
+ 25%|██████████████████████████▋                                                                               | 1264/5010 [08:53<19:16,  3.24it/s]
+
+ 25%|██████████████████████████▉                                                                               | 1271/5010 [08:55<19:15,  3.24it/s]
+
+
+ 26%|███████████████████████████▏                                                                              | 1284/5010 [08:59<19:08,  3.24it/s]
+
+
+ 26%|███████████████████████████▍                                                                              | 1297/5010 [09:03<19:04,  3.24it/s]
+
+ 26%|███████████████████████████▌                                                                              | 1303/5010 [09:05<19:03,  3.24it/s]
+
+
+ 26%|███████████████████████████▊                                                                              | 1316/5010 [09:09<18:58,  3.24it/s]
+
+ 26%|███████████████████████████▉                                                                              | 1323/5010 [09:11<18:59,  3.24it/s]
+
+
+ 27%|████████████████████████████▎                                                                             | 1336/5010 [09:15<18:12,  3.36it/s]
+{'loss': 0.1014, 'grad_norm': 0.02928226813673973, 'learning_rate': 4.0798226164079826e-05, 'epoch': 7.96}
+
+
+
+
+
+
+
+
+
+ 81%|█████████████████████████████████████████████████████████████████████████████████████████                     | 17/21 [00:01<00:00, 11.50it/s]
+
+ 27%|████████████████████████████▍                                                                             | 1345/5010 [09:37<39:04,  1.56it/s]
+
+ 27%|████████████████████████████▌                                                                             | 1351/5010 [09:39<21:20,  2.86it/s]
+
+
+ 27%|████████████████████████████▊                                                                             | 1364/5010 [09:43<18:46,  3.24it/s]
+
+ 27%|█████████████████████████████                                                                             | 1371/5010 [09:45<18:44,  3.23it/s]
+
+
+ 28%|█████████████████████████████▎                                                                            | 1384/5010 [09:49<18:39,  3.24it/s]
+
+
+ 28%|█████████████████████████████▌                                                                            | 1397/5010 [09:53<18:37,  3.23it/s]
+
+ 28%|█████████████████████████████▋                                                                            | 1403/5010 [09:55<18:35,  3.23it/s]
+
+
+ 28%|█████████████████████████████▉                                                                            | 1416/5010 [09:59<18:28,  3.24it/s]
+
+ 28%|██████████████████████████████                                                                            | 1423/5010 [10:01<18:26,  3.24it/s]
+
+
+ 29%|██████████████████████████████▍                                                                           | 1436/5010 [10:05<18:22,  3.24it/s]
+
+ 29%|██████████████████████████████▌                                                                           | 1442/5010 [10:07<18:21,  3.24it/s]
+
+
+ 29%|██████████████████████████████▊                                                                           | 1455/5010 [10:11<18:16,  3.24it/s]
+
+ 29%|██████████████████████████████▉                                                                           | 1462/5010 [10:13<18:14,  3.24it/s]
+
+
+ 29%|███████████████████████████████▏                                                                          | 1475/5010 [10:17<18:12,  3.23it/s]
+
+ 30%|███████████████████████████████▎                                                                          | 1481/5010 [10:19<18:10,  3.24it/s]
+
+
+ 30%|███████████████████████████████▌                                                                          | 1494/5010 [10:23<18:03,  3.25it/s]
+
+ 30%|███████████████████████████████▊                                                                          | 1501/5010 [10:25<18:02,  3.24it/s]
+ 30%|███████████████████████████████▊                                                                          | 1503/5010 [10:26<17:22,  3.36it/s]
+
+
+
+
+
+
+
+
+
+ 43%|███████████████████████████████████████████████▌                                                               | 9/21 [00:00<00:00, 12.12it/s]
+
+
+ 30%|████████████████████████████████                                                                          | 1516/5010 [10:49<22:35,  2.58it/s]
+
+ 30%|████████████████████████████████▏                                                                         | 1523/5010 [10:51<18:19,  3.17it/s]
+
+
+ 31%|████████████████████████████████▍                                                                         | 1536/5010 [10:55<17:54,  3.23it/s]
+
+ 31%|████████████████████████████████▋                                                                         | 1542/5010 [10:57<17:51,  3.24it/s]
+
+
+ 31%|████████████████████████████████▉                                                                         | 1555/5010 [11:01<17:48,  3.23it/s]
+
+ 31%|█████████████████████████████████                                                                         | 1562/5010 [11:03<17:44,  3.24it/s]
+
+
+ 31%|█████████████████████████████████▎                                                                        | 1575/5010 [11:07<17:38,  3.25it/s]
+
+ 32%|█████████████████████████████████▍                                                                        | 1581/5010 [11:09<17:38,  3.24it/s]
+
+
+ 32%|█████████████████████████████████▋                                                                        | 1594/5010 [11:13<17:33,  3.24it/s]
+
+
+ 32%|██████████████████████████████████                                                                        | 1607/5010 [11:17<17:28,  3.25it/s]
+
+ 32%|██████████████████████████████████▏                                                                       | 1614/5010 [11:19<17:25,  3.25it/s]
+
+
+ 32%|██████████████████████████████████▍                                                                       | 1627/5010 [11:23<17:25,  3.23it/s]
+
+ 33%|██████████████████████████████████▌                                                                       | 1633/5010 [11:25<17:22,  3.24it/s]
+
+
+ 33%|██████████████████████████████████▊                                                                       | 1646/5010 [11:29<17:16,  3.24it/s]
+
+ 33%|██████████████████████████████████▉                                                                       | 1652/5010 [11:31<17:15,  3.24it/s]
+
+
+ 33%|███████████████████████████████████▏                                                                      | 1665/5010 [11:35<17:10,  3.25it/s]
+ 33%|███████████████████████████████████▎                                                                      | 1670/5010 [11:36<16:32,  3.37it/s]
+  5%|█████▉                                                                                                        | 9/167 [00:00<00:12, 12.16it/s]
+
+
+
+
+
+
+
+
+
+ 14%|███████████████▊                                                                                               | 3/21 [00:00<00:01, 17.00it/s]
+ 33%|███████████████████████████████████▎                                                                      | 1670/5010 [11:56<23:52,  2.33it/s]
+ 71%|██████████████████████████████████████████████████████████████████████████████▌                               | 15/21 [00:01<00:00, 11.58it/s]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:01<00:00, 12.00it/s]
+ 81%|█████████████████████████████████████████████████████████████████████████████████████████                     | 17/21 [00:01<00:00, 11.52it/s]
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:01<00:00, 11.95it/s]
+Test Results:
+Accuracy: 0.8154761904761905
+Precision: 0.7633333333333333
+Recall: 0.7708569545154911
+F1 Score: 0.7548835644097457
+test_predictions_data: [['former-only', '21_essay_tosanikki_20160903', 'やがて月の距離が現在の約１．５倍、公転・自転の周期が約４０日になった', 'ところ', 2, '時間', 2, '時間'], ['former-only', '88_fiction_SAINT-EXUPERY-1943', '僕の住んでいる', 'ところ', 3, '場所', 3, '場所'], ['former-only', '80_diet_kaigiroku-12', '演説が終わりました', 'ところ', 2, '時間', 2, '時間'], ['former-only', '35_aozora_Hisao-1939', 'なかなか、二人の娘のひきたて役ぐらいの', 'ところ', 4, 'その他', 4, 'その他'], ['former-only', '162_fiction_munashisanoshotai', 'しかもそれを聞いた', 'ところ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '129_textbook_djg_advanced;page_142', 'この問題をいまさら議論した', 'ところ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '59_aozora_Kishida-1950', 'これを即興というのだが、この即興のできる訓練は劇をやるうえに大切で、人間である以上、どんなにおぼえたつもりでも忘れることがあり、どんなに練習をしても、とっさに手違いができることもあるのだから、そこを、ただいいかげんにごまかすのではなく、劇の面白さをへらさぬように、そくざの機転で、たくみに補うことは、これまた、劇の劇らしい', 'ところ', 4, 'その他', 4, 'その他'], ['former-only', '106_aozora_Hisao-1939', '三十を三つも越しているのに、なにをするでもなくのらくらとこんな', 'ところ', 3, '場所', 3, '場所'], ['former-only', '14_essay_tosanikki_20170401', 'タヒチでは、ゴーギャンの有名な「我々はどこから来たのか、我々は何者か、我々はどこへ行くのか」の複製画とともに、この題名をいろいろな', 'ところ', 3, '場所', 3, '場所'], ['former-only', '22_essay_tosanikki_20190202', '私の目には、晩年をオリオン座で過ごそうと旅してきたように見えますが、もしさらに１００万年長生きしたとすると、オリオン座を通り過ぎた', 'ところ', 3, '場所', 2, '時間'], ['former-only', '53_essay_Hepburn_no_shoogai_to_nihongo2', '幕府は安政年間、条約国に対して「既に踏絵の制度は廃せり」と声明を出していたが、ヘボンが肥後出身者から聞いた', 'ところ', 4, 'その他', 0, '逆接・譲歩'], ['former-only', '10_essay_crossover27_IharaOct2015', '前回、ダ・ヴィンチの交通機関体系の創造に触れたのも、船舶活用の可能性から水上交通を基軸にし', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '146_wikipedia_KYOTO_12;CLT_00005;218', 'ゆっくりと慎重に音程を変更するところから、具合を測り', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '480_textbook_djg_intermediate;page_543', 'たばこは体によくないと分かり', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '782_whitepaper_shohi4_2018', '食育基本法（平成17年法律第63号）及び「第３次食育推進基本計画」（2016年３月食育推進会議決定）に基づき、関係府省等が連携し', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '812_whitepaper_shohi4_2018', '経済産業省では、2016年度、学識経験者、有識者、事業者、消費者団体、マスコミなど、幅広い関係者を構成員とし、2030年頃の消費経済市場を見据え', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '57_whitepaper_shohi4_2018', '消費者庁では、関係機関と連携し', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '27_news_KAHOKU_184;K201406140A0T10XX00001', '東北大大学院工学研究科の風間基樹教授（地盤工学・地震工学）は「行政が作る防災マップを参考にし', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '312_whitepaper_H28_kotsuanzen1', 'ア地域住民等の意見要望等を十分に踏まえ', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '278_whitepaper_R1_gaiko_2', '安定的に党・政権を運営するためには、一定の経済成長を確保し', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '122_whitepaper_R2_bousai_5', 'このような状況に鑑み、関係自治体の要望等も踏まえ', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '46_diet_kaigiroku-11', 'かかる観点から、第一次石油危機から二十年を経た今日、エネルギー政策全般の再構築を図り、地球環境問題の顕在化に対応し', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '115_whitepaper_shohi4_2018', 'また、国民生活センターでは、人の生命・身体等に重大な影響を及ぼす商品や品質・表示等に問題のある商品について、消費者被害の救済や未然防止・拡大防止のために、消費者の使用実態を考慮し', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '5_law_h15A119;4_1_1', 'この法律は、高度情報通信社会の進展に伴い個人情報の利用が著しく拡大していることにかんがみ、個人情報の適正な取扱いに関し、基本理念及び政府による基本方針の作成その他の個人情報の保護に関する施策の基本となる事項を定め、国及び地方公共団体の責務等を明らかにするとともに、個人情報を取り扱う事業者の遵守すべき義務等を定めることにより、個人情報の有用性に配慮し', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '215_whitepaper_H28_kotsuanzen1', '社会資本整備重点計画に即して，都道府県公安委員会及び道路管理者が連携し，交通事故実態の調査・分析を行い', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '29_news_KAHOKU_513', '各地の伝説を受け止め', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '31_whitepaper_R1_gaiko_9', 'さらに、普天間飛行場の移設や在沖縄海兵隊約9,000人のグアム等への国外移転を始めとする在日米軍再編についても、在日米軍の抑止力を維持し', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '206_whitepaper_H28_kotsuanzen1', 'ウ道路の機能と沿道の土地利用を含めた道路の利用実態との調和を図ることが交通の安全の確保に資することから，交通流の実態を踏まえ', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '276_whitepaper_shohi3_2018', '第３期消費者基本計画では、消費者一人一人が、個々の消費者の特性や消費生活の多様性を相互に尊重し', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '19_essay_manabi72_Kuroda2015summer', '従って、イスラームの理念性を念頭に置き', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '44_aozora_Koyama-1955-2', 'はじめてその人の前に出て二、三の受け答えをし', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '25_whitepaper_R1_gaiko_10', '人道支援と開発協力の連携を強化し', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '479_textbook_djg_intermediate;page_543', '彼女は夫の無罪を信じ', 'つつ', 1, '同時進行', 0, '逆接・譲歩'], ['former-only', '6_book_excerpt-26', 'やれやれどうしよう、と思いながらも居心地の良いバラナシを去る気にもなれず、汽車の切符を買う大変さを考えてはやはり腰が上がらず、あと二、三日と思い', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '516_essay_Hepburn_no_shoogai_to_nihongo2', 'Ｗ・Ｅ・グリフィスは、任期満了で帰国して以来、「Hepburn_of_Japan」を執筆し', 'つつ', 1, '同時進行', 1, '同時進行'], ['former-only', '90_fiction_sakurasakuanobashode', '修一は、出来るだけ元気な声を出し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '507_aozora_Hori-1969', '私はちょっと意外な問いに戸惑いし', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['former-only', '224_aozora_Akutagawa-1921', 'が、忽ち勇気をとり直すと、片手にナイフを握り', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '121_aozora_Akutagawa-1921', '遠藤はとうとうたまり兼ねて、火花の旋風に追われ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '91_aozora_Andersen-1967-1', '「いいかい、世の中って、こんなものなんだよ」と、アヒルの子供たちのおかあさんは、言い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '762_aozora_Oda-1976-3', 'そして、おなかの子に障ることを忘れて、傘も持たず、びしょ濡れの体をなお雨の鞭に任せ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '767_whitepaper_R1_gaiko_2', '11月の日・ASEAN首脳会議では、安倍総理大臣から、2013年に約束した「5年で2兆円の対ASEAN支援」を上回る支援を実施したことに言及しつつ、今後もASEANの一体性と中心性を尊重し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '68_aozora_Kobayashi-1929', 'その横に仰向けにひっくり返って、林檎を食い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '150_aozora_Oda-1976-3', '「芳ッちゃん、芳ッちゃんって、お安くいわないでよ」と、いわれ', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '750_aozora_Oda-1976-1', 'そして男を利用し', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '38_aozora_Kaneko-1984', 'そうしたとき母は従順に父の衣類を壁の釘にかけたりなんかしていたが、袂の中からお菓子の空袋や蜜柑の皮などを取出して、恨めしそうに眺め', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '403_fiction_sakurasakuanobashode', '修一は春の桜の匂いが混じった風を感じ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '77_aozora_Akutagawa-1922', 'トロッコは三人が乗り移ると同時に、蜜柑畑の匂（におい）を煽（あお）り', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '180_aozora_Yamakawa-1962-1', '遠くなったその葬列との距離を縮めようというのか、子供たちは芋畑の中におどりこむと、歓声をあげ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '357_whitepaper_H28_kotsuanzen1', '児童が遊び', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '66_whitepaper_H28_shinrinringyo2', 'これらの計画では、「全国森林計画」に即しつつ、地域の特性を踏まえ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '370_textbook_djg_advanced;page_426', '外国に居', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['former-only', '112_aozora_Kaneko-1984', '叔母はそのうちの一つの櫛を取って見まわし', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '184_aozora_Miyazawa-1934', '一郎が箒をもち', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '507_aozora_Koyama-1955-1', '仔どもがそろって互いにもぐりっこをし', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '7_essay_tosanikki_20190406', '私たちは地球の自転・公転運動によってらせんを描き', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '276_fiction_mirai_e_no_okurimono', '俊也は彼女の名を叫び', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['former-only', '26_aozora_Oda-1976-3', 'だから、Ｄ堂の主人にからかわれ', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '99_fiction_kanojotachino_Christmas', '父が僅《わずか》か', 'ながら', 4, 'その他', 4, 'その他'], ['former-only', '368_aozora_Hori-1969', '少なくともこのときお前はお前自身のことよりか私のことを、――それから私が打ちのめされながらじっとそれを耐えている、見るにも見かねるような様子を半ば気づかい', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['former-only', '389_whitepaper_R1_gaiko_11', '2018年4月に開催された日本での会議は、日本政府、経済団体、関連企業等多方面から支援を得', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '616_aozora_Natsume-1908', '豚はぐうと云い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '798_aozora_Oda-1976-2', '電話が掛かることを承知してい', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '826_fiction_onna_to_senso', '生きのびた人々は飢えに苦しんで草をたべ、馬の足跡にたまった泥水をのみ、やぶ蚊や虱に悩まされ、襲撃につぐ襲撃におびえ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '11_aozora_Hayakawa-1983', '登ることに決めてあり', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '773_fiction_onna_to_senso', '石光真清の記録『昿野の花』などによると、彼女たちは故国から棄てられた形で暮らし', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '225_fiction_automatic-1', 'それを漠然と思い出し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '448_aozora_Oda-1976-3', '「さんざん見せつけたのじゃないの。おごる代りに資本を出しなさいよ。ね。気を利かせっぱなしじゃ、合わないわよ」という科白を用意し', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '1117_aozora_Harada-1960', 'ドアの鍵を廻し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '595_aozora_Hori-1969', '私はそう心のなかで、思わず母に呼びかけては、何遍もその手帳を中途で手放そうと思い', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '15_wikipedia_Sendai_City', '当地は、畿内に端を発する山道（後に東山道に再編）と海道（後に東海道に再編）とが合一する唯一の地であり、その合一した街道は後年、奥大道や東街道と名称を変え', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '758_aozora_Miyazawa-1934', '「おれそれであ、あの木の上がら落とすがらな。」と一郎は言い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '205_aozora_Edogawa-1929', '頂上には、十人余りの見物が一かたまりになっておっかな相な顔をして、ボソボソ小声で囁き', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '51_fiction_kemonofriends2_R2', 'キュルルは今更', 'ながら', 4, 'その他', 4, 'その他'], ['former-only', '785_textbook_purple_intermediate;page_237', '時々、後ろを振り返り', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '23_essay_tosanikki_20180707', 'もし探査ロボットに心があれば、青く美しく輝く地球を眺め', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '205_aozora_Kobayashi-1929', '艦長をのせてしまって、一人がタラップのおどり場からロープを外し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '312_aozora_Hori-1969', '……その車が又埃を上げながら立ち去った後も、私たちは二人ともパラソルでその埃を避け', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '54_news_KAHOKU_82;K201402060A0T10XX00001', '多賀城市は、市域の３分の１が津波で浸水し', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '873_textbook_kisonihongo;page_159', '働き', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['former-only', '89_news_KAHOKU_34;K201404110A0T30XX00001', '窓の外を白いものがうねり', 'ながら', 1, '同時進行', 4, 'その他'], ['former-only', '22_essay_tosanikki_20191102', 'ピーブルズ氏の受賞の報を聞き', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '252_aozora_Oda-1976-3', 'なぜつけた――と、北山は昂奮に吃り', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '310_essay_Hepburn_no_shoogai_to_nihongo2', 'ミッションスクールを作り、孤児院や養老院のような社会活動に心血を注ぎ、活躍する者たちを頼もしく眺め', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '545_whitepaper_H26_kodomowakamono2', '第1回の懇談会には，安倍総理大臣が出席し，壁にぶつかった経験がある若者などをしっかり生かしていく，全員が参加することによって日本は活力を取り戻していくことができること，「再チャレンジ懇談会」での意見を踏まえ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '309_aozora_Hori-1969', 'その間私は何か切ないような夢を見', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '382_fiction_sakurasakuanobashode', '修一はその声を聞き', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '834_aozora_Umezaki-1966', '香のにおいを強く感じ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '549_aozora_Hori-1969', '心と心とはいつか自分自分の奥深くに引込ませてしまい', 'ながら', 4, 'その他', 4, 'その他'], ['former-only', '100_aozora_Mori-1912', '主人はどっしりした体で、胡坐を掻いて、ちびりちびり酒を飲み', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '6_essay_manabi28_Kijima2004summer', '私たちの身近にあり', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '551_aozora_Umezaki-1966', 'ふらふら立ち', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '127_fiction_mirai_e_no_okurimono', '書架をぐるっと見渡し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '860_whitepaper_H27_akita_kankyo1', 'なお、一般廃棄物の保管や収集運搬、処分に係る行政処分は市町村の権限となっていますが、県でも協力・連携し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '11_aozora_Hitomi-1929', 'しかし原稿の出来上って行くにつれてもうわたしはさっきまでのような元気も、若々しさもなくなってグラウンドのトラックを疾走し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '599_aozora_Hori-1969', 'ただそのときの丸木の腰かけだけが半ば毀れ', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '148_whitepaper_H28_kotsuanzen1', '地域の協力を得', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '6_news_KAHOKU_303;K201401010W5XP4XX00001', '東北に拠点を置き', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '1029_aozora_Harada-1960', '妹が慣れた手つきでベッドのふとんや枕を高く飛ばし', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '591_bible_ot;b.NUM.16.30', 'しかし、主が新しい事をされ、地が口を開いて、これらの人々と、それに属する者とを、ことごとくのみつくして、生き', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '694_aozora_Andersen-1967-2', 'それでも、お姫さまは、ほほえみを浮べ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '301_aozora_Doyle-1892', '学があり', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '476_fiction_munashisanoshotai', '1人で帰り', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '375_aozora_Miyazawa-1934', '悦治がそれをくぐろうとしますと、嘉助が、「おらこったなものはずせだぞ。」と言い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '117_aozora_Miyamoto-1925', '五十銭で買ってもらった釣竿を持ち、小さいなつめ形の顔の上に途方もなく大きい海水帽をかぶり――その鍔をフワフワ風に煽らせ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '15_essay_crossover28_Ihara2016', '地球中心説では当然', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['former-only', '200_whitepaper_R1_gaiko_12', '欧米で日本マンガやアニメ文化がまだ殆ど認識されていない当時、手塚先生はマンガの右開き形式や言葉の「壁」に触れ', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '188_aozora_Kobayashi-1929', '「一寸云って置く」監督が土方の棒頭のように頑丈な身体で、片足を寝床の仕切りの上にかけて、楊子で口をモグモグさせ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '218_aozora_Hayashida-2015', '「ええ、そうです」と微笑み', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '34_aozora_Togawa-1937-3', '和尚は御経を読み', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '166_bible_nt;b.JOH.3.10', '「あなたはイスラエルの教師であり', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '14_aozora_Miyazawa-1924', 'はじめの紳士は、すこし顔いろを悪くして、じっと、もひとりの紳士の、顔つきを見', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '1074_aozora_Harada-1960', '妹は泣き', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '3_fiction_mirai_e_no_okurimono', '21世紀に発明されたAIが第5世代に入り、人は生まれ', 'ながら', 4, 'その他', 1, '同時進行'], ['former-only', '22_aozora_Kunieda-1925', 'おりから一人の老人がひしと胸の辺を抱き', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '20_aozora_Hori-1969', 'それがどんなものか分らない', 'ながら', 0, '逆接・譲歩', 3, '場所'], ['former-only', '501_aozora_Hori-1969', '私は思わず生き生きした微笑をし', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '315_whitepaper_R1_gaiko_9', 'このような状況の下、核軍縮を進めていくためには、核兵器国の協力を得', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '124_aozora_Akutagawa-1922', '彼は左に海を感じ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '66_whitepaper_H20_kokuminseikatsu2', '幸福度に関する分析によって、統計学的に、ストレスがない人はある人より幸福であるということが分かったが、現代社会はストレス社会とも言われるように、多くの人がストレスにさらされ', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['former-only', '319_fiction_sakurasakuanobashode', '朝御飯が終わり、かたづけを手伝い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '256_aozora_Miyazawa-1934', 'するとかよは立って来て、「兄な、兄なの木ペンはきのう小屋でなくしてしまったけなあ。よこせったら。」と言い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '236_aozora_Akutagawa-1921', '遠藤は殆ど気違いのように、妙子の名前を呼びかけ', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['former-only', '21_essay_tosanikki_20180804', 'その間、何度も地球に接近し、ニアミスを繰り返し', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '70_aozora_Dazai-1-1940', '家の西北の隅に、異様に醜怪の、不浄のものが、とぐろを巻いてひそんで在るようで、机に向って仕事をしてい', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '237_fiction_mirai_e_no_okurimono', '――途中、走り', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '426_aozora_Oda-1976-3', '眼の中のコロコロとした痛みを我慢し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '352_aozora_Sakaguchi-1947', 'リヤカーは路地の角々にぶつかり', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '45_aozora_Perrault-1950', 'いけないというものは、とかく見たいのが、人間のくせですから、そのうちいよいよ、がまんがしきれなくなってくると、この奥（おく）がたは、もうお客にたいして、失礼（しつれい）のなんのということを、おもってはいられなくなって、ひとりそっと裏（うら）ばしごをおりて、二ども三ども、首の骨がおれたかとおもうほど、はげしく、柱や梁（はり）にぶつかり', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '88_aozora_Joyce-1914', 'というのもいつものこと', 'ながら', 4, 'その他', 4, 'その他'], ['former-only', '102_aozora_Hori-1969', 'そう云われ', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '1225_aozora_Harada-1960', '三人は座席にゆっくりともたれ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '576_aozora_Hori-1969', '――それよりか、お前の顔を見てから、こちらが自分をすっかり無くして、なんの心用意もせずにお前に立ち向い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '142_aozora_Yamakawa-1962-1', '彼は、胸に湧きあがるものを、けんめいに冷静におさえつけ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '499_bible_ot;b.NUM.14.23', 'わたしの栄光と、わたしがエジプトと荒野で行ったしるしを見', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '130_aozora_Oda-1976-2', '女と関係し', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '386_aozora_Hori-1969', '私の好んで行った山よりの落葉松林は、ときおり林の切れ目から薄赤い穂を出した芒の向うに浅間の鮮やかな山肌をのぞかせ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '204_aozora_Doyle-1905', 'レストレイドは、この注目すべき解説を聞き', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '568_aozora_Umezaki-1966', '私は不味い莨をふかし', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '652_whitepaper_shohi4_2018', 'また、消費者庁において推進会議の意見を聴き', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '16_aozora_Chiri-1955-7', '北見の美幌では、この“きのこ”を見つけると、熊を取った時のように、男は「フォー、フォー」と高らかにときの声をあげ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '10_book_excerpt-19', '六畳一間', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '370_fiction_sakurasakuanobashode', 'そう言い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '259_aozora_Hori-1969', 'が、そうしていつまでもうつけたように、かすかに揺れ動いている梢を見上げていると、いきなり私の眼の前に、蜘蛛が長く糸をひき', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '366_whitepaper_H28_shinrinringyo2', '松くい虫被害の拡大を防止するため、林野庁では都府県と連携し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '229_whitepaper_H28_shinrinringyo1', '近年においては、プログラマーやデザイナーがチームを組み、特定のテーマに対してアイデアを出し合い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '185_fiction_munashisanoshotai', '携帯を手に考え', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '14_news_KAHOKU_34;K201404110A0T30XX00001', '「避難所に愛犬を連れて行くか」などの災害時に想定される課題に対し、参加者は「ＹＥＳ」「ＮＯ」のカードで自らの考えを決めた後、意見を交わし', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '997_whitepaper_shohi4_2018', 'これに伴い、個人情報の保護と効果的な活用のバランスを図り', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '220_aozora_Oda-1976-3', '人々は彼等の傍を通り抜け', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '191_wikipedia_Audrey_Hepburn', '歌唱部分が全く別の声質を持つ他の女優に吹き替えられたことについて質問されたヘプバーンは、不快感を露にして「よくもそんなことを訊けるものですね。確かにレックスは演技をし', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '49_aozora_Chiri-1955-7', '最初にこのぼろの着物を身につけた東風の神が、舞い', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '854_aozora_Oda-1976-3', '女の体は十六の歳から知ってい', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '508_aozora_Andersen-1967-2', 'まだ、お日さまののぼらないころ、人魚のお姫さまは、王子のお城を見あげ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '44_whitepaper_R1_gaiko_10', '日本は責任ある大国として、引き続き国際協力事業関係者の安全を確保し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '17_news_KAHOKU_67;K201407100A0KI0XX00001', '明け方、定宿の女将さんに起こされて雪景色を目にすると、土門は助手に背負われ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '666_aozora_Miyazawa-1934', 'すると耕助はうらめしそうにしばらくだまって三郎の顔を見', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '106_news_KAHOKU_85', '小中高生は、体ができる基礎となる時期なので、補助食品なども活用し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '789_whitepaper_R1_gaiko_9', '年次総会に主賓として出席した河野外務大臣及び山下法務大臣は、AALCOが国際法の発展において貢献してきたことを振り返り', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '528_aozora_Oda-1976-3', '章三はその女の顔をじっと見つめ', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '330_whitepaper_H28_shinrinringyo1', 'このような不安を払拭していくためには、実証試験で得られた結果等に基づいた知見を有する行政機関、国立研究開発法人森林総合研究所や都道府県の林業試験場等の研究機関、業界団体が連携し', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '25_whitepaper_H27_akita_kankyo1', '新たな計画では、「省エネルギー対策」と「再生可能エネルギー等の導入」を２本柱とし', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['former-only', '27_aozora_Chiri-1956-2', 'アイヌ語の研究などは、世に顧みられない淋しい道なのでありますが、同じくこのアイヌ語研究の部門に属し', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['former-only', '82_whitepaper_H28_shinrinringyo1', 'その一方、主伐後の再造林の事業量が増加していく中、「伐採と造林の一貫作業システム」により効率化を図り', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '46_fiction_automatic-1', '背中を丸め', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '96_news_KAHOKU_34;K201404110A0T30XX00001', '気が付くと、がれきに囲まれ', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['former-only', '693_fiction_sakurasakuanobashode', '不意に開いた扉の方を向き', 'ながら', 1, '同時進行', 1, '同時進行'], ['former-only', '85_aozora_Miyamoto-1925', '私は困ったと思い', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩']]
+test_predictions_table:     experiment type                                        id  ... predicted_label predicted_label_text
+0       former-only               21_essay_tosanikki_20160903  ...               2                   時間
+1       former-only             88_fiction_SAINT-EXUPERY-1943  ...               3                   場所
+2       former-only                      80_diet_kaigiroku-12  ...               2                   時間
+3       former-only                      35_aozora_Hisao-1939  ...               4                  その他
+4       former-only             162_fiction_munashisanoshotai  ...               0                逆接・譲歩
+..              ...                                       ...  ...             ...                  ...
+163     former-only          82_whitepaper_H28_shinrinringyo1  ...               1                 同時進行
+164     former-only                    46_fiction_automatic-1  ...               1                 同時進行
+165     former-only  96_news_KAHOKU_34;K201404110A0T30XX00001  ...               1                 同時進行
+166     former-only          693_fiction_sakurasakuanobashode  ...               1                 同時進行
+167     former-only                   85_aozora_Miyamoto-1925  ...               0                逆接・譲歩
+[168 rows x 8 columns]
+connective_table:   experiment_type connective  accuracy  precision    recall        f1
+0     former-only        ところ  0.818182   0.833333  0.854167  0.814286
+1     former-only         つつ  0.750000   0.750000  0.656250  0.666667
+2     former-only        ながら  0.827068   0.589340  0.700040  0.551910
+test_dataset.exclude_count in former-only: 10280

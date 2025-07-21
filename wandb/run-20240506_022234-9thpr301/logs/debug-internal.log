@@ -1,0 +1,327 @@
+2024-05-06 02:22:42,481 INFO    StreamThr :45032 [internal.py:wandb_internal():86] W&B internal server running at pid: 45032, started at: 2024-05-06 02:22:42.477666
+2024-05-06 02:22:42,483 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status
+2024-05-06 02:22:43,269 INFO    WriterThread:45032 [datastore.py:open_for_write():87] open: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/run-9thpr301.wandb
+2024-05-06 02:22:43,273 DEBUG   SenderThread:45032 [sender.py:send():379] send: header
+2024-05-06 02:22:43,327 DEBUG   SenderThread:45032 [sender.py:send():379] send: run
+2024-05-06 02:22:43,969 INFO    SenderThread:45032 [dir_watcher.py:__init__():211] watching files in: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files
+2024-05-06 02:22:43,969 INFO    SenderThread:45032 [sender.py:_start_run_threads():1124] run started: 9thpr301 with start time 1714962161.507114
+2024-05-06 02:22:44,000 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: check_version
+2024-05-06 02:22:44,000 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: check_version
+2024-05-06 02:22:44,125 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: run_start
+2024-05-06 02:22:44,126 DEBUG   HandlerThread:45032 [system_info.py:__init__():26] System info init
+2024-05-06 02:22:44,126 DEBUG   HandlerThread:45032 [system_info.py:__init__():41] System info init done
+2024-05-06 02:22:44,126 INFO    HandlerThread:45032 [system_monitor.py:start():194] Starting system monitor
+2024-05-06 02:22:44,126 INFO    SystemMonitor:45032 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-06 02:22:44,127 INFO    HandlerThread:45032 [system_monitor.py:probe():214] Collecting system info
+2024-05-06 02:22:44,127 INFO    SystemMonitor:45032 [interfaces.py:start():190] Started cpu monitoring
+2024-05-06 02:22:44,129 INFO    SystemMonitor:45032 [interfaces.py:start():190] Started disk monitoring
+2024-05-06 02:22:44,130 INFO    SystemMonitor:45032 [interfaces.py:start():190] Started gpu monitoring
+2024-05-06 02:22:44,130 INFO    SystemMonitor:45032 [interfaces.py:start():190] Started memory monitoring
+2024-05-06 02:22:44,131 INFO    SystemMonitor:45032 [interfaces.py:start():190] Started network monitoring
+2024-05-06 02:22:44,136 DEBUG   HandlerThread:45032 [system_info.py:probe():150] Probing system
+2024-05-06 02:22:44,141 DEBUG   HandlerThread:45032 [system_info.py:_probe_git():135] Probing git
+2024-05-06 02:22:44,187 DEBUG   HandlerThread:45032 [system_info.py:_probe_git():143] Probing git done
+2024-05-06 02:22:44,188 DEBUG   HandlerThread:45032 [system_info.py:probe():198] Probing system done
+2024-05-06 02:22:44,188 DEBUG   HandlerThread:45032 [system_monitor.py:probe():223] {'os': 'Linux-6.1.58+-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-05-06T02:22:44.136749', 'startedAt': '2024-05-06T02:22:34.038085', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'training.ipynb', 'codePathLocal': None, 'colab': 'https://colab.research.google.com/notebook#fileId=1dsHbrVt9aEqCyyvuJDo_B5BS95lNSpNu', 'git': {'remote': 'https://github.com/takuma1229/discourse_relation_explainability.git', 'commit': 'f6e5fe6aa41a26899d02542afd27ce1150d0bc86'}, 'email': None, 'root': '/content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability', 'host': '8d1481afdfe1', 'username': 'root', 'executable': '/usr/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2000.1479999999997, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2000.148, 'min': 0.0, 'max': 0.0}, {'current': 2000.148, 'min': 0.0, 'max': 0.0}, {'current': 2000.148, 'min': 0.0, 'max': 0.0}, {'current': 2000.148, 'min': 0.0, 'max': 0.0}, {'current': 2000.148, 'min': 0.0, 'max': 0.0}, {'current': 2000.148, 'min': 0.0, 'max': 0.0}, {'current': 2000.148, 'min': 0.0, 'max': 0.0}, {'current': 2000.148, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 201.22513961791992, 'used': 28.186996459960938}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 50.993690490722656}}
+2024-05-06 02:22:44,188 INFO    HandlerThread:45032 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-06 02:22:44,188 INFO    HandlerThread:45032 [system_monitor.py:probe():227] Publishing system info
+2024-05-06 02:22:44,193 INFO    HandlerThread:45032 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-06 02:22:44,194 DEBUG   SenderThread:45032 [sender.py:send():379] send: files
+2024-05-06 02:22:44,194 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-05-06 02:22:44,756 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: python_packages
+2024-05-06 02:22:44,757 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: python_packages
+2024-05-06 02:22:44,758 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:22:44,760 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:22:44,764 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:22:44,974 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/wandb-metadata.json
+2024-05-06 02:22:44,975 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/requirements.txt
+2024-05-06 02:22:45,047 DEBUG   SenderThread:45032 [sender.py:send():379] send: telemetry
+2024-05-06 02:22:45,827 INFO    wandb-upload_0:45032 [upload_job.py:push():131] Uploaded file /tmp/tmpc5q2ubvbwandb/hy0szn8d-wandb-metadata.json
+2024-05-06 02:22:45,974 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:22:48,358 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:22:53,359 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:22:58,360 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:22:59,765 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:22:59,766 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:22:59,768 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:23:04,087 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:09,088 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:14,093 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:14,786 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:23:14,786 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:23:14,827 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:23:15,035 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/config.yaml
+2024-05-06 02:23:19,792 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:20,527 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-06 02:23:20,530 DEBUG   SenderThread:45032 [sender.py:send():379] send: history
+2024-05-06 02:23:20,530 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: summary_record
+2024-05-06 02:23:20,537 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:23:21,049 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/wandb-summary.json
+2024-05-06 02:23:22,051 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:23:25,544 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:29,766 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:23:29,776 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:23:29,777 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:23:31,101 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:36,102 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:41,103 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:44,132 DEBUG   SystemMonitor:45032 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-06 02:23:44,133 DEBUG   SenderThread:45032 [sender.py:send():379] send: stats
+2024-05-06 02:23:44,769 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:23:44,782 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:23:44,783 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:23:46,126 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:51,128 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:56,129 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:23:59,775 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:23:59,777 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:23:59,777 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:24:02,046 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:07,047 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:12,048 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:14,134 DEBUG   SenderThread:45032 [sender.py:send():379] send: stats
+2024-05-06 02:24:14,772 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:24:14,776 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:24:14,777 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:24:18,011 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:23,012 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:28,013 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:29,770 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:24:29,779 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:24:29,780 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:24:33,082 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:38,083 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:43,084 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:44,135 DEBUG   SenderThread:45032 [sender.py:send():379] send: stats
+2024-05-06 02:24:44,770 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:24:44,779 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:24:44,780 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:24:46,230 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:24:48,122 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:48,234 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:24:50,238 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:24:52,242 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:24:53,244 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:54,246 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:24:56,251 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:24:57,594 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-06 02:24:57,596 DEBUG   SenderThread:45032 [sender.py:send():379] send: history
+2024-05-06 02:24:57,597 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: summary_record
+2024-05-06 02:24:57,602 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:24:57,615 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-06 02:24:57,616 DEBUG   SenderThread:45032 [sender.py:send():379] send: history
+2024-05-06 02:24:57,616 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: summary_record
+2024-05-06 02:24:57,621 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:24:58,257 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:24:58,257 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/wandb-summary.json
+2024-05-06 02:24:58,454 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:24:59,259 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:24:59,771 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:24:59,779 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:24:59,780 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:25:02,266 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:03,473 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:25:04,270 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:06,276 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:08,281 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:08,510 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:25:10,287 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:12,292 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:12,931 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-06 02:25:12,933 DEBUG   SenderThread:45032 [sender.py:send():379] send: history
+2024-05-06 02:25:12,933 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: summary_record
+2024-05-06 02:25:12,941 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:25:12,951 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-06 02:25:12,952 DEBUG   SenderThread:45032 [sender.py:send():379] send: history
+2024-05-06 02:25:12,953 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: summary_record
+2024-05-06 02:25:12,959 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:25:13,294 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:13,296 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/wandb-summary.json
+2024-05-06 02:25:13,743 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:25:14,136 DEBUG   SenderThread:45032 [sender.py:send():379] send: stats
+2024-05-06 02:25:14,773 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:25:14,780 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:25:14,780 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:25:15,301 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:17,306 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:18,857 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:25:19,309 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:21,314 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:23,321 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:23,925 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:25:25,325 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:27,330 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:28,338 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-06 02:25:28,339 DEBUG   SenderThread:45032 [sender.py:send():379] send: history
+2024-05-06 02:25:28,340 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: summary_record
+2024-05-06 02:25:28,347 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:25:28,360 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-06 02:25:28,362 DEBUG   SenderThread:45032 [sender.py:send():379] send: history
+2024-05-06 02:25:28,362 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: summary_record
+2024-05-06 02:25:28,369 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:25:28,929 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:25:29,337 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:29,338 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/wandb-summary.json
+2024-05-06 02:25:29,774 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:25:29,780 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-06 02:25:29,780 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: stop_status
+2024-05-06 02:25:30,440 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: log_artifact
+2024-05-06 02:25:30,441 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: log_artifact
+2024-05-06 02:25:30,997 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-06 02:25:31,344 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:31,344 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/media/table/test-metrics_7_24334761b90934b2468d.table.json
+2024-05-06 02:25:31,347 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/media/table
+2024-05-06 02:25:31,348 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/media
+2024-05-06 02:25:32,227 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-06 02:25:32,467 INFO    wandb-upload_1:45032 [upload_job.py:push():89] Uploaded file /root/.local/share/wandb/artifacts/staging/tmpf8xd34vk
+2024-05-06 02:25:32,755 INFO    wandb-upload_0:45032 [upload_job.py:push():131] Uploaded file /tmp/tmpc5q2ubvbwandb/ovu35p3f-media/table/test-metrics_7_24334761b90934b2468d.table.json
+2024-05-06 02:25:33,393 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-06 02:25:33,599 INFO    SenderThread:45032 [sender.py:send_request_log_artifact():1456] logged artifact run-9thpr301-testmetrics - {'id': 'QXJ0aWZhY3Q6ODIyNTc0ODQ0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3MTAwNTQ0Mw==', 'latestArtifact': None}}
+2024-05-06 02:25:33,599 DEBUG   SenderThread:45032 [sender.py:send():379] send: files
+2024-05-06 02:25:33,599 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file media/table/test-metrics_7_24334761b90934b2468d.table.json with policy now
+2024-05-06 02:25:33,602 DEBUG   SenderThread:45032 [sender.py:send():379] send: history
+2024-05-06 02:25:33,602 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: summary_record
+2024-05-06 02:25:33,611 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:25:33,612 DEBUG   SenderThread:45032 [sender.py:send():379] send: history
+2024-05-06 02:25:33,612 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: summary_record
+2024-05-06 02:25:33,617 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:25:33,618 DEBUG   SenderThread:45032 [sender.py:send():379] send: telemetry
+2024-05-06 02:25:33,619 DEBUG   SenderThread:45032 [sender.py:send():379] send: exit
+2024-05-06 02:25:33,619 INFO    SenderThread:45032 [sender.py:send_exit():586] handling exit code: 0
+2024-05-06 02:25:33,619 INFO    SenderThread:45032 [sender.py:send_exit():588] handling runtime: 168
+2024-05-06 02:25:33,623 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:25:33,624 INFO    SenderThread:45032 [sender.py:send_exit():594] send defer
+2024-05-06 02:25:33,624 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: poll_exit
+2024-05-06 02:25:33,624 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:33,625 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 0
+2024-05-06 02:25:33,625 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:33,626 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-05-06 02:25:33,626 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 1
+2024-05-06 02:25:33,626 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:33,626 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 1
+2024-05-06 02:25:33,627 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:33,627 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-05-06 02:25:33,627 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 2
+2024-05-06 02:25:33,627 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:33,627 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 2
+2024-05-06 02:25:33,627 INFO    HandlerThread:45032 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-06 02:25:33,628 DEBUG   SystemMonitor:45032 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-06 02:25:33,628 INFO    HandlerThread:45032 [interfaces.py:finish():202] Joined cpu monitor
+2024-05-06 02:25:33,628 DEBUG   SystemMonitor:45032 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-06 02:25:33,629 INFO    HandlerThread:45032 [interfaces.py:finish():202] Joined disk monitor
+2024-05-06 02:25:33,640 INFO    HandlerThread:45032 [interfaces.py:finish():202] Joined gpu monitor
+2024-05-06 02:25:33,641 INFO    HandlerThread:45032 [interfaces.py:finish():202] Joined memory monitor
+2024-05-06 02:25:33,641 INFO    HandlerThread:45032 [interfaces.py:finish():202] Joined network monitor
+2024-05-06 02:25:33,641 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:33,642 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-05-06 02:25:33,642 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 3
+2024-05-06 02:25:33,642 DEBUG   SenderThread:45032 [sender.py:send():379] send: stats
+2024-05-06 02:25:33,642 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:33,643 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 3
+2024-05-06 02:25:33,643 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:33,643 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-05-06 02:25:33,644 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 4
+2024-05-06 02:25:33,644 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:33,644 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 4
+2024-05-06 02:25:33,644 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:33,644 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-05-06 02:25:33,644 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 5
+2024-05-06 02:25:33,645 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:33,645 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 5
+2024-05-06 02:25:33,645 DEBUG   SenderThread:45032 [sender.py:send():379] send: summary
+2024-05-06 02:25:33,651 INFO    SenderThread:45032 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-06 02:25:33,652 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:33,652 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-05-06 02:25:33,652 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 6
+2024-05-06 02:25:33,653 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:33,653 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 6
+2024-05-06 02:25:33,653 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:33,653 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-05-06 02:25:33,657 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: status_report
+2024-05-06 02:25:33,892 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 7
+2024-05-06 02:25:33,893 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:33,893 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 7
+2024-05-06 02:25:33,893 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:33,894 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-05-06 02:25:34,220 INFO    wandb-upload_1:45032 [upload_job.py:push():131] Uploaded file /tmp/tmpc5q2ubvbwandb/wguxjwex-media/table/test-metrics_7_24334761b90934b2468d.table.json
+2024-05-06 02:25:34,355 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/config.yaml
+2024-05-06 02:25:34,355 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/wandb-summary.json
+2024-05-06 02:25:34,393 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-06 02:25:35,358 INFO    Thread-72 :45032 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:35,410 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 8
+2024-05-06 02:25:35,410 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: poll_exit
+2024-05-06 02:25:35,410 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:35,411 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 8
+2024-05-06 02:25:35,411 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:35,412 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-05-06 02:25:35,412 INFO    SenderThread:45032 [job_builder.py:build():318] Attempting to build job artifact
+2024-05-06 02:25:35,414 INFO    SenderThread:45032 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-05-06 02:25:35,414 INFO    SenderThread:45032 [job_builder.py:_get_program_relpath():473] run is notebook based run
+2024-05-06 02:25:35,415 WARNING SenderThread:45032 [job_builder.py:_log_if_verbose():210] Source type is set to 'repo' but some required information is missing from the environment. A job will not be created from this run. See https://docs.wandb.ai/guides/launch/create-job
+2024-05-06 02:25:35,415 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 9
+2024-05-06 02:25:35,415 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:35,415 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 9
+2024-05-06 02:25:35,416 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:35,416 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-05-06 02:25:35,416 INFO    SenderThread:45032 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-06 02:25:36,364 INFO    SenderThread:45032 [dir_watcher.py:finish():388] scan: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files
+2024-05-06 02:25:36,365 INFO    SenderThread:45032 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/config.yaml config.yaml
+2024-05-06 02:25:36,366 INFO    SenderThread:45032 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/wandb-metadata.json wandb-metadata.json
+2024-05-06 02:25:36,366 INFO    SenderThread:45032 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/requirements.txt requirements.txt
+2024-05-06 02:25:36,369 INFO    SenderThread:45032 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log output.log
+2024-05-06 02:25:36,372 INFO    SenderThread:45032 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/wandb-summary.json wandb-summary.json
+2024-05-06 02:25:36,379 INFO    SenderThread:45032 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/media/table/test-metrics_7_24334761b90934b2468d.table.json media/table/test-metrics_7_24334761b90934b2468d.table.json
+2024-05-06 02:25:36,380 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 10
+2024-05-06 02:25:36,380 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:36,380 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 10
+2024-05-06 02:25:36,381 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:36,381 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-05-06 02:25:36,381 INFO    SenderThread:45032 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-06 02:25:36,397 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-06 02:25:36,398 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: poll_exit
+2024-05-06 02:25:36,897 INFO    wandb-upload_0:45032 [upload_job.py:push():131] Uploaded file /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/config.yaml
+2024-05-06 02:25:36,912 INFO    wandb-upload_1:45032 [upload_job.py:push():131] Uploaded file /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/requirements.txt
+2024-05-06 02:25:37,270 INFO    wandb-upload_2:45032 [upload_job.py:push():131] Uploaded file /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/output.log
+2024-05-06 02:25:37,399 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-06 02:25:37,399 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: poll_exit
+2024-05-06 02:25:38,084 INFO    wandb-upload_3:45032 [upload_job.py:push():131] Uploaded file /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/files/wandb-summary.json
+2024-05-06 02:25:38,284 INFO    Thread-71 (_thread_body):45032 [sender.py:transition_state():614] send defer: 11
+2024-05-06 02:25:38,285 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:38,285 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 11
+2024-05-06 02:25:38,286 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:38,286 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-05-06 02:25:38,286 INFO    SenderThread:45032 [file_pusher.py:join():178] waiting for file pusher
+2024-05-06 02:25:38,287 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 12
+2024-05-06 02:25:38,287 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:38,287 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 12
+2024-05-06 02:25:38,288 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:38,288 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-05-06 02:25:38,288 INFO    SenderThread:45032 [file_stream.py:finish():614] file stream finish called
+2024-05-06 02:25:38,400 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-06 02:25:38,529 INFO    SenderThread:45032 [file_stream.py:finish():618] file stream finish is done
+2024-05-06 02:25:38,530 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 13
+2024-05-06 02:25:38,530 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: poll_exit
+2024-05-06 02:25:38,530 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:38,531 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 13
+2024-05-06 02:25:38,531 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:38,531 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-05-06 02:25:38,531 INFO    SenderThread:45032 [sender.py:transition_state():614] send defer: 14
+2024-05-06 02:25:38,532 DEBUG   SenderThread:45032 [sender.py:send():379] send: final
+2024-05-06 02:25:38,532 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: defer
+2024-05-06 02:25:38,532 DEBUG   SenderThread:45032 [sender.py:send():379] send: footer
+2024-05-06 02:25:38,532 INFO    HandlerThread:45032 [handler.py:handle_request_defer():172] handle defer: 14
+2024-05-06 02:25:38,533 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: defer
+2024-05-06 02:25:38,533 INFO    SenderThread:45032 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-05-06 02:25:38,534 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-06 02:25:38,535 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: poll_exit
+2024-05-06 02:25:38,537 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-06 02:25:38,538 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: server_info
+2024-05-06 02:25:38,538 DEBUG   SenderThread:45032 [sender.py:send_request():406] send_request: server_info
+2024-05-06 02:25:38,579 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: get_summary
+2024-05-06 02:25:38,579 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: sampled_history
+2024-05-06 02:25:38,762 DEBUG   HandlerThread:45032 [handler.py:handle_request():146] handle_request: shutdown
+2024-05-06 02:25:38,763 INFO    HandlerThread:45032 [handler.py:finish():866] shutting down handler
+2024-05-06 02:25:39,539 INFO    WriterThread:45032 [datastore.py:close():296] close: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240506_022234-9thpr301/run-9thpr301.wandb
+2024-05-06 02:25:39,761 INFO    SenderThread:45032 [sender.py:finish():1546] shutting down sender
+2024-05-06 02:25:39,762 INFO    SenderThread:45032 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-06 02:25:39,762 INFO    SenderThread:45032 [file_pusher.py:join():178] waiting for file pusher

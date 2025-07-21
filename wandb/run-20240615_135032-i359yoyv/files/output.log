@@ -1,0 +1,251 @@
+/content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at cl-tohoku/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+  0%|          | 0/11 [00:00<?, ?it/s]
+epoch: None 	loss: 0.065260   	accuracy: 0.2575 	precision: 0.1848 	recall: 0.2304 	f1: 0.1233
+  0%|          | 0/15 [00:00<?, ?it/s]W0615 13:50:50.751000 136686837035008 torch/_dynamo/convert_frame.py:357] torch._dynamo hit config.accumulated_cache_size_limit (64)
+W0615 13:50:50.751000 136686837035008 torch/_dynamo/convert_frame.py:357]    function: 'transpose_for_scores' (/usr/local/lib/python3.10/dist-packages/transformers/models/bert/modeling_bert.py:249)
+W0615 13:50:50.751000 136686837035008 torch/_dynamo/convert_frame.py:357]    last reason: ___check_global_state()
+W0615 13:50:50.751000 136686837035008 torch/_dynamo/convert_frame.py:357] To log all recompilation reasons, use TORCH_LOGS="recompiles".
+W0615 13:50:50.751000 136686837035008 torch/_dynamo/convert_frame.py:357] To diagnose recompilation issues, see https://pytorch.org/docs/master/compile/troubleshooting.html.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  6%|▌         | 5/84 [00:01<00:20,  3.87it/s]
+epoch: 0 	loss: 0.006993   	accuracy: 0.6337 	precision: 0.2490 	recall: 0.1825 	f1: 0.1861
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  6%|▌         | 5/84 [00:01<00:21,  3.64it/s]
+epoch: 1 	loss: 0.005539   	accuracy: 0.7513 	precision: 0.4225 	recall: 0.2067 	f1: 0.1864
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 20%|██        | 3/15 [01:44<06:58, 34.84s/it]
+  8%|▊         | 7/84 [00:01<00:17,  4.29it/s]
+epoch: 2 	loss: 0.004708   	accuracy: 0.7491 	precision: 0.3505 	recall: 0.2025 	f1: 0.1776
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  8%|▊         | 7/84 [00:01<00:17,  4.32it/s]
+epoch: 3 	loss: 0.004233   	accuracy: 0.7483 	precision: 0.1505 	recall: 0.1994 	f1: 0.1715
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 36%|███▋      | 4/11 [00:00<00:01,  5.63it/s]
+epoch: 4 	loss: 0.003997   	accuracy: 0.7491 	precision: 0.1504 	recall: 0.1996 	f1: 0.1715
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  0%|          | 0/11 [00:00<?, ?it/s]
+epoch: 5 	loss: 0.003818   	accuracy: 0.7498 	precision: 0.1838 	recall: 0.2005 	f1: 0.1734
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  0%|          | 0/84 [00:00<?, ?it/s]
+epoch: 6 	loss: 0.003709   	accuracy: 0.7498 	precision: 0.1838 	recall: 0.2005 	f1: 0.1734
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 45%|████▌     | 5/11 [00:00<00:00,  6.68it/s]
+epoch: 7 	loss: 0.003636   	accuracy: 0.7498 	precision: 0.1838 	recall: 0.2005 	f1: 0.1734
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  9%|▉         | 1/11 [00:00<00:02,  3.38it/s]
+epoch: 8 	loss: 0.003577   	accuracy: 0.7498 	precision: 0.1838 	recall: 0.2005 	f1: 0.1734
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 91%|█████████ | 10/11 [00:01<00:00,  7.66it/s]
+epoch: 9 	loss: 0.003524   	accuracy: 0.7498 	precision: 0.1838 	recall: 0.2005 	f1: 0.1734
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 55%|█████▍    | 6/11 [00:01<00:00,  7.15it/s]
+epoch: 10 	loss: 0.003463   	accuracy: 0.7498 	precision: 0.1838 	recall: 0.2005 	f1: 0.1734
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  9%|▉         | 1/11 [00:00<00:03,  3.21it/s]
+epoch: 11 	loss: 0.003447   	accuracy: 0.7513 	precision: 0.2257 	recall: 0.2024 	f1: 0.1771
+
+
+
+
+
+
+
+
+ 62%|██████▏   | 52/84 [00:12<00:06,  4.69it/s]

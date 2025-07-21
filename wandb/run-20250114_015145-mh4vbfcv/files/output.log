@@ -1,0 +1,570 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at tohoku-nlp/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+input_text: [CLS] しかし 名称 名称 名称 名称 が 名称 が ― 名称 的 が 再 名称 が 名称 が 動く ― この 名称 が 再 名称 名称 的 が 名称 が 動く が ― 若い 名称 が 動く ― 名称 が 名称 が 名称 名称 が 動く が 動く ― 名称 が 動く 静か だ 名称 が が ― この 名称 名称 が 名称 だ 名称 が 動く が ― 若い 動く が 動く ががが 彼 速く 動く だだ ― [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 彼 が 彼 が ― 彼 が 動く だ 名称 が 彼 が 動く だ 名称 が 動く が 動く が 動く が ― 名称 動く が 動く が が 動く が が 動く だだ 動く ― [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 名称 が 動く ― 彼 が この 名称 が 動く が ― ― 彼 が 彼 が が 若い 名称 だ ― 名称 名称 が 名称 名称 が 名称 が 動く が が この 名称 だ ― 名称 名称 が 名称 が 名称 名称 が 名称 名称 が 動く だ 名称 が ― 速く が 名称 が 若い だ が 若い が ― ― が ― [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] しかし ― この 名称 が 若い が ― 名称 が 動く だ 名称 的 名称 名称 が 速く 静か だ 名称 が 名称 が 動く が ― 速く 名称 的 が 名称 が 静か だ 動く 名称 が 名称 動く だだ が ― 名称 が 速く 動く 名称 が 名称 的 ― 速く 名称 が 名称 が 動く 名称 が 速く 若い 名称 が が 動く だだ ― [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] ― 速く 彼 が が 動く 的 名称 が が ― 名称 的 ― [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+  0%|                                | 15/5010 [00:04<25:39,  3.24it/s]
+
+  0%|▏                               | 22/5010 [00:06<25:40,  3.24it/s]
+
+
+  1%|▏                               | 35/5010 [00:10<25:38,  3.23it/s]
+
+  1%|▎                               | 41/5010 [00:12<25:38,  3.23it/s]
+
+
+  1%|▎                               | 54/5010 [00:16<25:35,  3.23it/s]
+
+  1%|▍                               | 61/5010 [00:18<25:31,  3.23it/s]
+
+
+  1%|▍                               | 73/5010 [00:22<25:30,  3.23it/s]
+
+  2%|▌                               | 80/5010 [00:24<25:27,  3.23it/s]
+
+
+  2%|▌                               | 93/5010 [00:28<25:27,  3.22it/s]
+
+  2%|▋                               | 99/5010 [00:30<25:24,  3.22it/s]
+
+
+  2%|▋                              | 112/5010 [00:34<25:18,  3.23it/s]
+
+
+  2%|▊                              | 125/5010 [00:38<25:17,  3.22it/s]
+
+  3%|▊                              | 132/5010 [00:40<25:14,  3.22it/s]
+
+
+  3%|▉                              | 144/5010 [00:44<25:13,  3.22it/s]
+
+  3%|▉                              | 151/5010 [00:46<25:07,  3.22it/s]
+
+
+  3%|█                              | 164/5010 [00:50<25:09,  3.21it/s]
+  3%|█                              | 167/5010 [00:51<24:08,  3.34it/s]
+
+
+
+
+
+
+
+
+
+ 24%|████████▎                          | 5/21 [00:00<00:01, 13.61it/s]
+
+  3%|█                            | 173/5010 [01:12<1:43:29,  1.28s/it]
+
+
+  4%|█▏                             | 185/5010 [01:16<26:06,  3.08it/s]
+
+  4%|█▏                             | 192/5010 [01:18<25:06,  3.20it/s]
+
+
+  4%|█▎                             | 205/5010 [01:22<24:51,  3.22it/s]
+
+  4%|█▎                             | 211/5010 [01:24<24:53,  3.21it/s]
+
+
+  4%|█▍                             | 224/5010 [01:28<24:46,  3.22it/s]
+
+  5%|█▍                             | 230/5010 [01:30<24:42,  3.22it/s]
+
+
+  5%|█▌                             | 243/5010 [01:34<24:43,  3.21it/s]
+
+  5%|█▌                             | 250/5010 [01:36<24:37,  3.22it/s]
+
+
+  5%|█▋                             | 263/5010 [01:40<24:35,  3.22it/s]
+
+
+  6%|█▋                             | 276/5010 [01:44<24:30,  3.22it/s]
+
+  6%|█▋                             | 282/5010 [01:46<24:25,  3.23it/s]
+
+
+  6%|█▊                             | 295/5010 [01:50<24:25,  3.22it/s]
+
+  6%|█▊                             | 301/5010 [01:52<24:24,  3.21it/s]
+
+
+  6%|█▉                             | 314/5010 [01:56<24:19,  3.22it/s]
+
+  6%|█▉                             | 321/5010 [01:58<24:24,  3.20it/s]
+
+
+  7%|██                             | 334/5010 [02:02<23:19,  3.34it/s]
+{'loss': 0.8737, 'grad_norm': 29.15913200378418, 'learning_rate': 3.3e-05, 'epoch': 1.98}
+
+
+
+
+
+
+
+
+
+ 71%|████████████████████████▎         | 15/21 [00:01<00:00, 11.50it/s]
+
+  7%|█▉                           | 342/5010 [02:24<1:01:30,  1.26it/s]
+
+
+  7%|██▏                            | 355/5010 [02:28<24:29,  3.17it/s]
+
+  7%|██▏                            | 361/5010 [02:30<24:06,  3.21it/s]
+
+
+  7%|██▎                            | 374/5010 [02:34<24:00,  3.22it/s]
+
+  8%|██▎                            | 381/5010 [02:36<23:57,  3.22it/s]
+
+
+  8%|██▍                            | 393/5010 [02:40<23:57,  3.21it/s]
+
+  8%|██▍                            | 400/5010 [02:42<23:51,  3.22it/s]
+
+
+  8%|██▌                            | 413/5010 [02:46<23:45,  3.22it/s]
+
+  8%|██▌                            | 419/5010 [02:48<23:43,  3.22it/s]
+
+
+  9%|██▋                            | 432/5010 [02:52<23:42,  3.22it/s]
+
+
+  9%|██▊                            | 445/5010 [02:56<23:38,  3.22it/s]
+
+  9%|██▊                            | 452/5010 [02:58<23:37,  3.21it/s]
+
+
+  9%|██▊                            | 464/5010 [03:02<23:29,  3.22it/s]
+
+  9%|██▉                            | 471/5010 [03:04<23:29,  3.22it/s]
+
+
+ 10%|██▉                            | 484/5010 [03:08<23:25,  3.22it/s]
+
+ 10%|███                            | 490/5010 [03:10<23:20,  3.23it/s]
+
+ 10%|███                            | 501/5010 [03:14<22:28,  3.34it/s]
+  5%|█▊                                | 9/167 [00:00<00:13, 12.05it/s]
+
+
+
+
+
+
+
+ 86%|███████████████████████████▍    | 143/167 [00:12<00:02, 11.27it/s]
+
+  0%|                                           | 0/21 [00:00<?, ?it/s]
+
+
+ 10%|███▏                           | 512/5010 [03:36<35:36,  2.11it/s]
+
+
+ 10%|███▏                           | 524/5010 [03:40<23:24,  3.19it/s]
+
+ 11%|███▎                           | 531/5010 [03:42<23:17,  3.21it/s]
+
+
+ 11%|███▎                           | 544/5010 [03:46<23:11,  3.21it/s]
+
+ 11%|███▍                           | 550/5010 [03:48<23:07,  3.21it/s]
+
+
+ 11%|███▍                           | 563/5010 [03:52<23:02,  3.22it/s]
+
+ 11%|███▌                           | 570/5010 [03:55<23:00,  3.22it/s]
+
+
+ 12%|███▌                           | 582/5010 [03:58<22:56,  3.22it/s]
+
+
+ 12%|███▋                           | 595/5010 [04:02<22:53,  3.22it/s]
+
+ 12%|███▋                           | 602/5010 [04:04<22:48,  3.22it/s]
+
+
+ 12%|███▊                           | 615/5010 [04:09<22:47,  3.21it/s]
+
+ 12%|███▊                           | 621/5010 [04:10<22:48,  3.21it/s]
+
+
+ 13%|███▉                           | 634/5010 [04:14<22:41,  3.21it/s]
+
+ 13%|███▉                           | 640/5010 [04:16<22:37,  3.22it/s]
+
+
+ 13%|████                           | 653/5010 [04:20<22:35,  3.22it/s]
+
+ 13%|████                           | 660/5010 [04:23<22:34,  3.21it/s]
+
+ 13%|████▏                          | 668/5010 [04:25<21:38,  3.34it/s]
+
+
+
+
+
+
+
+
+
+ 43%|███████████████                    | 9/21 [00:00<00:00, 12.03it/s]
+
+ 13%|███▉                         | 675/5010 [04:47<1:11:57,  1.00it/s]
+
+ 14%|████▏                          | 681/5010 [04:48<28:16,  2.55it/s]
+
+
+ 14%|████▎                          | 694/5010 [04:52<22:26,  3.20it/s]
+
+ 14%|████▎                          | 700/5010 [04:54<22:21,  3.21it/s]
+
+
+ 14%|████▍                          | 713/5010 [04:58<22:17,  3.21it/s]
+
+ 14%|████▍                          | 720/5010 [05:01<22:12,  3.22it/s]
+
+
+ 15%|████▌                          | 732/5010 [05:04<22:10,  3.22it/s]
+
+
+ 15%|████▌                          | 745/5010 [05:08<22:05,  3.22it/s]
+
+ 15%|████▋                          | 752/5010 [05:11<22:01,  3.22it/s]
+
+
+ 15%|████▋                          | 765/5010 [05:15<22:00,  3.22it/s]
+
+ 15%|████▊                          | 771/5010 [05:16<21:57,  3.22it/s]
+
+
+ 16%|████▊                          | 784/5010 [05:20<21:55,  3.21it/s]
+
+ 16%|████▉                          | 790/5010 [05:22<21:52,  3.21it/s]
+
+
+ 16%|████▉                          | 803/5010 [05:26<21:48,  3.22it/s]
+
+
+ 16%|█████                          | 816/5010 [05:30<21:43,  3.22it/s]
+
+ 16%|█████                          | 823/5010 [05:33<21:41,  3.22it/s]
+
+ 17%|█████▏                         | 835/5010 [05:36<20:47,  3.35it/s]
+  2%|▌                                 | 3/167 [00:00<00:09, 16.97it/s]
+
+
+
+
+
+
+
+
+
+
+ 81%|███████████████████████████▌      | 17/21 [00:01<00:00, 11.40it/s]
+
+ 17%|█████▏                         | 844/5010 [05:59<44:54,  1.55it/s]
+
+ 17%|█████▎                         | 850/5010 [06:00<24:19,  2.85it/s]
+
+
+ 17%|█████▎                         | 863/5010 [06:04<21:32,  3.21it/s]
+
+ 17%|█████▍                         | 870/5010 [06:07<21:27,  3.22it/s]
+
+
+ 18%|█████▍                         | 882/5010 [06:10<21:26,  3.21it/s]
+
+
+ 18%|█████▌                         | 895/5010 [06:14<21:20,  3.21it/s]
+
+ 18%|█████▌                         | 902/5010 [06:17<21:22,  3.20it/s]
+
+
+ 18%|█████▋                         | 915/5010 [06:21<21:14,  3.21it/s]
+
+ 18%|█████▋                         | 921/5010 [06:22<21:12,  3.21it/s]
+
+
+ 19%|█████▊                         | 934/5010 [06:27<21:03,  3.23it/s]
+
+ 19%|█████▊                         | 940/5010 [06:28<21:05,  3.22it/s]
+
+
+ 19%|█████▉                         | 953/5010 [06:32<20:59,  3.22it/s]
+
+ 19%|█████▉                         | 960/5010 [06:35<20:57,  3.22it/s]
+
+
+ 19%|██████                         | 973/5010 [06:39<20:59,  3.20it/s]
+
+
+ 20%|██████                         | 985/5010 [06:42<20:52,  3.21it/s]
+
+ 20%|██████▏                        | 992/5010 [06:45<20:50,  3.21it/s]
+
+ 20%|██████                        | 1002/5010 [06:48<20:00,  3.34it/s]
+  7%|██▏                              | 11/167 [00:00<00:13, 11.74it/s]
+
+
+
+
+
+
+
+
+
+ 14%|█████                              | 3/21 [00:00<00:01, 16.84it/s]
+
+
+ 20%|██████                        | 1013/5010 [07:10<31:38,  2.10it/s]
+
+ 20%|██████                        | 1020/5010 [07:13<21:34,  3.08it/s]
+
+
+ 21%|██████▏                       | 1032/5010 [07:16<20:42,  3.20it/s]
+
+
+ 21%|██████▎                       | 1045/5010 [07:20<20:33,  3.21it/s]
+
+ 21%|██████▎                       | 1052/5010 [07:23<20:31,  3.21it/s]
+
+
+ 21%|██████▍                       | 1065/5010 [07:27<20:26,  3.22it/s]
+
+ 21%|██████▍                       | 1071/5010 [07:29<20:25,  3.21it/s]
+
+
+ 22%|██████▍                       | 1084/5010 [07:33<20:18,  3.22it/s]
+
+ 22%|██████▌                       | 1090/5010 [07:34<20:20,  3.21it/s]
+
+
+ 22%|██████▌                       | 1103/5010 [07:38<20:13,  3.22it/s]
+
+ 22%|██████▋                       | 1110/5010 [07:41<20:10,  3.22it/s]
+
+
+ 22%|██████▋                       | 1122/5010 [07:44<20:13,  3.20it/s]
+
+
+ 23%|██████▊                       | 1135/5010 [07:48<20:06,  3.21it/s]
+
+ 23%|██████▊                       | 1142/5010 [07:51<20:05,  3.21it/s]
+
+
+ 23%|██████▉                       | 1155/5010 [07:55<19:58,  3.22it/s]
+
+ 23%|██████▉                       | 1161/5010 [07:57<19:58,  3.21it/s]
+
+ 23%|███████                       | 1169/5010 [07:59<19:08,  3.34it/s]
+
+
+
+
+
+
+
+
+
+ 52%|█████████████████▊                | 11/21 [00:00<00:00, 11.74it/s]
+
+ 23%|██████▌                     | 1176/5010 [08:21<1:03:42,  1.00it/s]
+
+ 24%|███████                       | 1182/5010 [08:22<24:59,  2.55it/s]
+
+
+ 24%|███████▏                      | 1195/5010 [08:27<19:49,  3.21it/s]
+
+ 24%|███████▏                      | 1202/5010 [08:29<19:41,  3.22it/s]
+
+
+ 24%|███████▎                      | 1214/5010 [08:32<19:44,  3.20it/s]
+
+ 24%|███████▎                      | 1221/5010 [08:35<19:37,  3.22it/s]
+
+
+ 25%|███████▍                      | 1234/5010 [08:39<19:34,  3.21it/s]
+
+ 25%|███████▍                      | 1240/5010 [08:41<19:32,  3.22it/s]
+
+
+ 25%|███████▌                      | 1253/5010 [08:45<19:30,  3.21it/s]
+
+
+ 25%|███████▌                      | 1266/5010 [08:49<19:21,  3.22it/s]
+
+ 25%|███████▌                      | 1272/5010 [08:50<19:22,  3.22it/s]
+
+
+ 26%|███████▋                      | 1285/5010 [08:54<19:17,  3.22it/s]
+
+ 26%|███████▋                      | 1292/5010 [08:57<19:15,  3.22it/s]
+
+
+ 26%|███████▊                      | 1305/5010 [09:01<19:13,  3.21it/s]
+
+ 26%|███████▊                      | 1311/5010 [09:03<19:09,  3.22it/s]
+
+
+ 26%|███████▉                      | 1324/5010 [09:07<19:06,  3.22it/s]
+
+ 27%|███████▉                      | 1330/5010 [09:08<19:04,  3.22it/s]
+ 27%|████████                      | 1336/5010 [09:10<18:22,  3.33it/s]
+
+
+
+
+
+
+
+
+
+
+ 90%|██████████████████████████████▊   | 19/21 [00:01<00:00, 11.37it/s]
+
+ 27%|████████                      | 1345/5010 [09:33<39:28,  1.55it/s]
+
+ 27%|████████                      | 1352/5010 [09:35<20:38,  2.95it/s]
+
+
+ 27%|████████▏                     | 1365/5010 [09:39<18:55,  3.21it/s]
+
+ 27%|████████▏                     | 1371/5010 [09:41<18:50,  3.22it/s]
+
+
+ 28%|████████▎                     | 1384/5010 [09:45<18:48,  3.21it/s]
+
+ 28%|████████▎                     | 1390/5010 [09:47<18:44,  3.22it/s]
+
+
+ 28%|████████▍                     | 1403/5010 [09:51<18:42,  3.21it/s]
+
+
+ 28%|████████▍                     | 1416/5010 [09:55<18:36,  3.22it/s]
+
+ 28%|████████▌                     | 1422/5010 [09:56<18:36,  3.21it/s]
+
+
+ 29%|████████▌                     | 1435/5010 [10:01<18:31,  3.22it/s]
+
+ 29%|████████▋                     | 1442/5010 [10:03<18:29,  3.22it/s]
+
+
+ 29%|████████▋                     | 1455/5010 [10:07<18:25,  3.22it/s]
+
+ 29%|████████▋                     | 1461/5010 [10:09<18:21,  3.22it/s]
+
+
+ 29%|████████▊                     | 1474/5010 [10:13<18:22,  3.21it/s]
+
+ 30%|████████▊                     | 1480/5010 [10:15<18:16,  3.22it/s]
+
+
+ 30%|████████▉                     | 1493/5010 [10:19<18:14,  3.21it/s]
+
+ 30%|████████▉                     | 1500/5010 [10:21<18:12,  3.21it/s]
+ 30%|█████████                     | 1503/5010 [10:22<17:31,  3.33it/s]
+
+
+
+
+
+
+
+
+
+ 24%|████████▎                          | 5/21 [00:00<00:01, 13.58it/s]
+
+
+ 30%|█████████                     | 1513/5010 [10:53<37:43,  1.54it/s]
+
+
+ 30%|█████████▏                    | 1526/5010 [10:57<18:10,  3.20it/s]
+
+ 31%|█████████▏                    | 1532/5010 [10:59<18:00,  3.22it/s]
+
+
+ 31%|█████████▎                    | 1545/5010 [11:03<17:56,  3.22it/s]
+
+ 31%|█████████▎                    | 1552/5010 [11:05<17:54,  3.22it/s]
+
+
+ 31%|█████████▎                    | 1565/5010 [11:09<17:50,  3.22it/s]
+
+ 31%|█████████▍                    | 1571/5010 [11:11<17:50,  3.21it/s]
+
+
+ 32%|█████████▍                    | 1584/5010 [11:15<17:44,  3.22it/s]
+
+ 32%|█████████▌                    | 1590/5010 [11:17<17:43,  3.22it/s]
+
+
+ 32%|█████████▌                    | 1603/5010 [11:21<17:38,  3.22it/s]
+
+
+ 32%|█████████▋                    | 1616/5010 [11:25<17:36,  3.21it/s]
+
+ 32%|█████████▋                    | 1623/5010 [11:27<17:33,  3.21it/s]
+
+
+ 33%|█████████▊                    | 1635/5010 [11:31<17:29,  3.22it/s]
+
+ 33%|█████████▊                    | 1642/5010 [11:33<17:26,  3.22it/s]
+
+
+ 33%|█████████▉                    | 1655/5010 [11:37<17:23,  3.22it/s]
+
+ 33%|█████████▉                    | 1661/5010 [11:39<17:20,  3.22it/s]
+
+ 33%|██████████                    | 1670/5010 [11:41<16:38,  3.35it/s]
+  9%|██▉                              | 15/167 [00:01<00:13, 11.44it/s]
+
+
+
+
+
+
+
+
+
+ 33%|███████████▋                       | 7/21 [00:00<00:01, 12.49it/s]
+ 33%|██████████                    | 1670/5010 [12:01<24:02,  2.31it/s]
+100%|██████████████████████████████████| 21/21 [00:01<00:00, 11.93it/s]
+{'train_runtime': 721.6041, 'train_samples_per_second': 55.501, 'train_steps_per_second': 6.943, 'train_loss': 0.6935112217943111, 'epoch': 10.0}
+100%|██████████████████████████████████| 21/21 [00:01<00:00, 11.83it/s]
+{'eval_loss': 0.7141693234443665, 'eval_accuracy': 0.7724550898203593, 'eval_precision': 0.7641821946169772, 'eval_recall': 0.35875, 'eval_f1': 0.3887179487179487, 'eval_runtime': 1.8528, 'eval_samples_per_second': 90.135, 'eval_steps_per_second': 11.334, 'epoch': 10.0}
+Test Results:
+Accuracy: 0.6726190476190477
+Precision: 0.6922167666848518
+Recall: 0.24948802460997585
+F1 Score: 0.253587043139282
+test_predictions_data: [['convert_all_words_to_dummy', '21_essay_tosanikki_20160903', '速く名称が名称が名称が再名称名称名称名称―名称―名称が名称が再名称的が動くだ名称が名称が動くが動くだが動くだ―', 'ところ', 2, '時間', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '88_fiction_SAINT-EXUPERY-1943', '彼が動くが動く名称がが―彼がが名称若いがだが―', 'ところ', 3, '場所', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '80_diet_kaigiroku-12', '名称が動くだだ名称が―名称が動く―名称名称が名称が動く名称が名称動く―動く名称名称が動く名称が名称動くが動くだ―', 'ところ', 2, '時間', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '35_aozora_Hisao-1939', '速く―名称が名称が名称名称がが名称がが若いが動くだ―', 'ところ', 4, 'その他', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '162_fiction_munashisanoshotai', 'しかし彼が動くだ名称が速く名称が名称動くだだ―', 'ところ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '129_textbook_djg_advanced;page_142', 'この名称が速く名称動くだ名称が再名称だ―', 'ところ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '59_aozora_Kishida-1950', '彼が名称が動くがだが―この名称が動く名称が名称が動く名称が静かだ―名称だ動く名称―静かだ動くだ名称がが動く名称が動く―静かだ名称が動くがが―名称が名称が動く名称が動くがだが―彼が―速く若い名称が動くがだが若い―名称が若い的が動くだ静かだ―名称が名称が―静かだ動く名称が―彼しかし―名称が名称的名称だ動く―', 'ところ', 4, 'その他', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '106_aozora_Hisao-1939', '名称が名称的が動くが動くがが―彼が動くだが若い速くがこの名称が名称が動くが動く―', 'ところ', 3, '場所', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '14_essay_tosanikki_20170401', '名称がが―名称が静かだ―彼が彼が動くだがが―彼が名称が―彼が彼が動くがが―が名称名称が名称が―この名称が静かだ名称が名称が動くだだ―', 'ところ', 3, '場所', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '22_essay_tosanikki_20190202', '彼が名称がが―名称が名称的が動くが名称動くが動くだ静かだ動くだが―速く速く名称名称名称名称動くだが動くが―名称的が動くだ名称が名称が名称が動く名称が動くだ―', 'ところ', 3, '場所', 1, '同時進行'], ['convert_all_words_to_dummy', '53_essay_Hepburn_no_shoogai_to_nihongo2', '名称が名称名称―名称的が動くが―速く名称が名称が動くだ―が名称が動くが動くだが―名称が名称名称的が動くだ名称がが―この名称が名称が名称動くだが動くだ―', 'ところ', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '10_essay_crossover27_IharaOct2015', '名称―名称が名称名称名称が名称が動くだがが―名称名称が静か的が名称名称が名称が動くがが―名称―名称がが名称が名称動くだ名称名称が再名称が動くだがだが若いがが名称動くだがだ―', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '146_wikipedia_KYOTO_12;CLT_00005;218', '速くが名称だ名称が名称動く名称が―名称が動くが名称が動く名称が動く―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '480_textbook_djg_intermediate;page_543', 'だ名称が名称が若い若いが動くが速く動くだだ―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '782_whitepaper_shohi4_2018', '名称名称名称―名称名称名称名称再名称名称―しかし―再名称的名称名称名称名称――名称名称名称名称名称名称名称名称―が動く―名称名称的が名称動くが―名称―名称―名称的が動くが名称名称が動くが名称が名称動くが動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '812_whitepaper_shohi4_2018', '名称名称的がが―名称名称―名称名称的―名称的―名称的―名称的名称―名称が―若い名称的が名称的が動く―名称名称名称が名称名称名称が動くが―名称的名称が名称―速く速くが名称的名称が彼が動く名称名称が動く的―名称的名称が名称的が動くが名称が動く―名称名称名称名称―が名称的が名称名称名称動く―名称名称名称名称が名称的が動くだだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '57_whitepaper_shohi4_2018', '名称的的がが―名称名称が名称動くが―名称名称名称名称が名称名称が名称動くが動く名称が動く名称名称が名称名称名称が動く―静かだ名称が動くが名称が―名称名称が動く名称名称が動く―名称的名称が静かだ名称動く静か動くが動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '27_news_KAHOKU_184;K201406140A0T10XX00001', '名称再名称的名称名称的が名称名称名称―名称名称―名称名称―が―名称が動く名称名称が名称が動くがが―名称が名称が名称的名称が名称動くが―静か名称が名称が動く名称が動く―が名称動く―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '312_whitepaper_H28_kotsuanzen1', '名称名称名称的が名称名称的が静かだ動くが―名称名称が名称―名称が名称動くが名称が―名称が名称的が名称名称的的が名称名称的がが名称動く―名称が名称名称的が動くだ名称が名称が動くが―静かだ名称名称が名称動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '278_whitepaper_R1_gaiko_2', '名称的だ名称―名称が名称動く名称がが―名称が名称名称が名称動くが名称が名称名称が名称動く名称が動く―名称が名称名称名称が名称が名称動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '122_whitepaper_R2_bousai_5', 'この静かだ名称が動く―名称名称名称が名称的が動くが―この名称が名称的だ名称名称が名称動くだ―名称名称が名称―名称が名称名称が名称が動くが名称名称が動く名称名称名称が名称動くだだ―名称名称名称名称名称的名称―名称名称名称名称――', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '46_diet_kaigiroku-11', '動く名称が―再名称的名称名称が名称名称が動くだ名称―名称名称名称が再名称が動く―名称名称名称が名称的が名称動くが―名称が名称的しかし名称的だ名称が名称が動くが動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '115_whitepaper_shohi4_2018', 'しかし―名称名称名称がが―名称が名称―名称的が静かだ名称が動く名称が名称―名称的が名称が動く名称が動くが―名称的名称が名称が名称名称―名称名称が名称が―名称的が名称名称が名称動くが名称的だ名称的が若い名称名称が名称動くが動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '5_law_h15A119;4_1_1', 'この名称が―静か名称名称名称が名称が動く名称名称が名称が若い名称動くが動く名称が動く―名称名称が静かだ名称が動く―名称名称しかし名称が動く名称名称が名称この名称が名称名称が名称が動く名称が名称が動く名称が動く―名称しかし名称名称名称が名称的が静かだ動くが名称が―名称名称が動く名称的が名称動くだ名称的が動く名称が動く―名称名称が名称的が名称動くが―名称が名称名称が名称動く名称が名称が動く―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '215_whitepaper_H28_kotsuanzen1', '名称名称名称名称名称が動くが―名称名称名称名称名称名称名称しかし名称名称的が名称動く―名称名称名称が名称―名称が動くが―名称的―名称的しかし名称的だ名称が名称名称が名称が名称が動くだ名称名称名称的名称名称が名称動く名称が動く―名称名称名称が名称動く―名称名称が名称が名称が静か的が動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '29_news_KAHOKU_513', '名称が名称が動くが―名称的が名称が動く動くが名称が名称的再名称的が動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '31_whitepaper_R1_gaiko_9', 'しかし―名称名称的が名称が再名称名称的再名称―名称的が名称的がが名称名称が名称が動く名称名称名称が動くがが―名称名称が名称的が名称動くが―名称が名称が動く名称が名称が名称動く名称―名称が静かだ名称動くが動くが動くが動く―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '206_whitepaper_H28_kotsuanzen1', '名称名称が名称が名称が名称名称が動くだ名称が名称名称がが名称が動く名称が名称が名称が名称が動く名称が―名称的が名称が動くが―名称がが名称が名称動くだ再名称的が名称―名称的が名称―名称名称名称的が名称動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '276_whitepaper_shohi3_2018', '再名称名称名称的名称名称がが―名称的名称が―名称が名称的が名称が名称名称が静か的が名称が名称動くが―名称が名称名称が名称が名称名称名称が名称名称が名称が動く名称が名称動く―名称だ名称静かだ名称が名称が名称的だ名称動く名称が動く名称が動くだが動くだ―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '19_essay_manabi72_Kuroda2015summer', '動くが―名称が名称的が名称が動くがが―名称的が名称が速く名称的だ―名称―名称名称が名称動く的名称が動くが動くだ名称が名称動くだだが動くだ―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '44_aozora_Koyama-1955-2', '動くがこの名称が名称が動くが名称が名称が動くが―この名称が動くが動くがだがが動く名称が動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '25_whitepaper_R1_gaiko_10', '名称名称が名称名称が名称が名称動くが―名称名称―名称的が名称―名称―名称的静か名称名称的が名称が動く―名称名称が名称が名称が名称が名称的だ名称動く―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '479_textbook_djg_intermediate;page_543', '彼が名称が名称が動くが名称が動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '6_book_excerpt-26', 'わあわあ速く動く―が動くがが名称が若い名称が動く名称がが動くだ―名称が名称が動く静か的が動くがが速く名称が動くだ―名称名称名称が動くが速くが動くが動くが動くだがだ―', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '516_essay_Hepburn_no_shoogai_to_nihongo2', '名称―名称―名称が―名称名称が名称動くが名称――名称―名称―名称―が名称動くが―名称が名称が―名称がが―この名称名称がが―名称が動く動く―速くが―名称が動く名称―が名称動くが動くだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '90_fiction_sakurasakuanobashode', '名称が―動くが名称だ名称が動くが名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '507_aozora_Hori-1969', '彼が速く静かだ名称が動く動くが―彼が名称が静かだ名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '224_aozora_Akutagawa-1921', 'が―速く名称が動くが―名称が名称が動くが―名称が名称が名称が動くが―速く名称が動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '121_aozora_Akutagawa-1921', '名称が速く動く的が―名称が名称が動くだが―動く静かだ名称が動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '91_aozora_Andersen-1967-1', '―若いがが―名称が―この名称だがだが―が―名称が名称的が再名称的が―動くが―名称が―名称が速く動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '762_aozora_Oda-1976-3', 'しかし―名称が名称が動く名称が動くが―名称が動くだ―名称が名称が速く名称が名称が動くが―動くが動くが動くこの名称が名称が―名称名称が名称的が名称的が名称が動くだ名称―速く名称が動くだが―この名称的が名称動くが動く名称が名称がが動くだだが動くが―動くだがが若い的が動く―速く名称が名称的が―名称が動くが動くこの名称が若い的が―名称的が名称が動くが動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '767_whitepaper_R1_gaiko_2', '名称名称が名称―名称名称名称がが―名称名称名称が―名称名称が名称動くだ―名称名称が名称名称名称が名称名称名称―が動く名称が名称動くだ名称が名称動くが―名称が名称が名称的が名称的が名称動くが―名称名称が名称動く―名称名称だ動くだ名称が若い名称が名称動くが名称動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '68_aozora_Kobayashi-1929', 'この名称が名称が動くが―名称が動くが―名称が速く動くだ名称名称が動くが動くがが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '150_aozora_Oda-1976-3', '―名称―的―名称―的が―再若い動くだがが―が―動くだが―名称名称がしかし―わあ―動くが―が―速く動く静かだ名称的だ名称が動くが動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '750_aozora_Oda-1976-1', 'しかし名称が名称動くが―名称が名称が動くが動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '38_aozora_Kaneko-1984', '速く動くだ名称名称が名称だ名称が名称が名称が名称が動くがが動くが動くだが―名称が名称が再名称が名称が名称が名称がが動くが―若い静かだ動くが動くがだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '403_fiction_sakurasakuanobashode', '名称が名称が名称が名称が動くだ名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '77_aozora_Akutagawa-1922', '名称が名称的が動くが名称が―名称名称が名称―名称―が名称―名称―だが―動くだ名称―名称―名称が名称が動く動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '180_aozora_Yamakawa-1962-1', '若い動くだこの名称がが名称が動くが動くがが―名称的が名称が名称が動くが―名称が動くが動く動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '357_whitepaper_H28_kotsuanzen1', '名称が動くが名称名称的が名称動く静かだ名称が名称が名称動くだ名称名称が―名称が名称動くだが動く―名称が名称が動くだが動く―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '66_whitepaper_H28_shinrinringyo2', '彼的が名称がが――名称名称名称―が動くが―名称が名称が動くが―名称が名称しかし名称が名称名称が名称が名称―名称―しかし名称的が名称名称が動く的が名称動くが動く―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '370_textbook_djg_advanced;page_426', '名称が動くがが動くが名称がが名称が名称名称が動くだ静かだ動くだ―', 'ながら', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '112_aozora_Kaneko-1984', '名称がこの名称が名称的が名称が動くが動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '184_aozora_Miyazawa-1934', '名称が名称が動くが名称が動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '507_aozora_Koyama-1955-1', '名称的が動くが名称が動く的が動くが―名称が名称が動くが動く名称が―彼がが動くだ若い―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '7_essay_tosanikki_20190406', '彼的が名称が名称―名称名称が動くが名称が動くが名称が名称が名称動くが動く名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '276_fiction_mirai_e_no_okurimono', '名称が彼が名称が動くが―名称的が名称が名称が名称動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '26_aozora_Oda-1976-3', 'だが―名称的が名称が動くだが―彼がが動くが動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '99_fiction_kanojotachino_Christmas', '名称が静か―速く―がが名称的が動くが動くだ―', 'ながら', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '368_aozora_Hori-1969', '若いがこの名称彼が彼名称が名称がが彼が名称が――彼が彼が動くだが速く彼が動くが動く―動くがが動く的静かだ名称が名称動くが―名称若い動くが名称が名称動くが動くだ名称が動くだ―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '389_whitepaper_R1_gaiko_11', '名称名称名称名称が名称動くだだ名称がが名称が―名称名称―名称名称―名称名称的再名称が名称が動くが名称名称的が名称が名称動くだ―名称的名称が名称が名称動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '616_aozora_Natsume-1908', '名称が速くが動くが―速くが動くが―名称が名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '798_aozora_Oda-1976-2', '名称が動く名称が名称動くが動くが―速く―名称―が動くが動くが―名称だ動くだだ静かだ名称が動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '826_fiction_onna_to_senso', '動くだ名称が名称が動くが名称が動く―名称が名称が動くだ名称がが―名称が名称が動くだ―名称が動く名称が動くが名称が動くだが名称名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '11_aozora_Hayakawa-1983', '動く名称が動くが動くが名称が動くだ名称が―この名称名称が若い動くが動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '773_fiction_onna_to_senso', '名称名称が名称―名称が名称―がが動くが―彼的が名称が動くだだ名称が動くが名称が名称名称が名称動く―彼的が動くだ名称が名称名称が動くだが動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '225_fiction_automatic-1', '彼が静かが動くが―名称名称が名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '448_aozora_Oda-1976-3', '―速く動くだがだ若いが―動く名称が名称が動く動くが―が―名称が動くだ的だ―動くだがが―が動く名称が名称動くが―名称が速く名称が名称が名称動くだが―名称が名称が名称が名称動くだがだ動く―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '1117_aozora_Harada-1960', '名称が名称が動くが――速く彼が――が―名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '595_aozora_Hori-1969', '彼が速く名称が名称が―動くだ名称が動くがが―名称的がこの名称が名称が動くが動くが―速く名称が動くが動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '15_wikipedia_Sendai_City', '名称が―名称が名称が動く名称―名称が名称が名称―が名称―名称が名称が名称―がが名称動く名称が名称だ動く―この名称動くだ名称が名称―名称名称が名称名称が名称が動くがが名称名称的しかし彼が動く名称的名称が名称が動くが名称が動く静かだ名称が動くが名称動く動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '758_aozora_Miyazawa-1934', '―彼彼がわあ―この名称が動く動く的だ――が名称が動くが名称が名称が動くが動く名称が名称が速く動くが動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '205_aozora_Edogawa-1929', '名称がが―名称的名称が名称が名称が動くが若い的だ名称が動くが―速く名称が動くが―名称が名称が名称が動くが動くだだが―名称がが動くが―彼がが動くだ名称が―名称が―名称的が名称が動くが―速くが名称が名称が動くが動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '51_fiction_kemonofriends2_R2', '速く名称が速くが動くがだだ―', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '785_textbook_purple_intermediate;page_237', '名称―名称が動くが―動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '23_essay_tosanikki_20180707', '速く名称名称が名称が動くが―若い若い動く名称が動くが彼が動くだが―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '205_aozora_Kobayashi-1929', '名称が動くが動くが―名称が名称が名称が名称が動くが―速くが名称が名称が動くが―若い名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '312_aozora_Hori-1969', '――この名称が速く名称が動くが動くだ名称が―彼的が名称的名称がこの名称が動くが―名称名称がが動くが名称が名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '54_news_KAHOKU_82;K201402060A0T10XX00001', '名称名称が―名称が名称的が名称が名称が名称動くがが名称名称が名称動くだ―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '873_textbook_kisonihongo;page_159', '動くがが名称が名称が動くだ―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '89_news_KAHOKU_34;K201404110A0T30XX00001', '名称が名称が若い名称が動くが―動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '22_essay_tosanikki_20191102', '名称名称的が名称が名称が動くが―速くこの名称が動くだがだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '252_aozora_Oda-1976-3', '速く動くだ―が―名称が名称が動くが―静かだ名称が若い名称が名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '310_essay_Hepburn_no_shoogai_to_nihongo2', '名称名称が動く―名称的が名称的が静かだ名称名称が名称が動く―名称動く名称的が若い動くが―名称が名称が名称が名称が動くが動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '545_whitepaper_H26_kodomowakamono2', '再名称名称が名称名称がが―名称名称名称が名称動く―名称が動くだ名称が動く名称がが速く動くが動く―名称が名称動く名称が動くが名称が名称が動くが動く名称が動く名称――再名称名称名称―がが名称が動くが名称名称が名称が動くが動くだ名称が名称が動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '309_aozora_Hori-1969', 'この名称彼が彼が若い静かだ名称が動くが―彼が動くだがだが―彼がが彼が動くが動くが動くだだ静かだ名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '382_fiction_sakurasakuanobashode', '名称がこの名称が動くが名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '834_aozora_Umezaki-1966', '名称が名称が若い動くが名称が動くが名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '549_aozora_Hori-1969', '名称が名称がが彼が名称名称が若いが動くだが動くが――', 'ながら', 4, 'その他', 4, 'その他'], ['convert_all_words_to_dummy', '100_aozora_Mori-1912', '名称が速く動くだ名称だ―名称が動くが―速く名称が動くが―名称が名称が―名称が動くががが動く動くだ静かだ動くが動く―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '6_essay_manabi28_Kijima2004summer', '彼的が静かだ動くが速く名称動くだが動くだ名称だがだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '551_aozora_Umezaki-1966', '速く動くが―名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '127_fiction_mirai_e_no_okurimono', '名称が速くが動くが―名称名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '860_whitepaper_H27_akita_kankyo1', 'しかし―名称名称的が名称が名称名称―名称が動く名称名称が名称名称名称が名称が動くが動くだが―名称がが名称―名称動くが静か名称が名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '11_aozora_Hitomi-1929', 'しかし名称が動くが動くが動くが速く彼が名称がが静かだ名称が―若い的が動くが名称が名称が名称動くが名称名称が動くが名称が動くだ名称が動くがだが若いが―名称が名称的が名称が名称が動く名称が速く動くだ動くがだが名称的が名称動く名称が名称が名称が名称が動くだがだ動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '599_aozora_Hori-1969', 'しかしこの名称が名称が名称がが名称動くが速く名称が名称が動くが動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '148_whitepaper_H28_kotsuanzen1', '名称が名称が動くが―名称的―名称名称―名称名称が名称名称的が動くが―名称が名称動くが――名称―が名称が動くだ名称名称名称が名称動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '6_news_KAHOKU_303;K201401010W5XP4XX00001', '名称が名称が動くが―名称的だ名称動く名称的が名称的―名称が―名称がが若い名称が―この名称が動くが動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '1029_aozora_Harada-1960', '名称が動くだ名称が名称が名称が名称が若い動くが名称が名称が動くがが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '591_bible_ot;b.NUM.16.30', 'しかし―名称が若い名称が動くだ―名称が名称が動くが―彼的が名称が―彼が動く名称がが―速くが動くが―動くが名称が動くだだだが―彼名称が彼的が名称が―名称が動くだがだ動く名称が動くだが動くだ――', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '694_aozora_Andersen-1967-2', '彼がが―再名称的が―名称が動くが―動く動くがだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '301_aozora_Doyle-1892', '的が動くが名称が名称が名称動くだが動くだ名称―が動く名称が名称が動く―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '476_fiction_munashisanoshotai', '名称が動くがこの名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '375_aozora_Miyazawa-1934', '名称が彼が動くが動くだが―名称が――わあ動くだがが動くだが――が動くが名称が名称が動くが名称が動くだだがだ名称が彼が動くが名称が動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '117_aozora_Miyamoto-1925', '名称名称が動くが動くだ名称が動く―若い名称的が名称が名称が名称が若い若い名称的が動く―この名称が速く名称が動くだが―静かだ名称が動く―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '15_essay_crossover28_Ihara2016', '名称名称名称がが静かが名称が名称名称が動く名称が動くだだが―名称が名称がが名称名称が名称が動くが名称が名称が名称が名称が動くが―再名称名称名称が動くだ名称が動くだだ―', 'ながら', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '200_whitepaper_R1_gaiko_12', '名称が名称名称が名称名称が速く名称名称動くだが動くだ名称―名称名称が名称が名称動く名称が名称が―名称―が動くがが―名称がが―名称的が動くが動く若い名称名称―だが名称動く―名称が名称名称が名称が動くだ名称が―名称が速く動く静かだ動く―が動くが動くだだ―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '188_aozora_Kobayashi-1929', '―速く動くが動く―名称が名称が名称が静かだ静かだ名称だ―名称が名称が名称が名称が動くが―名称が名称が速く動くだが―名称名称が動くだ名称が―速くが動くが―名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '218_aozora_Hayashida-2015', '―わあ―速くだ―が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '34_aozora_Togawa-1937-3', '名称が再名称が動くが―彼が速く名称動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '166_bible_nt;b.JOH.3.10', '―彼が名称が名称だ動くが―彼がが名称が動くだがが―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '14_aozora_Miyazawa-1924', '名称が名称が―速く名称が若い動くが―速く―が名称が名称が―名称が動くが動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '1074_aozora_Harada-1960', '名称が動くが若い名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '3_fiction_mirai_e_no_okurimono', '名称名称が名称動くだだ名称が再名称名称が動く―名称が動くがが動くが名称が名称が動くだだ―', 'ながら', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '22_aozora_Kunieda-1925', '名称が名称が名称が速く名称が名称が動くが動くだだ静かだ動くが動くだ―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '20_aozora_Hori-1969', '彼がこの名称が動くだが―速くが彼的が動くだ名称が動く―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '501_aozora_Hori-1969', '彼が動くだ速く動くだ名称が動くが動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '315_whitepaper_R1_gaiko_9', 'この静かだ名称が名称―名称名称が動くが動く名称がが―名称名称的が名称が動くが名称的しかし名称的だ名称が若い動くが動く名称が動く―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '124_aozora_Akutagawa-1922', '彼が名称が名称が動くが―名称だ名称―名称名称―が名称―が―わあ動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '66_whitepaper_H20_kokuminseikatsu2', '名称名称が動く名称が動くが―名称的的だ―名称が若い名称が動く名称が名称だ動くが動く名称が動くだが―名称名称が名称名称がが動くだ静かだ―名称が名称が名称が動くだが名称が動くが動く―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '319_fiction_sakurasakuanobashode', '名称が動く―名称が動くが名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '256_aozora_Miyazawa-1934', '動くがががが動くが動くが――名称だ―名称だが名称名称が名称名称だ若い動くが動くだがが―動くが――が動くが名称静か動くが動くだだが―速く動くがが速く名称が名称が動くだこの名称が名称静かだ動くが動くがだ―速くががが動くだ名称名称が若い動くが動く動く静かだ動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '236_aozora_Akutagawa-1921', '名称が名称名称が静かだ―名称が名称が動くが―名称が名称が名称が動くが―名称名称が名称が名称が動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '21_essay_tosanikki_20180804', 'この名称―名称名称が名称が名称動く―名称名称が動くが―若い名称が名称が速く名称―名称名称―が動くだがだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '70_aozora_Dazai-1-1940', '名称が名称が名称が―静かだ名称が―名称が名称が―名称が動くが動くが動く静かだ―名称が動くが名称が動くが動くがが―速くが―名称が名称が―動くだ静かだ名称だ―名称動くだ名称だ―動く動くだがだ動く―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '237_fiction_mirai_e_no_okurimono', '―名称―動くが名称名称が若い名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '426_aozora_Oda-1976-3', '名称が名称が速くが動くだ名称が名称動くが―名称が名称が名称が名称が動くが―動くが動くが動くだ動く静かだ名称だだが―速く名称が動くだ名称だ―彼がが動くがが若いだが―名称が動くだがだ動く―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '352_aozora_Sakaguchi-1947', '名称が名称が名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '45_aozora_Perrault-1950', '動くだが動く名称が―速く動くだがが―名称が名称だが―この名称速く―名称が動く動くだ動くが動くが―この名称―動く―名称が―速く再名称が動くが―名称―名称―が彼がが動く名称が―動くがが動くだだ動くが―名称速く名称―彼―名称が動くが―名称名称が名称名称が―名称が名称が動くだがが動くが―若い―名称が名称―名称―が動くが―静かだ動くが動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '88_aozora_Joyce-1914', 'が動くがが彼がが名称が名称名称名称が名称が名称が動くが若い動くだ若い名称が動くだ名称が動くが動くがが速く名称が若いだがだ―', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '102_aozora_Hori-1969', '速く動くだが―動くだわあ若い動くだ名称が名称が動くが動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '1225_aozora_Harada-1960', '名称的が名称が速くが動くだが―名称が名称が名称が名称動く動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '576_aozora_Hori-1969', '―彼がが―彼が名称が動くがが―彼が名称が速く動くが―彼が名称名称が動くだが彼が動くが―この名称が名称が動くが動く名称がこの名称動くだ名称が彼が名称が動く名称が動くがだが若いがが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '142_aozora_Yamakawa-1962-1', '彼が―名称が動く名称が―静かだ名称だ動くが動くだ―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '499_bible_ot;b.NUM.14.23', '彼が名称が―彼が名称が名称が動くだ名称が動くが―この静かだ名称名称が彼が動くが―彼が名称が動く動くだだ名称が名称が―彼が速く彼的が名称的が動くが動くだ名称が動くだだ動く―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '130_aozora_Oda-1976-2', '名称が名称動くが―名称がが速く若い名称が動くがだが名称が動くが動くだがだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '386_aozora_Hori-1969', '彼が動くが動くだ名称がが名称的が―速く名称が名称が若い名称が動くだ名称が名称が名称が静かだ名称が動くだが―彼がが名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '204_aozora_Doyle-1905', '名称名称が―この名称動くだ名称が動くが―名称名称―名称が動くだが―彼が速く名称が動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '568_aozora_Umezaki-1966', '彼が若い名称が動くが―名称が名称が名称が動くが動くがが速く動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '652_whitepaper_shohi4_2018', 'しかし―名称的的が動くが名称名称が名称が動くが―名称的名称が名称動くが―名称的的名称的名称名称―名称がが名称―が名称名称名称名称がが名称動く―名称名称名称が名称が名称動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '16_aozora_Chiri-1955-7', '名称が名称がが―この―名称―が動くが―名称が動くだ名称が静かだ―名称が―わあ―名称―が静かだ名称が名称が動くがこの名称が名称動く―名称が―名称が―名称が―が動くが動くだが動く名称だ動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '10_book_excerpt-19', '名称名称名称名称が名称名称的がわあ名称が名称が名称がが名称が動く静かだ名称だだが―この名称が名称がが名称的が名称が動くだが動くが動くだがだだ―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '370_fiction_sakurasakuanobashode', '速く動くが―名称的が動く―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '259_aozora_Hori-1969', 'が―速く動くが彼が速く動くだ静かだ―静かだ動くが動く名称が動くが動くが―速く彼が名称が名称が―名称が若い名称が動くが動くが動くが―彼が名称動くだが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '366_whitepaper_H28_shinrinringyo2', '名称名称名称が名称が名称動く名称―名称的がが名称名称名称が名称動くが―名称的名称が若い名称的が名称が動くが―名称名称が名称名称的が名称名称が名称名称が名称名称的が名称名称が動くが名称動くが動く―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '229_whitepaper_H28_shinrinringyo1', '名称が動くがが―名称が名称が名称が動く―名称が名称が動くが名称が動くが名称的だ名称が名称が名称動くが動く―この名称が動く名称だ動く名称名称が動くが―名称―名称が名称名称が名称が動くが名称動くだ名称が動くだ―名称名称―名称――', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '185_fiction_munashisanoshotai', '名称が名称が動くが―彼が名称が名称が速く動くが動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '14_news_KAHOKU_34;K201404110A0T30XX00001', '―名称的が名称が動くが動くが―がが名称名称が名称動くだ名称が動く―名称的が―名称――名称―が名称が名称が名称が動くだ名称―名称が動くが―速く若い名称名称が動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '997_whitepaper_shohi4_2018', '彼が動く―名称名称が名称が名称的だ名称が名称が動くが―名称名称が静かだ名称が名称動く名称―再名称名称が名称動くが動くだ名称名称が名称名称名称名称名称が名称的だ名称動く名称が動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '220_aozora_Oda-1976-3', '名称が彼的が名称が動くが―速く名称的だ名称が名称が動くだ―動くが名称が速くが動くが動くだが―名称が名称がこの名称的が若い名称だだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '191_wikipedia_Audrey_Hepburn', '名称名称が速く名称が名称が動く名称が名称が動くだだ名称が動くが名称動くだだ名称が―名称名称が名称が動くが―速くがこの名称が動く名称だが―静かだ名称が名称が動くが―名称が名称が名称が動くが動くだだが―名称が名称がが―が動く―名称が動くが彼名称が彼が名称が動く名称が若いだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '49_aozora_Chiri-1955-7', '名称がこの名称が名称が名称が動くだ名称が名称が―動くが名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '854_aozora_Oda-1976-3', '名称が名称が名称名称が名称が動くが動くが―名称が名称名称が動くだだ名称名称が動くが―速く名称静かだ名称が動くが動く若い的が―速く名称が動くがが若いだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '508_aozora_Andersen-1967-2', '速く―再名称的が動くだ名称―名称が再名称的が―名称が再名称が動くが―静かだ名称的が名称が名称が動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '44_whitepaper_R1_gaiko_10', '名称が名称動く名称が動くが―動く名称名称名称名称的が名称が名称動くが―名称名称が名称が名称しかし名称が名称的だ名称動くが動く―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '17_news_KAHOKU_67;K201407100A0KI0XX00001', '名称―名称が名称的が動くだが名称名称が名称が動くが―名称が名称が動くだが静かだ名称が動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '666_aozora_Miyazawa-1934', '動くが名称が若い静かだ速く動くが名称が名称が動くが――わあ再名称―彼がわあ名称が若いがが若いが――', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '106_news_KAHOKU_85', '名称が―名称が動く名称が動く名称だがだ―名称名称がが名称動くが―名称が動くだ名称が動くが若い―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '789_whitepaper_R1_gaiko_9', '名称名称が名称が動くが名称動くだ名称名称名称しかし名称名称名称が―名称が名称名称が名称が動くが名称動くが動くだ名称が動くが―名称が名称名称名称名称的だ名称動くが動くだ名称が動くだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '528_aozora_Oda-1976-3', '名称がこの名称が名称が速く動くが―速く動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '330_whitepaper_H28_shinrinringyo1', 'この静かだ名称が名称動くが動く名称がが―名称名称が動くだだ名称的が動くだ名称が動く名称名称―名称名称名称名称名称名称名称的が名称名称名称名称が名称名称的的が名称名称―名称名称が名称動くが名称名称名称的が動く名称名称が動くが動く名称が動く―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '25_whitepaper_H27_akita_kankyo1', '静かだ名称がが――再名称名称―が―名称静か名称的が名称―が名称的名称が動くが――名称的名称が名称―名称的が名称的――が―名称名称が名称が名称名称が名称―が―名称的が名称が動くが名称的だ名称が動く名称が動くが動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '27_aozora_Chiri-1956-2', '名称名称が名称がが―名称が動くだだ若い名称だがだ動くだが―速くこの名称名称名称が名称が動くが名称が名称的が名称が動くが―彼が静かだ名称が名称動くが動くがが―この名称名称が名称だ動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '82_whitepaper_H28_shinrinringyo1', 'この名称―名称的が再名称が名称名称が名称動くが動く名称――名称が名称が名称名称名称―が動く名称的が動くが名称が動くが再名称が名称動くが動く名称がが―名称名称が名称動くが動く名称が名称が名称が動く―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '46_fiction_automatic-1', '名称が動くが―名称が名称が若い名称が動く動くだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '96_news_KAHOKU_34;K201404110A0T30XX00001', '名称が動くが―名称が動くだがが名称が動く名称だだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '693_fiction_sakurasakuanobashode', '名称だ動くだ名称が名称が動くが動くだ名称が動くだ―動くが動く名称―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '85_aozora_Miyamoto-1925', '彼が動くだが動くが―彼が名称が名称名称が動くだがだ動くだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行']]
+test_predictions_table:                 experiment type  ... predicted_label_text
+0    convert_all_words_to_dummy  ...                逆接・譲歩
+1    convert_all_words_to_dummy  ...                逆接・譲歩
+2    convert_all_words_to_dummy  ...                逆接・譲歩
+3    convert_all_words_to_dummy  ...                逆接・譲歩
+4    convert_all_words_to_dummy  ...                逆接・譲歩
+..                          ...  ...                  ...
+163  convert_all_words_to_dummy  ...                 同時進行
+164  convert_all_words_to_dummy  ...                 同時進行
+165  convert_all_words_to_dummy  ...                 同時進行
+166  convert_all_words_to_dummy  ...                逆接・譲歩
+167  convert_all_words_to_dummy  ...                 同時進行
+[168 rows x 8 columns]
+connective_table:               experiment_type connective  ...    recall        f1
+0  convert_all_words_to_dummy        ところ  ...  0.250000  0.072727
+1  convert_all_words_to_dummy         つつ  ...  0.625000  0.621053
+2  convert_all_words_to_dummy        ながら  ...  0.406646  0.429382
+[3 rows x 6 columns]
+test_dataset.exclude_count in convert_all_words_to_dummy: 13862

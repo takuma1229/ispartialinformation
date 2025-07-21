@@ -1,0 +1,18 @@
+{
+  "gradient_checkpointing": false,
+  "should_save_model": true,
+  "labels": "[0, 1, 2, 3, 4]",
+  "label2id": "{'B. 逆接・譲歩': 0, 'A. 同時進行': 1, 'イディオム': 4, '対象外': 4, 'A/B': 0, 'A|B': 0, 'A1 譲歩：直接型': 0, 'A2 譲歩：間接型': 0, 'B 同時進行': 1, 'C その他': 4, '逆接・譲歩': 0, '場所': 3, '時間': 2, 'その他・イディオム': 4}",
+  "device": "cuda:0",
+  "lr": 0.0005,
+  "batch_size": 16,
+  "max_seq_len": 512,
+  "num_warmup_epochs": 1,
+  "seed": 42,
+  "dataset_dir": "data/pos_data",
+  "model_name": "cl-tohoku/bert-base-japanese-v3",
+  "output_dir": "outputs/cl-tohoku__bert-base-japanese-v3/2024-05-13/14-02-49.156845",
+  "experiment_type": "normal",
+  "epochs": 15,
+  "weight_decay": 0.01
+}

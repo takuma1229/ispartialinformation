@@ -1,0 +1,1 @@
+{"columns": ["experiment_type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["normal", 0.8571428571428571, 0.7831855136733186, 0.6914238628872775, 0.7251559251559252]]}

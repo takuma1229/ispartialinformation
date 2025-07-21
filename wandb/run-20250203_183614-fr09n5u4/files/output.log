@@ -1,0 +1,679 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at tohoku-nlp/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+input_text: [CLS] で あ りく ミョガパスミョガパスミョガパスミョガパス が ミョガパス が ― ミョガパス ぼね が ふら ミョガパス が ミョガパス が たゆ ねる ― この ミョガパス が ふら ミョガパスミョガパス ぼね が ミョガパス が たゆ ねる が ― も さらい ミョガパス が たゆ ねる ― ミョガパス が ミョガパス が ミョガパスミョガパス が たゆ ねる が たゆ ねる ― ミョガパス が たゆ ねる さも ら か だ ミョガパス が が ― この ミョガパスミョガパス が ミョガパス だ ミョガパス が たゆ ねる が ― も さらい たゆ ねる が たゆ ねる ががが 彼女 も さ らく たゆ ねる だだ ― [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 彼女 が 彼女 が ― 彼女 が たゆ ねる だ ミョガパス が 彼女 が たゆ ねる だ ミョガパス が たゆ ねる が たゆ ねる が たゆ ねる が ― ミョガパス たゆ ねる が たゆ ねる が が たゆ ねる が が たゆ ねる だだ たゆ ねる ― [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] ミョガパス が たゆ ねる ― 彼女 が この ミョガパス が たゆ ねる が ― ― 彼女 が 彼女 が が も さらい ミョガパス だ ― ミョガパスミョガパス が ミョガパスミョガパス が ミョガパス が たゆ ねる が が この ミョガパス だ ― ミョガパスミョガパス が ミョガパス が ミョガパスミョガパス が ミョガパスミョガパス が たゆ ねる だ ミョガパス が ― も さ らく が ミョガパス が も さらい だ が も さらい が ― ― が ― [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] で あ りく ― この ミョガパス が も さらい が ― ミョガパス が たゆ ねる だ ミョガパス ぼね ミョガパスミョガパス が も さら くさ も ら か だ ミョガパス が ミョガパス が たゆ ねる が ― も さ らく ミョガパス ぼね が ミョガパス が さも ら か だ たゆ ねる ミョガパス が ミョガパス たゆ ねる だだ が ― ミョガパス が も さ らく たゆ ねる ミョガパス が ミョガパス ぼね ― も さ らく ミョガパス が ミョガパス が たゆ ねる ミョガパス が も さ らく も さらい ミョガパス が がた ゆ ねる だだ ― [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] ― も さ らく 彼女 が がた ゆ ねる ぼね ミョガパス が が ― ミョガパス ぼね ― [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+  0%|▎                                                                                                                      | 15/5010 [00:04<25:56,  3.21it/s]
+
+  0%|▍                                                                                                                      | 21/5010 [00:06<25:57,  3.20it/s]
+
+
+  1%|▊                                                                                                                      | 34/5010 [00:10<25:50,  3.21it/s]
+
+  1%|▉                                                                                                                      | 40/5010 [00:12<25:49,  3.21it/s]
+
+
+  1%|█▎                                                                                                                     | 53/5010 [00:16<25:45,  3.21it/s]
+
+  1%|█▍                                                                                                                     | 59/5010 [00:18<25:47,  3.20it/s]
+
+
+  1%|█▋                                                                                                                     | 72/5010 [00:22<25:38,  3.21it/s]
+
+
+  2%|██                                                                                                                     | 85/5010 [00:26<25:42,  3.19it/s]
+
+  2%|██▏                                                                                                                    | 91/5010 [00:28<25:40,  3.19it/s]
+
+
+  2%|██▍                                                                                                                   | 104/5010 [00:32<25:34,  3.20it/s]
+
+  2%|██▌                                                                                                                   | 111/5010 [00:34<25:32,  3.20it/s]
+
+
+  2%|██▉                                                                                                                   | 123/5010 [00:38<25:27,  3.20it/s]
+
+  3%|███                                                                                                                   | 130/5010 [00:40<25:27,  3.19it/s]
+
+
+  3%|███▎                                                                                                                  | 143/5010 [00:44<25:12,  3.22it/s]
+
+  3%|███▌                                                                                                                  | 149/5010 [00:46<25:17,  3.20it/s]
+
+
+  3%|███▊                                                                                                                  | 162/5010 [00:50<25:12,  3.21it/s]
+  3%|███▉                                                                                                                  | 167/5010 [00:52<24:25,  3.31it/s]
+
+
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍           | 19/21 [00:01<00:00, 11.24it/s]
+{'eval_loss': 0.8428542017936707, 'eval_accuracy': 0.718562874251497, 'eval_precision': 0.718562874251497, 'eval_recall': 0.2, 'eval_f1': 0.1672473867595819, 'eval_runtime': 1.8852, 'eval_samples_per_second': 88.583, 'eval_steps_per_second': 11.139, 'epoch': 1.0}
+
+
+  4%|████▎                                                                                                                 | 183/5010 [01:16<27:26,  2.93it/s]
+
+
+  4%|████▌                                                                                                                 | 195/5010 [01:20<25:07,  3.19it/s]
+
+  4%|████▊                                                                                                                 | 202/5010 [01:22<25:11,  3.18it/s]
+
+
+  4%|█████                                                                                                                 | 214/5010 [01:26<25:11,  3.17it/s]
+
+  4%|█████▏                                                                                                                | 221/5010 [01:28<25:01,  3.19it/s]
+
+
+  5%|█████▌                                                                                                                | 234/5010 [01:32<24:53,  3.20it/s]
+
+  5%|█████▋                                                                                                                | 240/5010 [01:34<25:04,  3.17it/s]
+
+
+  5%|█████▉                                                                                                                | 253/5010 [01:38<24:46,  3.20it/s]
+
+
+  5%|██████▎                                                                                                               | 266/5010 [01:42<24:51,  3.18it/s]
+
+  5%|██████▍                                                                                                               | 272/5010 [01:44<24:50,  3.18it/s]
+
+
+  6%|██████▋                                                                                                               | 285/5010 [01:48<24:39,  3.19it/s]
+
+  6%|██████▊                                                                                                               | 291/5010 [01:50<24:34,  3.20it/s]
+
+
+  6%|███████▏                                                                                                              | 304/5010 [01:54<24:44,  3.17it/s]
+
+  6%|███████▎                                                                                                              | 310/5010 [01:56<24:32,  3.19it/s]
+
+
+  6%|███████▌                                                                                                              | 323/5010 [02:00<24:19,  3.21it/s]
+
+  7%|███████▋                                                                                                              | 329/5010 [02:02<24:20,  3.20it/s]
+  7%|███████▊                                                                                                              | 334/5010 [02:04<23:33,  3.31it/s]
+
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍           | 19/21 [00:01<00:00, 11.23it/s]
+
+
+  7%|████████                                                                                                              | 343/5010 [02:26<50:44,  1.53it/s]
+
+  7%|████████▏                                                                                                             | 350/5010 [02:28<26:29,  2.93it/s]
+
+
+  7%|████████▌                                                                                                             | 363/5010 [02:32<24:17,  3.19it/s]
+
+
+  7%|████████▊                                                                                                             | 375/5010 [02:36<24:06,  3.20it/s]
+
+  8%|████████▉                                                                                                             | 382/5010 [02:38<24:10,  3.19it/s]
+
+
+  8%|█████████▎                                                                                                            | 395/5010 [02:43<24:06,  3.19it/s]
+
+  8%|█████████▍                                                                                                            | 401/5010 [02:44<24:11,  3.17it/s]
+
+
+  8%|█████████▊                                                                                                            | 414/5010 [02:48<24:00,  3.19it/s]
+
+  8%|█████████▉                                                                                                            | 420/5010 [02:50<23:59,  3.19it/s]
+
+
+  9%|██████████▏                                                                                                           | 433/5010 [02:54<23:54,  3.19it/s]
+
+
+  9%|██████████▌                                                                                                           | 446/5010 [02:59<24:01,  3.17it/s]
+
+  9%|██████████▋                                                                                                           | 452/5010 [03:00<23:54,  3.18it/s]
+
+
+  9%|██████████▉                                                                                                           | 465/5010 [03:04<23:42,  3.20it/s]
+
+  9%|███████████                                                                                                           | 471/5010 [03:06<23:47,  3.18it/s]
+
+
+ 10%|███████████▍                                                                                                          | 484/5010 [03:10<23:33,  3.20it/s]
+
+ 10%|███████████▌                                                                                                          | 490/5010 [03:12<23:38,  3.19it/s]
+
+ 10%|███████████▊                                                                                                          | 501/5010 [03:16<22:33,  3.33it/s]
+  5%|██████▌                                                                                                                  | 9/167 [00:00<00:13, 11.91it/s]
+
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍           | 19/21 [00:01<00:00, 11.19it/s]
+
+
+ 10%|████████████                                                                                                          | 511/5010 [03:38<41:22,  1.81it/s]
+
+
+ 10%|████████████▎                                                                                                         | 523/5010 [03:42<23:42,  3.15it/s]
+
+ 11%|████████████▍                                                                                                         | 530/5010 [03:44<23:32,  3.17it/s]
+
+
+ 11%|████████████▊                                                                                                         | 543/5010 [03:49<23:31,  3.16it/s]
+
+
+ 11%|█████████████                                                                                                         | 555/5010 [03:52<23:17,  3.19it/s]
+
+ 11%|█████████████▏                                                                                                        | 562/5010 [03:55<23:16,  3.19it/s]
+
+
+ 11%|█████████████▌                                                                                                        | 574/5010 [03:58<23:12,  3.18it/s]
+
+ 12%|█████████████▋                                                                                                        | 581/5010 [04:00<23:18,  3.17it/s]
+
+
+ 12%|█████████████▉                                                                                                        | 594/5010 [04:05<23:05,  3.19it/s]
+
+ 12%|██████████████▏                                                                                                       | 600/5010 [04:06<23:02,  3.19it/s]
+
+
+ 12%|██████████████▍                                                                                                       | 613/5010 [04:11<22:50,  3.21it/s]
+
+
+ 12%|██████████████▋                                                                                                       | 625/5010 [04:14<22:56,  3.18it/s]
+
+ 13%|██████████████▉                                                                                                       | 632/5010 [04:17<23:01,  3.17it/s]
+
+
+ 13%|███████████████▏                                                                                                      | 645/5010 [04:21<22:50,  3.19it/s]
+
+ 13%|███████████████▎                                                                                                      | 651/5010 [04:22<22:40,  3.20it/s]
+
+
+ 13%|███████████████▋                                                                                                      | 664/5010 [04:27<22:40,  3.19it/s]
+ 13%|███████████████▋                                                                                                      | 668/5010 [04:28<21:53,  3.31it/s]
+
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍           | 19/21 [00:01<00:00, 11.21it/s]
+
+ 13%|███████████████▌                                                                                                    | 671/5010 [04:48<3:51:10,  3.20s/it]
+
+
+ 14%|████████████████                                                                                                      | 684/5010 [04:52<24:33,  2.94it/s]
+
+ 14%|████████████████▎                                                                                                     | 691/5010 [04:55<22:45,  3.16it/s]
+
+
+ 14%|████████████████▌                                                                                                     | 703/5010 [04:58<22:25,  3.20it/s]
+
+ 14%|████████████████▋                                                                                                     | 710/5010 [05:01<22:22,  3.20it/s]
+
+
+ 14%|█████████████████                                                                                                     | 723/5010 [05:05<22:21,  3.20it/s]
+
+
+ 15%|█████████████████▎                                                                                                    | 735/5010 [05:08<22:22,  3.18it/s]
+
+ 15%|█████████████████▍                                                                                                    | 742/5010 [05:11<22:23,  3.18it/s]
+
+
+ 15%|█████████████████▊                                                                                                    | 754/5010 [05:14<22:17,  3.18it/s]
+
+ 15%|█████████████████▉                                                                                                    | 761/5010 [05:17<22:17,  3.18it/s]
+
+
+ 15%|██████████████████▏                                                                                                   | 773/5010 [05:20<22:17,  3.17it/s]
+
+ 16%|██████████████████▎                                                                                                   | 780/5010 [05:23<22:14,  3.17it/s]
+
+
+ 16%|██████████████████▋                                                                                                   | 793/5010 [05:27<22:00,  3.19it/s]
+
+
+ 16%|██████████████████▉                                                                                                   | 805/5010 [05:30<21:58,  3.19it/s]
+
+ 16%|███████████████████                                                                                                   | 812/5010 [05:33<21:55,  3.19it/s]
+
+
+ 16%|███████████████████▍                                                                                                  | 825/5010 [05:37<21:47,  3.20it/s]
+
+ 17%|███████████████████▌                                                                                                  | 831/5010 [05:39<21:55,  3.18it/s]
+ 17%|███████████████████▋                                                                                                  | 835/5010 [05:40<20:49,  3.34it/s]
+
+
+
+
+
+
+
+
+
+ 17%|███████████████████▋                                                                                                  | 835/5010 [05:59<20:49,  3.34it/s]
+
+
+ 17%|███████████████████▉                                                                                                  | 845/5010 [06:03<38:12,  1.82it/s]
+
+ 17%|████████████████████                                                                                                  | 851/5010 [06:04<23:45,  2.92it/s]
+
+
+ 17%|████████████████████▎                                                                                                 | 864/5010 [06:09<21:53,  3.16it/s]
+
+ 17%|████████████████████▌                                                                                                 | 871/5010 [06:11<21:41,  3.18it/s]
+
+
+ 18%|████████████████████▊                                                                                                 | 883/5010 [06:14<21:40,  3.17it/s]
+
+
+ 18%|█████████████████████                                                                                                 | 896/5010 [06:19<21:31,  3.18it/s]
+
+ 18%|█████████████████████▏                                                                                                | 902/5010 [06:20<21:29,  3.18it/s]
+
+
+ 18%|█████████████████████▌                                                                                                | 915/5010 [06:25<21:25,  3.19it/s]
+
+ 18%|█████████████████████▋                                                                                                | 922/5010 [06:27<21:23,  3.18it/s]
+
+
+ 19%|█████████████████████▉                                                                                                | 934/5010 [06:30<21:15,  3.20it/s]
+
+ 19%|██████████████████████▏                                                                                               | 941/5010 [06:33<21:17,  3.18it/s]
+
+
+ 19%|██████████████████████▍                                                                                               | 953/5010 [06:36<21:14,  3.18it/s]
+
+
+ 19%|██████████████████████▊                                                                                               | 966/5010 [06:41<21:09,  3.19it/s]
+
+ 19%|██████████████████████▉                                                                                               | 972/5010 [06:42<21:12,  3.17it/s]
+
+
+ 20%|███████████████████████▏                                                                                              | 985/5010 [06:47<21:06,  3.18it/s]
+
+ 20%|███████████████████████▎                                                                                              | 992/5010 [06:49<20:58,  3.19it/s]
+
+ 20%|███████████████████████▍                                                                                             | 1002/5010 [06:52<20:02,  3.33it/s]
+  5%|██████▌                                                                                                                  | 9/167 [00:00<00:13, 11.91it/s]
+
+
+
+
+
+
+
+
+
+ 20%|███████████████████████▍                                                                                             | 1002/5010 [07:11<20:02,  3.33it/s]
+
+
+ 20%|███████████████████████▋                                                                                             | 1012/5010 [07:15<36:36,  1.82it/s]
+
+
+ 20%|███████████████████████▉                                                                                             | 1025/5010 [07:19<21:06,  3.15it/s]
+
+ 21%|████████████████████████                                                                                             | 1031/5010 [07:21<20:51,  3.18it/s]
+
+
+ 21%|████████████████████████▍                                                                                            | 1044/5010 [07:25<20:46,  3.18it/s]
+
+ 21%|████████████████████████▌                                                                                            | 1050/5010 [07:27<20:45,  3.18it/s]
+
+
+ 21%|████████████████████████▊                                                                                            | 1063/5010 [07:31<20:38,  3.19it/s]
+
+
+ 21%|█████████████████████████▏                                                                                           | 1076/5010 [07:35<20:33,  3.19it/s]
+
+ 22%|█████████████████████████▎                                                                                           | 1082/5010 [07:37<20:24,  3.21it/s]
+
+
+ 22%|█████████████████████████▌                                                                                           | 1095/5010 [07:41<20:30,  3.18it/s]
+
+ 22%|█████████████████████████▋                                                                                           | 1101/5010 [07:43<20:28,  3.18it/s]
+
+
+ 22%|██████████████████████████                                                                                           | 1114/5010 [07:47<20:30,  3.17it/s]
+
+ 22%|██████████████████████████▏                                                                                          | 1120/5010 [07:49<20:32,  3.16it/s]
+
+
+ 23%|██████████████████████████▍                                                                                          | 1133/5010 [07:53<20:16,  3.19it/s]
+
+
+ 23%|██████████████████████████▊                                                                                          | 1146/5010 [07:57<20:08,  3.20it/s]
+
+ 23%|██████████████████████████▉                                                                                          | 1152/5010 [07:59<20:02,  3.21it/s]
+
+
+ 23%|███████████████████████████▏                                                                                         | 1165/5010 [08:03<20:04,  3.19it/s]
+ 23%|███████████████████████████▎                                                                                         | 1169/5010 [08:04<19:20,  3.31it/s]
+
+
+
+
+
+
+
+
+
+  0%|                                                                                                                                  | 0/21 [00:00<?, ?it/s]
+
+ 23%|██████████████████████████▉                                                                                        | 1173/5010 [08:25<2:29:02,  2.33s/it]
+
+
+ 24%|███████████████████████████▋                                                                                         | 1186/5010 [08:29<21:20,  2.99it/s]
+
+ 24%|███████████████████████████▊                                                                                         | 1192/5010 [08:31<20:09,  3.16it/s]
+
+
+ 24%|████████████████████████████▏                                                                                        | 1205/5010 [08:35<20:00,  3.17it/s]
+
+ 24%|████████████████████████████▎                                                                                        | 1211/5010 [08:37<19:53,  3.18it/s]
+
+
+ 24%|████████████████████████████▌                                                                                        | 1224/5010 [08:41<19:41,  3.21it/s]
+
+ 25%|████████████████████████████▋                                                                                        | 1230/5010 [08:43<19:47,  3.18it/s]
+
+
+ 25%|█████████████████████████████                                                                                        | 1243/5010 [08:47<19:36,  3.20it/s]
+
+
+ 25%|█████████████████████████████▎                                                                                       | 1256/5010 [08:51<19:38,  3.19it/s]
+
+ 25%|█████████████████████████████▍                                                                                       | 1262/5010 [08:53<19:37,  3.18it/s]
+
+
+ 25%|█████████████████████████████▊                                                                                       | 1275/5010 [08:57<19:34,  3.18it/s]
+
+ 26%|█████████████████████████████▉                                                                                       | 1281/5010 [08:59<19:36,  3.17it/s]
+
+
+ 26%|██████████████████████████████▏                                                                                      | 1294/5010 [09:03<19:24,  3.19it/s]
+
+ 26%|██████████████████████████████▎                                                                                      | 1300/5010 [09:05<19:22,  3.19it/s]
+
+
+ 26%|██████████████████████████████▋                                                                                      | 1313/5010 [09:09<19:23,  3.18it/s]
+
+
+ 26%|██████████████████████████████▉                                                                                      | 1326/5010 [09:13<19:18,  3.18it/s]
+
+ 27%|███████████████████████████████                                                                                      | 1332/5010 [09:15<19:11,  3.19it/s]
+ 27%|███████████████████████████████▏                                                                                     | 1336/5010 [09:16<18:32,  3.30it/s]
+
+
+
+
+
+
+
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████▉                 | 143/167 [00:12<00:02, 11.14it/s]
+
+  0%|                                                                                                                                  | 0/21 [00:00<?, ?it/s]
+
+
+ 27%|███████████████████████████████▍                                                                                     | 1346/5010 [09:39<33:43,  1.81it/s]
+
+ 27%|███████████████████████████████▌                                                                                     | 1353/5010 [09:41<20:17,  3.00it/s]
+
+
+ 27%|███████████████████████████████▉                                                                                     | 1365/5010 [09:45<19:08,  3.17it/s]
+
+ 27%|████████████████████████████████                                                                                     | 1372/5010 [09:47<19:04,  3.18it/s]
+
+
+ 28%|████████████████████████████████▎                                                                                    | 1385/5010 [09:51<18:52,  3.20it/s]
+
+ 28%|████████████████████████████████▍                                                                                    | 1391/5010 [09:53<18:52,  3.20it/s]
+
+
+ 28%|████████████████████████████████▊                                                                                    | 1404/5010 [09:57<18:52,  3.18it/s]
+
+
+ 28%|█████████████████████████████████                                                                                    | 1416/5010 [10:01<18:51,  3.18it/s]
+
+ 28%|█████████████████████████████████▏                                                                                   | 1423/5010 [10:03<18:49,  3.17it/s]
+
+
+ 29%|█████████████████████████████████▌                                                                                   | 1436/5010 [10:07<18:39,  3.19it/s]
+
+ 29%|█████████████████████████████████▋                                                                                   | 1442/5010 [10:09<18:34,  3.20it/s]
+
+
+ 29%|█████████████████████████████████▉                                                                                   | 1454/5010 [10:13<18:30,  3.20it/s]
+
+ 29%|██████████████████████████████████                                                                                   | 1461/5010 [10:15<18:34,  3.19it/s]
+
+
+ 29%|██████████████████████████████████▍                                                                                  | 1474/5010 [10:19<18:34,  3.17it/s]
+
+ 30%|██████████████████████████████████▌                                                                                  | 1480/5010 [10:21<18:25,  3.19it/s]
+
+
+ 30%|██████████████████████████████████▊                                                                                  | 1493/5010 [10:25<18:19,  3.20it/s]
+
+ 30%|███████████████████████████████████                                                                                  | 1503/5010 [10:28<17:33,  3.33it/s]
+  7%|███████▉                                                                                                                | 11/167 [00:00<00:13, 11.58it/s]
+
+
+
+
+
+
+
+
+
+  0%|                                                                                                                                  | 0/21 [00:00<?, ?it/s]
+
+
+ 30%|███████████████████████████████████▎                                                                                 | 1514/5010 [10:51<27:52,  2.09it/s]
+
+
+ 30%|███████████████████████████████████▋                                                                                 | 1526/5010 [10:55<18:19,  3.17it/s]
+
+ 31%|███████████████████████████████████▊                                                                                 | 1533/5010 [10:57<18:12,  3.18it/s]
+
+
+ 31%|████████████████████████████████████                                                                                 | 1546/5010 [11:01<18:04,  3.19it/s]
+
+ 31%|████████████████████████████████████▏                                                                                | 1552/5010 [11:03<18:02,  3.19it/s]
+
+
+ 31%|████████████████████████████████████▌                                                                                | 1565/5010 [11:07<18:02,  3.18it/s]
+
+ 31%|████████████████████████████████████▋                                                                                | 1571/5010 [11:09<18:00,  3.18it/s]
+
+
+ 32%|████████████████████████████████████▉                                                                                | 1584/5010 [11:13<18:00,  3.17it/s]
+
+
+ 32%|█████████████████████████████████████▎                                                                               | 1597/5010 [11:17<17:45,  3.20it/s]
+
+ 32%|█████████████████████████████████████▍                                                                               | 1603/5010 [11:19<17:41,  3.21it/s]
+
+
+ 32%|█████████████████████████████████████▋                                                                               | 1616/5010 [11:23<17:45,  3.19it/s]
+
+ 32%|█████████████████████████████████████▉                                                                               | 1622/5010 [11:25<17:47,  3.17it/s]
+
+
+ 33%|██████████████████████████████████████▏                                                                              | 1635/5010 [11:29<17:35,  3.20it/s]
+
+ 33%|██████████████████████████████████████▎                                                                              | 1641/5010 [11:31<17:38,  3.18it/s]
+
+
+ 33%|██████████████████████████████████████▋                                                                              | 1654/5010 [11:35<17:26,  3.21it/s]
+
+ 33%|██████████████████████████████████████▋                                                                              | 1659/5010 [11:36<17:27,  3.20it/s]
+
+ 33%|███████████████████████████████████████                                                                              | 1670/5010 [11:40<16:48,  3.31it/s]
+  4%|█████                                                                                                                    | 7/167 [00:00<00:12, 12.39it/s]
+
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍           | 19/21 [00:01<00:00, 11.23it/s]
+
+
+ 34%|███████████████████████████████████████▏                                                                             | 1679/5010 [12:02<36:17,  1.53it/s]
+
+
+ 34%|███████████████████████████████████████▌                                                                             | 1692/5010 [12:06<17:33,  3.15it/s]
+
+
+ 34%|███████████████████████████████████████▊                                                                             | 1705/5010 [12:10<17:13,  3.20it/s]
+
+ 34%|███████████████████████████████████████▉                                                                             | 1711/5010 [12:12<17:16,  3.18it/s]
+
+
+ 34%|████████████████████████████████████████▎                                                                            | 1724/5010 [12:16<17:12,  3.18it/s]
+
+ 35%|████████████████████████████████████████▍                                                                            | 1730/5010 [12:18<17:06,  3.20it/s]
+
+
+ 35%|████████████████████████████████████████▋                                                                            | 1743/5010 [12:22<17:06,  3.18it/s]
+
+ 35%|████████████████████████████████████████▊                                                                            | 1749/5010 [12:24<17:06,  3.18it/s]
+
+
+ 35%|█████████████████████████████████████████▏                                                                           | 1762/5010 [12:28<16:58,  3.19it/s]
+
+
+ 35%|█████████████████████████████████████████▍                                                                           | 1775/5010 [12:32<16:58,  3.18it/s]
+
+ 36%|█████████████████████████████████████████▌                                                                           | 1781/5010 [12:34<16:49,  3.20it/s]
+
+
+ 36%|█████████████████████████████████████████▉                                                                           | 1794/5010 [12:38<16:51,  3.18it/s]
+
+ 36%|██████████████████████████████████████████                                                                           | 1801/5010 [12:41<16:48,  3.18it/s]
+
+
+ 36%|██████████████████████████████████████████▎                                                                          | 1813/5010 [12:44<16:48,  3.17it/s]
+
+ 36%|██████████████████████████████████████████▌                                                                          | 1820/5010 [12:47<16:48,  3.16it/s]
+
+
+ 37%|██████████████████████████████████████████▊                                                                          | 1832/5010 [12:50<16:39,  3.18it/s]
+ 37%|██████████████████████████████████████████▉                                                                          | 1837/5010 [12:52<15:54,  3.32it/s]
+
+
+
+
+
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍           | 19/21 [00:01<00:00, 11.25it/s]
+
+
+ 37%|███████████████████████████████████████████                                                                          | 1845/5010 [13:15<42:48,  1.23it/s]
+
+ 37%|███████████████████████████████████████████▏                                                                         | 1851/5010 [13:16<19:40,  2.67it/s]
+
+
+ 37%|███████████████████████████████████████████▌                                                                         | 1864/5010 [13:21<16:31,  3.17it/s]
+
+ 37%|███████████████████████████████████████████▋                                                                         | 1870/5010 [13:22<16:27,  3.18it/s]
+
+
+ 38%|███████████████████████████████████████████▉                                                                         | 1883/5010 [13:27<16:21,  3.19it/s]
+
+ 38%|████████████████████████████████████████████                                                                         | 1889/5010 [13:28<16:22,  3.18it/s]
+
+
+ 38%|████████████████████████████████████████████▍                                                                        | 1902/5010 [13:33<16:22,  3.16it/s]
+
+
+ 38%|████████████████████████████████████████████▋                                                                        | 1915/5010 [13:37<16:12,  3.18it/s]
+
+ 38%|████████████████████████████████████████████▊                                                                        | 1921/5010 [13:38<16:07,  3.19it/s]
+
+
+ 39%|█████████████████████████████████████████████▏                                                                       | 1934/5010 [13:43<15:59,  3.21it/s]
+
+ 39%|█████████████████████████████████████████████▎                                                                       | 1940/5010 [13:44<16:06,  3.18it/s]
+
+
+ 39%|█████████████████████████████████████████████▌                                                                       | 1953/5010 [13:49<16:00,  3.18it/s]
+
+ 39%|█████████████████████████████████████████████▋                                                                       | 1959/5010 [13:50<15:57,  3.19it/s]
+
+
+ 39%|██████████████████████████████████████████████                                                                       | 1972/5010 [13:54<15:55,  3.18it/s]
+
+
+ 40%|██████████████████████████████████████████████▎                                                                      | 1985/5010 [13:59<15:47,  3.19it/s]
+
+ 40%|██████████████████████████████████████████████▍                                                                      | 1991/5010 [14:00<15:40,  3.21it/s]
+
+ 40%|██████████████████████████████████████████████▊                                                                      | 2004/5010 [14:04<15:14,  3.29it/s]
+  0%|                                                                                                                                 | 0/167 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+ 14%|█████████████████▍                                                                                                        | 3/21 [00:00<00:01, 16.53it/s]
+{'eval_loss': 0.9773468375205994, 'eval_accuracy': 0.7544910179640718, 'eval_precision': 0.7404279279279279, 'eval_recall': 0.3120833333333334, 'eval_f1': 0.34055857078245133, 'eval_runtime': 1.8812, 'eval_samples_per_second': 88.771, 'eval_steps_per_second': 11.163, 'epoch': 12.0}
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:01<00:00, 11.80it/s]
+ 24%|█████████████████████████████                                                                                             | 5/21 [00:00<00:01, 13.38it/s]
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:01<00:00, 11.70it/s]
+Test Results:
+Accuracy: 0.6964285714285714
+Precision: 0.6035714285714286
+Recall: 0.2508020215337289
+F1 Score: 0.24109937063340842
+test_predictions_data: [['convert_all_words_to_dummy', '21_essay_tosanikki_20160903', 'もさらくミョガパスがミョガパスがミョガパスがふらミョガパスミョガパスミョガパスミョガパス―ミョガパス―ミョガパスがミョガパスがふらミョガパスぼねがたゆねるだミョガパスがミョガパスがたゆねるがたゆねるだがたゆねるだ―', 'ところ', 2, '時間', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '88_fiction_SAINT-EXUPERY-1943', '彼女がたゆねるがたゆねるミョガパスがが―彼女ががミョガパスもさらいがだが―', 'ところ', 3, '場所', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '80_diet_kaigiroku-12', 'ミョガパスがたゆねるだだミョガパスが―ミョガパスがたゆねる―ミョガパスミョガパスがミョガパスがたゆねるミョガパスがミョガパスたゆねる―たゆねるミョガパスミョガパスがたゆねるミョガパスがミョガパスたゆねるがたゆねるだ―', 'ところ', 2, '時間', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '35_aozora_Hisao-1939', 'もさらく―ミョガパスがミョガパスがミョガパスミョガパスががミョガパスががもさらいがたゆねるだ―', 'ところ', 4, 'その他', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '162_fiction_munashisanoshotai', 'でありく彼女がたゆねるだミョガパスがもさらくミョガパスがミョガパスたゆねるだだ―', 'ところ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '129_textbook_djg_advanced;page_142', 'このミョガパスがもさらくミョガパスたゆねるだミョガパスがふらミョガパスだ―', 'ところ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '59_aozora_Kishida-1950', '彼女がミョガパスがたゆねるがだが―このミョガパスがたゆねるミョガパスがミョガパスがたゆねるミョガパスがさもらかだ―ミョガパスだたゆねるミョガパス―さもらかだたゆねるだミョガパスががたゆねるミョガパスがたゆねる―さもらかだミョガパスがたゆねるがが―ミョガパスがミョガパスがたゆねるミョガパスがたゆねるがだが―彼女が―もさらくもさらいミョガパスがたゆねるがだがもさらい―ミョガパスがもさらいぼねがたゆねるださもらかだ―ミョガパスがミョガパスが―さもらかだたゆねるミョガパスが―彼女でありく―ミョガパスがミョガパスぼねミョガパスだたゆねる―', 'ところ', 4, 'その他', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '106_aozora_Hisao-1939', 'ミョガパスがミョガパスぼねがたゆねるがたゆねるがが―彼女がたゆねるだがもさらいもさらくがこのミョガパスがミョガパスがたゆねるがたゆねる―', 'ところ', 3, '場所', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '14_essay_tosanikki_20170401', 'ミョガパスがが―ミョガパスがさもらかだ―彼女が彼女がたゆねるだがが―彼女がミョガパスが―彼女が彼女がたゆねるがが―がミョガパスミョガパスがミョガパスが―このミョガパスがさもらかだミョガパスがミョガパスがたゆねるだだ―', 'ところ', 3, '場所', 1, '同時進行'], ['convert_all_words_to_dummy', '22_essay_tosanikki_20190202', '彼女がミョガパスがが―ミョガパスがミョガパスぼねがたゆねるがミョガパスたゆねるがたゆねるださもらかだたゆねるだが―もさらくもさらくミョガパスミョガパスミョガパスミョガパスたゆねるだがたゆねるが―ミョガパスぼねがたゆねるだミョガパスがミョガパスがミョガパスがたゆねるミョガパスがたゆねるだ―', 'ところ', 3, '場所', 1, '同時進行'], ['convert_all_words_to_dummy', '53_essay_Hepburn_no_shoogai_to_nihongo2', 'ミョガパスがミョガパスミョガパス―ミョガパスぼねがたゆねるが―もさらくミョガパスがミョガパスがたゆねるだ―がミョガパスがたゆねるがたゆねるだが―ミョガパスがミョガパスミョガパスぼねがたゆねるだミョガパスがが―このミョガパスがミョガパスがミョガパスたゆねるだがたゆねるだ―', 'ところ', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '10_essay_crossover27_IharaOct2015', 'ミョガパス―ミョガパスがミョガパスミョガパスミョガパスがミョガパスがたゆねるだがが―ミョガパスミョガパスがさもらかぼねがミョガパスミョガパスがミョガパスがたゆねるがが―ミョガパス―ミョガパスががミョガパスがミョガパスたゆねるだミョガパスミョガパスがふらミョガパスがたゆねるだがだがもさらいががミョガパスたゆねるだがだ―', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '146_wikipedia_KYOTO_12;CLT_00005;218', 'もさらくがミョガパスだミョガパスがミョガパスたゆねるミョガパスが―ミョガパスがたゆねるがミョガパスがたゆねるミョガパスがたゆねる―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '480_textbook_djg_intermediate;page_543', 'だミョガパスがミョガパスがもさらいもさらいがたゆねるがもさらくたゆねるだだ―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '782_whitepaper_shohi4_2018', 'ミョガパスミョガパスミョガパス―ミョガパスミョガパスミョガパスミョガパスふらミョガパスミョガパス―でありく―ふらミョガパスぼねミョガパスミョガパスミョガパスミョガパス――ミョガパスミョガパスミョガパスミョガパスミョガパスミョガパスミョガパスミョガパス―がたゆねる―ミョガパスミョガパスぼねがミョガパスたゆねるが―ミョガパス―ミョガパス―ミョガパスぼねがたゆねるがミョガパスミョガパスがたゆねるがミョガパスがミョガパスたゆねるがたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '812_whitepaper_shohi4_2018', 'ミョガパスミョガパスぼねがが―ミョガパスミョガパス―ミョガパスミョガパスぼね―ミョガパスぼね―ミョガパスぼね―ミョガパスぼねミョガパス―ミョガパスが―もさらいミョガパスぼねがミョガパスぼねがたゆねる―ミョガパスミョガパスミョガパスがミョガパスミョガパスミョガパスがたゆねるが―ミョガパスぼねミョガパスがミョガパス―もさらくもさらくがミョガパスぼねミョガパスが彼女がたゆねるミョガパスミョガパスがたゆねるぼね―ミョガパスぼねミョガパスがミョガパスぼねがたゆねるがミョガパスがたゆねる―ミョガパスミョガパスミョガパスミョガパス―がミョガパスぼねがミョガパスミョガパスミョガパスたゆねる―ミョガパスミョガパスミョガパスミョガパスがミョガパスぼねがたゆねるだだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '57_whitepaper_shohi4_2018', 'ミョガパスぼねぼねがが―ミョガパスミョガパスがミョガパスたゆねるが―ミョガパスミョガパスミョガパスミョガパスがミョガパスミョガパスがミョガパスたゆねるがたゆねるミョガパスがたゆねるミョガパスミョガパスがミョガパスミョガパスミョガパスがたゆねる―さもらかだミョガパスがたゆねるがミョガパスが―ミョガパスミョガパスがたゆねるミョガパスミョガパスがたゆねる―ミョガパスぼねミョガパスがさもらかだミョガパスたゆねるさもらかたゆねるがたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '27_news_KAHOKU_184;K201406140A0T10XX00001', 'ミョガパスふらミョガパスぼねミョガパスミョガパスぼねがミョガパスミョガパスミョガパス―ミョガパスミョガパス―ミョガパスミョガパス―が―ミョガパスがたゆねるミョガパスミョガパスがミョガパスがたゆねるがが―ミョガパスがミョガパスがミョガパスぼねミョガパスがミョガパスたゆねるが―さもらかミョガパスがミョガパスがたゆねるミョガパスがたゆねる―がミョガパスたゆねる―', 'つつ', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '312_whitepaper_H28_kotsuanzen1', 'ミョガパスミョガパスミョガパスぼねがミョガパスミョガパスぼねがさもらかだたゆねるが―ミョガパスミョガパスがミョガパス―ミョガパスがミョガパスたゆねるがミョガパスが―ミョガパスがミョガパスぼねがミョガパスミョガパスぼねぼねがミョガパスミョガパスぼねががミョガパスたゆねる―ミョガパスがミョガパスミョガパスぼねがたゆねるだミョガパスがミョガパスがたゆねるが―さもらかだミョガパスミョガパスがミョガパスたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '278_whitepaper_R1_gaiko_2', 'ミョガパスぼねだミョガパス―ミョガパスがミョガパスたゆねるミョガパスがが―ミョガパスがミョガパスミョガパスがミョガパスたゆねるがミョガパスがミョガパスミョガパスがミョガパスたゆねるミョガパスがたゆねる―ミョガパスがミョガパスミョガパスミョガパスがミョガパスがミョガパスたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '122_whitepaper_R2_bousai_5', 'このさもらかだミョガパスがたゆねる―ミョガパスミョガパスミョガパスがミョガパスぼねがたゆねるが―このミョガパスがミョガパスぼねだミョガパスミョガパスがミョガパスたゆねるだ―ミョガパスミョガパスがミョガパス―ミョガパスがミョガパスミョガパスがミョガパスがたゆねるがミョガパスミョガパスがたゆねるミョガパスミョガパスミョガパスがミョガパスたゆねるだだ―ミョガパスミョガパスミョガパスミョガパスミョガパスぼねミョガパス―ミョガパスミョガパスミョガパスミョガパス――', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '46_diet_kaigiroku-11', 'たゆねるミョガパスが―ふらミョガパスぼねミョガパスミョガパスがミョガパスミョガパスがたゆねるだミョガパス―ミョガパスミョガパスミョガパスがふらミョガパスがたゆねる―ミョガパスミョガパスミョガパスがミョガパスぼねがミョガパスたゆねるが―ミョガパスがミョガパスぼねでありくミョガパスぼねだミョガパスがミョガパスがたゆねるがたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '115_whitepaper_shohi4_2018', 'でありく―ミョガパスミョガパスミョガパスがが―ミョガパスがミョガパス―ミョガパスぼねがさもらかだミョガパスがたゆねるミョガパスがミョガパス―ミョガパスぼねがミョガパスがたゆねるミョガパスがたゆねるが―ミョガパスぼねミョガパスがミョガパスがミョガパスミョガパス―ミョガパスミョガパスがミョガパスが―ミョガパスぼねがミョガパスミョガパスがミョガパスたゆねるがミョガパスぼねだミョガパスぼねがもさらいミョガパスミョガパスがミョガパスたゆねるがたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '5_law_h15A119;4_1_1', 'このミョガパスが―さもらかミョガパスミョガパスミョガパスがミョガパスがたゆねるミョガパスミョガパスがミョガパスがもさらいミョガパスたゆねるがたゆねるミョガパスがたゆねる―ミョガパスミョガパスがさもらかだミョガパスがたゆねる―ミョガパスミョガパスでありくミョガパスがたゆねるミョガパスミョガパスがミョガパスこのミョガパスがミョガパスミョガパスがミョガパスがたゆねるミョガパスがミョガパスがたゆねるミョガパスがたゆねる―ミョガパスでありくミョガパスミョガパスミョガパスがミョガパスぼねがさもらかだたゆねるがミョガパスが―ミョガパスミョガパスがたゆねるミョガパスぼねがミョガパスたゆねるだミョガパスぼねがたゆねるミョガパスがたゆねる―ミョガパスミョガパスがミョガパスぼねがミョガパスたゆねるが―ミョガパスがミョガパスミョガパスがミョガパスたゆねるミョガパスがミョガパスがたゆねる―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '215_whitepaper_H28_kotsuanzen1', 'ミョガパスミョガパスミョガパスミョガパスミョガパスがたゆねるが―ミョガパスミョガパスミョガパスミョガパスミョガパスミョガパスミョガパスでありくミョガパスミョガパスぼねがミョガパスたゆねる―ミョガパスミョガパスミョガパスがミョガパス―ミョガパスがたゆねるが―ミョガパスぼね―ミョガパスぼねでありくミョガパスぼねだミョガパスがミョガパスミョガパスがミョガパスがミョガパスがたゆねるだミョガパスミョガパスミョガパスぼねミョガパスミョガパスがミョガパスたゆねるミョガパスがたゆねる―ミョガパスミョガパスミョガパスがミョガパスたゆねる―ミョガパスミョガパスがミョガパスがミョガパスがさもらかぼねがたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '29_news_KAHOKU_513', 'ミョガパスがミョガパスがたゆねるが―ミョガパスぼねがミョガパスがたゆねるたゆねるがミョガパスがミョガパスぼねふらミョガパスぼねがたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '31_whitepaper_R1_gaiko_9', 'でありく―ミョガパスミョガパスぼねがミョガパスがふらミョガパスミョガパスぼねふらミョガパス―ミョガパスぼねがミョガパスぼねががミョガパスミョガパスがミョガパスがたゆねるミョガパスミョガパスミョガパスがたゆねるがが―ミョガパスミョガパスがミョガパスぼねがミョガパスたゆねるが―ミョガパスがミョガパスがたゆねるミョガパスがミョガパスがミョガパスたゆねるミョガパス―ミョガパスがさもらかだミョガパスたゆねるがたゆねるがたゆねるがたゆねる―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '206_whitepaper_H28_kotsuanzen1', 'ミョガパスミョガパスがミョガパスがミョガパスがミョガパスミョガパスがたゆねるだミョガパスがミョガパスミョガパスががミョガパスがたゆねるミョガパスがミョガパスがミョガパスがミョガパスがたゆねるミョガパスが―ミョガパスぼねがミョガパスがたゆねるが―ミョガパスががミョガパスがミョガパスたゆねるだふらミョガパスぼねがミョガパス―ミョガパスぼねがミョガパス―ミョガパスミョガパスミョガパスぼねがミョガパスたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '276_whitepaper_shohi3_2018', 'ふらミョガパスミョガパスミョガパスぼねミョガパスミョガパスがが―ミョガパスぼねミョガパスが―ミョガパスがミョガパスぼねがミョガパスがミョガパスミョガパスがさもらかぼねがミョガパスがミョガパスたゆねるが―ミョガパスがミョガパスミョガパスがミョガパスがミョガパスミョガパスミョガパスがミョガパスミョガパスがミョガパスがたゆねるミョガパスがミョガパスたゆねる―ミョガパスだミョガパスさもらかだミョガパスがミョガパスがミョガパスぼねだミョガパスたゆねるミョガパスがたゆねるミョガパスがたゆねるだがたゆねるだ―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '19_essay_manabi72_Kuroda2015summer', 'たゆねるが―ミョガパスがミョガパスぼねがミョガパスがたゆねるがが―ミョガパスぼねがミョガパスがもさらくミョガパスぼねだ―ミョガパス―ミョガパスミョガパスがミョガパスたゆねるぼねミョガパスがたゆねるがたゆねるだミョガパスがミョガパスたゆねるだだがたゆねるだ―', 'つつ', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '44_aozora_Koyama-1955-2', 'たゆねるがこのミョガパスがミョガパスがたゆねるがミョガパスがミョガパスがたゆねるが―このミョガパスがたゆねるがたゆねるがだががたゆねるミョガパスがたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '25_whitepaper_R1_gaiko_10', 'ミョガパスミョガパスがミョガパスミョガパスがミョガパスがミョガパスたゆねるが―ミョガパスミョガパス―ミョガパスぼねがミョガパス―ミョガパス―ミョガパスぼねさもらかミョガパスミョガパスぼねがミョガパスがたゆねる―ミョガパスミョガパスがミョガパスがミョガパスがミョガパスがミョガパスぼねだミョガパスたゆねる―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '479_textbook_djg_intermediate;page_543', '彼女がミョガパスがミョガパスがたゆねるがミョガパスがたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '6_book_excerpt-26', 'わあわあもさらくたゆねる―がたゆねるががミョガパスがもさらいミョガパスがたゆねるミョガパスががたゆねるだ―ミョガパスがミョガパスがたゆねるさもらかぼねがたゆねるががもさらくミョガパスがたゆねるだ―ミョガパスミョガパスミョガパスがたゆねるがもさらくがたゆねるがたゆねるがたゆねるだがだ―', 'つつ', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '516_essay_Hepburn_no_shoogai_to_nihongo2', 'ミョガパス―ミョガパス―ミョガパスが―ミョガパスミョガパスがミョガパスたゆねるがミョガパス――ミョガパス―ミョガパス―ミョガパス―がミョガパスたゆねるが―ミョガパスがミョガパスが―ミョガパスがが―このミョガパスミョガパスがが―ミョガパスがたゆねるたゆねる―もさらくが―ミョガパスがたゆねるミョガパス―がミョガパスたゆねるがたゆねるだ―', 'つつ', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '90_fiction_sakurasakuanobashode', 'ミョガパスが―たゆねるがミョガパスだミョガパスがたゆねるがミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '507_aozora_Hori-1969', '彼女がもさらくさもらかだミョガパスがたゆねるたゆねるが―彼女がミョガパスがさもらかだミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '224_aozora_Akutagawa-1921', 'が―もさらくミョガパスがたゆねるが―ミョガパスがミョガパスがたゆねるが―ミョガパスがミョガパスがミョガパスがたゆねるが―もさらくミョガパスがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '121_aozora_Akutagawa-1921', 'ミョガパスがもさらくたゆねるぼねが―ミョガパスがミョガパスがたゆねるだが―たゆねるさもらかだミョガパスがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '91_aozora_Andersen-1967-1', '―もさらいがが―ミョガパスが―このミョガパスだがだが―が―ミョガパスがミョガパスぼねがふらミョガパスぼねが―たゆねるが―ミョガパスが―ミョガパスがもさらくたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '762_aozora_Oda-1976-3', 'でありく―ミョガパスがミョガパスがたゆねるミョガパスがたゆねるが―ミョガパスがたゆねるだ―ミョガパスがミョガパスがもさらくミョガパスがミョガパスがたゆねるが―たゆねるがたゆねるがたゆねるこのミョガパスがミョガパスが―ミョガパスミョガパスがミョガパスぼねがミョガパスぼねがミョガパスがたゆねるだミョガパス―もさらくミョガパスがたゆねるだが―このミョガパスぼねがミョガパスたゆねるがたゆねるミョガパスがミョガパスががたゆねるだだがたゆねるが―たゆねるだががもさらいぼねがたゆねる―もさらくミョガパスがミョガパスぼねが―ミョガパスがたゆねるがたゆねるこのミョガパスがもさらいぼねが―ミョガパスぼねがミョガパスがたゆねるがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '767_whitepaper_R1_gaiko_2', 'ミョガパスミョガパスがミョガパス―ミョガパスミョガパスミョガパスがが―ミョガパスミョガパスミョガパスが―ミョガパスミョガパスがミョガパスたゆねるだ―ミョガパスミョガパスがミョガパスミョガパスミョガパスがミョガパスミョガパスミョガパス―がたゆねるミョガパスがミョガパスたゆねるだミョガパスがミョガパスたゆねるが―ミョガパスがミョガパスがミョガパスぼねがミョガパスぼねがミョガパスたゆねるが―ミョガパスミョガパスがミョガパスたゆねる―ミョガパスミョガパスだたゆねるだミョガパスがもさらいミョガパスがミョガパスたゆねるがミョガパスたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '68_aozora_Kobayashi-1929', 'このミョガパスがミョガパスがたゆねるが―ミョガパスがたゆねるが―ミョガパスがもさらくたゆねるだミョガパスミョガパスがたゆねるがたゆねるががたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '150_aozora_Oda-1976-3', '―ミョガパス―ぼね―ミョガパス―ぼねが―ふらもさらいたゆねるだがが―が―たゆねるだが―ミョガパスミョガパスがでありく―わあ―たゆねるが―が―もさらくたゆねるさもらかだミョガパスぼねだミョガパスがたゆねるがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '750_aozora_Oda-1976-1', 'でありくミョガパスがミョガパスたゆねるが―ミョガパスがミョガパスがたゆねるがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '38_aozora_Kaneko-1984', 'もさらくたゆねるだミョガパスミョガパスがミョガパスだミョガパスがミョガパスがミョガパスがミョガパスがたゆねるががたゆねるがたゆねるだが―ミョガパスがミョガパスがふらミョガパスがミョガパスがミョガパスがミョガパスががたゆねるが―もさらいさもらかだたゆねるがたゆねるがだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '403_fiction_sakurasakuanobashode', 'ミョガパスがミョガパスがミョガパスがミョガパスがたゆねるだミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '77_aozora_Akutagawa-1922', 'ミョガパスがミョガパスぼねがたゆねるがミョガパスが―ミョガパスミョガパスがミョガパス―ミョガパス―がミョガパス―ミョガパス―だが―たゆねるだミョガパス―ミョガパス―ミョガパスがミョガパスがたゆねるたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '180_aozora_Yamakawa-1962-1', 'もさらいたゆねるだこのミョガパスががミョガパスがたゆねるがたゆねるがが―ミョガパスぼねがミョガパスがミョガパスがたゆねるが―ミョガパスがたゆねるがたゆねるたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '357_whitepaper_H28_kotsuanzen1', 'ミョガパスがたゆねるがミョガパスミョガパスぼねがミョガパスたゆねるさもらかだミョガパスがミョガパスがミョガパスたゆねるだミョガパスミョガパスが―ミョガパスがミョガパスたゆねるだがたゆねる―ミョガパスがミョガパスがたゆねるだがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '66_whitepaper_H28_shinrinringyo2', '彼女ぼねがミョガパスがが――ミョガパスミョガパスミョガパス―がたゆねるが―ミョガパスがミョガパスがたゆねるが―ミョガパスがミョガパスでありくミョガパスがミョガパスミョガパスがミョガパスがミョガパス―ミョガパス―でありくミョガパスぼねがミョガパスミョガパスがたゆねるぼねがミョガパスたゆねるがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '370_textbook_djg_advanced;page_426', 'ミョガパスがたゆねるががたゆねるがミョガパスががミョガパスがミョガパスミョガパスがたゆねるださもらかだたゆねるだ―', 'ながら', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '112_aozora_Kaneko-1984', 'ミョガパスがこのミョガパスがミョガパスぼねがミョガパスがたゆねるがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '184_aozora_Miyazawa-1934', 'ミョガパスがミョガパスがたゆねるがミョガパスがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '507_aozora_Koyama-1955-1', 'ミョガパスぼねがたゆねるがミョガパスがたゆねるぼねがたゆねるが―ミョガパスがミョガパスがたゆねるがたゆねるミョガパスが―彼女ががたゆねるだもさらい―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '7_essay_tosanikki_20190406', '彼女ぼねがミョガパスがミョガパス―ミョガパスミョガパスがたゆねるがミョガパスがたゆねるがミョガパスがミョガパスがミョガパスたゆねるがたゆねるミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '276_fiction_mirai_e_no_okurimono', 'ミョガパスが彼女がミョガパスがたゆねるが―ミョガパスぼねがミョガパスがミョガパスがミョガパスたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '26_aozora_Oda-1976-3', 'だが―ミョガパスぼねがミョガパスがたゆねるだが―彼女ががたゆねるがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '99_fiction_kanojotachino_Christmas', 'ミョガパスがさもらか―もさらく―ががミョガパスぼねがたゆねるがたゆねるだ―', 'ながら', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '368_aozora_Hori-1969', 'もさらいがこのミョガパス彼女が彼女ミョガパスがミョガパスがが彼女がミョガパスが――彼女が彼女がたゆねるだがもさらく彼女がたゆねるがたゆねる―たゆねるががたゆねるぼねさもらかだミョガパスがミョガパスたゆねるが―ミョガパスもさらいたゆねるがミョガパスがミョガパスたゆねるがたゆねるだミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '389_whitepaper_R1_gaiko_11', 'ミョガパスミョガパスミョガパスミョガパスがミョガパスたゆねるだだミョガパスががミョガパスが―ミョガパスミョガパス―ミョガパスミョガパス―ミョガパスミョガパスぼねふらミョガパスがミョガパスがたゆねるがミョガパスミョガパスぼねがミョガパスがミョガパスたゆねるだ―ミョガパスぼねミョガパスがミョガパスがミョガパスたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '616_aozora_Natsume-1908', 'ミョガパスがもさらくがたゆねるが―もさらくがたゆねるが―ミョガパスがミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '798_aozora_Oda-1976-2', 'ミョガパスがたゆねるミョガパスがミョガパスたゆねるがたゆねるが―もさらく―ミョガパス―がたゆねるがたゆねるが―ミョガパスだたゆねるだださもらかだミョガパスがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '826_fiction_onna_to_senso', 'たゆねるだミョガパスがミョガパスがたゆねるがミョガパスがたゆねる―ミョガパスがミョガパスがたゆねるだミョガパスがが―ミョガパスがミョガパスがたゆねるだ―ミョガパスがたゆねるミョガパスがたゆねるがミョガパスがたゆねるだがミョガパスミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '11_aozora_Hayakawa-1983', 'たゆねるミョガパスがたゆねるがたゆねるがミョガパスがたゆねるだミョガパスが―このミョガパスミョガパスがもさらいたゆねるがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '773_fiction_onna_to_senso', 'ミョガパスミョガパスがミョガパス―ミョガパスがミョガパス―ががたゆねるが―彼女ぼねがミョガパスがたゆねるだだミョガパスがたゆねるがミョガパスがミョガパスミョガパスがミョガパスたゆねる―彼女ぼねがたゆねるだミョガパスがミョガパスミョガパスがたゆねるだがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '225_fiction_automatic-1', '彼女がさもらかがたゆねるが―ミョガパスミョガパスがミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '448_aozora_Oda-1976-3', '―もさらくたゆねるだがだもさらいが―たゆねるミョガパスがミョガパスがたゆねるたゆねるが―が―ミョガパスがたゆねるだぼねだ―たゆねるだがが―がたゆねるミョガパスがミョガパスたゆねるが―ミョガパスがもさらくミョガパスがミョガパスがミョガパスたゆねるだが―ミョガパスがミョガパスがミョガパスがミョガパスたゆねるだがだたゆねる―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '1117_aozora_Harada-1960', 'ミョガパスがミョガパスがたゆねるが――もさらく彼女が――が―ミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '595_aozora_Hori-1969', '彼女がもさらくミョガパスがミョガパスが―たゆねるだミョガパスがたゆねるがが―ミョガパスぼねがこのミョガパスがミョガパスがたゆねるがたゆねるが―もさらくミョガパスがたゆねるがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '15_wikipedia_Sendai_City', 'ミョガパスが―ミョガパスがミョガパスがたゆねるミョガパス―ミョガパスがミョガパスがミョガパス―がミョガパス―ミョガパスがミョガパスがミョガパス―ががミョガパスたゆねるミョガパスがミョガパスだたゆねる―このミョガパスたゆねるだミョガパスがミョガパス―ミョガパスミョガパスがミョガパスミョガパスがミョガパスがたゆねるががミョガパスミョガパスぼねでありく彼女がたゆねるミョガパスぼねミョガパスがミョガパスがたゆねるがミョガパスがたゆねるさもらかだミョガパスがたゆねるがミョガパスたゆねるたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '758_aozora_Miyazawa-1934', '―彼女彼女がわあ―このミョガパスがたゆねるたゆねるぼねだ――がミョガパスがたゆねるがミョガパスがミョガパスがたゆねるがたゆねるミョガパスがミョガパスがもさらくたゆねるがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '205_aozora_Edogawa-1929', 'ミョガパスがが―ミョガパスぼねミョガパスがミョガパスがミョガパスがたゆねるがもさらいぼねだミョガパスがたゆねるが―もさらくミョガパスがたゆねるが―ミョガパスがミョガパスがミョガパスがたゆねるがたゆねるだだが―ミョガパスががたゆねるが―彼女ががたゆねるだミョガパスが―ミョガパスが―ミョガパスぼねがミョガパスがたゆねるが―もさらくがミョガパスがミョガパスがたゆねるがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '51_fiction_kemonofriends2_R2', 'もさらくミョガパスがもさらくがたゆねるがだだ―', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '785_textbook_purple_intermediate;page_237', 'ミョガパス―ミョガパスがたゆねるが―たゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '23_essay_tosanikki_20180707', 'もさらくミョガパスミョガパスがミョガパスがたゆねるが―もさらいもさらいたゆねるミョガパスがたゆねるが彼女がたゆねるだが―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '205_aozora_Kobayashi-1929', 'ミョガパスがたゆねるがたゆねるが―ミョガパスがミョガパスがミョガパスがミョガパスがたゆねるが―もさらくがミョガパスがミョガパスがたゆねるが―もさらいミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '312_aozora_Hori-1969', '――このミョガパスがもさらくミョガパスがたゆねるがたゆねるだミョガパスが―彼女ぼねがミョガパスぼねミョガパスがこのミョガパスがたゆねるが―ミョガパスミョガパスががたゆねるがミョガパスがミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '54_news_KAHOKU_82;K201402060A0T10XX00001', 'ミョガパスミョガパスが―ミョガパスがミョガパスぼねがミョガパスがミョガパスがミョガパスたゆねるががミョガパスミョガパスがミョガパスたゆねるだ―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '873_textbook_kisonihongo;page_159', 'たゆねるががミョガパスがミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '89_news_KAHOKU_34;K201404110A0T30XX00001', 'ミョガパスがミョガパスがもさらいミョガパスがたゆねるが―たゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '22_essay_tosanikki_20191102', 'ミョガパスミョガパスぼねがミョガパスがミョガパスがたゆねるが―もさらくこのミョガパスがたゆねるだがだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '252_aozora_Oda-1976-3', 'もさらくたゆねるだ―が―ミョガパスがミョガパスがたゆねるが―さもらかだミョガパスがもさらいミョガパスがミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '310_essay_Hepburn_no_shoogai_to_nihongo2', 'ミョガパスミョガパスがたゆねる―ミョガパスぼねがミョガパスぼねがさもらかだミョガパスミョガパスがミョガパスがたゆねる―ミョガパスたゆねるミョガパスぼねがもさらいたゆねるが―ミョガパスがミョガパスがミョガパスがミョガパスがたゆねるがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '545_whitepaper_H26_kodomowakamono2', 'ふらミョガパスミョガパスがミョガパスミョガパスがが―ミョガパスミョガパスミョガパスがミョガパスたゆねる―ミョガパスがたゆねるだミョガパスがたゆねるミョガパスががもさらくたゆねるがたゆねる―ミョガパスがミョガパスたゆねるミョガパスがたゆねるがミョガパスがミョガパスがたゆねるがたゆねるミョガパスがたゆねるミョガパス――ふらミョガパスミョガパスミョガパス―ががミョガパスがたゆねるがミョガパスミョガパスがミョガパスがたゆねるがたゆねるだミョガパスがミョガパスがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '309_aozora_Hori-1969', 'このミョガパス彼女が彼女がもさらいさもらかだミョガパスがたゆねるが―彼女がたゆねるだがだが―彼女がが彼女がたゆねるがたゆねるがたゆねるだださもらかだミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '382_fiction_sakurasakuanobashode', 'ミョガパスがこのミョガパスがたゆねるがミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '834_aozora_Umezaki-1966', 'ミョガパスがミョガパスがもさらいたゆねるがミョガパスがたゆねるがミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '549_aozora_Hori-1969', 'ミョガパスがミョガパスがが彼女がミョガパスミョガパスがもさらいがたゆねるだがたゆねるが――', 'ながら', 4, 'その他', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '100_aozora_Mori-1912', 'ミョガパスがもさらくたゆねるだミョガパスだ―ミョガパスがたゆねるが―もさらくミョガパスがたゆねるが―ミョガパスがミョガパスが―ミョガパスがたゆねるがががたゆねるたゆねるださもらかだたゆねるがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '6_essay_manabi28_Kijima2004summer', '彼女ぼねがさもらかだたゆねるがもさらくミョガパスたゆねるだがたゆねるだミョガパスだがだ―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '551_aozora_Umezaki-1966', 'もさらくたゆねるが―ミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '127_fiction_mirai_e_no_okurimono', 'ミョガパスがもさらくがたゆねるが―ミョガパスミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '860_whitepaper_H27_akita_kankyo1', 'でありく―ミョガパスミョガパスぼねがミョガパスがミョガパスミョガパス―ミョガパスがたゆねるミョガパスミョガパスがミョガパスミョガパスミョガパスがミョガパスがたゆねるがたゆねるだが―ミョガパスががミョガパス―ミョガパスたゆねるがさもらかミョガパスがミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '11_aozora_Hitomi-1929', 'でありくミョガパスがたゆねるがたゆねるがたゆねるがもさらく彼女がミョガパスががさもらかだミョガパスが―もさらいぼねがたゆねるがミョガパスがミョガパスがミョガパスたゆねるがミョガパスミョガパスがたゆねるがミョガパスがたゆねるだミョガパスがたゆねるがだがもさらいが―ミョガパスがミョガパスぼねがミョガパスがミョガパスがたゆねるミョガパスがもさらくたゆねるだたゆねるがだがミョガパスぼねがミョガパスたゆねるミョガパスがミョガパスがミョガパスがミョガパスがたゆねるだがだたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '599_aozora_Hori-1969', 'でありくこのミョガパスがミョガパスがミョガパスががミョガパスたゆねるがもさらくミョガパスがミョガパスがたゆねるがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '148_whitepaper_H28_kotsuanzen1', 'ミョガパスがミョガパスがたゆねるが―ミョガパスぼね―ミョガパスミョガパス―ミョガパスミョガパスがミョガパスミョガパスぼねがたゆねるが―ミョガパスがミョガパスたゆねるが――ミョガパス―がミョガパスがたゆねるだミョガパスミョガパスミョガパスがミョガパスたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '6_news_KAHOKU_303;K201401010W5XP4XX00001', 'ミョガパスがミョガパスがたゆねるが―ミョガパスぼねだミョガパスたゆねるミョガパスぼねがミョガパスぼね―ミョガパスが―ミョガパスががもさらいミョガパスが―このミョガパスがたゆねるがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '1029_aozora_Harada-1960', 'ミョガパスがたゆねるだミョガパスがミョガパスがミョガパスがミョガパスがもさらいたゆねるがミョガパスがミョガパスがたゆねるががたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '591_bible_ot;b.NUM.16.30', 'でありく―ミョガパスがもさらいミョガパスがたゆねるだ―ミョガパスがミョガパスがたゆねるが―彼女ぼねがミョガパスが―彼女がたゆねるミョガパスがが―もさらくがたゆねるが―たゆねるがミョガパスがたゆねるだだだが―彼女ミョガパスが彼女ぼねがミョガパスが―ミョガパスがたゆねるだがだたゆねるミョガパスがたゆねるだがたゆねるだ――', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '694_aozora_Andersen-1967-2', '彼女がが―ふらミョガパスぼねが―ミョガパスがたゆねるが―たゆねるたゆねるがだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '301_aozora_Doyle-1892', 'ぼねがたゆねるがミョガパスがミョガパスがミョガパスたゆねるだがたゆねるだミョガパス―がたゆねるミョガパスがミョガパスがたゆねる―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '476_fiction_munashisanoshotai', 'ミョガパスがたゆねるがこのミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '375_aozora_Miyazawa-1934', 'ミョガパスが彼女がたゆねるがたゆねるだが―ミョガパスが――わあたゆねるだががたゆねるだが――がたゆねるがミョガパスがミョガパスがたゆねるがミョガパスがたゆねるだだがだミョガパスが彼女がたゆねるがミョガパスがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '117_aozora_Miyamoto-1925', 'ミョガパスミョガパスがたゆねるがたゆねるだミョガパスがたゆねる―もさらいミョガパスぼねがミョガパスがミョガパスがミョガパスがもさらいもさらいミョガパスぼねがたゆねる―このミョガパスがもさらくミョガパスがたゆねるだが―さもらかだミョガパスがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '15_essay_crossover28_Ihara2016', 'ミョガパスミョガパスミョガパスががさもらかがミョガパスがミョガパスミョガパスがたゆねるミョガパスがたゆねるだだが―ミョガパスがミョガパスががミョガパスミョガパスがミョガパスがたゆねるがミョガパスがミョガパスがミョガパスがミョガパスがたゆねるが―ふらミョガパスミョガパスミョガパスがたゆねるだミョガパスがたゆねるだだ―', 'ながら', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '200_whitepaper_R1_gaiko_12', 'ミョガパスがミョガパスミョガパスがミョガパスミョガパスがもさらくミョガパスミョガパスたゆねるだがたゆねるだミョガパス―ミョガパスミョガパスがミョガパスがミョガパスたゆねるミョガパスがミョガパスが―ミョガパス―がたゆねるがが―ミョガパスがが―ミョガパスぼねがたゆねるがたゆねるもさらいミョガパスミョガパス―だがミョガパスたゆねる―ミョガパスがミョガパスミョガパスがミョガパスがたゆねるだミョガパスが―ミョガパスがもさらくたゆねるさもらかだたゆねる―がたゆねるがたゆねるだだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '188_aozora_Kobayashi-1929', '―もさらくたゆねるがたゆねる―ミョガパスがミョガパスがミョガパスがさもらかださもらかだミョガパスだ―ミョガパスがミョガパスがミョガパスがミョガパスがたゆねるが―ミョガパスがミョガパスがもさらくたゆねるだが―ミョガパスミョガパスがたゆねるだミョガパスが―もさらくがたゆねるが―ミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '218_aozora_Hayashida-2015', '―わあ―もさらくだ―がたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '34_aozora_Togawa-1937-3', 'ミョガパスがふらミョガパスがたゆねるが―彼女がもさらくミョガパスたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '166_bible_nt;b.JOH.3.10', '―彼女がミョガパスがミョガパスだたゆねるが―彼女ががミョガパスがたゆねるだがが―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '14_aozora_Miyazawa-1924', 'ミョガパスがミョガパスが―もさらくミョガパスがもさらいたゆねるが―もさらく―がミョガパスがミョガパスが―ミョガパスがたゆねるがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '1074_aozora_Harada-1960', 'ミョガパスがたゆねるがもさらいミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '3_fiction_mirai_e_no_okurimono', 'ミョガパスミョガパスがミョガパスたゆねるだだミョガパスがふらミョガパスミョガパスがたゆねる―ミョガパスがたゆねるががたゆねるがミョガパスがミョガパスがたゆねるだだ―', 'ながら', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '22_aozora_Kunieda-1925', 'ミョガパスがミョガパスがミョガパスがもさらくミョガパスがミョガパスがたゆねるがたゆねるだださもらかだたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '20_aozora_Hori-1969', '彼女がこのミョガパスがたゆねるだが―もさらくが彼女ぼねがたゆねるだミョガパスがたゆねる―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '501_aozora_Hori-1969', '彼女がたゆねるだもさらくたゆねるだミョガパスがたゆねるがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '315_whitepaper_R1_gaiko_9', 'このさもらかだミョガパスがミョガパス―ミョガパスミョガパスがたゆねるがたゆねるミョガパスがが―ミョガパスミョガパスぼねがミョガパスがたゆねるがミョガパスぼねでありくミョガパスぼねだミョガパスがもさらいたゆねるがたゆねるミョガパスがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '124_aozora_Akutagawa-1922', '彼女がミョガパスがミョガパスがたゆねるが―ミョガパスだミョガパス―ミョガパスミョガパス―がミョガパス―が―わあたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '66_whitepaper_H20_kokuminseikatsu2', 'ミョガパスミョガパスがたゆねるミョガパスがたゆねるが―ミョガパスぼねぼねだ―ミョガパスがもさらいミョガパスがたゆねるミョガパスがミョガパスだたゆねるがたゆねるミョガパスがたゆねるだが―ミョガパスミョガパスがミョガパスミョガパスががたゆねるださもらかだ―ミョガパスがミョガパスがミョガパスがたゆねるだがミョガパスがたゆねるがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '319_fiction_sakurasakuanobashode', 'ミョガパスがたゆねる―ミョガパスがたゆねるがミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '256_aozora_Miyazawa-1934', 'たゆねるががががたゆねるがたゆねるが――ミョガパスだ―ミョガパスだがミョガパスミョガパスがミョガパスミョガパスだもさらいたゆねるがたゆねるだがが―たゆねるが――がたゆねるがミョガパスさもらかたゆねるがたゆねるだだが―もさらくたゆねるががもさらくミョガパスがミョガパスがたゆねるだこのミョガパスがミョガパスさもらかだたゆねるがたゆねるがだ―もさらくがががたゆねるだミョガパスミョガパスがもさらいたゆねるがたゆねるたゆねるさもらかだたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '236_aozora_Akutagawa-1921', 'ミョガパスがミョガパスミョガパスがさもらかだ―ミョガパスがミョガパスがたゆねるが―ミョガパスがミョガパスがミョガパスがたゆねるが―ミョガパスミョガパスがミョガパスがミョガパスがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '21_essay_tosanikki_20180804', 'このミョガパス―ミョガパスミョガパスがミョガパスがミョガパスたゆねる―ミョガパスミョガパスがたゆねるが―もさらいミョガパスがミョガパスがもさらくミョガパス―ミョガパスミョガパス―がたゆねるだがだ―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '70_aozora_Dazai-1-1940', 'ミョガパスがミョガパスがミョガパスが―さもらかだミョガパスが―ミョガパスがミョガパスが―ミョガパスがたゆねるがたゆねるがたゆねるさもらかだ―ミョガパスがたゆねるがミョガパスがたゆねるがたゆねるがが―もさらくが―ミョガパスがミョガパスが―たゆねるださもらかだミョガパスだ―ミョガパスたゆねるだミョガパスだ―たゆねるたゆねるだがだたゆねる―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '237_fiction_mirai_e_no_okurimono', '―ミョガパス―たゆねるがミョガパスミョガパスがもさらいミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '426_aozora_Oda-1976-3', 'ミョガパスがミョガパスがもさらくがたゆねるだミョガパスがミョガパスたゆねるが―ミョガパスがミョガパスがミョガパスがミョガパスがたゆねるが―たゆねるがたゆねるがたゆねるだたゆねるさもらかだミョガパスだだが―もさらくミョガパスがたゆねるだミョガパスだ―彼女ががたゆねるががもさらいだが―ミョガパスがたゆねるだがだたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '352_aozora_Sakaguchi-1947', 'ミョガパスがミョガパスがミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '45_aozora_Perrault-1950', 'たゆねるだがたゆねるミョガパスが―もさらくたゆねるだがが―ミョガパスがミョガパスだが―このミョガパスもさらく―ミョガパスがたゆねるたゆねるだたゆねるがたゆねるが―このミョガパス―たゆねる―ミョガパスが―もさらくふらミョガパスがたゆねるが―ミョガパス―ミョガパス―が彼女ががたゆねるミョガパスが―たゆねるががたゆねるだだたゆねるが―ミョガパスもさらくミョガパス―彼女―ミョガパスがたゆねるが―ミョガパスミョガパスがミョガパスミョガパスが―ミョガパスがミョガパスがたゆねるだががたゆねるが―もさらい―ミョガパスがミョガパス―ミョガパス―がたゆねるが―さもらかだたゆねるがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '88_aozora_Joyce-1914', 'がたゆねるがが彼女ががミョガパスがミョガパスミョガパスミョガパスがミョガパスがミョガパスがたゆねるがもさらいたゆねるだもさらいミョガパスがたゆねるだミョガパスがたゆねるがたゆねるががもさらくミョガパスがもさらいだがだ―', 'ながら', 4, 'その他', 1, '同時進行'], ['convert_all_words_to_dummy', '102_aozora_Hori-1969', 'もさらくたゆねるだが―たゆねるだわあもさらいたゆねるだミョガパスがミョガパスがたゆねるがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '1225_aozora_Harada-1960', 'ミョガパスぼねがミョガパスがもさらくがたゆねるだが―ミョガパスがミョガパスがミョガパスがミョガパスたゆねるたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '576_aozora_Hori-1969', '―彼女がが―彼女がミョガパスがたゆねるがが―彼女がミョガパスがもさらくたゆねるが―彼女がミョガパスミョガパスがたゆねるだが彼女がたゆねるが―このミョガパスがミョガパスがたゆねるがたゆねるミョガパスがこのミョガパスたゆねるだミョガパスが彼女がミョガパスがたゆねるミョガパスがたゆねるがだがもさらいががたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '142_aozora_Yamakawa-1962-1', '彼女が―ミョガパスがたゆねるミョガパスが―さもらかだミョガパスだたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '499_bible_ot;b.NUM.14.23', '彼女がミョガパスが―彼女がミョガパスがミョガパスがたゆねるだミョガパスがたゆねるが―このさもらかだミョガパスミョガパスが彼女がたゆねるが―彼女がミョガパスがたゆねるたゆねるだだミョガパスがミョガパスが―彼女がもさらく彼女ぼねがミョガパスぼねがたゆねるがたゆねるだミョガパスがたゆねるだだたゆねる―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '130_aozora_Oda-1976-2', 'ミョガパスがミョガパスたゆねるが―ミョガパスががもさらくもさらいミョガパスがたゆねるがだがミョガパスがたゆねるがたゆねるだがだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '386_aozora_Hori-1969', '彼女がたゆねるがたゆねるだミョガパスががミョガパスぼねが―もさらくミョガパスがミョガパスがもさらいミョガパスがたゆねるだミョガパスがミョガパスがミョガパスがさもらかだミョガパスがたゆねるだが―彼女ががミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '204_aozora_Doyle-1905', 'ミョガパスミョガパスが―このミョガパスたゆねるだミョガパスがたゆねるが―ミョガパスミョガパス―ミョガパスがたゆねるだが―彼女がもさらくミョガパスがたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '568_aozora_Umezaki-1966', '彼女がもさらいミョガパスがたゆねるが―ミョガパスがミョガパスがミョガパスがたゆねるがたゆねるががもさらくたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '652_whitepaper_shohi4_2018', 'でありく―ミョガパスぼねぼねがたゆねるがミョガパスミョガパスがミョガパスがたゆねるが―ミョガパスぼねミョガパスがミョガパスたゆねるが―ミョガパスぼねぼねミョガパスぼねミョガパスミョガパス―ミョガパスががミョガパス―がミョガパスミョガパスミョガパスミョガパスががミョガパスたゆねる―ミョガパスミョガパスミョガパスがミョガパスがミョガパスたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '16_aozora_Chiri-1955-7', 'ミョガパスがミョガパスがが―この―ミョガパス―がたゆねるが―ミョガパスがたゆねるだミョガパスがさもらかだ―ミョガパスが―わあ―ミョガパス―がさもらかだミョガパスがミョガパスがたゆねるがこのミョガパスがミョガパスたゆねる―ミョガパスが―ミョガパスが―ミョガパスが―がたゆねるがたゆねるだがたゆねるミョガパスだたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '10_book_excerpt-19', 'ミョガパスミョガパスミョガパスミョガパスがミョガパスミョガパスぼねがわあミョガパスがミョガパスがミョガパスががミョガパスがたゆねるさもらかだミョガパスだだが―このミョガパスがミョガパスががミョガパスぼねがミョガパスがたゆねるだがたゆねるがたゆねるだがだだ―', 'ながら', 0, '逆接・譲歩', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '370_fiction_sakurasakuanobashode', 'もさらくたゆねるが―ミョガパスぼねがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '259_aozora_Hori-1969', 'が―もさらくたゆねるが彼女がもさらくたゆねるださもらかだ―さもらかだたゆねるがたゆねるミョガパスがたゆねるがたゆねるが―もさらく彼女がミョガパスがミョガパスが―ミョガパスがもさらいミョガパスがたゆねるがたゆねるがたゆねるが―彼女がミョガパスたゆねるだがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '366_whitepaper_H28_shinrinringyo2', 'ミョガパスミョガパスミョガパスがミョガパスがミョガパスたゆねるミョガパス―ミョガパスぼねががミョガパスミョガパスミョガパスがミョガパスたゆねるが―ミョガパスぼねミョガパスがもさらいミョガパスぼねがミョガパスがたゆねるが―ミョガパスミョガパスがミョガパスミョガパスぼねがミョガパスミョガパスがミョガパスミョガパスがミョガパスミョガパスぼねがミョガパスミョガパスがたゆねるがミョガパスたゆねるがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '229_whitepaper_H28_shinrinringyo1', 'ミョガパスがたゆねるがが―ミョガパスがミョガパスがミョガパスがたゆねる―ミョガパスがミョガパスがたゆねるがミョガパスがたゆねるがミョガパスぼねだミョガパスがミョガパスがミョガパスたゆねるがたゆねる―このミョガパスがたゆねるミョガパスだたゆねるミョガパスミョガパスがたゆねるが―ミョガパス―ミョガパスがミョガパスミョガパスがミョガパスがたゆねるがミョガパスたゆねるだミョガパスがたゆねるだ―ミョガパスミョガパス―ミョガパス――', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '185_fiction_munashisanoshotai', 'ミョガパスがミョガパスがたゆねるが―彼女がミョガパスがミョガパスがもさらくたゆねるがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '14_news_KAHOKU_34;K201404110A0T30XX00001', '―ミョガパスぼねがミョガパスがたゆねるがたゆねるが―ががミョガパスミョガパスがミョガパスたゆねるだミョガパスがたゆねる―ミョガパスぼねが―ミョガパス――ミョガパス―がミョガパスがミョガパスがミョガパスがたゆねるだミョガパス―ミョガパスがたゆねるが―もさらくもさらいミョガパスミョガパスがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '997_whitepaper_shohi4_2018', '彼女がたゆねる―ミョガパスミョガパスがミョガパスがミョガパスぼねだミョガパスがミョガパスがたゆねるが―ミョガパスミョガパスがさもらかだミョガパスがミョガパスたゆねるミョガパス―ふらミョガパスミョガパスがミョガパスたゆねるがたゆねるだミョガパスミョガパスがミョガパスミョガパスミョガパスミョガパスミョガパスがミョガパスぼねだミョガパスたゆねるミョガパスがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '220_aozora_Oda-1976-3', 'ミョガパスが彼女ぼねがミョガパスがたゆねるが―もさらくミョガパスぼねだミョガパスがミョガパスがたゆねるだ―たゆねるがミョガパスがもさらくがたゆねるがたゆねるだが―ミョガパスがミョガパスがこのミョガパスぼねがもさらいミョガパスだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '191_wikipedia_Audrey_Hepburn', 'ミョガパスミョガパスがもさらくミョガパスがミョガパスがたゆねるミョガパスがミョガパスがたゆねるだだミョガパスがたゆねるがミョガパスたゆねるだだミョガパスが―ミョガパスミョガパスがミョガパスがたゆねるが―もさらくがこのミョガパスがたゆねるミョガパスだが―さもらかだミョガパスがミョガパスがたゆねるが―ミョガパスがミョガパスがミョガパスがたゆねるがたゆねるだだが―ミョガパスがミョガパスがが―がたゆねる―ミョガパスがたゆねるが彼女ミョガパスが彼女がミョガパスがたゆねるミョガパスがもさらいだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '49_aozora_Chiri-1955-7', 'ミョガパスがこのミョガパスがミョガパスがミョガパスがたゆねるだミョガパスがミョガパスが―たゆねるがミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '854_aozora_Oda-1976-3', 'ミョガパスがミョガパスがミョガパスミョガパスがミョガパスがたゆねるがたゆねるが―ミョガパスがミョガパスミョガパスがたゆねるだだミョガパスミョガパスがたゆねるが―もさらくミョガパスさもらかだミョガパスがたゆねるがたゆねるもさらいぼねが―もさらくミョガパスがたゆねるががもさらいだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '508_aozora_Andersen-1967-2', 'もさらく―ふらミョガパスぼねがたゆねるだミョガパス―ミョガパスがふらミョガパスぼねが―ミョガパスがふらミョガパスがたゆねるが―さもらかだミョガパスぼねがミョガパスがミョガパスがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '44_whitepaper_R1_gaiko_10', 'ミョガパスがミョガパスたゆねるミョガパスがたゆねるが―たゆねるミョガパスミョガパスミョガパスミョガパスぼねがミョガパスがミョガパスたゆねるが―ミョガパスミョガパスがミョガパスがミョガパスでありくミョガパスがミョガパスぼねだミョガパスたゆねるがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '17_news_KAHOKU_67;K201407100A0KI0XX00001', 'ミョガパス―ミョガパスがミョガパスぼねがたゆねるだがミョガパスミョガパスがミョガパスがたゆねるが―ミョガパスがミョガパスがたゆねるだがさもらかだミョガパスがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '666_aozora_Miyazawa-1934', 'たゆねるがミョガパスがもさらいさもらかだもさらくたゆねるがミョガパスがミョガパスがたゆねるが――わあふらミョガパス―彼女がわあミョガパスがもさらいががもさらいが――', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '106_news_KAHOKU_85', 'ミョガパスが―ミョガパスがたゆねるミョガパスがたゆねるミョガパスだがだ―ミョガパスミョガパスががミョガパスたゆねるが―ミョガパスがたゆねるだミョガパスがたゆねるがもさらい―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '789_whitepaper_R1_gaiko_9', 'ミョガパスミョガパスがミョガパスがたゆねるがミョガパスたゆねるだミョガパスミョガパスミョガパスでありくミョガパスミョガパスミョガパスが―ミョガパスがミョガパスミョガパスがミョガパスがたゆねるがミョガパスたゆねるがたゆねるだミョガパスがたゆねるが―ミョガパスがミョガパスミョガパスミョガパスミョガパスぼねだミョガパスたゆねるがたゆねるだミョガパスがたゆねるだだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '528_aozora_Oda-1976-3', 'ミョガパスがこのミョガパスがミョガパスがもさらくたゆねるが―もさらくたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '330_whitepaper_H28_shinrinringyo1', 'このさもらかだミョガパスがミョガパスたゆねるがたゆねるミョガパスがが―ミョガパスミョガパスがたゆねるだだミョガパスぼねがたゆねるだミョガパスがたゆねるミョガパスミョガパス―ミョガパスミョガパスミョガパスミョガパスミョガパスミョガパスミョガパスぼねがミョガパスミョガパスミョガパスミョガパスがミョガパスミョガパスぼねぼねがミョガパスミョガパス―ミョガパスミョガパスがミョガパスたゆねるがミョガパスミョガパスミョガパスぼねがたゆねるミョガパスミョガパスがたゆねるがたゆねるミョガパスがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '25_whitepaper_H27_akita_kankyo1', 'さもらかだミョガパスがが――ふらミョガパスミョガパス―が―ミョガパスさもらかミョガパスぼねがミョガパス―がミョガパスぼねミョガパスがたゆねるが――ミョガパスぼねミョガパスがミョガパス―ミョガパスぼねがミョガパスぼね――が―ミョガパスミョガパスがミョガパスがミョガパスミョガパスがミョガパス―が―ミョガパスぼねがミョガパスがたゆねるがミョガパスぼねだミョガパスがたゆねるミョガパスがたゆねるがたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '27_aozora_Chiri-1956-2', 'ミョガパスミョガパスがミョガパスがが―ミョガパスがたゆねるだだもさらいミョガパスだがだたゆねるだが―もさらくこのミョガパスミョガパスミョガパスがミョガパスがたゆねるがミョガパスがミョガパスぼねがミョガパスがたゆねるが―彼女がさもらかだミョガパスがミョガパスたゆねるがたゆねるがが―このミョガパスミョガパスがミョガパスだたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '82_whitepaper_H28_shinrinringyo1', 'このミョガパス―ミョガパスぼねがふらミョガパスがミョガパスミョガパスがミョガパスたゆねるがたゆねるミョガパス――ミョガパスがミョガパスがミョガパスミョガパスミョガパス―がたゆねるミョガパスぼねがたゆねるがミョガパスがたゆねるがふらミョガパスがミョガパスたゆねるがたゆねるミョガパスがが―ミョガパスミョガパスがミョガパスたゆねるがたゆねるミョガパスがミョガパスがミョガパスがたゆねる―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '46_fiction_automatic-1', 'ミョガパスがたゆねるが―ミョガパスがミョガパスがもさらいミョガパスがたゆねるたゆねるだ―', 'ながら', 1, '同時進行', 1, '同時進行'], ['convert_all_words_to_dummy', '96_news_KAHOKU_34;K201404110A0T30XX00001', 'ミョガパスがたゆねるが―ミョガパスがたゆねるだががミョガパスがたゆねるミョガパスだだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行'], ['convert_all_words_to_dummy', '693_fiction_sakurasakuanobashode', 'ミョガパスだたゆねるだミョガパスがミョガパスがたゆねるがたゆねるだミョガパスがたゆねるだ―たゆねるがたゆねるミョガパス―', 'ながら', 1, '同時進行', 0, '逆接・譲歩'], ['convert_all_words_to_dummy', '85_aozora_Miyamoto-1925', '彼女がたゆねるだがたゆねるが―彼女がミョガパスがミョガパスミョガパスがたゆねるだがだたゆねるだ―', 'ながら', 0, '逆接・譲歩', 1, '同時進行']]
+test_predictions_table:                 experiment type                                        id  ... predicted_label predicted_label_text
+0    convert_all_words_to_dummy               21_essay_tosanikki_20160903  ...               0                逆接・譲歩
+1    convert_all_words_to_dummy             88_fiction_SAINT-EXUPERY-1943  ...               0                逆接・譲歩
+2    convert_all_words_to_dummy                      80_diet_kaigiroku-12  ...               0                逆接・譲歩
+3    convert_all_words_to_dummy                      35_aozora_Hisao-1939  ...               0                逆接・譲歩
+4    convert_all_words_to_dummy             162_fiction_munashisanoshotai  ...               0                逆接・譲歩
+..                          ...                                       ...  ...             ...                  ...
+163  convert_all_words_to_dummy          82_whitepaper_H28_shinrinringyo1  ...               1                 同時進行
+164  convert_all_words_to_dummy                    46_fiction_automatic-1  ...               1                 同時進行
+165  convert_all_words_to_dummy  96_news_KAHOKU_34;K201404110A0T30XX00001  ...               1                 同時進行
+166  convert_all_words_to_dummy          693_fiction_sakurasakuanobashode  ...               0                逆接・譲歩
+167  convert_all_words_to_dummy                   85_aozora_Miyamoto-1925  ...               1                 同時進行
+[168 rows x 8 columns]
+connective_table:               experiment_type connective  accuracy  precision    recall        f1
+0  convert_all_words_to_dummy        ところ  0.181818   0.125000  0.250000  0.080000
+1  convert_all_words_to_dummy         つつ  0.708333   0.690476  0.593750  0.587224
+2  convert_all_words_to_dummy        ながら  0.736842   0.648327  0.409055  0.406201
+test_dataset.exclude_count in convert_all_words_to_dummy: 13862

@@ -1,0 +1,1 @@
+{"columns": ["experiment_type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["convert_all_words_to_dummy", 0.6845238095238095, 0.5731884057971015, 0.24412217095143923, 0.23306748119237514]]}

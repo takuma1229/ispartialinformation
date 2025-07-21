@@ -1,0 +1,4 @@
+- is_debug=false
+- training.epochs=10
+- experiment_type=normal
+- model_name=tohoku-nlp/bert-base-japanese-v3

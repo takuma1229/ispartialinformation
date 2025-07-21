@@ -1,0 +1,498 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at tohoku-nlp/bert-base-japanese-v3 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+num_added_tokens: 16, added_special_tokens: <NOUN>,<PRONOUN>,<ADJECTIVAL-NOUN>,<PRENOUN-ADJECTIVAL>,<ADVERB>,<CONJUNCTION>,<INTERJECTION>,<VERB>,<ADJECTIVE>,<AUXILIARY-VERB>,<PARTICLE>,<PREFIX>,<SUFFIX>,<SYMBOL>,<AUXILIARY-SYMBOL>,<BLANK>
+input_text: [CLS] また の で 、 間 に 大 を に 、 その に 中本 を にて 、 を 、 は が を て 、 もよう な で も 、 この はな を て 、 て の に は これ まし た 。 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 僕 は あなた が 、 僕 の ぬ で 僕 の ぬ を て と と 、 てて も て も られ なく 」 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] は 、 私 は この にて 、 「 それ は なん で も だ 、 が の をの と 同じ だ 、 がに の を たで 、 の も で は か 」 ― ― と 。 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] また 、 この がば 、 にる 間 が 重要 な や にて 、 間 の が 重要 で がれ ます が 、 に で 性 、 のの が など が まし た 。 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+input_text: [CLS] 「 何 と もが たい で ね 、 くん 。 [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+  1%|▊                                                                                                                                  | 15/2505 [00:04<12:44,  3.26it/s]
+
+  1%|█▏                                                                                                                                 | 22/2505 [00:06<12:42,  3.26it/s]
+
+
+  1%|█▊                                                                                                                                 | 35/2505 [00:10<12:40,  3.25it/s]
+
+  2%|██▏                                                                                                                                | 41/2505 [00:12<12:38,  3.25it/s]
+
+
+  2%|██▊                                                                                                                                | 54/2505 [00:16<12:34,  3.25it/s]
+
+  2%|███▏                                                                                                                               | 61/2505 [00:18<12:34,  3.24it/s]
+
+
+  3%|███▊                                                                                                                               | 74/2505 [00:22<12:30,  3.24it/s]
+
+  3%|████▏                                                                                                                              | 80/2505 [00:24<12:29,  3.24it/s]
+
+
+  4%|████▊                                                                                                                              | 93/2505 [00:28<12:25,  3.23it/s]
+
+  4%|█████▏                                                                                                                            | 100/2505 [00:30<12:23,  3.24it/s]
+
+
+  5%|█████▊                                                                                                                            | 113/2505 [00:34<12:19,  3.23it/s]
+
+
+  5%|██████▌                                                                                                                           | 126/2505 [00:38<12:13,  3.24it/s]
+
+  5%|██████▊                                                                                                                           | 132/2505 [00:40<12:13,  3.23it/s]
+
+
+  6%|███████▌                                                                                                                          | 145/2505 [00:44<12:07,  3.24it/s]
+
+  6%|███████▊                                                                                                                          | 151/2505 [00:46<12:07,  3.24it/s]
+
+
+  7%|████████▌                                                                                                                         | 164/2505 [00:50<12:03,  3.24it/s]
+  7%|████████▋                                                                                                                         | 167/2505 [00:51<11:38,  3.35it/s]
+
+
+
+
+
+
+
+
+
+ 33%|████████████████████████████████████████████▋                                                                                         | 7/21 [00:00<00:01, 12.52it/s]
+
+  7%|████████▉                                                                                                                         | 173/2505 [01:12<49:52,  1.28s/it]
+
+  7%|█████████▎                                                                                                                        | 180/2505 [01:14<15:07,  2.56it/s]
+
+
+  8%|██████████                                                                                                                        | 193/2505 [01:18<11:58,  3.22it/s]
+
+
+  8%|██████████▋                                                                                                                       | 206/2505 [01:22<11:52,  3.23it/s]
+
+  8%|███████████                                                                                                                       | 212/2505 [01:24<11:51,  3.22it/s]
+
+
+  9%|███████████▋                                                                                                                      | 225/2505 [01:28<11:47,  3.22it/s]
+
+  9%|███████████▉                                                                                                                      | 231/2505 [01:30<11:45,  3.22it/s]
+
+
+ 10%|████████████▋                                                                                                                     | 244/2505 [01:34<11:40,  3.23it/s]
+
+ 10%|█████████████                                                                                                                     | 251/2505 [01:36<11:37,  3.23it/s]
+
+
+ 11%|█████████████▋                                                                                                                    | 264/2505 [01:40<11:33,  3.23it/s]
+
+ 11%|██████████████                                                                                                                    | 270/2505 [01:42<11:33,  3.22it/s]
+
+
+ 11%|██████████████▋                                                                                                                   | 283/2505 [01:46<11:30,  3.22it/s]
+
+ 12%|██████████████▉                                                                                                                   | 289/2505 [01:48<11:28,  3.22it/s]
+
+
+ 12%|███████████████▋                                                                                                                  | 302/2505 [01:52<11:22,  3.23it/s]
+
+
+ 13%|████████████████▎                                                                                                                 | 315/2505 [01:56<11:18,  3.23it/s]
+
+ 13%|████████████████▋                                                                                                                 | 322/2505 [01:58<11:16,  3.23it/s]
+
+ 13%|█████████████████▎                                                                                                                | 334/2505 [02:02<10:49,  3.34it/s]
+  2%|██▍                                                                                                                                  | 3/167 [00:00<00:09, 16.96it/s]
+
+
+
+
+
+
+
+
+
+
+ 90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎            | 19/21 [00:01<00:00, 11.38it/s]
+
+ 14%|█████████████████▊                                                                                                                | 343/2505 [02:24<23:14,  1.55it/s]
+
+ 14%|██████████████████▏                                                                                                               | 350/2505 [02:26<12:06,  2.97it/s]
+
+
+ 14%|██████████████████▊                                                                                                               | 363/2505 [02:30<11:04,  3.23it/s]
+
+
+ 15%|███████████████████▌                                                                                                              | 376/2505 [02:34<11:00,  3.22it/s]
+
+ 15%|███████████████████▊                                                                                                              | 382/2505 [02:36<10:58,  3.22it/s]
+
+
+ 16%|████████████████████▍                                                                                                             | 395/2505 [02:40<10:54,  3.23it/s]
+
+ 16%|████████████████████▊                                                                                                             | 401/2505 [02:42<10:51,  3.23it/s]
+
+
+ 17%|█████████████████████▍                                                                                                            | 414/2505 [02:46<10:47,  3.23it/s]
+
+ 17%|█████████████████████▊                                                                                                            | 421/2505 [02:48<10:46,  3.22it/s]
+
+
+ 17%|██████████████████████▌                                                                                                           | 434/2505 [02:52<10:42,  3.22it/s]
+
+ 18%|██████████████████████▊                                                                                                           | 440/2505 [02:54<10:39,  3.23it/s]
+
+
+ 18%|███████████████████████▌                                                                                                          | 453/2505 [02:58<10:36,  3.22it/s]
+
+ 18%|███████████████████████▊                                                                                                          | 460/2505 [03:01<10:33,  3.23it/s]
+
+
+ 19%|████████████████████████▍                                                                                                         | 472/2505 [03:04<10:30,  3.23it/s]
+
+
+ 19%|█████████████████████████▏                                                                                                        | 485/2505 [03:08<10:24,  3.23it/s]
+
+ 20%|█████████████████████████▌                                                                                                        | 492/2505 [03:10<10:24,  3.22it/s]
+
+ 20%|██████████████████████████                                                                                                        | 501/2505 [03:13<09:59,  3.34it/s]
+  8%|██████████▎                                                                                                                         | 13/167 [00:01<00:13, 11.60it/s]
+
+
+
+
+
+
+
+
+
+ 33%|████████████████████████████████████████████▋                                                                                         | 7/21 [00:00<00:01, 12.54it/s]
+
+
+ 20%|██████████████████████████▌                                                                                                       | 513/2505 [03:36<14:06,  2.35it/s]
+
+ 21%|██████████████████████████▉                                                                                                       | 520/2505 [03:39<10:34,  3.13it/s]
+
+
+ 21%|███████████████████████████▋                                                                                                      | 533/2505 [03:43<10:12,  3.22it/s]
+
+
+ 22%|████████████████████████████▎                                                                                                     | 545/2505 [03:46<10:08,  3.22it/s]
+
+ 22%|████████████████████████████▋                                                                                                     | 552/2505 [03:48<10:05,  3.22it/s]
+
+
+ 23%|█████████████████████████████▎                                                                                                    | 565/2505 [03:52<10:02,  3.22it/s]
+
+ 23%|█████████████████████████████▋                                                                                                    | 571/2505 [03:54<09:59,  3.23it/s]
+
+
+ 23%|██████████████████████████████▎                                                                                                   | 584/2505 [03:58<09:55,  3.22it/s]
+
+ 24%|██████████████████████████████▋                                                                                                   | 591/2505 [04:01<09:56,  3.21it/s]
+
+
+ 24%|███████████████████████████████▎                                                                                                  | 604/2505 [04:05<09:50,  3.22it/s]
+
+ 24%|███████████████████████████████▋                                                                                                  | 610/2505 [04:06<09:46,  3.23it/s]
+
+
+ 25%|████████████████████████████████▎                                                                                                 | 623/2505 [04:10<09:46,  3.21it/s]
+
+
+ 25%|█████████████████████████████████                                                                                                 | 636/2505 [04:15<09:45,  3.19it/s]
+
+ 26%|█████████████████████████████████▎                                                                                                | 642/2505 [04:16<09:38,  3.22it/s]
+
+
+ 26%|█████████████████████████████████▉                                                                                                | 655/2505 [04:20<09:32,  3.23it/s]
+
+ 26%|██████████████████████████████████▎                                                                                               | 662/2505 [04:23<09:31,  3.23it/s]
+ 27%|██████████████████████████████████▋                                                                                               | 668/2505 [04:24<09:12,  3.33it/s]
+
+
+
+
+
+
+
+
+
+
+ 71%|███████████████████████████████████████████████████████████████████████████████████████████████                                      | 15/21 [00:01<00:00, 11.28it/s]
+{'eval_loss': 0.6405467987060547, 'eval_accuracy': 0.8083832335329342, 'eval_precision': 0.7223731884057971, 'eval_recall': 0.545, 'eval_f1': 0.49557716701902743, 'eval_runtime': 1.8715, 'eval_samples_per_second': 89.232, 'eval_steps_per_second': 11.221, 'epoch': 4.0}
+
+
+ 27%|███████████████████████████████████▍                                                                                              | 683/2505 [04:49<10:36,  2.86it/s]
+
+
+ 28%|████████████████████████████████████                                                                                              | 696/2505 [04:53<09:22,  3.22it/s]
+
+ 28%|████████████████████████████████████▍                                                                                             | 702/2505 [04:54<09:20,  3.22it/s]
+
+
+ 29%|█████████████████████████████████████                                                                                             | 715/2505 [04:58<09:15,  3.22it/s]
+
+ 29%|█████████████████████████████████████▍                                                                                            | 722/2505 [05:01<09:14,  3.21it/s]
+
+
+ 29%|██████████████████████████████████████                                                                                            | 734/2505 [05:04<09:12,  3.20it/s]
+
+ 30%|██████████████████████████████████████▍                                                                                           | 741/2505 [05:07<09:08,  3.22it/s]
+
+
+ 30%|███████████████████████████████████████▏                                                                                          | 754/2505 [05:11<09:03,  3.22it/s]
+
+ 30%|███████████████████████████████████████▍                                                                                          | 760/2505 [05:12<09:02,  3.22it/s]
+
+
+ 31%|████████████████████████████████████████                                                                                          | 773/2505 [05:16<08:57,  3.22it/s]
+
+
+ 31%|████████████████████████████████████████▊                                                                                         | 786/2505 [05:21<08:53,  3.22it/s]
+
+ 32%|█████████████████████████████████████████                                                                                         | 792/2505 [05:22<08:51,  3.22it/s]
+
+
+ 32%|█████████████████████████████████████████▊                                                                                        | 805/2505 [05:26<08:46,  3.23it/s]
+
+ 32%|██████████████████████████████████████████▏                                                                                       | 812/2505 [05:29<08:44,  3.23it/s]
+
+
+ 33%|██████████████████████████████████████████▊                                                                                       | 825/2505 [05:33<08:40,  3.23it/s]
+
+ 33%|███████████████████████████████████████████▏                                                                                      | 831/2505 [05:34<08:38,  3.23it/s]
+ 33%|███████████████████████████████████████████▎                                                                                      | 835/2505 [05:36<08:17,  3.36it/s]
+
+
+
+
+
+
+
+
+
+ 14%|███████████████████▏                                                                                                                  | 3/21 [00:00<00:01, 16.81it/s]
+
+ 34%|███████████████████████████████████████████▌                                                                                      | 840/2505 [05:57<47:18,  1.70s/it]
+
+
+ 34%|████████████████████████████████████████████▎                                                                                     | 853/2505 [06:01<08:54,  3.09it/s]
+
+
+ 35%|████████████████████████████████████████████▉                                                                                     | 866/2505 [06:05<08:28,  3.22it/s]
+
+ 35%|█████████████████████████████████████████████▎                                                                                    | 872/2505 [06:07<08:27,  3.22it/s]
+
+
+ 35%|█████████████████████████████████████████████▉                                                                                    | 885/2505 [06:11<08:22,  3.23it/s]
+
+ 36%|██████████████████████████████████████████████▏                                                                                   | 891/2505 [06:12<08:21,  3.22it/s]
+
+
+ 36%|██████████████████████████████████████████████▉                                                                                   | 904/2505 [06:16<08:18,  3.21it/s]
+
+ 36%|███████████████████████████████████████████████▎                                                                                  | 911/2505 [06:19<08:14,  3.22it/s]
+
+
+ 37%|███████████████████████████████████████████████▉                                                                                  | 924/2505 [06:23<08:10,  3.22it/s]
+
+ 37%|████████████████████████████████████████████████▎                                                                                 | 930/2505 [06:25<08:09,  3.22it/s]
+
+
+ 38%|████████████████████████████████████████████████▉                                                                                 | 943/2505 [06:29<08:04,  3.22it/s]
+
+
+ 38%|█████████████████████████████████████████████████▌                                                                                | 956/2505 [06:33<08:00,  3.22it/s]
+
+ 38%|█████████████████████████████████████████████████▉                                                                                | 962/2505 [06:34<07:59,  3.22it/s]
+
+
+ 39%|██████████████████████████████████████████████████▌                                                                               | 975/2505 [06:39<07:55,  3.22it/s]
+
+ 39%|██████████████████████████████████████████████████▉                                                                               | 982/2505 [06:41<07:53,  3.22it/s]
+
+
+ 40%|███████████████████████████████████████████████████▋                                                                              | 995/2505 [06:45<07:48,  3.23it/s]
+
+ 40%|███████████████████████████████████████████████████▌                                                                             | 1001/2505 [06:47<07:45,  3.23it/s]
+ 40%|███████████████████████████████████████████████████▌                                                                             | 1002/2505 [06:47<07:28,  3.35it/s]
+
+
+
+
+
+
+
+
+
+ 62%|██████████████████████████████████████████████████████████████████████████████████▎                                                  | 13/21 [00:01<00:00, 11.45it/s]
+
+
+ 40%|████████████████████████████████████████████████████                                                                             | 1012/2505 [07:10<18:18,  1.36it/s]
+
+
+
+ 41%|████████████████████████████████████████████████████▌                                                                            | 1021/2505 [07:16<17:08,  1.44it/s]
+
+
+
+
+ 41%|█████████████████████████████████████████████████████▏                                                                           | 1033/2505 [07:25<16:58,  1.45it/s]
+
+
+
+ 42%|█████████████████████████████████████████████████████▌                                                                           | 1041/2505 [07:30<16:52,  1.45it/s]
+
+
+
+ 42%|██████████████████████████████████████████████████████                                                                           | 1050/2505 [07:36<16:46,  1.45it/s]
+
+
+
+
+ 42%|██████████████████████████████████████████████████████▋                                                                          | 1062/2505 [07:45<16:36,  1.45it/s]
+
+
+
+ 43%|███████████████████████████████████████████████████████                                                                          | 1070/2505 [07:50<16:31,  1.45it/s]
+
+
+
+
+ 43%|███████████████████████████████████████████████████████▋                                                                         | 1082/2505 [07:59<16:23,  1.45it/s]
+
+
+
+ 44%|████████████████████████████████████████████████████████▏                                                                        | 1090/2505 [08:04<16:20,  1.44it/s]
+
+
+
+
+ 44%|████████████████████████████████████████████████████████▋                                                                        | 1102/2505 [08:12<16:09,  1.45it/s]
+
+
+
+ 44%|█████████████████████████████████████████████████████████▏                                                                       | 1111/2505 [08:19<16:02,  1.45it/s]
+
+
+
+
+ 45%|█████████████████████████████████████████████████████████▊                                                                       | 1122/2505 [08:26<15:57,  1.44it/s]
+
+
+
+ 45%|██████████████████████████████████████████████████████████▏                                                                      | 1131/2505 [08:32<15:49,  1.45it/s]
+
+
+
+
+ 46%|██████████████████████████████████████████████████████████▊                                                                      | 1143/2505 [08:41<15:42,  1.45it/s]
+
+
+
+ 46%|███████████████████████████████████████████████████████████▎                                                                     | 1151/2505 [08:46<15:35,  1.45it/s]
+
+
+
+ 46%|███████████████████████████████████████████████████████████▋                                                                     | 1160/2505 [08:53<15:29,  1.45it/s]
+
+
+
+ 47%|████████████████████████████████████████████████████████████▏                                                                    | 1169/2505 [08:59<15:08,  1.47it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 81%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▋                         | 17/21 [00:02<00:00,  5.35it/s]
+
+ 47%|███████████████████████████████████████████████████████████▍                                                                   | 1172/2505 [09:41<2:25:41,  6.56s/it]
+
+
+
+ 47%|████████████████████████████████████████████████████████████▊                                                                    | 1182/2505 [09:47<17:46,  1.24it/s]
+
+
+
+ 48%|█████████████████████████████████████████████████████████████▎                                                                   | 1191/2505 [09:53<15:08,  1.45it/s]
+
+
+
+
+ 48%|█████████████████████████████████████████████████████████████▉                                                                   | 1202/2505 [10:00<14:50,  1.46it/s]
+
+
+
+ 48%|██████████████████████████████████████████████████████████████▎                                                                  | 1211/2505 [10:06<14:44,  1.46it/s]
+
+
+
+ 49%|██████████████████████████████████████████████████████████████▊                                                                  | 1220/2505 [10:13<14:38,  1.46it/s]
+
+
+
+
+ 49%|███████████████████████████████████████████████████████████████▍                                                                 | 1232/2505 [10:21<14:27,  1.47it/s]
+
+
+
+ 50%|███████████████████████████████████████████████████████████████▉                                                                 | 1241/2505 [10:27<14:21,  1.47it/s]
+
+
+
+
+ 50%|████████████████████████████████████████████████████████████████▍                                                                | 1252/2505 [10:34<14:14,  1.47it/s]
+
+
+
+ 50%|████████████████████████████████████████████████████████████████▉                                                                | 1261/2505 [10:41<14:07,  1.47it/s]
+
+
+
+ 51%|█████████████████████████████████████████████████████████████████▍                                                               | 1270/2505 [10:47<14:02,  1.47it/s]
+
+
+
+
+ 51%|██████████████████████████████████████████████████████████████████                                                               | 1282/2505 [10:55<13:54,  1.47it/s]
+
+
+
+ 51%|██████████████████████████████████████████████████████████████████▍                                                              | 1290/2505 [11:00<13:48,  1.47it/s]
+
+
+
+
+ 52%|███████████████████████████████████████████████████████████████████                                                              | 1302/2505 [11:09<13:41,  1.46it/s]
+
+
+
+ 52%|███████████████████████████████████████████████████████████████████▌                                                             | 1311/2505 [11:15<13:34,  1.47it/s]
+
+
+
+ 53%|████████████████████████████████████████████████████████████████████▏                                                            | 1325/2505 [11:21<06:25,  3.06it/s]
+
+ 53%|████████████████████████████████████████████████████████████████████▌                                                            | 1331/2505 [11:23<06:06,  3.20it/s]
+ 53%|████████████████████████████████████████████████████████████████████▊                                                            | 1336/2505 [11:24<05:50,  3.34it/s]
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,819 @@
+2024-05-13 02:01:59,277 INFO    StreamThr :4389 [internal.py:wandb_internal():85] W&B internal server running at pid: 4389, started at: 2024-05-13 02:01:59.263951
+2024-05-13 02:01:59,280 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status
+2024-05-13 02:02:00,894 INFO    WriterThread:4389 [datastore.py:open_for_write():87] open: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/run-w99k0yn8.wandb
+2024-05-13 02:02:00,899 DEBUG   SenderThread:4389 [sender.py:send():378] send: header
+2024-05-13 02:02:04,900 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:02:08,836 DEBUG   SenderThread:4389 [sender.py:send():378] send: run
+2024-05-13 02:02:09,387 INFO    SenderThread:4389 [dir_watcher.py:__init__():211] watching files in: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files
+2024-05-13 02:02:09,387 INFO    SenderThread:4389 [sender.py:_start_run_threads():1123] run started: w99k0yn8 with start time 1715565719.263852
+2024-05-13 02:02:09,402 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: check_version
+2024-05-13 02:02:09,402 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: check_version
+2024-05-13 02:02:09,545 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: run_start
+2024-05-13 02:02:09,555 DEBUG   HandlerThread:4389 [system_info.py:__init__():26] System info init
+2024-05-13 02:02:09,555 DEBUG   HandlerThread:4389 [system_info.py:__init__():41] System info init done
+2024-05-13 02:02:09,555 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:02:09,556 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:02:09,556 INFO    HandlerThread:4389 [system_monitor.py:probe():214] Collecting system info
+2024-05-13 02:02:09,556 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:02:09,557 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:02:09,558 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:02:09,559 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started memory monitoring
+2024-05-13 02:02:09,559 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started network monitoring
+2024-05-13 02:02:09,570 DEBUG   HandlerThread:4389 [system_info.py:probe():150] Probing system
+2024-05-13 02:02:09,579 DEBUG   HandlerThread:4389 [system_info.py:_probe_git():135] Probing git
+2024-05-13 02:02:09,618 DEBUG   HandlerThread:4389 [system_info.py:_probe_git():143] Probing git done
+2024-05-13 02:02:09,618 DEBUG   HandlerThread:4389 [system_info.py:probe():198] Probing system done
+2024-05-13 02:02:09,619 DEBUG   HandlerThread:4389 [system_monitor.py:probe():223] {'os': 'Linux-6.1.58+-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-05-13T02:02:09.571057', 'startedAt': '2024-05-13T02:01:59.214249', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'training_archival.ipynb', 'codePathLocal': None, 'colab': 'https://colab.research.google.com/notebook#fileId=1ju4DbtTh43KjZ63dk2Bofj1QeQYPd-Gz', 'git': {'remote': 'https://github.com/takuma1229/discourse_relation_explainability.git', 'commit': 'f6e5fe6aa41a26899d02542afd27ce1150d0bc86'}, 'email': None, 'root': '/content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability', 'host': '085a13d66802', 'username': 'root', 'executable': '/usr/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2199.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 201.22513961791992, 'used': 27.44204330444336}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 50.99369430541992}}
+2024-05-13 02:02:09,619 INFO    HandlerThread:4389 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-13 02:02:09,619 INFO    HandlerThread:4389 [system_monitor.py:probe():227] Publishing system info
+2024-05-13 02:02:09,623 INFO    HandlerThread:4389 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-13 02:02:09,628 DEBUG   SenderThread:4389 [sender.py:send():378] send: files
+2024-05-13 02:02:09,628 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-13 02:02:09,973 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-13 02:02:09,974 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:02:09,974 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: python_packages
+2024-05-13 02:02:09,979 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:02:09,979 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:02:09,983 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: pause
+2024-05-13 02:02:09,984 INFO    HandlerThread:4389 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-13 02:02:09,984 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:02:09,984 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:02:09,984 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:02:09,985 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:02:09,985 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:02:09,986 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:02:09,991 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:02:09,992 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined memory monitor
+2024-05-13 02:02:09,993 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined network monitor
+2024-05-13 02:02:09,997 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: resume
+2024-05-13 02:02:09,997 INFO    HandlerThread:4389 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-13 02:02:09,997 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:02:09,997 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:02:09,998 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:02:09,999 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:02:09,999 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:02:10,000 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started memory monitoring
+2024-05-13 02:02:10,001 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started network monitoring
+2024-05-13 02:02:10,281 DEBUG   SenderThread:4389 [sender.py:send():378] send: telemetry
+2024-05-13 02:02:10,281 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:02:10,336 INFO    wandb-upload_0:4389 [upload_job.py:push():130] Uploaded file /tmp/tmpk1gv0dxmwandb/w0p2j80o-wandb-metadata.json
+2024-05-13 02:02:10,390 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-metadata.json
+2024-05-13 02:02:10,391 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/requirements.txt
+2024-05-13 02:02:13,510 DEBUG   SenderThread:4389 [sender.py:send():378] send: telemetry
+2024-05-13 02:02:13,512 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: pause
+2024-05-13 02:02:13,512 INFO    HandlerThread:4389 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-13 02:02:13,512 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:02:13,513 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:02:13,513 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:02:13,513 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:02:13,514 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:02:13,514 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:02:13,521 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:02:13,521 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined memory monitor
+2024-05-13 02:02:13,522 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined network monitor
+2024-05-13 02:02:13,522 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: resume
+2024-05-13 02:02:13,522 INFO    HandlerThread:4389 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-13 02:02:13,523 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:02:13,523 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:02:13,523 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:02:13,524 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:02:13,524 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:02:13,525 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:02:13,526 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started memory monitoring
+2024-05-13 02:02:13,527 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started network monitoring
+2024-05-13 02:02:13,656 DEBUG   SenderThread:4389 [sender.py:send():378] send: telemetry
+2024-05-13 02:02:14,226 DEBUG   SenderThread:4389 [sender.py:send():378] send: telemetry
+2024-05-13 02:02:14,445 DEBUG   SenderThread:4389 [sender.py:send():378] send: telemetry
+2024-05-13 02:02:15,171 DEBUG   SenderThread:4389 [sender.py:send():378] send: telemetry
+2024-05-13 02:02:15,172 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:02:15,192 DEBUG   SenderThread:4389 [sender.py:send():378] send: telemetry
+2024-05-13 02:02:15,622 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: pause
+2024-05-13 02:02:15,622 INFO    HandlerThread:4389 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-13 02:02:15,622 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:02:15,623 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:02:15,623 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:02:15,623 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:02:15,623 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:02:15,624 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:02:15,630 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:02:15,631 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined memory monitor
+2024-05-13 02:02:15,631 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined network monitor
+2024-05-13 02:02:15,632 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:02:15,632 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: resume
+2024-05-13 02:02:15,632 INFO    HandlerThread:4389 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-13 02:02:15,632 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:02:15,633 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:02:15,633 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:02:15,634 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:02:15,634 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: pause
+2024-05-13 02:02:15,635 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:02:15,635 INFO    HandlerThread:4389 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-13 02:02:15,636 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started memory monitoring
+2024-05-13 02:02:15,636 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:02:15,636 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started network monitoring
+2024-05-13 02:02:15,637 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:02:15,637 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:02:15,637 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:02:15,638 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:02:15,638 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:02:15,647 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:02:15,647 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined memory monitor
+2024-05-13 02:02:15,648 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined network monitor
+2024-05-13 02:02:15,648 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:02:15,661 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: resume
+2024-05-13 02:02:15,662 INFO    HandlerThread:4389 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-13 02:02:15,662 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:02:15,662 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:02:15,663 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:02:15,663 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:02:15,664 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:02:15,665 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started memory monitoring
+2024-05-13 02:02:15,665 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started network monitoring
+2024-05-13 02:02:15,734 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: pause
+2024-05-13 02:02:15,734 INFO    HandlerThread:4389 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-13 02:02:15,734 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:02:15,735 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:02:15,735 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:02:15,735 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:02:15,735 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:02:15,736 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:02:15,743 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:02:15,743 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined memory monitor
+2024-05-13 02:02:15,743 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined network monitor
+2024-05-13 02:02:15,743 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: resume
+2024-05-13 02:02:15,743 INFO    HandlerThread:4389 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-13 02:02:15,744 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:02:15,744 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:02:15,744 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:02:15,745 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:02:15,745 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:02:15,746 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:02:15,746 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started memory monitoring
+2024-05-13 02:02:15,747 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started network monitoring
+2024-05-13 02:02:15,852 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: pause
+2024-05-13 02:02:15,852 INFO    HandlerThread:4389 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-13 02:02:15,853 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:02:15,853 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:02:15,854 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:02:15,854 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:02:15,854 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:02:15,855 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:02:15,862 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:02:15,862 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined memory monitor
+2024-05-13 02:02:15,862 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined network monitor
+2024-05-13 02:02:15,863 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: resume
+2024-05-13 02:02:15,863 INFO    HandlerThread:4389 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-13 02:02:15,863 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:02:15,863 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:02:15,864 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:02:15,864 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: pause
+2024-05-13 02:02:15,864 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:02:15,865 INFO    HandlerThread:4389 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-13 02:02:15,865 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:02:15,865 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:02:15,866 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:02:15,867 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:02:15,867 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:02:15,868 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:02:15,868 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:02:15,869 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:02:15,878 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:02:15,878 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: resume
+2024-05-13 02:02:15,878 INFO    HandlerThread:4389 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-13 02:02:15,878 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:02:15,879 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:02:15,879 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:02:15,879 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:02:15,880 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:02:15,881 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:02:15,881 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started memory monitoring
+2024-05-13 02:02:15,881 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started network monitoring
+2024-05-13 02:02:16,400 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:02:17,615 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: pause
+2024-05-13 02:02:17,616 INFO    HandlerThread:4389 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-13 02:02:17,616 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:02:17,616 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:02:17,617 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:02:17,617 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:02:17,617 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:02:17,617 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:02:17,626 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:02:17,626 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined memory monitor
+2024-05-13 02:02:17,626 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined network monitor
+2024-05-13 02:02:17,626 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: resume
+2024-05-13 02:02:17,627 INFO    HandlerThread:4389 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-13 02:02:17,627 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:02:17,627 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:02:17,629 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:02:17,630 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:02:17,630 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:02:17,631 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:02:17,632 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started memory monitoring
+2024-05-13 02:02:17,632 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started network monitoring
+2024-05-13 02:02:18,637 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: pause
+2024-05-13 02:02:18,637 INFO    HandlerThread:4389 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-13 02:02:18,638 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:02:18,638 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:02:18,638 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:02:18,639 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:02:18,639 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:02:18,640 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:02:18,647 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:02:18,647 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined memory monitor
+2024-05-13 02:02:18,647 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined network monitor
+2024-05-13 02:02:18,648 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: resume
+2024-05-13 02:02:18,648 INFO    HandlerThread:4389 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-13 02:02:18,648 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:02:18,648 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:02:18,649 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:02:18,649 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:02:18,650 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:02:18,650 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:02:18,651 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started memory monitoring
+2024-05-13 02:02:18,652 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started network monitoring
+2024-05-13 02:02:20,412 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:02:23,414 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:02:24,974 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:02:24,975 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:02:26,213 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:02:26,420 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:02:31,218 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:02:31,432 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/config.yaml
+2024-05-13 02:02:34,438 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:02:36,669 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:02:38,446 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:02:40,255 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:02:40,256 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:02:42,492 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:02:47,493 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:02:52,494 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:02:55,255 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:02:55,256 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:02:58,479 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:03,480 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:08,481 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:10,255 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:03:10,256 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:03:14,233 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:14,512 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:03:18,652 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:03:18,653 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:03:19,654 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:24,655 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:25,258 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:03:25,258 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:03:30,446 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:35,447 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:40,257 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:03:40,257 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:03:40,522 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:44,564 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:03:46,294 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:48,654 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:03:51,655 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:55,269 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:03:55,269 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:03:56,698 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:03:58,587 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:04:01,699 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:06,700 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:10,266 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:04:10,267 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:04:12,506 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:17,255 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:04:17,257 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:04:17,257 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:04:17,265 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:04:17,620 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:04:18,268 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:18,623 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:04:18,655 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:04:23,656 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:25,275 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:04:25,276 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:04:29,455 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:34,456 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:39,458 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:40,268 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:04:40,268 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:04:44,495 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:48,656 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:04:49,657 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:54,658 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:04:55,272 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:04:55,272 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:05:00,582 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:05,583 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:10,267 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:05:10,268 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:05:11,478 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:16,479 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:18,657 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:05:21,658 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:25,267 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:05:25,268 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:05:27,471 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:32,472 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:37,473 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:40,267 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:05:40,268 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:05:43,452 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:44,790 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:05:46,794 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:05:48,591 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:48,657 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:05:48,797 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:05:50,801 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:05:52,805 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:05:53,618 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:54,809 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:05:55,268 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:05:55,268 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:05:56,814 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:05:56,932 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:05:56,933 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:05:56,934 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:05:56,939 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:05:56,966 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:05:56,967 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:05:56,967 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:05:56,971 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:05:57,816 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:05:58,676 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:05:58,819 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:00,823 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:02,827 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:03,858 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:04,831 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:06,836 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:08,839 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:08,978 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:10,268 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:06:10,269 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:06:10,844 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:11,123 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:06:11,124 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:06:11,125 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:06:11,129 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:06:11,140 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:06:11,141 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:06:11,141 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:06:11,147 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:06:11,847 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:06:12,849 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:14,158 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:14,853 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:16,856 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:18,658 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:06:18,860 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:19,164 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:20,865 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:22,869 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:24,233 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:24,873 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:25,268 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:06:25,268 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:06:25,415 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:06:25,432 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:06:25,467 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:06:25,467 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:06:25,473 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:06:25,474 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:06:25,474 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:06:25,479 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:06:25,875 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:06:26,877 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:28,881 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:29,353 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:30,885 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:32,889 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:34,413 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:34,893 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:36,899 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:38,902 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:39,460 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:39,825 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:06:39,827 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:06:39,827 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:06:39,847 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:06:39,856 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:06:39,857 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:06:39,858 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:06:39,862 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:06:39,904 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:06:40,268 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:06:40,269 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:06:40,907 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:42,911 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:44,562 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:44,915 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:46,919 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:48,658 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:06:48,923 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:49,604 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:50,927 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:52,931 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:54,386 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:06:54,387 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:06:54,388 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:06:54,394 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:06:54,405 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:06:54,406 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:06:54,406 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:06:54,412 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:06:54,606 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:06:54,936 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:06:54,937 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:55,268 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:06:55,269 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:06:56,941 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:58,945 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:06:59,614 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:00,949 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:02,953 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:04,674 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:04,958 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:06,963 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:08,877 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:07:08,879 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:07:08,879 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:07:08,885 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:07:08,896 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:07:08,897 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:07:08,897 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:07:08,902 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:07:08,967 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:07:08,968 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:09,777 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:10,268 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:07:10,269 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:07:10,973 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:12,976 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:14,899 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:14,981 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:16,985 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:18,659 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:07:18,989 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:20,047 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:20,995 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:22,998 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:23,316 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:07:23,318 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:07:23,318 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:07:23,325 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:07:23,337 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:07:23,339 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:07:23,339 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:07:23,346 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:07:24,001 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:07:25,003 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:25,057 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:25,269 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:07:25,269 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:07:27,007 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:29,012 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:30,082 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:31,016 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:33,020 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:35,025 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:35,089 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:37,029 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:37,553 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:07:37,554 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:07:37,555 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:07:37,561 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:07:37,571 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:07:37,573 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:07:37,574 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:07:37,579 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:07:38,031 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:07:39,033 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:40,267 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:40,269 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:07:40,269 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:07:41,038 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:43,041 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:45,045 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:45,411 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:47,048 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:48,659 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:07:49,052 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:50,440 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:51,057 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:51,729 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:07:51,730 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:07:51,730 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:07:51,736 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:07:51,749 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:07:51,750 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:07:51,750 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:07:51,756 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:07:52,060 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:07:53,062 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:55,066 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:55,269 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:07:55,269 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:07:55,531 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:07:57,070 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:07:59,075 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:00,571 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:01,080 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:03,085 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:05,089 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:05,577 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:06,164 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:08:06,166 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:08:06,167 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:08:06,175 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:08:06,184 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:08:06,185 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:08:06,185 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:08:06,191 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:08:07,094 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:08:07,094 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:09,098 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:10,269 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:08:10,269 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:08:10,631 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:11,102 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:13,106 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:15,110 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:15,734 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:17,114 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:18,660 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:08:19,118 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:20,660 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:08:20,661 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:08:20,662 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:08:20,669 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:08:20,681 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:08:20,682 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:08:20,683 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:08:20,689 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:08:21,001 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:21,123 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:08:21,123 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:23,127 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:25,131 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:25,269 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:08:25,270 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:08:26,053 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:27,134 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:29,137 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:31,066 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:31,141 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:33,146 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:34,926 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:08:34,927 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:08:34,928 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:08:34,937 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:08:34,945 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:08:34,952 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:08:34,953 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:08:34,958 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:08:35,150 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:08:35,151 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:36,264 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:37,154 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:39,159 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:40,269 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:08:40,270 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:08:41,163 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:41,326 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:43,167 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:45,172 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:46,357 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:47,176 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:48,661 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:08:49,120 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:08:49,122 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:08:49,124 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:08:49,132 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:08:49,141 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:08:49,143 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:08:49,143 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:08:49,149 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:08:49,180 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:08:49,180 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:51,184 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:51,417 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:53,189 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:55,194 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:55,269 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:08:55,270 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:08:56,484 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:08:57,198 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:08:59,202 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:01,206 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:01,576 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:09:03,210 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:03,335 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:09:03,336 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:09:03,337 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:09:03,342 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:09:03,353 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:09:03,355 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:09:03,355 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:09:03,360 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:09:04,213 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:09:05,215 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:06,653 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:09:07,219 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:09,224 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:10,270 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-13 02:09:10,270 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: stop_status
+2024-05-13 02:09:11,229 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:11,668 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:09:13,233 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:15,239 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:16,685 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:09:17,243 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:17,539 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:09:17,540 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:09:17,540 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:09:17,557 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:09:17,569 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:09:17,570 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:09:17,571 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:09:17,577 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:09:18,245 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:09:18,661 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:09:19,025 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: log_artifact
+2024-05-13 02:09:19,026 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: log_artifact
+2024-05-13 02:09:19,249 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:19,249 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/media/table/test-metrics_31_6a6b18d222ea52a844d9.table.json
+2024-05-13 02:09:19,251 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/media/table
+2024-05-13 02:09:19,252 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/media
+2024-05-13 02:09:19,508 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-13 02:09:20,452 INFO    wandb-upload_0:4389 [upload_job.py:push():130] Uploaded file /tmp/tmpk1gv0dxmwandb/8fsd8jjl-media/table/test-metrics_31_6a6b18d222ea52a844d9.table.json
+2024-05-13 02:09:20,716 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: pause
+2024-05-13 02:09:20,716 INFO    HandlerThread:4389 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-13 02:09:20,716 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:09:20,716 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:09:20,717 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:09:20,717 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:09:20,718 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:09:20,732 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:09:20,732 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined memory monitor
+2024-05-13 02:09:20,732 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined network monitor
+2024-05-13 02:09:20,732 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: resume
+2024-05-13 02:09:20,733 INFO    HandlerThread:4389 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-13 02:09:20,733 INFO    HandlerThread:4389 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 02:09:20,733 INFO    SystemMonitor:4389 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 02:09:20,734 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started cpu monitoring
+2024-05-13 02:09:20,735 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started disk monitoring
+2024-05-13 02:09:20,735 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started gpu monitoring
+2024-05-13 02:09:20,736 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started memory monitoring
+2024-05-13 02:09:20,736 INFO    SystemMonitor:4389 [interfaces.py:start():188] Started network monitoring
+2024-05-13 02:09:21,086 INFO    wandb-upload_1:4389 [upload_job.py:push():88] Uploaded file /root/.local/share/wandb/artifacts/staging/tmplbbc1b1s
+2024-05-13 02:09:21,257 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:21,728 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-13 02:09:22,003 INFO    SenderThread:4389 [sender.py:send_request_log_artifact():1455] logged artifact run-w99k0yn8-testmetrics - {'id': 'QXJ0aWZhY3Q6ODMzNjg1NzMx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3MzkxNzQwNA==', 'latestArtifact': None}}
+2024-05-13 02:09:22,004 DEBUG   SenderThread:4389 [sender.py:send():378] send: files
+2024-05-13 02:09:22,004 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file media/table/test-metrics_31_6a6b18d222ea52a844d9.table.json with policy now
+2024-05-13 02:09:22,004 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:09:22,006 DEBUG   SenderThread:4389 [sender.py:send():378] send: history
+2024-05-13 02:09:22,006 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: summary_record
+2024-05-13 02:09:22,014 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:09:22,015 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:09:22,016 DEBUG   SenderThread:4389 [sender.py:send():378] send: telemetry
+2024-05-13 02:09:22,016 DEBUG   SenderThread:4389 [sender.py:send():378] send: exit
+2024-05-13 02:09:22,016 INFO    SenderThread:4389 [sender.py:send_exit():585] handling exit code: 0
+2024-05-13 02:09:22,016 INFO    SenderThread:4389 [sender.py:send_exit():587] handling runtime: 431
+2024-05-13 02:09:22,021 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:09:22,022 INFO    SenderThread:4389 [sender.py:send_exit():593] send defer
+2024-05-13 02:09:22,022 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: poll_exit
+2024-05-13 02:09:22,022 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:22,023 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-13 02:09:22,023 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:22,023 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-13 02:09:22,023 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 1
+2024-05-13 02:09:22,024 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:22,024 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-13 02:09:22,024 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:22,024 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-13 02:09:22,024 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 2
+2024-05-13 02:09:22,025 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:22,025 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-13 02:09:22,025 INFO    HandlerThread:4389 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-13 02:09:22,026 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-13 02:09:22,026 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-13 02:09:22,026 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-13 02:09:22,026 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined disk monitor
+2024-05-13 02:09:22,026 DEBUG   SystemMonitor:4389 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-13 02:09:22,035 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-13 02:09:22,036 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined memory monitor
+2024-05-13 02:09:22,036 INFO    HandlerThread:4389 [interfaces.py:finish():200] Joined network monitor
+2024-05-13 02:09:22,036 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:22,037 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-13 02:09:22,037 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 3
+2024-05-13 02:09:22,037 DEBUG   SenderThread:4389 [sender.py:send():378] send: stats
+2024-05-13 02:09:22,037 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:22,038 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-13 02:09:22,038 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:22,038 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-13 02:09:22,038 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 4
+2024-05-13 02:09:22,039 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:22,039 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-13 02:09:22,039 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:22,039 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-13 02:09:22,039 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 5
+2024-05-13 02:09:22,040 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:22,040 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-13 02:09:22,040 DEBUG   SenderThread:4389 [sender.py:send():378] send: summary
+2024-05-13 02:09:22,045 INFO    SenderThread:4389 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-13 02:09:22,046 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:22,046 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-13 02:09:22,046 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 6
+2024-05-13 02:09:22,046 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:22,046 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-13 02:09:22,047 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:22,047 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-13 02:09:22,050 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: status_report
+2024-05-13 02:09:22,246 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 7
+2024-05-13 02:09:22,246 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:22,247 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-13 02:09:22,247 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:22,247 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-13 02:09:22,260 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/config.yaml
+2024-05-13 02:09:22,261 INFO    Thread-12 :4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:09:22,554 INFO    wandb-upload_0:4389 [upload_job.py:push():130] Uploaded file /tmp/tmpk1gv0dxmwandb/7areysc0-media/table/test-metrics_31_6a6b18d222ea52a844d9.table.json
+2024-05-13 02:09:22,729 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-13 02:09:22,921 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 8
+2024-05-13 02:09:22,921 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: poll_exit
+2024-05-13 02:09:22,921 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:22,922 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-13 02:09:22,922 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:22,922 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-13 02:09:22,922 INFO    SenderThread:4389 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-13 02:09:22,925 INFO    SenderThread:4389 [job_builder.py:_get_source_type():565] is repo sourced job
+2024-05-13 02:09:22,925 INFO    SenderThread:4389 [job_builder.py:_get_program_relpath():583] run is notebook based run
+2024-05-13 02:09:22,925 WARNING SenderThread:4389 [job_builder.py:_log_if_verbose():267] Source type is set to 'repo' but some required information is missing from the environment. A job will not be created from this run. See https://docs.wandb.ai/guides/launch/create-job
+2024-05-13 02:09:22,926 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 9
+2024-05-13 02:09:22,926 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:22,926 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-13 02:09:22,926 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:22,926 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-13 02:09:22,926 INFO    SenderThread:4389 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-13 02:09:23,266 INFO    SenderThread:4389 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:23,267 INFO    SenderThread:4389 [dir_watcher.py:finish():388] scan: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files
+2024-05-13 02:09:23,268 INFO    SenderThread:4389 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/config.yaml config.yaml
+2024-05-13 02:09:23,268 INFO    SenderThread:4389 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-metadata.json wandb-metadata.json
+2024-05-13 02:09:23,269 INFO    SenderThread:4389 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/requirements.txt requirements.txt
+2024-05-13 02:09:23,271 INFO    SenderThread:4389 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log output.log
+2024-05-13 02:09:23,274 INFO    SenderThread:4389 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json wandb-summary.json
+2024-05-13 02:09:23,280 INFO    SenderThread:4389 [dir_watcher.py:finish():402] scan save: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/media/table/test-metrics_31_6a6b18d222ea52a844d9.table.json media/table/test-metrics_31_6a6b18d222ea52a844d9.table.json
+2024-05-13 02:09:23,280 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 10
+2024-05-13 02:09:23,281 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:23,281 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-13 02:09:23,281 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:23,282 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-13 02:09:23,282 INFO    SenderThread:4389 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-13 02:09:23,706 INFO    wandb-upload_1:4389 [upload_job.py:push():130] Uploaded file /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/config.yaml
+2024-05-13 02:09:23,733 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-13 02:09:23,733 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: poll_exit
+2024-05-13 02:09:23,741 INFO    wandb-upload_0:4389 [upload_job.py:push():130] Uploaded file /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/requirements.txt
+2024-05-13 02:09:24,463 INFO    wandb-upload_2:4389 [upload_job.py:push():130] Uploaded file /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/output.log
+2024-05-13 02:09:24,561 INFO    wandb-upload_3:4389 [upload_job.py:push():130] Uploaded file /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/files/wandb-summary.json
+2024-05-13 02:09:24,733 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-13 02:09:24,734 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: poll_exit
+2024-05-13 02:09:24,762 INFO    Thread-11 (_thread_body):4389 [sender.py:transition_state():613] send defer: 11
+2024-05-13 02:09:24,762 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:24,762 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-13 02:09:24,763 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:24,763 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-13 02:09:24,763 INFO    SenderThread:4389 [file_pusher.py:join():175] waiting for file pusher
+2024-05-13 02:09:24,764 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 12
+2024-05-13 02:09:24,764 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:24,764 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-13 02:09:24,764 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:24,764 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-13 02:09:24,765 INFO    SenderThread:4389 [file_stream.py:finish():601] file stream finish called
+2024-05-13 02:09:25,734 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-13 02:09:25,937 INFO    SenderThread:4389 [file_stream.py:finish():605] file stream finish is done
+2024-05-13 02:09:25,938 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 13
+2024-05-13 02:09:25,938 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: poll_exit
+2024-05-13 02:09:25,938 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:25,938 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-13 02:09:25,939 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:25,939 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-13 02:09:25,939 INFO    SenderThread:4389 [sender.py:transition_state():613] send defer: 14
+2024-05-13 02:09:25,940 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: defer
+2024-05-13 02:09:25,940 DEBUG   SenderThread:4389 [sender.py:send():378] send: final
+2024-05-13 02:09:25,940 INFO    HandlerThread:4389 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-13 02:09:25,940 DEBUG   SenderThread:4389 [sender.py:send():378] send: footer
+2024-05-13 02:09:25,940 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: defer
+2024-05-13 02:09:25,941 INFO    SenderThread:4389 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-13 02:09:25,941 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-13 02:09:25,942 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: poll_exit
+2024-05-13 02:09:25,943 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-13 02:09:25,944 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: server_info
+2024-05-13 02:09:25,945 DEBUG   SenderThread:4389 [sender.py:send_request():405] send_request: server_info
+2024-05-13 02:09:25,985 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-13 02:09:25,985 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-13 02:09:26,120 DEBUG   HandlerThread:4389 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-13 02:09:26,120 INFO    HandlerThread:4389 [handler.py:finish():882] shutting down handler
+2024-05-13 02:09:26,945 INFO    WriterThread:4389 [datastore.py:close():296] close: /content/drive/MyDrive/research_discourse_relation/discourse_relation_explainability/wandb/run-20240513_020159-w99k0yn8/run-w99k0yn8.wandb
+2024-05-13 02:09:27,119 INFO    SenderThread:4389 [sender.py:finish():1545] shutting down sender
+2024-05-13 02:09:27,119 INFO    SenderThread:4389 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-13 02:09:27,120 INFO    SenderThread:4389 [file_pusher.py:join():175] waiting for file pusher

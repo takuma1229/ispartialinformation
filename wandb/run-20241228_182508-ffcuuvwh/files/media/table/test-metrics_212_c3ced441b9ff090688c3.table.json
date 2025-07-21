@@ -1,0 +1,1 @@
+{"columns": ["experiment type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["pos_sequence", 0.6607142857142857, 0.6607142857142857, 0.2, 0.15913978494623654]]}

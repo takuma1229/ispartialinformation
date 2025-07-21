@@ -1,0 +1,1 @@
+{"columns": ["experiment_type", "test/acc", "test/precision", "test/recall", "test/f1"], "data": [["exclude_connectives", 0.7142857142857143, 0.7625940938042849, 0.24390243902439024, 0.234902411021814]]}
